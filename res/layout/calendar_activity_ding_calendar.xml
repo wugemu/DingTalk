@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.widgets.views.calendar2.CalendarWeekDayBar android:id="@id/v_weekday_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:week_day_bar_text_color="@color/ui_common_level2_text_color" app:week_day_bar_text_size="12.0dip" />
+    <com.alibaba.android.dingtalkbase.widgets.views.calendar2.CalendarLayout android:id="@id/layout_calendar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-8.0dip" android:layout_below="@id/v_weekday_bar" app:c_initial_type="week">
+        <com.alibaba.android.dingtalkbase.widgets.views.calendar2.CalendarMonthViewPager android:id="@id/calendar_month_pager" android:background="@color/ui_common_content_bg_color" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.alibaba.android.dingtalkbase.widgets.views.calendar2.CalendarWeekViewPager android:id="@id/calendar_week_pager" android:background="@color/ui_common_content_bg_color" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/calendar_bottom_view" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout android:id="@id/swipe_layout_ding_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" app:refresh_offset="?android:actionBarSize">
+                <com.alibaba.android.dingtalkbase.widgets.views.MotionTrackListView android:id="@id/calendar_list_view" android:background="@android:color/transparent" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:fastScrollEnabled="false" android:fadeScrollbars="true" android:overScrollMode="never" />
+            </com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout>
+            <com.alibaba.android.calendar.widget.CalendarDiurnalViewPager android:id="@id/calendar_day_events_pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/calendar_ll_list_empty_view" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:gravity="center" android:id="@id/empty_layout" android:background="@color/ui_common_page_bg_color" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </com.alibaba.android.dingtalkbase.widgets.views.calendar2.CalendarLayout>
+    <ProgressBar android:id="@id/loading_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

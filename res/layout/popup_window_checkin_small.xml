@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/small_window_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_content" android:background="@drawable/light_app_popup_window_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="@dimen/dp3">
+            <ImageView android:id="@id/iv_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:scaleType="fitXY" />
+            <TextView android:textSize="@dimen/ui_common_small_button_text_size" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/tv_icon_text" android:layout_width="17.0dip" android:layout_height="17.0dip" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/ui_common_small_button_text_size" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:gravity="center" android:id="@id/tv_msg" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginRight="12.0dip" android:singleLine="true" />
+    </LinearLayout>
+</FrameLayout>

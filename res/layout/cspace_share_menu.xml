@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cspace_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_72" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="28.0dip" android:layout_marginBottom="16.0dip" android:text="@string/dt_space_action_share" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:id="@id/ll_share_btn" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_share_to_ding_talk" android:layout_width="84.0dip" android:layout_height="wrap_content">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_32" android:textColor="@color/cspace_common_blue" android:gravity="center" android:background="@drawable/cspace_share_button_bg" android:layout_width="68.0dip" android:layout_height="68.0dip" android:text="@string/icon_logo" />
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_72" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dt_cspace_share_to_ding_talk" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_copy_link" android:layout_width="84.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_32" android:textColor="#ff4d4d4d" android:gravity="center" android:background="@drawable/cspace_share_button_bg" android:layout_width="68.0dip" android:layout_height="68.0dip" android:text="@string/icon_link" />
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_72" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dt_space_link_copy_title" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_share_to_we_chat" android:layout_width="84.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_32" android:textColor="#ff56cb46" android:gravity="center" android:background="@drawable/cspace_share_button_bg" android:layout_width="68.0dip" android:layout_height="68.0dip" android:text="@string/icon_wechat_fill" />
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_72" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dt_cspace_share_to_we_chat" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_share_to_qq" android:layout_width="84.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_32" android:textColor="#ff40bae6" android:gravity="center" android:background="@drawable/cspace_share_button_bg" android:layout_width="68.0dip" android:layout_height="68.0dip" android:text="@string/icon_qq_fill" />
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_72" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dt_cspace_share_to_qq" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_content_fg_color_alpha_72" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/cspace_share_button_bg" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/dt_common_cancel" />
+</LinearLayout>

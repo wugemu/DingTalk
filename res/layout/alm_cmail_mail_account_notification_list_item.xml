@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/alm_cmail_mail_account_item_height" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/ui_common_level1_text_color" android:gravity="center|left" android:orientation="vertical" android:id="@id/account_name" android:paddingTop="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="hahahaha" android:singleLine="true" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/ui_common_level2_text_color" android:gravity="center|left" android:layout_gravity="center|right" android:id="@id/account_tips" android:paddingTop="@dimen/cmail_dimen_2_dp" android:paddingBottom="17.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="hello world!" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center|right" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/right_arrow" android:contentDescription="@null" />
+</LinearLayout>

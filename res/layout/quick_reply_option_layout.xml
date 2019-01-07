@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ui_common_body_text_size" android:textColor="@color/ui_common_level1_text_color" android:id="@id/option_title" android:paddingLeft="16.0dip" android:paddingTop="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/ui_common_footnote_text_size" android:textColor="@color/ui_common_level2_text_color" android:ellipsize="end" android:id="@id/option_desc" android:paddingLeft="16.0dip" android:paddingTop="2.0dip" android:paddingRight="16.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

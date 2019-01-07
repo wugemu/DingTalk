@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/uidic_global_background_color" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/silence_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uidic_forms_item_horizontal_space" android:layout_marginBottom="@dimen/uidic_forms_item_min_horizontal_space" android:contentDescription="@string/silence_mode" app:text="@string/silence_mode" app:first="true" app:last="true" app:include_layout="@layout/uidic_forms_toggle_item" />
+        <TextView android:layout_marginBottom="@dimen/uidic_forms_item_horizontal_space" android:text="@string/silence_mode_tip" style="@style/uidic_forms_item_outer_text" />
+        <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/silence_mode_time_start" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:text="@string/silence_mode_start_time" app:first="true" app:include_layout="@layout/uidic_forms_tip_item" />
+        <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/silence_mode_time_end" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/uidic_forms_item_horizontal_space" app:text="@string/silence_mode_end_time" app:last="true" app:include_layout="@layout/uidic_forms_tip_item" />
+    </LinearLayout>
+</ScrollView>

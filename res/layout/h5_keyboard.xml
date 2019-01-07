@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/keyboard_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <android.inputmethodservice.KeyboardView android:id="@id/keyboard_view" android:background="@color/gray" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="@color/gray" android:shadowRadius="0.0" android:keyBackground="@drawable/btn_keyboard_key" android:keyTextSize="28.0dip" android:keyTextColor="@color/black" />
+    </LinearLayout>
+</RelativeLayout>

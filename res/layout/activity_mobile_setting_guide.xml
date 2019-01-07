@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon_change_mobile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/icon_change_mobile" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_light_gray" android:id="@id/tv_your_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="20.0dip" android:text="@string/your_phone" android:layout_below="@id/icon_change_mobile" android:layout_centerHorizontal="true" />
+        <Button android:textSize="@dimen/text_size_20" android:id="@id/btn_change_mobile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="20.0dip" android:minHeight="48.0dip" android:text="@string/setting_mobile" android:layout_below="@id/tv_your_phone" android:onClick="onClick" style="@style/ui_common_level1_button" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/text_color_light_gray" android:id="@id/tv_change_phone_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="20.0dip" android:text="@string/change_phone_tip" android:layout_below="@id/btn_change_mobile" />
+    </RelativeLayout>
+</ScrollView>

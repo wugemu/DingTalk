@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/quick_reply_title_layout" android:background="@color/im_message_bg_default" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_level1_text_color" android:id="@id/quick_reply_title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_im_quick_reply_item_text" android:layout_centerInParent="true" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/default_tint_bg_blue" android:id="@id/quick_reply_edit_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/dt_common_edit" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/quick_reply_message_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" android:layout_above="@id/quick_reply_cancel_text_view" android:layout_below="@id/quick_reply_title_layout" />
+    <RelativeLayout android:id="@id/quick_reply_empty_layout" android:background="@color/im_message_bg_default" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="210.0dip" android:layout_marginTop="1.0dip" android:layout_above="@id/quick_reply_cancel_text_view" android:layout_below="@id/quick_reply_title_layout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/quick_reply_empty_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/text_color_hint" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/quick_reply_empty_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:text="@string/dt_im_quick_reply_empty_hint_text" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="18.0dip" android:textColor="@color/ui_common_level1_text_color" android:gravity="center" android:id="@id/quick_reply_cancel_text_view" android:background="@drawable/im_quick_reply_bar_item_background" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="9.0dip" android:text="@string/dt_common_cancel" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/dp16" android:layout_marginTop="@dimen/dp16" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s12" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:id="@id/text_content" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="@dimen/dp12" android:layout_marginRight="@dimen/dp16" android:maxLines="4" android:layout_alignParentRight="true" />
+    <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/post_history_title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp16" android:layout_marginRight="@dimen/dp16" android:layout_toLeftOf="@id/text_content" android:layout_toRightOf="@id/avatar" android:layout_alignBottom="@id/text_content" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/dp12" android:textColor="@color/post_history_sub_title" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/dp16" android:textColor="@color/post_history_title" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/time" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/dp12" android:textColor="@color/post_history_sub_title" android:id="@id/comment_or_like" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/name" />
+    </RelativeLayout>
+    <View android:background="@color/post_history_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/dp16" android:layout_marginTop="@dimen/dp16" android:layout_below="@id/post_history_title_layout" />
+</RelativeLayout>

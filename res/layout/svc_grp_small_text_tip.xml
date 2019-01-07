@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/small_text_tip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/small_text_tip_arrow" android:background="@drawable/svc_grp_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/small_text_tip_blue_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/small_text_tip_arrow" android:layout_alignParentRight="true">
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/white" android:id="@id/small_text_tip_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_im_svc_grp_check_recommend_answer" android:singleLine="true" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_14" android:textColor="@color/white" android:id="@id/icon_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="1.0dip" android:text="@string/icon_close" />
+    </LinearLayout>
+</RelativeLayout>

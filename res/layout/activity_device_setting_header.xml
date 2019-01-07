@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/divider_dark_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="10.0dip" />
+    <RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="45.0dip" android:contentDescription="@string/personal_device_tip">
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/text_color_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/personal_device_tip" android:layout_centerVertical="true" />
+        <ToggleButton android:id="@id/toggle_device_security" android:background="@drawable/btn_toggle_bg" android:layout_width="42.0dip" android:layout_height="28.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/toggleButton" />
+    </RelativeLayout>
+    <View android:background="@color/divider_dark_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/device_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:text="@string/device_security_description" android:includeFontPadding="false" />
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/device_description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:text="@string/usual_device" android:includeFontPadding="false" />
+    <View android:background="@color/divider_dark_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="3.0dip" />
+</LinearLayout>

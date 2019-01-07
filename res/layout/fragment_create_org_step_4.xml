@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/text_color_gray" android:gravity="left" android:layout_gravity="left" android:id="@id/cos4_tv_member_count_limit" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="5.0dip" android:text="@string/create_org_limit_count_hint" />
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/text_color_gray" android:gravity="left" android:layout_gravity="left" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/create_org_select_people_hint" />
+    <LinearLayout android:orientation="vertical" android:id="@id/cos4_ll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

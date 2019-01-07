@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/sign_template_list" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:overScrollMode="never" />
+    <com.alibaba.android.dingtalkbase.widgets.views.RimetListEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/list_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_centerInParent="true" android:layout_alignWithParentIfMissing="true" />
+</LinearLayout>

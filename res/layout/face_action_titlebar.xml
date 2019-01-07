@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="51.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/simple_close_area" android:layout_width="35.0dip" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/face_action_close" android:background="@drawable/face_top_back" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerInParent="true" />
+    <View android:id="@id/simple_sound_switch_area" android:layout_width="35.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/face_action_sound_switch" android:background="@drawable/face_top_sound_on" android:layout_width="25.0dip" android:layout_height="22.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

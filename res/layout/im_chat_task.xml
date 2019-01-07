@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="43.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/ui_common_level2_text_color" android:id="@id/tv_task" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_im_todo_tasks_pannel_nodata_title" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="20.0dip" android:id="@id/iv_task" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="6.0dip" android:text="@string/icon_task_square_line" android:includeFontPadding="false" android:layout_toLeftOf="@id/tv_task" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_red_dot" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="-2.0dip" android:layout_marginRight="-2.0dip" android:src="@drawable/red_dot_8_with_white_border" android:layout_alignTop="@id/iv_task" android:layout_alignRight="@id/iv_task" />
+    <View android:background="@color/ui_common_button_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

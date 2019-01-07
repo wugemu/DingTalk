@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.listview.FloatingGroupExpandableListView android:id="@id/list" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:childDivider="@color/pure_white" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:overScrollMode="never" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_progress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_gray" android:layout_gravity="center_vertical" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:text="@string/loading" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/alm_cmail_mail_common_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@android:id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Small.Inverse" />
+    <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/mail_search_icon" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/ui_common_theme_text_color" android:gravity="center|left" android:layout_gravity="center" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mail_search_from_server" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s36" android:gravity="center" android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/icon_btn"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

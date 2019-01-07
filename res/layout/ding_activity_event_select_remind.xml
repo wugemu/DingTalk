@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.BaseSelectView android:id="@id/view_select_remind_time" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:text="@string/dt_calendar_remind_time_not_early_than_send_time" android:includeFontPadding="false" />
+    <FrameLayout android:id="@id/fl_send_type_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+</LinearLayout>

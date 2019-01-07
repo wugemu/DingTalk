@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/menu_input_button_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:gravity="center" android:id="@id/button_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:singleLine="true" />
+    <View android:background="@color/menu_input_diver_color" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+</FrameLayout>

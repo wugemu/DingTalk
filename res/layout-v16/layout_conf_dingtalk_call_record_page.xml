@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_bottom_calling" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <View android:id="@id/ll_bottom_divider" android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <RelativeLayout android:background="@color/uidic_global_color_c11_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_dial_show_layout" android:paddingTop="4.0dip" android:paddingBottom="6.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_create_call" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_weight="1.0" android:contentDescription="@string/dt_conference_contacts_name">
+                        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_level1_icon_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_contact_fill" />
+                        <TextView android:textSize="@dimen/text_size_10" android:textColor="@color/ui_common_level2_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/dt_conference_contacts_name" android:maxLines="1" android:importantForAccessibility="no" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_dial_show" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/dt_accessibility_tel_dialpad_show">
+                        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_level1_icon_bg_color" android:id="@id/ll_dial_show_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_dail_fill" />
+                        <TextView android:textSize="@dimen/text_size_10" android:textColor="@color/ui_common_level2_text_color" android:gravity="center" android:id="@id/ll_dial_show_txt" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/dt_conference_dial_pad" android:maxLines="1" android:importantForAccessibility="no" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_create_conf" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/conf_txt_conference_restart_conf">
+                        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_level1_icon_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_conference_fill" />
+                        <TextView android:textSize="@dimen/text_size_10" android:textColor="@color/ui_common_level2_text_color" android:gravity="center" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/conf_txt_conference_restart_conf" android:maxLines="1" android:importantForAccessibility="no" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_dial_call_layout" android:paddingLeft="12.0dip" android:paddingTop="4.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_dial_biz_call" android:background="@drawable/conf_timeout_ok_btn_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0" android:contentDescription="@string/dt_conference_bizcall_name_dailPad">
+                        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_cell_image_size_xxs" android:textColor="@color/pure_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_workphone_fill" />
+                        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/pure_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/dt_conference_bizcall_name_dailPad" android:singleLine="true" />
+                    </LinearLayout>
+                    <View android:id="@id/ll_dial_phone_call_chock_left" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_weight="1.5" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_dial_phone_call" android:background="@drawable/conf_call_dial_btn_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0" android:contentDescription="@string/dt_conference_single_normalcall">
+                        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_cell_image_size_xxs" android:textColor="@color/pure_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_mobilephone_fill" />
+                        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/pure_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/dt_conference_single_normalcall" android:singleLine="true" />
+                    </LinearLayout>
+                    <View android:id="@id/ll_dial_phone_call_chock_right" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_weight="1.5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/ll_record_list" android:background="@color/uidic_global_color_8_5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_bottom_calling">
+            <ListView android:id="@id/list_records" android:background="@color/conf_transparent" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:id="@id/ll_loading" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_bottom_calling">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.alibaba.android.teleconf.widget.TeleConfDialPadLayout android:id="@id/ll_dial_pad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ll_bottom_calling" />
+    </RelativeLayout>
+</FrameLayout>

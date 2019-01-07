@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="0.5dip" android:color="@color/ding_meeting_status_accepted_bg_color" />
+    <solid android:color="@color/ui_common_transparent_cell_bg_color" />
+    <corners android:radius="2.0dip" />
+</shape>

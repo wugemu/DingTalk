@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/uidic_global_color_6_5" android:gravity="center" android:id="@id/tv_no_authority" android:background="@color/uidic_global_color_6_2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/no_permission_edit_dept" />
+        <View android:id="@id/divider" android:background="@color/divider_dark_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_dept_control_bottom" android:background="@color/user_bottom_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/color_blue_selector" android:gravity="center" android:id="@id/tv_add_employee" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_employee" />
+            </LinearLayout>
+            <View android:layout_gravity="center_vertical" android:id="@id/divider_calling" android:background="@color/user_bottom_divider" android:layout_width="0.5dip" android:layout_height="16.0dip" />
+            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/color_blue_selector" android:gravity="center" android:id="@id/tv_add_dept" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/add_child_dept" />
+            </LinearLayout>
+            <View android:layout_gravity="center_vertical" android:id="@id/divider_ding" android:background="@color/user_bottom_divider" android:layout_width="0.5dip" android:layout_height="16.0dip" />
+            <LinearLayout android:gravity="center" android:id="@id/ll_edit_dept" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/color_blue_selector" android:gravity="center" android:id="@id/tv_edit_dept" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/edit_current_dept" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.alibaba.android.user.contact.activation.ActiveInviteView android:id="@id/active_invite_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/layout_bottom" android:layout_alignParentTop="true">
+        <com.alibaba.android.dingtalkbase.uidic.cell.TextCell android:id="@id/add_dept_cell" android:paddingLeft="12.0dip" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:left_image="@drawable/icon_green_add" app:title="@string/add_dept_new_dept" app:titleColor="@color/text_color_black" />
+        <com.alibaba.android.dingtalkbase.widgets.views.MotionTrackListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="1.0dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_progress" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_gray" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/tv_empty" android:layout_centerInParent="true" style="?android:attr/progressBarStyleInverse" />
+    </RelativeLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.RimetListEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/list_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_bottom" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp16" android:layout_marginRight="@dimen/dp16" android:animateLayoutChanges="true">
+        <com.alibaba.android.user.namecard.widget.NameCardView android:id="@id/name_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/layout_name_card_guide_edit" />
+        <include android:visibility="gone" layout="@layout/layout_name_card_guide_switch" />
+    </LinearLayout>
+</ScrollView>

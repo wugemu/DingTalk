@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fl_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="108.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_24" android:textColor="@color/ui_common_green1_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/icon_checkbox_fill" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_content_fg_color" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_cspace_share_success_and_editable" />
+    </LinearLayout>
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/tv_jump_to_chat" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/dt_cspace_jump_to_chat" />
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/tv_stay_in_ding_drive" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/dt_cspace_stay_in_ding_drive" />
+</LinearLayout>

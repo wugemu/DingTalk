@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_content_bg_color" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.views.wheelview.WheelView android:gravity="center" android:id="@id/wheel_view_item1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <TextView android:textSize="@dimen/ui_common_big_button_text_size" android:textColor="@color/ui_common_level3_text_color" android:gravity="center" android:id="@id/date_btn_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_common_cancel" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/ui_common_big_button_text_size" android:textColor="@color/ui_common_level3_button_text_color" android:gravity="center" android:id="@id/date_btn_sure" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_common_confirm" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

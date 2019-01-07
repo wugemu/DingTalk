@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/avatar_preview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:layout_weight="2.0" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_2" android:layout_gravity="center" android:id="@id/enterprise_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="10" android:drawablePadding="5.0dip" />
+    </FrameLayout>
+    <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <EditText android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_1" android:textColorHint="@color/uidic_global_color_6_9" android:id="@id/group_name_editor" android:background="#ffffffff" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/enter_the_name_of_group" android:maxLength="20" />
+    <View android:id="@id/bottom_line" android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="300.0dip" />
+</LinearLayout>

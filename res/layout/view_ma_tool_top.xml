@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.scan.widget.ScaleFinderView android:id="@id/scale_finder_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/main_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <com.alibaba.android.scan.widget.ScanRayView android:id="@id/scan_ray_view" android:background="@drawable/scan_ray" android:layout_width="270.0dip" android:layout_height="280.0dip" android:layout_marginTop="110.0dip" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/uidic_global_color_6_5" android:gravity="center_horizontal" android:id="@id/txt_qr_barcode_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="30.0dip" android:text="@string/scan_tips" android:layout_below="@id/scan_ray_view" android:layout_alignLeft="@id/scan_ray_view" android:layout_alignRight="@id/scan_ray_view" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.alibaba.android.scan.widget.TorchView android:id="@id/torch_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

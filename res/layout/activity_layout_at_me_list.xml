@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list_view" android:background="@color/pure_white" android:visibility="visible" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+    <RelativeLayout android:id="@id/rl_load_fail" android:background="@color/pure_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_17" android:textColor="@color/chat_at_me_retry" android:layout_gravity="center_vertical" android:id="@id/img_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/icon_wifiwarning_fill" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/chat_at_me_fail_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/dt_im_at_me_load_fail" android:layout_toRightOf="@id/img_wifi" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/chat_at_me_retry" android:id="@id/tv_retry" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/dt_common_retry" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0dip" android:textColor="@color/chat_at_me_light_color" android:id="@id/tv_empty_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:text="@string/dt_im_at_me_empty" android:layout_centerHorizontal="true" />
+</RelativeLayout>

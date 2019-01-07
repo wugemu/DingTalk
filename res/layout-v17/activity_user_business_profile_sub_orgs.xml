@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/all_view" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_gray" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/tv_empty" android:layout_centerInParent="true" style="?android:attr/progressBarStyleInverse" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/profile_content" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:overScrollMode="never" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/bg_page_gray" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/org_info_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/ui_common_cell_bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dp16">
+        <View android:background="@drawable/connection_gray" android:layout_width="@dimen/usr_gray_circle_radius" android:layout_height="@dimen/usr_gray_circle_radius" android:layout_marginLeft="@dimen/usr_gray_circle_margin_left" android:layout_marginTop="@dimen/usr_gray_circle_margin_top" />
+        <View android:id="@id/item_circle_ver_line" android:background="@color/circle_gray_line_color" android:layout_width="@dimen/ver_line_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/usr_content_padding_left" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginRight="@dimen/usr_time_margin_top">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/usr_time_margin_top" layout="@layout/item_connection_usr_time_layout" />
+        <RelativeLayout android:background="@drawable/ui_common_cell_bg" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/circle_content_margin_right">
+            <android.support.v7.widget.RecyclerView android:id="@id/item_circle_grid_view" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s16" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:id="@id/item_circle_summary" android:background="@drawable/connection_summary_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/usr_summary_margin_left" android:maxLines="4" android:layout_toRightOf="@id/item_circle_grid_view" android:layout_alignTop="@id/item_circle_grid_view" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

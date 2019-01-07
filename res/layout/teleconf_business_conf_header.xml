@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/uidic_global_color_6_3" android:id="@id/header_title" android:background="@color/uidic_global_color_8_5" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/conf_txt_inorder_conference_tip" />
+    <View android:background="@color/conf_item_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

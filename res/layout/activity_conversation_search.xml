@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/gray" android:id="@id/tv_search_tip" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_centerHorizontal="true" />
+    <ViewStub android:id="@id/flat_menu_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_conversation_search_by_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minWidth="260.0dip" android:layout_below="@id/tv_search_tip" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/rl_conversation_search_by_pic_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/conversation_search_by_pic_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_conv_search_img_selector" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/and_C6_7_666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/chat_action_bar_title_pics" android:includeFontPadding="false" android:layout_below="@id/conversation_search_by_pic_iv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_conversation_search_by_file_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/conversation_search_by_file_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_conv_search_file_selector" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/and_C6_7_666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/chat_action_bar_title_file" android:includeFontPadding="false" android:layout_below="@id/conversation_search_by_file_iv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_conversation_search_by_link_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/conversation_search_by_link_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_conv_search_link_selector" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/and_C6_7_666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/dt_comment_link_title" android:includeFontPadding="false" android:layout_below="@id/conversation_search_by_link_iv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_auto_search_result_title" android:background="@color/pure_white" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ui_common_headline2_text_size" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_auto_search_result_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:gravity="center_vertical" android:id="@id/tv_auto_search_result_title_suffix" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_search_result_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_auto_search_result_title">
+        <LinearLayout android:orientation="vertical" android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />
+        <ImageView android:id="@id/iv_water_mark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_search_filter_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</RelativeLayout>

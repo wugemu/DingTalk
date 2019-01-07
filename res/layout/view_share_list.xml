@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/btn_gray_bg" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <ListView android:id="@id/listview" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

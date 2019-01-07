@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_recorder" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/iv_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:scaleType="centerCrop" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/iv_avatar" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/ui_common_level3_text_color" android:id="@id/tv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:includeFontPadding="false" />
+</LinearLayout>

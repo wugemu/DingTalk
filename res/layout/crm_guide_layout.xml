@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/new_user_guide_homepage_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="130.0dip" android:src="@drawable/org_guide_tip_icon" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/text_color_white" android:id="@id/new_user_guide_homepage_tip" android:background="@drawable/first_guide" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingBottom="58.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/crm_guide_tips" android:layout_below="@id/new_user_guide_homepage_arrow" android:layout_alignParentRight="true" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/text_color_white" android:id="@id/tv_new_crm_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-35.0dip" android:layout_marginRight="16.0dip" android:text="@string/guide_text_i_know_that" android:layout_below="@id/new_user_guide_homepage_tip" android:layout_alignRight="@id/new_user_guide_homepage_tip" />
+</RelativeLayout>

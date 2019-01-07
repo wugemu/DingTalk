@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/alm_cmail_mail_common_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alm_file_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_icon_token" android:layout_width="48.0dip" android:layout_height="52.0dip" android:layout_marginLeft="12.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/icon_token" android:layout_width="36.0dip" android:layout_height="36.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/view_video_flag" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/cspace_video_flag" android:scaleType="centerInside" android:layout_alignRight="@id/icon_token" android:layout_alignBottom="@id/icon_token" />
+        <ImageView android:id="@id/img_encrpt_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:layout_marginTop="-10.0dip" android:src="@drawable/avatar_safe_icon" android:layout_toRightOf="@id/icon_token" android:layout_below="@id/icon_token" android:contentDescription="@null" />
+    </RelativeLayout>
+    <ImageView android:id="@id/icon_select" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/filepicker_icon_back_selected" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <LinearLayout android:layout_gravity="center|left" android:orientation="vertical" android:id="@id/select_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_toLeftOf="@id/icon_select" android:layout_toRightOf="@id/rl_icon_token" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/alm_cmail_color_6_1" android:ellipsize="end" android:id="@id/file_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/alm_cmail_color_6_7" android:ellipsize="end" android:id="@id/file_size" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="2" />
+    </LinearLayout>
+    <View android:id="@id/bottom_line" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignLeft="@id/select_layout" android:layout_alignParentBottom="true" />
+</RelativeLayout>

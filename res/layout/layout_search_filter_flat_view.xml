@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_filter_conditions" android:background="@color/pure_white" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:paddingRight="20.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/search_narrow_header_height">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s20" android:textColor="@color/ui_common_level1_icon_bg_color" android:id="@id/icon_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_filter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/ui_common_subhead2_text_size" android:textColor="@color/ui_common_level3_text_color" android:gravity="center_vertical" android:id="@id/tv_filter_conditions_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/dt_search_im_filter_hint" android:singleLine="true" android:layout_toRightOf="@id/icon_filter" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/ui_common_subhead2_text_size" android:textColor="@color/ui_common_theme_text_color" android:gravity="center_vertical" android:id="@id/tv_filter_conditions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/tv_filter_conditions_hint" android:layout_centerVertical="true" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/ui_common_level2_icon_bg_color" android:id="@id/tv_filter_expand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/filter_root_divider" android:background="@color/ui_common_button_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/filter_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

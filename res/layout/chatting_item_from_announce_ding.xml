@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/im_announce_ding_from_bg_right_normal" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_16_in_sp" android:textColor="@color/ui_common_theme_text_color" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="@dimen/chat_item_max_width" android:layout_height="wrap_content" android:text="DING" android:includeFontPadding="false" />
+    <com.alibaba.android.dingtalkbase.widgets.LaiwangSpanFixTextView android:id="@id/chatting_content_tv" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="@dimen/chat_item_max_width" style="@style/ChattingViewText" />
+    <View android:id="@id/chatting_divide_line_v" android:background="@color/ui_common_level1_line_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+    <com.alibaba.android.dingtalkbase.widgets.LaiwangSpanFixTextView android:id="@id/chatting_content_translate_tv" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="@dimen/chat_item_max_width" style="@style/ChattingViewText" />
+    <View android:id="@id/chatting_translate_divide_line_v" android:background="@color/ui_common_level1_line_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/ui_common_level2_text_color" android:gravity="left" android:id="@id/chatting_translate_status_tv" android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:gravity="center_vertical" android:id="@id/tv_tip" android:background="@color/uidic_global_color_transparent" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/announce_group" android:includeFontPadding="false" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.views.comment.CommentView android:id="@id/comment_view" android:background="@color/uidic_global_color_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:directLeftRight="true" app:showSplit="true" app:showNumber="true" app:mode="mode_just_comment" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_confirm" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <View android:id="@id/viewIndicatorLine" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textColor="@color/ui_common_theme_text_color" android:id="@id/tv_confirm" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" style="@style/ChattingViewText" />
+        </LinearLayout>
+    </FrameLayout>
+    <include layout="@layout/layout_reply_view" />
+</LinearLayout>

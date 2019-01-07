@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/gray" android:id="@id/tv_copyright_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/dt_lab_use_intro" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/ui_common_footnote_text_size" android:textColor="@color/ui_common_link_text_color" android:id="@id/tv_lab_copyright" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dt_lab_use_copyright" android:layout_below="@id/tv_copyright_tip" android:layout_centerHorizontal="true" />
+</RelativeLayout>

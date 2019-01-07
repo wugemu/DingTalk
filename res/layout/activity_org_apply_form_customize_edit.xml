@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkui.form.input.DtSingleLineInputFormView android:id="@id/fifv_customize_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:hint="@string/dt_org_apply_form_custom_question_hint" app:labelText="@string/dt_org_apply_form_custom_question" />
+    <com.alibaba.android.dingtalkui.form.control.DtSwitchFormView android:id="@id/sfv_open_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:labelText="@string/dt_org_apply_form_open_upload_photo" />
+    <com.alibaba.android.dingtalkui.form.control.DtSwitchFormView android:id="@id/sfv_mustFill" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:labelText="@string/dt_org_apply_form_setting_to_required" />
+</LinearLayout>

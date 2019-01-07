@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item" android:background="@drawable/ui_common_cell_bg" android:paddingLeft="@dimen/ui_common_page_padding_left" android:paddingRight="@dimen/ui_common_page_padding_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/ui_common_footnote_text_size" android:textColor="@color/ui_common_level2_text_color" android:ellipsize="end" android:id="@id/nick_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:id="@id/org_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="48.0dip" android:layout_height="24.0dip">
+        <TextView android:textSize="@dimen/ui_common_caption1_text_size" android:ellipsize="end" android:gravity="center" android:id="@id/accept" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/dt_contact_privacy_joinTeam_join" android:lines="1" android:singleLine="true" style="@style/ui_common_level1_button" />
+        <TextView android:textSize="@dimen/ui_common_footnote_text_size" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/accepted" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/dt_contact_privacy_joinTeam_joined" android:lines="1" android:singleLine="true" />
+    </FrameLayout>
+</LinearLayout>

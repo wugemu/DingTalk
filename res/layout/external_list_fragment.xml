@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/list_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level3_text_color" android:gravity="center_horizontal" android:id="@id/empty_add_text_tip_title" android:background="@drawable/external_list_empty_img" android:paddingTop="131.0dip" android:layout_width="175.0dip" android:layout_height="175.0dip" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/ui_common_link_text_color" android:id="@id/empty_add_text_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/dt_external_see_peerCsae" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/empty_web_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.alibaba.android.user.contact.view.CommonScrollListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <com.alibaba.android.user.contact.view.CommonScrollListViewForScroll android:id="@id/list_view_scroll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <LinearLayout android:gravity="center" android:id="@id/loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

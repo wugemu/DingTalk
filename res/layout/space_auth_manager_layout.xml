@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alm_cspace_group_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/read_only_toggle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uidic_forms_item_min_horizontal_space" android:layout_marginBottom="@dimen/uidic_forms_item_min_horizontal_space" android:contentDescription="@string/dt_space_auth_read_only_title" app:text="@string/dt_space_auth_read_only_title" app:first="true" app:last="true" app:include_layout="@layout/uidic_forms_toggle_item" />
+        <TextView android:text="@string/dt_space_auth_read_only_message" style="@style/uidic_forms_item_outer_text" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/water_mark_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/water_mark_toggle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uidic_forms_item_min_horizontal_space" android:layout_marginBottom="@dimen/uidic_forms_item_min_horizontal_space" android:contentDescription="@string/dt_space_auth_water_mark_title" app:text="@string/dt_space_auth_water_mark_title" app:first="true" app:last="true" app:include_layout="@layout/uidic_forms_toggle_item" />
+            <TextView android:text="@string/dt_space_auth_water_mark_message" style="@style/uidic_forms_item_outer_text" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

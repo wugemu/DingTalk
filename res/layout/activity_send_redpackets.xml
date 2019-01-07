@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.indicator.PagerSlidingTabStrip android:id="@id/indicator" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:pstsIndicatorColor="@color/redpackets_red_text" app:pstsDividerWidth="0.0dip" app:pstsUnderlineColor="@color/gray" app:pstsIndicatorHeight="3.0dip" app:pstsTabTextSize="16.0dip" app:pstsUnderlineHeight="0.0dip" app:pstsTabPaddingLeftRight="0.0dip" app:pstsShouldExpand="true" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <com.alibaba.android.dingtalkbase.widgets.JKViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

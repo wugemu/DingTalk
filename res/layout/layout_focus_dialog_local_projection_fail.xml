@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/dlg_bg_shape" android:layout_width="271.0dip" android:layout_height="wrap_content" android:minWidth="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_content_fg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/dt_focus_local_connect_fail_title" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="24.0dip">
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/and_focus_local_connect_fail_prefix" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/circle_indicator_radius" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_round_fill" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/and_focus_local_connect_fail_1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/circle_indicator_radius" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_round_fill" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/and_focus_local_connect_fail_2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/circle_indicator_radius" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_round_fill" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/and_focus_local_connect_fail_3" />
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/focus_problem_warning_icon" />
+    <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/custom_dialog_botton_selector" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/txt_color_blue_bg_selector" android:gravity="center" android:id="@id/cancel_btn" android:background="@drawable/label_selector_radius_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_common_i_know" android:layout_weight="1.0" />
+            <View android:background="@color/_uidic_forms_item_divider_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/txt_color_blue_bg_selector" android:gravity="center" android:id="@id/sure_btn" android:background="@drawable/label_selector_radius_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/and_title_feedback" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

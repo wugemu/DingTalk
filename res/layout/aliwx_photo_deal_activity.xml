@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/aliwx_normal_black_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bar" android:background="#ff151515" android:layout_width="fill_parent" android:layout_height="@dimen/aliwx_photo_deal_title_bar_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/selector_theme_text_color" android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aliwx_column_up_unit_margin" android:text="@string/dt_photo_cancel" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/aliwx_white" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_photo_brush" android:includeFontPadding="false" android:layout_centerInParent="true" style="@style/aliwx_self_title_text_shadow" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/work_space" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_bar">
+        <com.alibaba.mobileim.kit.photodeal.ActionImageView android:enabled="false" android:id="@id/main_image" android:background="@null" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        <com.alibaba.mobileim.kit.photodeal.widget.StickerView android:id="@id/stick" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.alibaba.mobileim.kit.photodeal.widget.CropImageView android:id="@id/crop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.alibaba.mobileim.kit.photodeal.widget.EditTextActionLayout android:id="@id/edit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/no_pic_part_layout" android:layout_width="fill_parent" android:layout_height="@dimen/aliwx_photo_deal_no_pic_part_layout_height" android:layout_below="@id/work_space">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/deal_tool_box" android:background="#ff151515" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/aliwx_photo_deal_tool_box_height" android:layout_alignParentBottom="true">
+            <TextView android:id="@id/back_btn" android:background="@drawable/aliwx_photo_deal_back_btn_press" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="14.0dip" android:text="" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/selector_theme_text_color" android:gravity="center_vertical" android:id="@id/send_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="14.0dip" android:text="@string/dt_photo_done" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/send_button" android:layout_toRightOf="@id/back_btn">
+                <Button android:id="@id/deal_pen" android:background="@drawable/aliwx_photo_deal_pen_btn_bg" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="fitXY" />
+                <Button android:id="@id/deal_pix" android:background="@drawable/aliwx_photo_deal_pix_btn_bg" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="30.0dip" android:scaleType="fitXY" />
+                <Button android:id="@id/deal_crop" android:background="@drawable/aliwx_photo_deal_crop_btn_bg" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="30.0dip" android:scaleType="fitXY" />
+                <Button android:id="@id/deal_text" android:background="@drawable/aliwx_photo_deal_text_btn_bg" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="30.0dip" android:scaleType="fitXY" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/pick_box_layout" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/aliwx_photo_deal_pick_box_layout_height" android:layout_above="@id/deal_tool_box">
+            <com.alibaba.mobileim.kit.photodeal.widget.ColorPickBox android:id="@id/color_pick_box" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_centerVertical="true" />
+            <com.alibaba.mobileim.kit.photodeal.widget.ColorPickBox android:id="@id/text_color_pick_box" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_centerVertical="true" />
+            <com.alibaba.mobileim.kit.photodeal.widget.MasicSizePickBox android:id="@id/masic_size_pick_box" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rotate_angle_pick_box" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_centerVertical="true">
+                <ImageButton android:layout_gravity="center" android:id="@id/rotate_anticlockwise" android:background="@null" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/aliwx_photo_deal_rotate_right" android:scaleType="fitCenter" />
+                <ImageButton android:layout_gravity="center" android:id="@id/rotate_clockwise" android:background="@null" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="50.0dip" android:src="@drawable/aliwx_photo_deal_rotate_left" android:scaleType="fitCenter" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/progress_layout" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_web_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/login_multi_terminal" android:scaleType="centerCrop" />
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/pure_white" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="@color/text_color_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_new_msg_remind" />
+        <ToggleButton android:id="@id/toggle_cellphone_need_remind" android:background="@drawable/btn_toggle_bg" android:layout_width="42.0dip" android:layout_height="28.0dip" android:layout_alignParentRight="true" style="@style/toggleButton" />
+    </RelativeLayout>
+    <Button android:textSize="18.0dip" android:textColor="@color/text_color_red" android:id="@id/btn_logout_web" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/quit_web_dingding" />
+</LinearLayout>

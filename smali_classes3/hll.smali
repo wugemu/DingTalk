@@ -1,0 +1,11 @@
+.class public interface abstract Lhll;
+.super Ljava/lang/Object;
+.source "IMiniAppExternalNativeCallback.java"
+
+
+# virtual methods
+.method public abstract a(Lcom/alibaba/fastjson/JSONObject;)V
+.end method
+
+.method public abstract a(Ljava/lang/String;)V
+.end method

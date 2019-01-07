@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/star_0" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ratingbar_CheckBoxTheme" />
+        <TextView android:textColor="@color/color_6_9" android:id="@id/star_0_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/conf_txt_quality_score_1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip">
+        <CheckBox android:id="@id/star_1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ratingbar_CheckBoxTheme" />
+        <TextView android:textColor="@color/color_6_9" android:id="@id/star_1_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/conf_txt_quality_score_2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip">
+        <CheckBox android:id="@id/star_2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ratingbar_CheckBoxTheme" />
+        <TextView android:textColor="@color/color_6_9" android:id="@id/star_2_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/conf_txt_quality_score_3" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip">
+        <CheckBox android:id="@id/star_3" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ratingbar_CheckBoxTheme" />
+        <TextView android:textColor="@color/color_6_9" android:id="@id/star_3_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/conf_txt_quality_score_4" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip">
+        <CheckBox android:id="@id/star_4" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ratingbar_CheckBoxTheme" />
+        <TextView android:textColor="@color/color_6_9" android:id="@id/star_4_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/conf_txt_quality_score_5" />
+    </LinearLayout>
+</LinearLayout>

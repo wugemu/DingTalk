@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/dlg_bg_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_marginRight="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_13" android:textColor="@color/pure_white" android:layout_gravity="right" android:id="@id/tv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/icon_cancel" />
+    <ImageView android:id="@id/iv" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_marginTop="5.0dip" android:scaleType="fitXY" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/text_size_17" android:textStyle="bold" android:textColor="@color/ui_common_level1_text_color" android:gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="24.0dip" />
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level2_text_color" android:id="@id/tv_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="24.0dip" />
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="52.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/btn_layout" android:background="@drawable/custom_dialog_botton_selector" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/btn_left" android:background="@drawable/label_selector_radius_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:id="@id/btn_divider" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/btn_right" android:background="@drawable/label_selector_radius_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

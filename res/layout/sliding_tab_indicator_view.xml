@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ui_common_cell_bg" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@drawable/tab_text_bg" android:ellipsize="end" android:gravity="center" android:id="@id/tv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_centerInParent="true" />
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/rl_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_text">
+            <TextView android:textSize="@dimen/text_size_10" android:textStyle="bold" android:textColor="@color/text_color_white" android:gravity="center" android:id="@id/tv_unread_count" android:background="@drawable/tab_remind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/unread_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/message_remind" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="3.0dip" android:layout_alignLeft="@id/rl_content" android:layout_alignRight="@id/rl_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/face_circle_titlebar" android:background="#ff93cbee" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <Button android:id="@id/face_nav_title_bar_back_button" android:background="@drawable/face_top_back" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="11.0dip" />
+        <Button android:id="@id/face_nav_title_bar_sound_button" android:background="@drawable/face_top_sound_on" android:layout_width="25.0dip" android:layout_height="23.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ff00abed" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/face_circle_title_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/face_detect_action_movein_circle" android:singleLine="true" android:layout_below="@id/face_circle_titlebar" />
+    <com.alibaba.security.biometrics.face.auth.widget.CircleMaskFrameLayout android:id="@id/face_circle_mask_framelayout" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/face_circle_title_textview" android:layout_centerHorizontal="true" app:facelivnesssdk_enabled="true">
+        <com.alibaba.security.biometrics.face.auth.widget.CameraSurfaceView android:id="@id/face_circle_surfaceview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.alibaba.security.biometrics.face.auth.widget.CircleMaskFrameLayout>
+    <com.alibaba.security.biometrics.face.auth.widget.Circle android:layout_gravity="center" android:id="@id/face_circle_outter_circle" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_alignLeft="@id/face_circle_mask_framelayout" android:layout_alignTop="@id/face_circle_mask_framelayout" app:facelivnesssdk_color="#ff00abed" app:facelivnesssdk_process_color="#ffff7700" />
+</RelativeLayout>

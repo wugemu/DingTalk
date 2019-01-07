@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/device_logo" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/focus_projecter_icon" android:layout_centerVertical="true" />
+    <FrameLayout android:id="@id/device_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <LinearLayout android:layout_gravity="center" android:id="@id/device_close" android:paddingLeft="4.0dip" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/ui_common_content_fg_color_alpha_28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_roundclose_fill" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/device_loading" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminateDrawable="@drawable/focus_progress_bg_drawable" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_content_fg_color_alpha_28" android:id="@id/device_running" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_projection_projecting_title" android:includeFontPadding="false" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/device_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/device_status" android:layout_toRightOf="@id/device_logo" android:layout_centerVertical="true">
+        <EditText android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_content_fg_color" android:textColorHint="@color/ui_common_content_fg_color_alpha_28" android:id="@id/device_cast_code" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="62.0dip" android:hint="@string/dt_focus_input_projection_code" android:singleLine="true" android:imeOptions="actionDone" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_edit_share_link_content_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="20.0dip">
+        <ImageView android:id="@id/share_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/uidic_global_color_6_9" android:ellipsize="end" android:gravity="center|left" android:id="@id/share_from" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxLines="1" android:lines="1" />
+    </LinearLayout>
+    <EditText android:textSize="12.0sp" android:textColorHint="@color/uidic_global_color_6_9" android:id="@id/edt_share_say_words" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="16.0dip" android:hint="@string/share_link_to_dingding_hint" android:singleLine="true" />
+</LinearLayout>

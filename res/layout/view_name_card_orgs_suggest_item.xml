@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:textColor="#660d0013" android:ellipsize="end" android:gravity="bottom" android:id="@id/name_card_orgs_cell_tv_suggest" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:lines="1" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/name_card_orgs_cell_ll_fold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="18.0dip" android:layout_below="@id/name_card_orgs_cell_tv_suggest">
+        <TextView android:textSize="12.0dip" android:textColor="#8f191f25" android:id="@id/name_card_orgs_cell_tv_fold" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="12.0dip" android:textColor="@color/ui_common_level2_base_color" android:id="@id/name_card_orgs_cell_iv_fold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/icon_up" />
+    </LinearLayout>
+</RelativeLayout>

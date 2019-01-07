@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/rl_user_info_work_status_bg_inner" android:background="@color/pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/user_water_list_item_selector" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="#ff191f25" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/user_profile_org_info_footer_tv_orgs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp17" android:maxWidth="150.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="@dimen/dp17" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:id="@id/user_info_divider" android:background="@color/ui_common_content_fg_color_alpha_12" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginLeft="@dimen/dp17" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

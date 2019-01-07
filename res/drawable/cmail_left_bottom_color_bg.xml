@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/cmail_dimen_4_dp" android:bottomLeftRadius="@dimen/cmail_dimen_4_dp" />
+    <stroke android:width="@dimen/cmail_dimen_1_dp" android:color="@color/ui_common_blue1_color" />
+    <solid android:color="@android:color/white" />
+</shape>

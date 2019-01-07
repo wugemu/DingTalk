@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_unbind" android:background="@color/ui_common_theme_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="163.0dip">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.5dip">
+            <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_level1_white_text_color" android:id="@id/tv_money_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_pay_withdraw_cash" android:layout_centerInParent="true" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp17" android:textColor="@color/ui_common_level1_white_text_color" android:id="@id/tv_money_eye" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.5dip" android:text="@string/icon_eye" android:layout_toRightOf="@id/tv_money_info" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="32.0dip" android:textColor="@color/ui_common_level1_white_text_color" android:gravity="center" android:id="@id/tv_wallet_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.75dip" android:minHeight="45.0dip" />
+        <FrameLayout android:orientation="horizontal" android:id="@id/fl_bind_alipay" android:background="@drawable/ui_common_level4_button_bg" android:layout_width="215.0dip" android:layout_height="wrap_content" android:minHeight="34.5dip">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp20" android:textColor="@color/ui_common_theme_text_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_roundadd" />
+                <TextView android:textSize="@dimen/dp15" android:textColor="@color/ui_common_theme_text_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/dt_pay_bind_alipay" style="@style/ui_common_button" />
+            </LinearLayout>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/dp12" android:textColor="@color/ui_common_level2_white_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="11.0dip" android:text="@string/dt_pay_bind_alipay_tips" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_bind" android:background="@color/ui_common_theme_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="163.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/iv_avatar" android:background="@drawable/drawable_wallet_avatar_bg" android:padding="1.5dip" android:layout_width="57.5dip" android:layout_height="57.5dip" android:layout_marginTop="8.0dip" app:textSize="@dimen/dp20" />
+        <TextView android:textSize="@dimen/dp17" android:textColor="@color/ui_common_level1_white_text_color" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.5dip" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp15" android:textColor="@color/ui_common_level1_white_text_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.5dip" android:layout_marginRight="6.0dip" android:text="@string/icon_alipay" />
+            <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_level1_white_text_color" android:layout_gravity="center_vertical" android:id="@id/tv_account" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_level2_white_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="13.75dip" android:text="@string/dt_pay_tips_with_bind_alipay" />
+    </LinearLayout>
+</FrameLayout>

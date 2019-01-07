@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/progressContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" style="?android:attr/progressBarStyleInverse" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="center" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alm_cmail_loading_mails" android:singleLine="true" />
+</LinearLayout>

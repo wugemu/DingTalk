@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/namecard_bg" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-16.0dip" android:layout_marginTop="-6.0dip" android:layout_marginRight="-16.0dip" android:layout_marginBottom="-26.0dip" />
+    <com.alibaba.android.user.namecard.widget.NameCardView android:id="@id/name_card_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/divider" android:background="#1f191f25" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/name_card_item" />
+    <RelativeLayout android:id="@id/name_card_rl_qr" android:background="@drawable/bg_bottom_corner_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_qrcode" android:background="@drawable/bg_rect_qr" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_centerInParent="true" android:contentDescription="@string/dt_card_qr_code" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="#ff000000" android:id="@id/ding_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-0.5dip" android:text="@string/icon_qrcodebrand" android:layout_below="@id/iv_qrcode" android:layout_alignLeft="@id/iv_qrcode" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/pb_org_qrcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

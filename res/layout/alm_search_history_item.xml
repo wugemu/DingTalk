@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/alm_cmail_mail_common_bg" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/alm_cmail_color_6_1" android:ellipsize="end" android:id="@android:id/text1" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+    <View android:background="@color/cspace_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="12.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

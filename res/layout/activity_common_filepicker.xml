@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <ImageView android:id="@id/menu_back" android:background="@drawable/actbar_selector" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/actbar_home_up_indicator" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:gravity="center" android:id="@id/menu_file_filter" android:background="@drawable/actbar_selector" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/common_filepicker_apps" android:maxLines="1" android:drawableRight="@drawable/home_drop_box_arrow_down" android:drawablePadding="5.0dip" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:id="@id/line" android:background="@color/mail_chooser_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:id="@id/bottom_container" android:background="@drawable/cspace_edit_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0dip" android:textColor="@color/cspace_bottom_operate_selector" android:id="@id/filepicker_total_size" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/filepicker_total_size" android:layout_centerVertical="true" />
+        <Button android:textSize="15.0dip" android:textColor="@drawable/actbar_btn_text_color" android:id="@id/btn_ok" android:background="@drawable/actbar_btn_selector" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/sure" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

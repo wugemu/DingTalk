@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/conf_bottom_control_layout" android:background="@color/uidic_global_color_6_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@color/conf_item_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/conf_control" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <LinearLayout android:gravity="center" android:id="@id/conf_reject" android:background="@drawable/btn_conf_selector_single_chat" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_theme_icon_bg_color" android:gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/conf_txt_conference_reject" />
+                </LinearLayout>
+                <View android:background="@color/conf_item_line_color" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+                <LinearLayout android:gravity="center" android:id="@id/conf_accept" android:background="@drawable/btn_conf_selector_single_chat" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_theme_icon_bg_color" android:gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/conf_txt_conference_accept" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/color_6_3" android:gravity="center" android:id="@id/conf_result_status" android:background="@color/bg_gray_depressed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/conf_txt_conference_rejected_tip" />
+            <Button android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_theme_icon_bg_color" android:gravity="center" android:id="@id/conf_restart" android:background="@drawable/btn_conf_selector_single_chat" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/conf_txt_conference_restart_conf" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/conf_bottom_control_layout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@id/conf_theme_layout" android:background="@color/pure_white" android:paddingTop="18.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/C6_1" android:id="@id/conf_theme_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/conf_txt_conference_theme_title" />
+                        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/color_6_3" android:id="@id/conf_theme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="96.0dip" android:layout_marginRight="12.0dip" android:layout_alignTop="@id/conf_theme_title" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/conf_compere_layout" android:background="@color/pure_white" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/C6_1" android:id="@id/conf_compere_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/conf_txt_conference_compere_title" android:layout_centerVertical="true" />
+                        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_theme_icon_bg_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/conf_compere" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="96.0dip" android:layout_marginRight="12.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/conf_time_layout" android:background="@color/pure_white" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/C6_1" android:id="@id/conf_time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/dt_conf_txt_conference_date_field" android:layout_centerVertical="true" />
+                        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/color_6_3" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/conf_time" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="96.0dip" android:layout_marginRight="12.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/conf_members_num_layout" android:background="@color/pure_white" android:paddingTop="6.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/C6_1" android:id="@id/conf_members_num_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/conf_txt_conference_members_num_title" />
+                        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/color_6_3" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/conf_members_num" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="96.0dip" android:layout_marginRight="12.0dip" android:singleLine="true" android:layout_toLeftOf="@id/duration_arrow" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <ImageView android:id="@id/conf_status_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <View android:background="@color/conf_item_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/color_6_3" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/conf_txt_conference_member_status_tip" />
+            <View android:background="@color/conf_item_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/conf_members_accepted_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+                        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/C6_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conf_txt_conference_accepted_tip" />
+                        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/color_6_3" android:id="@id/conf_members_accepted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+                    </LinearLayout>
+                    <com.alibaba.android.teleconf.widget.UnFoldGridView android:id="@id/conf_members_accepted_grid" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="28.0dip" android:listSelector="@color/conf_transparent" android:verticalSpacing="12.0dip" android:numColumns="5" />
+                    <View android:background="@color/conf_item_inner_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/conf_members_rejected_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+                        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/C6_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conf_txt_conference_rejected_tip" />
+                        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/color_6_3" android:id="@id/conf_members_rejected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+                    </LinearLayout>
+                    <com.alibaba.android.teleconf.widget.UnFoldGridView android:id="@id/conf_members_rejected_grid" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="28.0dip" android:listSelector="@color/conf_transparent" android:verticalSpacing="12.0dip" android:numColumns="5" />
+                    <View android:background="@color/conf_item_inner_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/conf_members_no_response_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+                        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/C6_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conf_txt_conference_no_response_tip" />
+                        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/color_6_3" android:id="@id/conf_members_unread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+                    </LinearLayout>
+                    <com.alibaba.android.teleconf.widget.UnFoldGridView android:id="@id/conf_members_unread_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="28.0dip" android:listSelector="@color/conf_transparent" android:verticalSpacing="16.0dip" android:numColumns="5" />
+                    <View android:background="@color/conf_item_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

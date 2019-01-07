@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/window_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_add_admin" android:background="@color/pure_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s24" android:textColor="@color/uidic_global_color_c2" android:gravity="center" android:id="@id/icon_add" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="7.0dip" android:text="@string/icon_add" />
+        <ImageView android:id="@id/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/dp17" android:textColor="@color/chat_item_text_color" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:text="@string/dt_im_conversation_setting_admin_add_action_title" android:maxLines="1" android:layout_toLeftOf="@id/right_arrow" android:layout_toRightOf="@id/icon_add" />
+        <View android:background="@color/chat_item_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="9.0dip" android:layout_below="@id/icon_add" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:gravity="center_vertical" android:id="@id/tv_admin_prompt" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/dp17" />
+    <View android:id="@id/view_divider" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+</LinearLayout>

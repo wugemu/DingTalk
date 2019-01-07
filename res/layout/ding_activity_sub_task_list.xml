@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/ll_create_subtask" android:background="@android:color/white" android:paddingLeft="16.5dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_button_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_task_add_subtask_title" android:drawableLeft="@drawable/ding_meeting_add_sub_task" android:drawablePadding="12.0dip" />
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.MotionTrackListView android:id="@id/lv_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="10.0dip" android:layout_below="@id/ll_create_subtask" android:overScrollMode="never" />
+</RelativeLayout>

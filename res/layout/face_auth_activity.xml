@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/face_circle_titlebar" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <RelativeLayout android:id="@id/face_nav_title_bar_back_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:id="@id/face_nav_title_bar_back_img" android:background="@drawable/face_back" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff505156" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/face_detect_top_back_text" android:layout_toRightOf="@id/face_nav_title_bar_back_img" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <Button android:id="@id/face_nav_title_bar_sound_button" android:background="@drawable/face_top_sound_on" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="23.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/face_auth_preview_layout" android:layout_width="157.0dip" android:layout_height="157.0dip" android:layout_marginTop="180.0px" android:layout_below="@id/face_circle_titlebar" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/face_auth_scan_rect_blue" android:background="@drawable/face_scan_rect_blue" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/face_auth_scan_rect_green" android:background="@drawable/face_scan_rect_green" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <com.alibaba.security.biometrics.face.auth.widget.CircleMaskFrameLayout android:id="@id/face_circle_mask_framelayout" android:layout_width="146.0dip" android:layout_height="146.0dip" android:layout_centerInParent="true" app:facelivnesssdk_enabled="true">
+            <com.alibaba.security.biometrics.face.auth.widget.CameraSurfaceView android:id="@id/face_circle_surfaceview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.alibaba.security.biometrics.face.auth.widget.CircleMaskFrameLayout>
+        <com.alibaba.security.biometrics.face.auth.widget.Circle android:layout_gravity="center" android:id="@id/face_circle_outter_circle" android:visibility="gone" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_alignLeft="@id/face_circle_mask_framelayout" android:layout_alignTop="@id/face_circle_mask_framelayout" app:facelivnesssdk_color="#ff00abed" app:facelivnesssdk_process_color="#ffff7700" />
+        <ImageView android:id="@id/face_auth_scan_line" android:background="@drawable/face_scan_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignLeft="@id/face_auth_scan_rect_blue" android:layout_alignTop="@id/face_auth_scan_rect_blue" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="24.0sp" android:textColor="#ff686c70" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/face_captcha_title_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="190.0dip" android:text="@string/face_detect_action_movein_circle" android:singleLine="true" android:layout_below="@id/face_auth_preview_layout" />
+    <ImageView android:id="@id/face_logo" android:background="@drawable/juanquan" android:layout_width="141.0dip" android:layout_height="20.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

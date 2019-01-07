@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerHorizontal="true" avatar:textSize="12.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/im_f2f_member_color" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" android:layout_below="@id/tv_avatar" android:layout_centerHorizontal="true" />
+</RelativeLayout>

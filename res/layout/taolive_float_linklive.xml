@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/taolive_float_linklive" android:background="#b2000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/taolive_float_linklive_sub_hint" android:layout_width="56.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/dt_lv_anchor_request_wheat" />
+    <TextView android:textSize="13.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/taolive_float_linklive_btn_accept" android:background="@drawable/taolive_float_linklive_accept_bg" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip" android:text="@string/dt_lv_connect" />
+</LinearLayout>

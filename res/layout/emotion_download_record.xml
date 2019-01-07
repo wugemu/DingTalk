@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.views.RimetListEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/list_emotion_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ListView android:id="@id/list_emotion_packages" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:overScrollMode="never" />
+    <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

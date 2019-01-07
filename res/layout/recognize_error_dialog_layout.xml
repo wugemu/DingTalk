@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="290.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/dp24" android:paddingRight="@dimen/dp24" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.RoundedImageView android:id="@id/userface_portrait" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="40.0dip" />
+        <TextView android:textSize="@dimen/dp18" android:textColor="#ff191f25" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12" android:text="@string/dt_facebox_face_recognition_fail_title_v3" />
+        <TextView android:textSize="@dimen/dp15" android:textColor="#8f191f25" android:id="@id/userface_brief" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp15" android:text="@string/dt_facebox_face_recognition_fail_content_v3" />
+    </LinearLayout>
+    <View android:background="#14191f25" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="#ff3296fa" android:gravity="center" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_event_alert_give_up" android:singleLine="true" android:layout_weight="1.0" />
+        <View android:background="#14191f25" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff3296fa" android:gravity="center" android:id="@id/ok" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_certify_take_photo_retake" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

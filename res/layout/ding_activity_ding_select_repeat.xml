@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.ding.widget.select.SingleSelectedView android:id="@id/view_select_remind_frequency" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/layout_repeat_frequency_deadline" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="16.0dip">
+        <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/uidic_global_color_6_1" android:id="@id/tv_send_repeat_frequency_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/dt_ding_repeat_frequency_deadline" android:layout_centerVertical="true" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="12.0dip" android:textColor="@color/ui_common_level2_text_color" android:id="@id/tv_send_repeat_frequency_arrow" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/icon_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level2_text_color" android:ellipsize="end" android:gravity="right" android:id="@id/tv_repeat_frequency_deadline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="8.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toLeftOf="@id/tv_send_repeat_frequency_arrow" android:layout_toRightOf="@id/tv_send_repeat_frequency_tips" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

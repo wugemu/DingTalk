@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="36.0dip" android:layout_marginRight="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_not_invitation_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="134.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/text_color_dark" android:gravity="center_horizontal" android:id="@id/iv_not_invitation_txt_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/phone_not_invited" android:layout_below="@id/iv_not_invitation_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/text_color_gray" android:id="@id/iv_not_invitation_txt_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/org_guide_tip" android:layout_below="@id/iv_not_invitation_txt_phone" android:layout_centerHorizontal="true" />
+</RelativeLayout>

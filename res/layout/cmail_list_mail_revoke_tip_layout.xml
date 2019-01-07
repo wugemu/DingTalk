@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center|left" android:orientation="vertical" android:id="@id/revoke_tip_layout" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cmail_dimen_68_dp" android:layout_marginBottom="@dimen/cmail_dimen_32_dp" android:layout_above="@id/layout_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/ding_notify_center_bg" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/cmail_dimen_36_dp" android:text="@string/dt_cmail_revoke_tips" android:lines="1" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@android:color/white" android:id="@id/close_folder_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cmail_dimen_12_dp" android:text="@string/icon_cancel" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_notify_center_anchor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cmail_dimen_16_dp" android:src="@drawable/ding_notify_center_anchor" android:layout_alignParentBottom="true" />
+</LinearLayout>

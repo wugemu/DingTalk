@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_gv_item" android:background="@drawable/btn_share_to_event" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/conf_bg_color" android:gravity="center|left" android:id="@id/txt_gv_item" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="12.0dip" android:text="@string/app_name" android:layout_toRightOf="@id/img_gv_item" android:layout_centerVertical="true" />
+</RelativeLayout>

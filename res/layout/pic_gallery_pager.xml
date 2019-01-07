@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.davemorrissey.labs.subscaleview.GestureImageView android:id="@id/photo_page_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/photo_waiting" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLargeInverse" />
+</RelativeLayout>

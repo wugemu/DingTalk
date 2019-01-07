@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_miniapp_list_guide_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    <ImageView android:id="@id/iv_miniapp_list_guide_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="84.0px" android:src="@drawable/miniapp_list_guide_close_icon" android:layout_below="@id/iv_miniapp_list_guide_img" android:layout_centerHorizontal="true" />
+</RelativeLayout>

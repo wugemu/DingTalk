@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_send_request" android:background="@color/ui_common_content_bg_color" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="@color/ui_common_content_bg_color" android:gravity="center" android:id="@id/tv_send_request" android:background="@drawable/ui_common_level1_button_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="16.0dip" android:layout_centerVertical="true" />
+</RelativeLayout>

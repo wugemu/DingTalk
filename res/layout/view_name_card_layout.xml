@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.android.user.namecard.widget.RoundedFrameLayout android:id="@id/round_frame_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cornerRadius="@dimen/dp6" app:rfBorderWidth="@dimen/dp1" app:rfBorderColor="@color/bg_gray" app:horizontal_ratio="1029.0" app:vertical_ratio="540.0" app:fixed_attribute="WIDTH"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/pure_white" android:scaleType="fitXY" />
+    <View android:id="@id/name_card_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/name_card_name_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="36.0dip" android:baselineAligned="true" android:layout_toLeftOf="@id/fl_avatar" android:layout_alignParentLeft="true">
+            <TextView android:textSize="20.0dip" android:textColor="@color/user_new_text_color" android:ellipsize="end" android:id="@id/name_card_name" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <ImageView android:layout_gravity="bottom" android:id="@id/card_authed_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginBottom="@dimen/dp1" android:src="@drawable/name_card_vip_badge" android:baselineAlignBottom="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/name_card_ll_org" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp2" android:layout_marginRight="36.0dip" android:layout_toLeftOf="@id/fl_avatar" android:layout_below="@id/name_card_name_container" android:layout_alignParentLeft="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:ellipsize="end" android:id="@id/name_card_company" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <FrameLayout android:id="@id/name_card_certificate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+                <View android:layout_gravity="center" android:background="@color/pure_white" android:layout_width="@dimen/dp8" android:layout_height="@dimen/dp8" />
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="14.0dip" android:textColor="@color/security_bg_orange" android:id="@id/iftv_certification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_certification" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="36.0dip" android:layout_toLeftOf="@id/fl_avatar" android:layout_below="@id/name_card_ll_org">
+            <TextView android:textSize="@dimen/dp12" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:ellipsize="end" android:id="@id/name_card_position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp24" android:gravity="center" android:id="@id/iftv_qrcode" android:paddingTop="@dimen/dp10" android:paddingRight="@dimen/dp10" android:paddingBottom="@dimen/dp17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_QRcode" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="36.0dip" android:layout_toLeftOf="@id/fl_avatar" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/ui_common_level2_base_color" android:ellipsize="end" android:id="@id/name_card_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/ui_common_level2_base_color" android:ellipsize="end" android:id="@id/name_card_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/ui_common_level2_base_color" android:ellipsize="end" android:id="@id/name_card_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/fl_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_alignParentRight="true">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/name_card_iv_avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" app:textSize="15.0dip" />
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/name_card_iv_status" android:background="@drawable/bg_circle_name_card_status_white" android:padding="@dimen/dp2" android:visibility="gone" android:layout_width="@dimen/dp15" android:layout_height="@dimen/dp15" android:contentDescription="@string/user_profile_avator" />
+        </FrameLayout>
+    </RelativeLayout>
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/name_card_edit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_name_card_edit" />
+</com.alibaba.android.user.namecard.widget.RoundedFrameLayout>

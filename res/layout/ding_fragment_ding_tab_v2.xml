@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_notice_bg" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rl_notice" android:background="@drawable/ding_bg_notice_center_selector" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="15.0dip" android:textColor="@color/ui_common_level1_white_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_notice_fill" android:layout_centerInParent="true" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_level1_white_text_color" android:gravity="center" android:id="@id/tv_notice_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="11.0dip" android:includeFontPadding="false" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_11" android:textColor="@color/ui_common_white_icon_pressed_bg_color" android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_next_arrow" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_notice_bg">
+        <HorizontalScrollView android:id="@id/ding_filter_tab_layout" android:background="@color/ui_common_level1_white_text_color" android:layout_width="fill_parent" android:layout_height="44.0dip" android:overScrollMode="never" />
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_sub_filter_title_container" android:background="@color/ui_common_level1_white_text_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="40.0dip">
+                <TextView android:textSize="14.0dip" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/tv_sub_filter_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" />
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_level1_text_color" android:layout_gravity="center_vertical" android:id="@id/iv_sub_filter_arrow" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="6.0dip" />
+            </LinearLayout>
+            <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_ding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_title_container" />
+    <FrameLayout android:id="@id/fl_calendar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_title_container" />
+    <include android:id="@id/icl_today_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/ding_layout_calendar_back_today" />
+</RelativeLayout>

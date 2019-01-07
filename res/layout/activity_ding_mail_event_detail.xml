@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/uidic_global_color_6_5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.alimei.cmail.widget.mail.TitleBarWebView android:id="@id/title_bar_webview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:background="@color/common_dark_overlay_bg_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_action" android:padding="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip">
+        <TextView android:textSize="@dimen/text_size_14_in_sp" android:textColor="@color/mail_event_detail_action_selector" android:gravity="center" android:id="@id/tv_accept" android:background="@drawable/bg_mail_event_detail_action_btn_accept_selector" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/cmail_dimen_20_dp" android:layout_marginRight="@dimen/cmail_dimen_20_dp" android:text="@string/dt_mail_event_accept" android:layout_weight="1.0" />
+        <View android:background="@color/uidic_global_color_c11_9" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/text_size_14_in_sp" android:textColor="@color/mail_event_detail_action_selector" android:gravity="center" android:id="@id/tv_tentative" android:background="@drawable/bg_mail_event_detail_action_btn_tentative_selector" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/cmail_dimen_20_dp" android:layout_marginRight="@dimen/cmail_dimen_20_dp" android:text="@string/dt_mail_event_tentative" android:layout_weight="1.0" />
+        <View android:background="@color/uidic_global_color_c11_9" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/text_size_14_in_sp" android:textColor="@color/mail_event_detail_action_selector" android:gravity="center" android:id="@id/tv_refuse" android:background="@drawable/bg_mail_event_detail_action_btn_refuse_selector" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/cmail_dimen_20_dp" android:layout_marginRight="@dimen/cmail_dimen_20_dp" android:text="@string/dt_mail_event_refuse" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ll_search" layout="@layout/search_iphone_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_select_customer_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:src="@drawable/icon_empty_customer" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_2" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_empty_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="45.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="45.0dip" android:text="@string/dt_crm_client_list_no_permission" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

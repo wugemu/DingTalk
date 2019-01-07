@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkui.button.DtSearchButton android:id="@id/view_search" android:layout_width="fill_parent" android:layout_height="@dimen/ui_common_search_height" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/dt_contact_search_phone_contacts_tips" />
+    <FrameLayout android:id="@id/tips_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

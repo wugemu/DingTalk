@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_window_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.android.search.widget.DDHorizontalScrollView android:layout_gravity="center|left" android:id="@id/lv_tabs" android:background="@color/uidic_global_color_6_5" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="@dimen/global_search_tab_height" android:layout_weight="0.0" android:overScrollMode="never"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </com.alibaba.android.search.widget.DDHorizontalScrollView>
+        <com.alibaba.android.search.widget.NetworkErrorView android:id="@id/network_error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_search_result_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.alibaba.android.search.widget.MsgSearchFilterView android:id="@id/ll_search_filter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.ads.AdsBlueGuideView android:id="@id/msg_guide_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="74.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:content="@string/dt_search_msg_narrow_blue_guide_content" app:buttonVisibility="gone" app:arrowAlign="right" app:arrowMarginRight="3.0dip" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.widgets.indicator.PagerSlidingTabStrip android:id="@id/indicator" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:pstsIndicatorColor="@color/cmail_color_3296FA" app:pstsDividerWidth="0.0dip" app:pstsUnderlineColor="@color/gray" app:pstsIndicatorHeight="3.0dip" app:pstsTabTextSize="@dimen/alm_cmail_font_size_s15" app:pstsUnderlineHeight="0.0dip" app:pstsTabPaddingLeftRight="0.0dip" app:pstsShouldExpand="true" />
+    <View android:background="@drawable/shadow_cover" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/indicator" />
+    <com.alibaba.alimei.calendar.widget.CMailJKViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

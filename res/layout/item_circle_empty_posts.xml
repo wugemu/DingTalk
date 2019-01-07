@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="@dimen/ver_line_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ver_line_margin_left" android:layout_alignBottom="@id/content" android:layout_alignParentTop="true" layout="@layout/item_circle_ver_line" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/empty_tips_margin_left" android:layout_marginTop="16.0dip">
+        <TextView android:textSize="@dimen/empty_tips_text_size" android:textColor="@color/circle_normal_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_work_circle_entry" />
+        <TextView android:textSize="@dimen/empty_tips_text_size" android:textColor="@color/ui_common_level2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/empty_tips_margin_title" android:text="@string/dt_circle_intro_for_normal" />
+        <TextView android:textSize="@dimen/empty_tips_text_size" android:textColor="@color/ui_common_level2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_circle_intro_for_employee" />
+        <Button android:textSize="@dimen/text_size_14" android:textColor="@color/white" android:layout_gravity="top" android:id="@id/btn_post" android:background="@drawable/bg_round_btn_action_next" android:layout_width="fill_parent" android:layout_height="@dimen/empty_tips_btn_height" android:layout_marginTop="@dimen/empty_tips_margin_title" android:text="@string/dt_circle_send_first_post" />
+    </LinearLayout>
+    <ImageView android:layout_width="@dimen/journal_icon_width" android:layout_height="@dimen/journal_icon_height" android:layout_marginLeft="@dimen/journal_icon_margin_left" android:layout_marginTop="16.0dip" android:src="@drawable/circle_new_life_icon" />
+</RelativeLayout>

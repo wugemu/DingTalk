@@ -1,0 +1,28 @@
+.class public interface abstract Lhfi;
+.super Ljava/lang/Object;
+.source "AppInfoInstallService.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lhfi$a;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Ljava/lang/String;Lcom/alibaba/lightapp/runtime/app/api/AppInfoModel;J)Lcom/alibaba/lightapp/runtime/app/api/AppInfoConst$PackageReqType;
+.end method
+
+.method public abstract a(Ljava/lang/String;)V
+.end method
+
+.method public abstract a(Ljava/lang/String;Lhfi$a;)V
+.end method
+
+.method public abstract a()Z
+.end method
+
+.method public abstract b(Ljava/lang/String;)Ljava/lang/String;
+.end method

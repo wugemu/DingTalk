@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/log_layout" android:background="@color/pure_white" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0dip" android:textColor="@color/black" android:id="@id/close_btn" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关闭" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" android:layout_below="@id/close_btn">
+            <TextView android:textColor="@color/black" android:id="@id/log_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom_layout" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="16.0dip" android:textColor="@color/black" android:id="@id/message_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_alignParentBottom="true">
+                <Button android:textSize="16.0dip" android:textColor="@color/black" android:id="@id/record_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Record" />
+                <Button android:textSize="16.0dip" android:textColor="@color/black" android:id="@id/copy_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Stop And Copy" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

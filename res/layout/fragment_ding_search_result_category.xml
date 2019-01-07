@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_view" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.alibaba.android.search.widget.ExtendedListView android:id="@id/list_view_sender" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+            <View android:id="@id/line_below_list_sender" android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <com.alibaba.android.search.widget.ExtendedListView android:id="@id/list_view_body" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+            <View android:id="@id/line_below_list_body" android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_search_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/search_empty_icon" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/icon_search_empty" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_6_7" android:gravity="center" android:id="@id/tv_search_result_empty_tip" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_below="@id/search_empty_icon" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_loading" android:background="@color/ui_common_page_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/text_color_dark_gray" android:id="@id/tv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/progress_loading" android:layout_alignParentLeft="true" />
+            <ProgressBar android:id="@id/loading_indicator" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/tv_loading" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

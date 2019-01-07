@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/light_gray_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:gravity="center_vertical" android:background="@color/uidic_global_color_6_5" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="17.0dip" android:textColor="@color/color_6_1" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="50.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+        <ToggleButton android:id="@id/btn_toggle_allgrant" android:background="@drawable/btn_toggle_bg" android:layout_width="42.0dip" android:layout_height="28.0dip" android:layout_marginRight="21.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/toggleButton" />
+    </RelativeLayout>
+    <View android:background="@color/light_gray_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/uidic_global_color_6_2" android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="10.0dip" />
+</LinearLayout>

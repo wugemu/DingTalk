@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="72.0dip" android:layout_marginLeft="17.0dip" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/uidic_global_color_6_2" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/cell_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="@dimen/uidic_cell_drawable_padding" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/cell_subTitle" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/cell_title" />
+    </LinearLayout>
+    <ImageView android:id="@id/cell_right_content_image" android:visibility="gone" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp32" android:layout_marginLeft="@dimen/uidic_cell_desc_margin" android:scaleType="fitXY" android:layout_toLeftOf="@id/cell_right_image" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/cell_right_image" android:background="@drawable/right_arrow" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uidic_cell_desc_margin" android:layout_marginRight="17.0dip" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/user_info_divider" android:background="@color/ui_common_content_fg_color_alpha_12" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginLeft="@dimen/dp17" android:layout_alignParentBottom="true" />
+</RelativeLayout>

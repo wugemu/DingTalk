@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/checkin_privacy_bg_shape" android:layout_width="290.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/dp24" android:paddingRight="@dimen/dp24" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp15">
+        <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/text_color_black" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_rapid_check_attendance_privacy_policy_title" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/text_color_gray" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/dt_rapid_check_attendance_privacy_policy_content" android:lineSpacingExtra="8.0dip" />
+    </LinearLayout>
+    <View android:background="#66666666" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="12.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/dialog_btn_text_color" android:gravity="center" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_rapid_check_attendance_privacy_policy_refuse" android:layout_weight="1.0" />
+            <View android:background="@color/divider_light_gray" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/dialog_btn_text_color" android:gravity="center" android:id="@id/sure" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_rapid_check_attendance_privacy_policy_allow" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

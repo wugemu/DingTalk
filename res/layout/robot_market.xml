@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/rl_robot_root" android:background="@color/im_robot_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/uidic_global_color_6_2" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_empty_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58.0dip" android:layout_marginRight="58.0dip" android:text="@string/conversation_search_all_empty_tip" android:layout_centerHorizontal="true" />
+    <ListView android:id="@id/lv_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" />
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/overlay_rl_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/pure_white" android:id="@id/overlay_tv_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/and_jump" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:gravity="center" android:layout_width="300.0dip" android:layout_height="300.0dip">
+            <FrameLayout android:gravity="center" android:id="@id/overlay_rl_anim_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center" android:id="@id/overlay_iv_inner_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/anim_open_encrypt_1_2" android:scaleType="fitCenter" />
+                <ImageView android:layout_gravity="center" android:id="@id/overlay_iv_outer_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/anim_open_encrypt_1_3" android:scaleType="fitCenter" />
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/anim_open_encrypt_1_1" android:scaleType="fitCenter" />
+            </FrameLayout>
+            <ImageView android:id="@id/overlay_rl_anim_2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+            <RelativeLayout android:gravity="center" android:id="@id/overlay_rl_anim_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center" android:layout_width="300.0dip" android:layout_height="272.0dip" android:src="@drawable/anim_open_encrypt_3_1" android:scaleType="fitCenter" />
+                <ImageView android:id="@id/overlay_iv_shield_1" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="196.0dip" android:layout_marginTop="15.5dip" android:src="@drawable/chat_conv_icon_encrypt" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:alpha="0.0" />
+                <ImageView android:id="@id/overlay_iv_shield_2" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="134.0dip" android:layout_marginTop="83.5dip" android:src="@drawable/chat_conv_icon_encrypt" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:alpha="0.0" />
+                <ImageView android:id="@id/overlay_iv_shield_3" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="150.0dip" android:layout_marginTop="152.0dip" android:src="@drawable/chat_conv_icon_encrypt" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:alpha="0.0" />
+                <ImageView android:id="@id/overlay_iv_shield_4" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="112.0dip" android:layout_marginTop="219.0dip" android:src="@drawable/chat_conv_icon_encrypt" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:alpha="0.0" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/pure_white" android:ellipsize="end" android:gravity="center" android:id="@id/overlay_tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="@string/dt_safe_animation_scene1_text" />
+        <Button android:textSize="@dimen/text_size_17" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/overlay_btn_enter" android:background="@drawable/white_round_btn_shape" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_marginTop="25.0dip" android:text="@string/dt_safe_animation_enter_title" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/user_water_list_item_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="bottom" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip">
+        <RelativeLayout android:layout_gravity="bottom" android:background="@color/transparent" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="#66191f25" android:gravity="center_vertical" android:id="@id/user_mobile_info_tip_tv" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/app_name" android:includeFontPadding="false" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:gravity="center_vertical" android:id="@id/user_mobile_info_content_tv" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/app_name" android:includeFontPadding="false" android:layout_below="@id/user_mobile_info_tip_tv" android:layout_alignParentLeft="true" />
+            <com.alibaba.android.user.widget.DingSimCardView android:gravity="center_vertical" android:id="@id/iv_ding_simcard" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/user_mobile_info_tip_tv" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_theme_text_color" android:gravity="center_vertical" android:id="@id/user_mobile_info_ll" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:text="@string/dt_contact_profile_show_mobile" android:includeFontPadding="false" android:layout_toRightOf="@id/user_mobile_info_content_tv" android:layout_alignTop="@id/user_mobile_info_content_tv" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center|right" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_call_actions" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="10.0dip">
+                <LinearLayout android:gravity="center" android:id="@id/icon_ding_simcard_biz_call" android:layout_width="48.0dip" android:layout_height="fill_parent">
+                    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/contact_profile_operation_icon_size" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/view_biz_call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_workphone" android:contentDescription="@string/dt_accessibility_contact_call_work_phone" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.alibaba.android.dingtalkbase.widgets.views.ads.AdsBlueGuideView android:id="@id/ding_simcard_guide_layout" android:visibility="gone" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_marginTop="-104.0dip" app:content="@string/dt_contact_profile_ding_simcard_tip" app:buttonVisibility="gone" app:arrowOrientation="down" />
+        </LinearLayout>
+    </FrameLayout>
+    <View android:id="@id/user_info_divider" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" />
+</LinearLayout>

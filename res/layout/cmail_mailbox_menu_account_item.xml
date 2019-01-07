@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/cmail_mailbox_list_item_bg" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/cmail_dimen_30_dp" android:layout_height="fill_parent" android:layout_marginRight="@dimen/cmail_dimen_10_dp">
+            <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="8.0sp" android:textColor="@color/ui_common_alert_text_color" android:id="@id/red_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_marginRight="-3.0dip" android:text="@string/icon_round_fill" android:layout_alignTop="@id/icon" android:layout_alignRight="@id/icon" />
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s10" android:textColor="@color/ui_common_content_bg_color" android:id="@id/new_mail_count" android:background="@drawable/cmail_new_mail_count_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/mail" android:paddingTop="@dimen/cmail_dimen_12_dp" android:paddingBottom="@dimen/cmail_dimen_12_dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cmail_dimen_4_dp" android:text="account@dingtalk.com" android:singleLine="true" android:layout_weight="1.0" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/cmail_dimen_12_dp" android:textColor="@color/ui_common_level4_text_color" android:layout_gravity="center_vertical" android:id="@id/no_notice" android:paddingTop="@dimen/cmail_dimen_2_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cmail_dimen_4_dp" android:text="@string/icon_mute" />
+        </LinearLayout>
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/ui_common_theme_text_color" android:layout_gravity="center_vertical" android:id="@id/select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cmail_dimen_16_dp" android:text="@string/icon_right_fill" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/ui_common_content_fg_color_alpha_4" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

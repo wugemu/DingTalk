@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="180" android:drawable="@drawable/conf_state_calling_single_1" />
+    <item android:duration="180" android:drawable="@drawable/conf_state_calling_single_2" />
+    <item android:duration="180" android:drawable="@drawable/conf_state_calling_single_3" />
+    <item android:duration="180" android:drawable="@drawable/conf_state_calling_single_4" />
+</animation-list>

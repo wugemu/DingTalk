@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/layout_lan_waiting" android:background="@drawable/device_shape_radius" android:layout_width="270.0dip" android:layout_height="360.0dip" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip">
+        <ImageView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/device_icon" android:background="@drawable/device_alpha_welcome" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/ll_start" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginBottom="40.0dip">
+            <TextView android:textSize="@dimen/text_size_17_in_sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_start_config" android:background="@drawable/device_blue_btn_selector" android:visibility="gone" android:layout_width="160.0dip" android:layout_height="fill_parent" android:text="@string/dt_alpha_start_config_net" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_waiting" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.alibaba.android.dingtalk.guard.ui.widget.RotateIconFontTextView android:textSize="15.0sp" android:textColor="@color/device_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/icon_check" />
+                <TextView android:textSize="@dimen/text_size_17_in_sp" android:textColor="@color/device_blue" android:gravity="center" android:id="@id/tv_waiting" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dt_alpha_device_connecting" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center|right|top" android:id="@id/layout_close" android:padding="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="16.0sp" android:textColor="@color/device_color_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_roundclose_fill" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

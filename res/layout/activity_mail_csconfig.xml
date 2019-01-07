@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollview" android:background="@color/alm_cspace_group_bg" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:email="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/alm_cspace_group_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:textColor="@color/mail_agent_color_tt" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/alm_cmail_mail_common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <com.alibaba.android.dingtalkbase.widgets.SetupEditView android:id="@id/mail_csc_receiver_user" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="44.0dip" email:editLabel="@string/dt_mail_csc_user" email:editHint="@string/dt_mail_csc_user_hint" email:editLabelWidth="@dimen/mail__config_label_width" />
+            <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/cmail_config_item_margin_left" />
+            <com.alibaba.android.dingtalkbase.widgets.SetupEditView android:id="@id/mail_csc_receiver_pass" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="44.0dip" email:editLabel="@string/dt_mail_csc_pass" email:editHint="@string/mail_pwd_hint" email:editLabelWidth="@dimen/mail__config_label_width" />
+            <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/cmail_config_item_margin_left" />
+            <com.alibaba.android.dingtalkbase.widgets.SetupEditView android:id="@id/mail_csc_receiver_server" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="44.0dip" email:editLabel="@string/dt_mail_csc_rserver" email:editHint="@string/dt_mail_csc_server_hint" email:editLabelWidth="@dimen/mail__config_label_width" />
+            <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/cmail_config_item_margin_left" />
+            <com.alibaba.android.dingtalkbase.widgets.SetupEditView android:id="@id/mail_csc_sender_server" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="44.0dip" email:editLabel="@string/dt_mail_csc_sserver" email:editHint="@string/dt_mail_csc_server_hint" email:editLabelWidth="@dimen/mail__config_label_width" />
+            <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </LinearLayout>
+        <View android:textColor="@color/mail_agent_color_tt" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/alm_cmail_mail_common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/rl_advanced_setting" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@color/alm_csc_font_color_name" android:gravity="center_vertical" android:background="@color/pure_white" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_marginLeft="14.0dip" android:text="@string/dt_cmail_server_config_advanced_setting" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/mail_csc_advanced_btn" android:background="@color/pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/alm_cspace_arrow_up_down" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </LinearLayout>
+        <View android:textColor="@color/mail_agent_color_tt" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/mail_csc_advanced_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/alm_cmail_mail_common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <com.alibaba.android.dingtalkbase.widgets.SetupEditView android:id="@id/mail_csc_receiver_port" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="44.0dip" email:editLabel="@string/dt_mail_csc_imap_port" email:editHint="@string/dt_mail_csc_port_hint" email:editLabelWidth="@dimen/mail__config_label_width" />
+                <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/cmail_config_item_margin_left" />
+                <include android:id="@id/mail_csc_receiver_ssl" android:layout_width="fill_parent" android:layout_height="44.0dip" layout="@layout/normal_text_toggle" />
+                <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            </LinearLayout>
+            <View android:textColor="@color/mail_agent_color_tt" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/alm_cmail_mail_common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <com.alibaba.android.dingtalkbase.widgets.SetupEditView android:id="@id/mail_csc_sender_port" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="44.0dip" email:editLabel="@string/dt_mail_csc_smtp_port" email:editHint="@string/dt_mail_csc_port_hint" email:editLabelWidth="@dimen/mail__config_label_width" />
+                <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/cmail_config_item_margin_left" />
+                <include android:id="@id/mail_csc_sender_ssl" android:layout_width="fill_parent" android:layout_height="44.0dip" layout="@layout/normal_text_toggle" />
+                <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/cmail_config_item_margin_left" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

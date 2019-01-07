@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/tv_avatar" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:layout_toRightOf="@id/tv_avatar" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:id="@id/item_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:id="@id/item_desc_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:id="@id/item_sender_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+    <View android:id="@id/divider_line" android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/tv_avatar" android:layout_alignParentBottom="true" />
+</RelativeLayout>

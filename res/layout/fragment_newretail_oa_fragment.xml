@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/activity_main" android:background="@color/_uidic_forms_item_bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.oa.view.NewRetailPageIndicator android:id="@id/newretail_page_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_gravity="bottom" android:background="@color/uidic_global_color_c11_9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.alibaba.android.oa.view.OATabViewPager android:id="@id/viewpager" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

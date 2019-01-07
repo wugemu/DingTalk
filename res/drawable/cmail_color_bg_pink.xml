@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/ui_common_alert_bg_color_alpha_12" />
+    <padding android:left="@dimen/cmail_dimen_6_dp" android:top="@dimen/cmail_dimen_2_dp" android:right="@dimen/cmail_dimen_6_dp" android:bottom="@dimen/cmail_dimen_2_dp" />
+    <corners android:radius="@dimen/cmail_dimen_10_dp" />
+</shape>

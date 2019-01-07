@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/loading_container" android:visibility="gone" android:layout="@layout/alm_loading_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/space_tool_bar" />
+    <com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout android:id="@id/swipe_layout_folders_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/space_tool_bar" android:layout_centerInParent="true" android:layout_alignWithParentIfMissing="true" app:refresh_offset="?actionBarSize"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ListView android:id="@id/list_view" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffffffff" android:dividerHeight="0.0dip" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+    </com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/list_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="72.0dip" android:textColor="@color/cspace_empty_icon_bg" android:id="@id/iftv_empty_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_share_fill" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:gravity="center_horizontal" android:id="@id/tv_empty_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/dt_cspace_share_folder_intro" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_good_case" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/cspace_common_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_cspace_good_case" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_11" android:textColor="@color/cspace_common_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/icon_right" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_24" android:textColor="@color/white" android:gravity="center" android:id="@id/plus_btn" android:background="@drawable/cspace_plus_btn_bg" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/icon_folder_add" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

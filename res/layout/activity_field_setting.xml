@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/org_member_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:fillViewport="false" android:layout_above="@id/ll_btn_next">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_org_create_fragment_container" android:background="@color/window_background" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.android.user.contact.view.ListViewForScroll android:id="@id/list_default_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+            <com.alibaba.android.user.contact.view.ListViewForScroll android:id="@id/list_customize_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

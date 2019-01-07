@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/window_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="68.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tv_avatar" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_weight="0.0" avatar:textSize="10.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/text_color_black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s12" android:textColor="@color/text_color_gray" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:singleLine="true" />
+            <com.alibaba.android.dingtalkbase.widgets.views.label.LabelLayout android:id="@id/label_layout" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginTop="5.0dip" app:line_height="18.0dip" app:column_space="8.0dip" app:ellipsize_drawable="@drawable/label_ellipsize" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider_line" android:background="@drawable/default_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

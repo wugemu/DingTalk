@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="#ff999999" android:id="@id/tv_tip" android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="38.0dip" android:text="@string/org_invite" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_group" android:background="@color/ui_common_cell_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

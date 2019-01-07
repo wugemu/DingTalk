@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_layout" android:layout_width="@dimen/device_bluetooth_layout_height" android:layout_height="@dimen/device_bluetooth_layout_height" android:layout_marginTop="@dimen/device_bluetooth_layout_margin" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/wifi_icon" android:layout_width="wrap_content" android:layout_height="@dimen/device_bluetooth_circle_size" android:src="@drawable/search_device" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_layout">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/search_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/device_bluetooth_text_margin">
+                <TextView android:textSize="@dimen/device_bluetooth_text_size" android:textColor="@color/device_config_text_tip_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_smartdevice_searching" />
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/device_config_text_second_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/dt_confirm_same_network_tips" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/connected_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/device_bluetooth_text_margin">
+                <TextView android:textSize="@dimen/device_bluetooth_text_size" android:textColor="@color/device_config_text_tip_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_door_guard_config_connecte_success" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/connect_fail_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/device_bluetooth_text_margin">
+                <TextView android:textSize="@dimen/device_bluetooth_text_size" android:textColor="@color/device_config_text_tip_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_device_not_found" />
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/device_config_text_second_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/dt_device_connect_same_wifi_not_separation_router" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/wifi_not_connect_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/device_bluetooth_text_margin">
+                <TextView android:textSize="@dimen/device_bluetooth_text_size" android:textColor="@color/device_config_text_tip_color" android:id="@id/action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_focus_no_wifi_warn" />
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/device_config_text_second_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/dt_confirm_same_network_tips" />
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/device_config_text_reset_color" android:gravity="center" android:id="@id/reset_wifi_at_once" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/dt_device_config_wifi_immediate" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

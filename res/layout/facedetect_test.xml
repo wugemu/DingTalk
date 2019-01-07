@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_ok" android:background="@drawable/btn_corner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="OK" />
+        <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Quality Highest" />
+        <ImageView android:id="@id/quality_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Live image one" />
+        <ImageView android:id="@id/live_frame_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Live image two" />
+        <ImageView android:id="@id/live_frame_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

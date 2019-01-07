@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp10"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_my_card" />
+    <TextView android:textSize="@dimen/dp18" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/tv_know" android:background="@drawable/bg_corner_border_white" android:clickable="false" android:layout_width="120.0dip" android:layout_height="42.0dip" android:layout_marginTop="@dimen/dp18" android:layout_marginRight="@dimen/dp32" android:text="@string/dt_user_connection_guide_sure" />
+</LinearLayout>

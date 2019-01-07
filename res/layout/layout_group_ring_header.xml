@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/dt_im_group_sound_default_option_desc" />
+    <RelativeLayout android:id="@id/rl_ring_default" android:background="@drawable/bg_setting_item" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:id="@id/tv_ring_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:text="@string/dt_im_group_sound_default_option_title" android:maxLines="1" android:layout_centerVertical="true" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/text_color_f2f_num" android:gravity="center" android:id="@id/icon_default_select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/text_size_12" android:text="@string/icon_right_line" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

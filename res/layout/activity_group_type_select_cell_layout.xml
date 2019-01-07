@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.uidic.cells.C1T1TextCell android:id="@id/cell_service" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:bottomDividerAlign="alignParent" app:bottomDividerVisibility="visible" app:rightImage="@drawable/right_arrow" app:title="@string/dt_im_svc_grp_name" app:topDividerAlign="alignParent" app:topDividerVisibility="visible" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/gray" android:id="@id/tv_cooper_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:text="@string/dt_im_svc_grp_select_grp_hint" />
+</LinearLayout>

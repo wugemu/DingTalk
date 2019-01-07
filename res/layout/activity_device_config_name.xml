@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/guard_wifi_config_layout" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_28" android:textColor="@color/uidic_global_color_6_6" android:id="@id/device_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_door_guard_config_set_name" />
+    <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/_uidic_forms_item_tip_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="30.0dip" android:text="@string/dt_door_guard_config_set_name_tips" />
+    <LinearLayout android:orientation="vertical" android:id="@id/uidic_forms_item" android:background="@drawable/_uidic_forms_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/uidic_forms_item_top_divider" android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:paddingLeft="@dimen/_uidic_forms_item_padding" android:paddingRight="@dimen/_uidic_forms_item_min_padding" android:layout_width="fill_parent" android:layout_height="@dimen/_uidic_forms_item_height">
+            <TextView android:textSize="@dimen/_uidic_forms_item_text_size" android:textColor="@color/_uidic_forms_item_text_color" android:ellipsize="end" android:id="@id/uidic_forms_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="@dimen/_uidic_forms_item_text_drawable_padding" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <EditText android:textSize="@dimen/_uidic_forms_item_text_size" android:textColor="@color/_uidic_forms_item_text_color" android:id="@id/uidic_forms_item_edittext" android:background="@color/uidic_global_color_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="@string/dt_door_guard_config_set_name_hint" android:singleLine="true" android:drawablePadding="@dimen/_uidic_forms_item_text_drawable_padding" android:layout_toRightOf="@id/uidic_forms_item_text" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:id="@id/uidic_forms_item_inner_bottom_divider" android:background="@color/_uidic_forms_item_inner_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/_uidic_forms_item_padding" />
+        <View android:id="@id/uidic_forms_item_bottom_divider" android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+</LinearLayout>

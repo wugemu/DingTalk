@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_manage_staff_email" android:background="@drawable/bg_setting_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <View android:id="@id/divider_line" android:background="@color/light_gray_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.widgets.views.ClearableEditText android:textSize="@dimen/uidic_global_text_size_s16" android:textColorHint="@color/uidic_global_color_6_2" android:id="@id/et_manage_staff_email_name" android:background="@null" android:paddingLeft="@dimen/chatting_setting_item_spaceLeft" android:paddingTop="@dimen/chatting_setting_item_spaceTop" android:paddingRight="@dimen/chatting_setting_item_spaceLeft" android:paddingBottom="@dimen/chatting_setting_item_spaceTop" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:hint="@string/dt_manage_mail_setting_input_hint" android:lines="1" android:maxLength="20" android:layout_weight="1.0" android:layout_marginEnd="16.0dip" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s16" android:textColor="@color/uidic_global_color_6_2" android:ellipsize="end" android:id="@id/tv_manage_staff_email_domain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:maxWidth="150.0dip" android:lines="1" android:layout_weight="0.0" />
+        </LinearLayout>
+        <View android:id="@id/divider_line" android:background="@color/light_gray_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/ui_common_form_height_fixed_single_line" style="@style/ui_common_form_select"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkui.widget.image.DtRedAsteriskView android:id="@id/rav_must_fill" android:layout_width="@dimen/ui_common_image_must_fill_indicator_height_width" android:layout_height="@dimen/ui_common_image_must_fill_indicator_height_width" android:layout_marginLeft="5.0dip" android:layout_marginTop="32.0dip" android:layout_marginStart="5.0dip" />
+    <com.alibaba.android.dingtalkui.form.privatewidget.FormLabelTextView android:id="@id/label_level1" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="25.0dip" android:layout_marginStart="16.0dip" />
+    <com.alibaba.android.dingtalkui.widget.DtSwitchView android:layout_gravity="end" android:id="@id/sv_switch" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="52.0dip" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" />
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_content_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_bottom_calling" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@color/conf_item_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/uidic_global_color_6_5" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/text_size_17" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/btn_create_video_conf" android:background="@drawable/conf_btn_bg_blue" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:minHeight="44.0dip" android:text="@string/dt_conference_start_conf_now" android:layout_weight="1.0" />
+            <Button android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_6_1" android:gravity="center" android:id="@id/btn_order_conference" android:background="@drawable/conf_btn_bg_gray_with_border" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:minHeight="44.0dip" android:text="@string/dt_conference_schedule_conf" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_record_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ll_bottom_calling" android:layout_alignParentTop="true">
+        <ListView android:id="@id/list_records" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_video_conf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_bottom_calling">
+        <ImageView android:id="@id/rl_no_video_conf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:src="@drawable/video_conf_empty" android:layout_above="@id/ll_bottom_calling" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/C6_1" android:gravity="center" android:id="@id/tv_empty_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/conf_txt_video_conf_empty_title" android:layout_below="@id/rl_no_video_conf" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/C6_2" android:gravity="center" android:id="@id/tv_empty_context" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/conf_txt_video_conf_empty_content" android:layout_below="@id/tv_empty_title" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/ll_loading" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_bottom_calling">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/list_view" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+        <com.alibaba.android.dingtalkbase.widgets.views.LetterListView android:id="@id/letter_list" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="65.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_overlay" android:background="@drawable/textview_letter_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:minWidth="100.0dip" />
+    <RelativeLayout android:id="@id/rl_no_sort_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dip">
+        <ImageView android:id="@id/img_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_conv_member_no_auth" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/uidic_global_color_6_7" android:id="@id/tv_empty_title" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dt_im_no_org_sort_title" android:layout_below="@id/img_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/gray" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dt_im_no_org_sort_tip" android:layout_below="@id/tv_empty_title" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/rl_progress" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse" />
+        <TextView android:textColor="@color/text_color_gray" android:layout_gravity="center_vertical" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/loading" />
+    </LinearLayout>
+</FrameLayout>

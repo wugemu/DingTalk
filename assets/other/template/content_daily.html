@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" id="viewport"
+			content="initial-scale=1 ,user-scalable=yes, maximum-scale=3.0">
+
+		<meta name="format-detection" content="telephone=no">
+		<style>
+			/*通用样式*/
+			html,body {
+				margin: 0;
+				word-break: break-word;
+				font-size: 18px;
+				background-color: white;
+			}
+			h1,h2,h3,h4 {
+				/*最大字体的时候也不会大于22px，这里就不支持了*/
+				font-size: 22px;
+				font-weight: normal;
+				margin: 0;
+				padding: 0;
+			}
+			blockquote {
+				-webkit-margin-before: 0 !important;
+				-webkit-margin-after: 0 !important;
+				-webkit-margin-start: 0 !important;
+				-webkit-margin-end: 0 !important;
+				margin-left: 0 !important;
+				margin-right: 0 !important;
+			}
+			a {
+				color: #138cdf;
+				text-decoration: underline;
+			}
+			ul {
+				padding-right: 0 !important;
+				width: auto !important;
+			}
+			/*给4.4用的顶层填充区域*/
+			#mailTitleBarFillDiv {
+				width: 30px;
+				height: 0px;
+				color: #0ff;
+				background: #fff;
+			}
+			/*这里也是有点噁心*/
+			/*表格缩放*/
+			/*.mailcontent >*/ .mailTableArea {
+				/*用auto，不用hidden，为了避免js错误或者处理慢的时候，被截的内容也无法看*/
+				overflow: auto;
+			}
+			.mailFixedTableArea > table {
+				margin-left: 0 !important;
+				margin-right: 0 !important;
+				/*这里不加100%，因为加了会导致写入的width=xxx失效*/
+			}
+			.mailFixedTableWidthForAll table {
+				width: auto !important; /*由js来决定哪个width height需要定义*/
+			}
+			/*假如图片外面的另外td100%，所在td没有width就有问题，例如facebook。用这个补救？*/
+			.mailFixedTableWidthForAll/*.mailTableArea*/ td {
+				width: auto !important;
+			}
+			/*表格内的图片max-width:100%会导致众多广告邮件混乱，用!important确保覆盖下面的.mailcontent_scale img*/
+			/*.mailTableArea 其实不需要这个，要了在保存逻辑那里反而有问题*/ table img {
+				max-width: none !important;
+			}
+			/*用单表格限制宽带的使用，让图片宽带限制。而且这个css需要在.mailTableArea table img 下面，确保覆盖*/
+			/*
+			还是不能这样，导致只有图片的td由于line-height原因会出现白色分割条，例如foxmail的那封体验邮件
+			.mailFixedTableWidthForAll table img {
+				max-width: 100%!important;
+			}
+			*/
+			/*表格不允许再有marginLeft与marginRight了*/
+			.mailTableArea .mailTableArea {
+				overflow: visible;
+			}
+			/*强制表格不处理（给加了mailTableArea的使用）*/
+			.mailNoTableScale .mailTableArea {
+				overflow: visible;
+			}
+			/*.mailNoTableScale table img {
+				max-width: 100%!important;
+			}*/
+			/*正文样式*/
+			.mailcontent {
+				margin: 11px 10px 5px !important;
+			}
+			.mailcontent:after {
+				content: " ";
+				display: block;
+				height: 0;
+				clear: both;
+			}
+			.mailcontent img {
+				vertical-align: middle; /*border:5px solid red;*/
+			}
+			/* 如果元素有背景之类的样式，这样强制把左右padding干掉效果奇差，需要解决什么问题麻烦找cszheng看看有没有其他解决方法，不要直接这样写死。
+						.mailcontent > div, .mailcontent > p {vwidth:auto!important;height:auto!important;  margin-left:0!important;margin-right:0!important;padding-left:0!important;padding-right:0!important;}
+						*/
+			/*这里比较危险，会导致div，p 原来的width height 无效，第一层的div与p的margin-left, margin-right，padding-left, padding-right不要*
+			.mailcontent_beforescale {
+				visibility: hidden;
+			}
+			/*图片样式 为了图片不撑大影响缩放*/
+			.mailcontent_beforescale img {
+				max-width: 40px;
+				max-height: 40px;
+			}
+			/*表格内图片需要特殊处理，在上面*/
+			.mailcontent_scale img {
+				max-width: 100%;
+			}
+			.mail_nobgimg * {
+				background-image: none;
+			}
+			.mail_img_spacer {
+				border: 1px solid #aaa; /*未出图片前不要效果了border:none;*/
+				min-height: 10px;
+				min-width: 10px
+			}
+			table .mail_img_spacer { /*表格下不显示*/
+				border: none;
+			}
+			/* 签名小字一下 */
+			.mail-footer {
+				color: #444;
+				font-size: 16px;
+			}
+			/* 下载剩余内容的操作块 */
+			.email_loadall {
+				border-top: 1px solid #ebebeb;
+				background: #fbfbfb;
+				background-image:-webkit-gradient(
+						linear,
+						left top,
+						left bottom,
+						color-stop(0, #fbfbfb),
+						color-stop(1, #ffffff));
+				padding: 24px 0 !important;
+				margin-top: 20px !important;
+				text-align: center;
+				clear: both;
+			}
+			.email_loadall a:link,.email_loadall a:visited, .email_loadall a:active, .email_loadall span {
+				display: inline-block;
+				line-height: 34px !important;
+				font-size: 16px;
+				text-decoration: none;
+				color: #515151;
+				padding: 0 30px !important;
+				margin: 0 auto;
+				border-radius: 4px;
+				background: #ebebeb;
+				border: 1px solid #cdcdcd;
+			}
+			.email_loadall span {
+				background: #fefefe;
+			}
+			/* 从手机端上传的图片上下加margin */
+			.ios-upload-image,.android-upload-image {
+				margin: 4px 0 !important;
+			}
+			/*记事本录音样式 */
+			.mail_audio_init,.mail_audio_playing,.mail_audio_loading {
+				border-radius: 8px;
+				margin: 14px 1px 4px !important;
+				border: 1px solid #cacaca;
+				padding: 11px 10px 12px 0px !important;
+				overflow: hidden;
+				_zoom: 1;
+				position: relative;
+				height: 32px;
+				-webkit-tap-highlight-color: transparent;
+				-webkit-user-select: none;
+			}
+			.mail_audio_icon {
+				display: block;
+				width: 32px;
+				height: 32px;
+				float: left;
+				background-size: 32px 32px;
+				margin-left: 14px;
+				background-image: url(file:///android_asset/other/icon_recorder_end_2x.png);
+			}
+			.mail_audio_title {
+				display: block;
+				margin: 0 0 0px 54px !important;
+				font-size: 15px;
+				height: 17px;
+				line-height: 18px !important;
+				font-weight: bold;
+				color: #000000;
+				overflow: hidden;
+				text-overflow: ellipsize;
+			}
+			.mail_audio_size {
+				display: block;
+				margin-left: 54px !important;
+				font-size: 13px;
+				height: 15px;
+				line-height: 16px !important;
+				color: #b8b8b8;
+				overflow: hidden;
+				text-overflow: ellipsize;
+			}
+			.mail_audio_playing .mail_audio_icon {
+				background-image:
+					url(file:///android_asset/other/icon_recorder_playing_2x.png);
+			}
+			.mail_audio_loading .mail_audio_icon {
+				background-image: url(file:///android_asset/other/icon_recorder_loading.gif);
+			}
+			.mail_audio_playing .mail_audio_title,.mail_audio_loading .mail_audio_title,.mail_audio_title:active,.mail_audio_init:active .mail_audio_title
+				{
+				color: #b8b8b8;
+			}
+			.mail_audio_playing .mail_audio_size,.mail_audio_loading .mail_audio_size
+				{
+				color: #b8b8b8;
+			}
+			.mail_audio_init {
+				background-color: #f6f6f6;
+			}
+			.mail_audio_playing,.mail_audio_loading,.mail_audio_init:active {
+				background-color: #ffffff;
+			}
+			/*.mail_audio_init + br, .mail_audio_playing + br, .mail_audio_loading + br {display:none;}*/
+			/*垃圾邮件*/
+			.mail_no_garbage {
+				display: none;
+			}
+			.mail_normail_grabage {
+				background: yellow;
+			}
+			.mail_servious_grabage {
+				background: red;
+			}
+		</style>
+		<script src="file:///android_asset/other/js/lib.js"></script>
+		<script src="file:///android_asset/other/js/readmail_daily.js"></script>
+	</head>
+	<body>
+		<div class="mailcontent mailcontent_beforescale mail_nobgimg" id="mailcontent"  calendar_switch="true">%@</div>
+
+	</body>
+</html>
+
+
+

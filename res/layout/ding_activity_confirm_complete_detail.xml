@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize">
+        <com.alibaba.android.dingtalkbase.widgets.JKViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/rl_view_qr_code" android:background="@color/pure_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_weight="0.0">
+            <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/tv_view_qr_code" android:background="@drawable/ui_common_level1_button_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/dt_meeting_view_qr_code" android:includeFontPadding="false" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/header_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-0.5dip">
+        <com.alibaba.android.dingtalkbase.widgets.indicator.PagerSlidingTabStrip android:layout_gravity="top" android:id="@id/indicator" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:pstsIndicatorColor="@color/ui_common_level1_button_bg_color" app:pstsDividerWidth="1.0px" app:pstsUnderlineColor="@color/ui_common_level1_line_bg_color" app:pstsDividerColor="@color/ui_common_level2_text_color" app:pstsIndicatorHeight="2.0dip" app:pstsTabTextSize="15.0dip" app:pstsUnderlineHeight="0.0dip" app:pstsTabPaddingLeftRight="0.0dip" app:pstsShouldExpand="true" />
+        <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/indicator" />
+    </RelativeLayout>
+</RelativeLayout>

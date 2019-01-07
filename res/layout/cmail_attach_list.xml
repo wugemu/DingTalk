@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/ui_common_cell_bg" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cmail_dimen_68_dp" android:layout_alignParentTop="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/cmail_dimen_40_dp" android:layout_height="@dimen/cmail_dimen_40_dp" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cmail_dimen_12_dp">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.alibaba.alimei.cmail.widget.MailListPerfTextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="middle" android:id="@id/name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cmail_dimen_4_dp" android:singleLine="true" android:layout_weight="1.0" />
+                <com.alibaba.alimei.cmail.widget.MailListPerfTextView android:textSize="@dimen/alm_cmail_font_size_s12" android:textColor="@color/ui_common_text_edit_adjustable_hint_text_color" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/ui_common_util_image_button_delete_color" android:ellipsize="end" android:id="@id/subject" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cmail_dimen_1_dp" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/cmail_dimen_68_dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

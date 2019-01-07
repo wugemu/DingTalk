@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.android.dingtalkbase.widgets.views.RoundClippingRelativeLayout android:background="@drawable/dlg_bg_shape" android:layout_width="271.0dip" android:layout_height="315.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/uidic_global_color_6_1" android:gravity="center" android:id="@id/dialog_micro_group_title" android:layout_width="fill_parent" android:layout_height="44.0dip" />
+    <View android:id="@id/dialog_divider" android:background="@color/divider_dark_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/dialog_micro_group_title" />
+    <GridView android:id="@id/dialog_micro_group_gridview" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@null" android:horizontalSpacing="0.0dip" android:verticalSpacing="0.0dip" android:stretchMode="columnWidth" android:numColumns="3" android:layout_below="@id/dialog_divider" android:overScrollMode="never" />
+</com.alibaba.android.dingtalkbase.widgets.views.RoundClippingRelativeLayout>

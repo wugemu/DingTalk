@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.TabLayout android:id="@id/tab_layout" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabBackground="@color/pure_white" />
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.alibaba.android.dingtalkbase.widgets.views.ViewPagerFixed android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

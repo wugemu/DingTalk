@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/user_water_list_item_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/device_color_org_selected_background" android:layout_width="fill_parent" android:layout_height="11.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="40.0dip" android:textColor="@color/ui_common_theme_icon_bg_color" android:gravity="center" android:id="@id/tv_add_org" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/uidic_cell_margin_size" android:text="@string/icon_dashedadd" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/ui_common_theme_bg_color" android:gravity="center_vertical" android:id="@id/tv_add_org_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="@string/dt_device_config_create_group" />
+    </LinearLayout>
+    <View android:background="@color/device_color_org_selected_background" android:layout_width="fill_parent" android:layout_height="11.0dip" />
+</LinearLayout>

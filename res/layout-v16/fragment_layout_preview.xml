@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.laiwang.photokit.picker.AlbumPhotoViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/layout_bottom" android:background="@color/pic_choose_bottom" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <View android:id="@id/btn_send_origin_clickable_area" android:layout_width="10.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:importantForAccessibility="no" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/color_preview_text_color" android:gravity="center" android:id="@id/tv_edit_pic" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dt_photo_edit" android:layout_toRightOf="@id/btn_send_origin_clickable_area" />
+        <CheckBox android:textSize="@dimen/text_size_15" android:textColor="@color/pure_white" android:id="@id/btn_send_origin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:button="@drawable/checkbox_album_style" android:text="@string/origin_pic" android:layout_centerInParent="true" />
+        <CheckBox android:textSize="@dimen/text_size_15" android:textColor="@color/pure_white" android:id="@id/btn_selected" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@drawable/checkbox_album_style" android:text="@string/select_pic" android:layout_alignParentRight="true" />
+        <View android:id="@id/btn_selected_clickable_area" android:layout_width="20.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/btn_selected" android:importantForAccessibility="no" />
+    </RelativeLayout>
+</RelativeLayout>

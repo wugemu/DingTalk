@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/doc_lens_layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/doc_lens_bar_bg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <TextView android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/cancel" style="@style/doclens_menu_text" />
+        <TextView android:id="@id/btn_done" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:text="@string/dt_photo_done" android:layout_alignParentRight="true" style="@style/doclens_menu_text" />
+    </RelativeLayout>
+    <FrameLayout android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/imv_doc_source" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.alibaba.dingtalk.doclens.widget.QuadEdgeView android:id="@id/doc_edge_detect_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:background="@color/doc_lens_bar_bg" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/img_rotate" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/img_filter" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

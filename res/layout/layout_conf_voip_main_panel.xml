@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/conf_status_layout" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="22.0dip" android:textColor="@color/ui_common_white_icon_bg" android:id="@id/conf_minimize" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/icon_minimize" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/dt_accessibility_conf_back_to_background" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/conf_time_nick_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/shortcut_adding_red_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/conf_common_gray_dot_icon" android:layout_toLeftOf="@id/shortcut_adding_icon" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/pure_white" android:gravity="center_vertical" android:id="@id/conf_main_nick_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_conference_history_conferencetype_voipoto_conftitle" android:maxEms="10" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/pure_white" android:gravity="center_vertical" android:id="@id/conf_time_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:singleLine="true" />
+        </LinearLayout>
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_white_icon_bg" android:id="@id/conf_add_mem" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/icon_addperson_fill" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/dt_accessibility_conf_back_to_background" />
+    </RelativeLayout>
+    <LinearLayout android:paddingLeft="24.0dip" android:paddingTop="10.0dip" android:paddingRight="24.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <GridView android:id="@id/conf_user_grid" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="none" android:clickable="true" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/conf_transparent" android:verticalSpacing="12.0dip" android:stretchMode="spacingWidthUniform" android:columnWidth="105.0dip" android:numColumns="3" />
+    </LinearLayout>
+</LinearLayout>

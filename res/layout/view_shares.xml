@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/root" android:background="@color/btn_gray_bg" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/share_ui_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/share_divider" android:background="#66222222" android:layout_width="fill_parent" android:layout_height="@dimen/common_listview_divider_height" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/share_text" android:ellipsize="end" android:gravity="center" android:id="@id/share_box_title" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/share_default_text_on_box" android:maxLines="2" android:maxEms="20" android:layout_below="@id/share_divider" />
+        <com.alibaba.android.dingtalkbase.widgets.FixedViewPager android:id="@id/pager" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/share_box_title" />
+        <com.alibaba.dingtalk.share.share.view.ShareViewpagerIndicator android:id="@id/indicator" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pager" />
+        <Button android:textSize="@dimen/font_size_s4_dp" android:textColor="@color/share_cancel" android:gravity="center" android:id="@id/btn_share_cancel" android:background="@drawable/ba3_btn" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/cancel_sharing" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

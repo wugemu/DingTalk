@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/user_water_list_item_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_black" android:id="@id/tv_dept_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="80.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" />
+        <View android:id="@id/divider_line" android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/tv_dept_name" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/expand" android:background="@drawable/icon_expand" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_above="@id/divider_line" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginLeft="0.0dip" android:src="@drawable/contact_more_line" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_next_dept" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/icon_new_next_deptrament" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/ui_common_theme_text_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/next_dept_txt" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="12.0dip" android:src="@drawable/icon_editor" android:layout_toLeftOf="@id/expand" android:layout_above="@id/divider_line" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:id="@id/divider_dept_employee" android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_below="@id/rl_content" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_line" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_btns" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_line">
+        <TextView android:id="@id/tv_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ChattingMarkdownBtn" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_horizontal_split" android:background="@color/uidic_global_color_c5" android:layout_width="1.0dip" android:layout_height="18.0dip" />
+        <TextView android:id="@id/tv_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ChattingMarkdownBtn" />
+    </LinearLayout>
+</RelativeLayout>

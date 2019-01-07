@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/search" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textColor="@color/text_color_black" android:textColorHint="@color/text_color_hint" android:id="@id/edit_view" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/search" android:singleLine="true" android:layout_alignParentLeft="true" android:imeOptions="actionSearch" android:textCursorDrawable="@null" />
+        <ImageView android:id="@id/img_clear" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_clear" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/district_list" android:paddingTop="8.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:layout_below="@id/search" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+    <com.alibaba.android.dingtalkbase.widgets.views.LetterListView android:id="@id/letter_list" android:layout_width="12.0dip" android:layout_height="320.0dip" android:layout_marginTop="78.0dip" android:layout_marginRight="4.0dip" android:layout_below="@id/search" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/img_icon" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        <ImageView android:id="@id/view_red_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-5.0dip" android:layout_marginBottom="-8.0dip" android:src="@drawable/red_dot_icon" android:layout_toRightOf="@id/img_icon" android:layout_above="@id/img_icon" />
+    </RelativeLayout>
+    <TextView android:textSize="10.0dip" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:maxLines="2" android:layout_below="@id/rl_icon" />
+</RelativeLayout>

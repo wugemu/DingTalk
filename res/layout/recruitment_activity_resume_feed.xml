@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/list_video" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/v_empty" android:background="@color/pure_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/recruitment_empty_image" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/dp17" android:textColor="@color/ui_common_level3_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_recruitment_error_page_try_again" />
+    </LinearLayout>
+</FrameLayout>

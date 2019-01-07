@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/loading_container" android:layout="@layout/alm_loading_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout android:id="@id/swipe_layout_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListView android:id="@id/listview" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffffffff" android:dividerHeight="0.0dip" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+    </com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/gv_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/gv_pic" android:paddingBottom="4.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:horizontalSpacing="3.0dip" android:verticalSpacing="3.0dip" android:stretchMode="columnWidth" android:numColumns="3" android:layout_weight="1.0" android:fadeScrollbars="true" android:overScrollMode="never" />
+        <View android:id="@id/gv_split_line" android:background="@color/cspace_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <com.alibaba.android.dingtalkbase.widgets.views.ListFooterView android:id="@id/gv_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0dip" android:textColor="@color/alm_cmail_color_6_7" android:gravity="center" android:orientation="vertical" android:id="@id/tv_category_head" android:background="@color/category_head_bg" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/top_line" android:background="@color/cspace_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/tv_category_head" />
+        <ImageView android:id="@id/guide_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" android:src="@drawable/cspace_guide_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/alm_cmail_color_6_2" android:id="@id/guide_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/cspace_no_file" android:layout_below="@id/guide_icon" android:layout_centerHorizontal="true" style="@style/cspace_item_weight_16" />
+    </RelativeLayout>
+</RelativeLayout>

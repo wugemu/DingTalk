@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/overlay_rl_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+    <RelativeLayout android:background="@drawable/bg_corner_5_yellow_normal" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentBottom="true">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="26.0dip" android:textColor="@color/ui_common_theme_icon_bg" android:id="@id/iv_ding_quick_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/icon_send" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <EditText android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level1_text_color" android:gravity="center|left|top" android:id="@id/edit_ding_content" android:background="@android:color/transparent" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/dt_ding_quickpin_placeholder" android:minLines="10" android:layout_above="@id/iv_ding_quick_send" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

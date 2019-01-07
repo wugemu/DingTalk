@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/user_water_list_item_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/item_icon_size" android:textColor="@color/ui_common_orange_icon_bg_color" android:id="@id/if_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/icon_come_go_fill" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/if_next_arrow" android:layout_toRightOf="@id/if_icon">
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:id="@id/tv_follow_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/ui_common_level4_text_color" android:id="@id/tv_follow_des" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_13" android:textColor="@color/contact_mime_icon_color" android:id="@id/if_next_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/icon_next_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" />
+</LinearLayout>

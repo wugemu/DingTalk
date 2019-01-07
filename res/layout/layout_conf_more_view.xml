@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ui_common_action_icon_bg" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="?actionBarSize">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_24" android:textColor="@color/ui_common_level1_button_bg_color" android:layout_gravity="center" android:id="@id/setting_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/icon_more" />
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/setting_red" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ui_common_red_dot_icon" />
+    </FrameLayout>
+</LinearLayout>

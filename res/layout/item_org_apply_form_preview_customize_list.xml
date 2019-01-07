@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="8.0dip" android:textColor="@color/ui_common_red1_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/if_must_fill" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="4.0dip" android:text="@string/icon_asterisk_L" />
+        <com.alibaba.android.dingtalkui.widget.text.font.DtBodyTextView android:textColor="@color/ui_common_level1_base_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:maxLines="2" />
+    </FrameLayout>
+    <View android:id="@id/v_divider" android:background="@color/ui_common_level7_base_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+</LinearLayout>

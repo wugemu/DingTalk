@@ -1,0 +1,104 @@
+.class final Lcom/alibaba/android/user/profile/v2/UserProfileActivity$29;
+.super Ljava/lang/Object;
+.source "UserProfileActivity.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/alibaba/android/user/profile/v2/UserProfileActivity;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/alibaba/android/user/profile/v2/UserProfileActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/alibaba/android/user/profile/v2/UserProfileActivity;)V
+    .locals 0
+    .param p1, "this$0"    # Lcom/alibaba/android/user/profile/v2/UserProfileActivity;
+
+    .prologue
+    .line 2764
+    iput-object p1, p0, Lcom/alibaba/android/user/profile/v2/UserProfileActivity$29;->a:Lcom/alibaba/android/user/profile/v2/UserProfileActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 3
+
+    invoke-static {}, Lcom/pnf/dex2jar9;->a()Z
+
+    move-result v2
+
+    invoke-static {v2}, Lcom/pnf/dex2jar9;->b(I)V
+
+    .prologue
+    .line 2767
+    iget-object v1, p0, Lcom/alibaba/android/user/profile/v2/UserProfileActivity$29;->a:Lcom/alibaba/android/user/profile/v2/UserProfileActivity;
+
+    invoke-static {v1}, Lcom/alibaba/android/user/profile/v2/UserProfileActivity;->L(Lcom/alibaba/android/user/profile/v2/UserProfileActivity;)Lcom/alibaba/android/dingtalkbase/utils/RegionUtils$Region;
+
+    move-result-object v1
+
+    if-nez v1, :cond_0
+
+    .line 2769
+    :try_start_0
+    iget-object v1, p0, Lcom/alibaba/android/user/profile/v2/UserProfileActivity$29;->a:Lcom/alibaba/android/user/profile/v2/UserProfileActivity;
+
+    invoke-static {}, Lcid;->a()Lcid;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcid;->c()Landroid/app/Application;
+
+    move-result-object v2
+
+    invoke-static {v2}, Lcom/alibaba/android/dingtalkbase/utils/RegionUtils;->a(Landroid/content/Context;)Lcom/alibaba/android/dingtalkbase/utils/RegionUtils$Region;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Lcom/alibaba/android/user/profile/v2/UserProfileActivity;->a(Lcom/alibaba/android/user/profile/v2/UserProfileActivity;Lcom/alibaba/android/dingtalkbase/utils/RegionUtils$Region;)Lcom/alibaba/android/dingtalkbase/utils/RegionUtils$Region;
+
+    .line 2770
+    invoke-static {}, Lhcv;->a()Lhcv;
+
+    move-result-object v1
+
+    new-instance v2, Lcom/alibaba/android/user/profile/v2/UserProfileActivity$29$1;
+
+    invoke-direct {v2, p0}, Lcom/alibaba/android/user/profile/v2/UserProfileActivity$29$1;-><init>(Lcom/alibaba/android/user/profile/v2/UserProfileActivity$29;)V
+
+    invoke-virtual {v1, v2}, Lhcv;->post(Ljava/lang/Runnable;)Z
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 2780
+    :cond_0
+    :goto_0
+    return-void
+
+    .line 2776
+    :catch_0
+    move-exception v0
+
+    .line 2777
+    .local v0, "e":Ljava/io/IOException;
+    invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
+
+    goto :goto_0
+.end method

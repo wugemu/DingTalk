@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/im_mini_app_tips" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/v_mini_app_tips_splitter" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_mini_app_layout_tips" android:paddingLeft="@dimen/chat_item_md_text_padding" android:paddingRight="@dimen/chat_item_md_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_mini_app_tips" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/text_size_10_in_sp" android:textColor="@color/text_color_link_tip" android:ellipsize="end" android:id="@id/tv_mini_app_tips" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_miniapp_msg_bottom_tag_name" android:singleLine="true" />
+    </LinearLayout>
+</merge>

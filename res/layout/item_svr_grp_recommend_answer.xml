@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/list" android:background="@color/pure_white" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.LaiwangSpanFixTextView android:textSize="@dimen/dp16" android:textColor="@color/and_C6_1_333333" android:id="@id/recommend_answer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp15" android:layout_below="@id/recommend_answer" android:layout_alignParentRight="true">
+        <Button android:textSize="14.0dip" android:textColor="@color/svc_grp_send_btn_text_color" android:gravity="center" android:id="@id/send_answer" android:background="@drawable/svc_grp_send_reply" android:layout_width="120.0dip" android:layout_height="40.0dip" android:text="@string/dt_im_svc_grp_send_answer_directly" />
+        <Button android:textSize="14.0dip" android:textColor="@color/ui_common_level2_text_color" android:id="@id/edit_answer" android:background="@drawable/svc_grp_edit_reply" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:text="@string/dt_im_svc_grp_edit_comment" />
+    </LinearLayout>
+</RelativeLayout>

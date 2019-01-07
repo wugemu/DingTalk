@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <SearchView android:id="@id/search_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:queryHint="过滤日志" />
+        <Spinner android:id="@id/log_level" android:layout_width="120.0dip" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/log_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

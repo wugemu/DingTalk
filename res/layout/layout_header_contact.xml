@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.uidic.cells.C3I1ImageCell android:id="@id/tc_contact_friends" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bottomDividerAlign="alignContent" app:bottomDividerVisibility="visible" app:imageSize="size_m" app:leftImage="@drawable/icon_contact_friends" app:title="@string/my_friends" app:topDividerAlign="alignParent" app:topDividerVisibility="visible" />
+    <com.alibaba.android.dingtalkbase.uidic.cells.C3I1ImageCell android:id="@id/tc_contact_local" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bottomDividerAlign="alignContent" app:bottomDividerVisibility="visible" app:imageSize="size_m" app:leftImage="@drawable/icon_contact_local" app:title="@string/tab_local_contact" />
+    <com.alibaba.android.dingtalkbase.uidic.cells.C3I1ImageCell android:id="@id/tc_contact_group" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bottomDividerAlign="alignContent" app:bottomDividerVisibility="visible" app:imageSize="size_m" app:leftImage="@drawable/icon_contact_group" app:title="@string/my_group_conversation_new" />
+    <com.alibaba.android.dingtalkbase.uidic.cells.C3I1ImageCell android:id="@id/tc_contact_org_square" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bottomDividerAlign="alignParent" app:bottomDividerVisibility="visible" app:imageSize="size_m" app:leftImage="@drawable/icon_contact_org_square" app:title="@string/dt_contact_homesquare" />
+    <View android:layout_width="fill_parent" android:layout_height="16.0dip" />
+</LinearLayout>

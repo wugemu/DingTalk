@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffc7c7cc" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="10.0dip" />
+    <ListView android:id="@id/list" android:background="@android:color/transparent" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="#00000000" android:divider="@null" android:fastScrollEnabled="false" android:fadeScrollbars="true" android:overScrollMode="never"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

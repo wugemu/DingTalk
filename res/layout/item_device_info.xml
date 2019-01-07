@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/setting_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/text_color_dark" android:ellipsize="end" android:id="@id/device_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/device_description_text" android:id="@id/device_model" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/app_name" android:includeFontPadding="false" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:background="@drawable/bread_crumbs_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_weight="0.0" />
+    </LinearLayout>
+    <View android:id="@id/short_divider" android:background="@color/divider_dark_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+    <View android:id="@id/long_divider" android:background="@color/divider_dark_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/client_application_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.399994dip" android:textColor="@color/colorLightGray" android:id="@id/titleText" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.71997dip" android:layout_marginBottom="12.47998dip" android:text="@string/verify_menu_choose" />
+    <com.alipay.mobile.verifyidentity.ui.APListView android:id="@id/menuList" android:background="@color/backgroudColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:overScrollFooter="@null" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/face_people_shape_white" android:maxLevel="0" />
+    <item android:drawable="@drawable/face_people_shape_blue" android:maxLevel="1" />
+</level-list>

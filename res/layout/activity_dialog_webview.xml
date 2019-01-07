@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#80000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:background="#ffffffff" android:layout_width="260.0dip" android:layout_height="375.0dip">
+        <FrameLayout android:id="@id/webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s18" android:textColor="@color/uidic_global_color_6_2" android:id="@id/dialog_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/icon_cancel" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ui_common_form_select"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/ui_common_form_height_fixed_single_line">
+        <com.alibaba.android.dingtalkui.widget.image.DtRedAsteriskView android:id="@id/rav_must_fill" android:layout_width="@dimen/ui_common_image_must_fill_indicator_height_width" android:layout_height="@dimen/ui_common_image_must_fill_indicator_height_width" android:layout_marginLeft="5.0dip" android:layout_marginTop="32.0dip" android:layout_marginStart="5.0dip" />
+        <com.alibaba.android.dingtalkui.form.privatewidget.FormLabelTextView android:id="@id/label_level1" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="25.0dip" android:layout_marginStart="16.0dip" />
+        <com.alibaba.android.dingtalkui.form.privatewidget.FormAddPicButton android:layout_gravity="end" android:id="@id/apb_add" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:layout_marginEnd="16.0dip" />
+    </FrameLayout>
+    <com.alibaba.android.dingtalkui.form.image.FormPhotoGroup android:id="@id/pg_photos" android:paddingLeft="16.0dip" android:paddingTop="4.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ui_common_form_height_fixed_single_line" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+</FrameLayout>

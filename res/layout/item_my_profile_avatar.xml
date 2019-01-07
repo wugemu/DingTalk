@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:layout_gravity="center_vertical" android:id="@id/user_info_tip_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/app_name" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center_vertical" android:id="@id/user_info_avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="12.0dip" android:contentDescription="@string/dt_accessibility_avatar_preview" avatar:textSize="@dimen/text_size_15" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/user_info_arrow" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" />
+    </LinearLayout>
+    <View android:id="@id/user_info_divider" android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginLeft="12.0dip" />
+</LinearLayout>

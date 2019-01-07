@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alipay.mobile.verifyidentity.ui.APInputBox android:id="@id/check_code_input" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/check_code_splitter" app:vi_inputName="@string/check_code_input_name" />
+    <View android:id="@id/check_code_splitter" android:background="@color/colorccc" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:layout_toLeftOf="@id/check_code_resend" />
+    <Button android:textSize="16.0dip" android:gravity="center" android:id="@id/check_code_resend" android:background="@drawable/white_button_selector" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:layout_alignParentRight="true" />
+</merge>

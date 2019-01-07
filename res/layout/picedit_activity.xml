@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip" />
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/picedit_region" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/picedit_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/picedit_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="#ffffffff" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip">
+                    <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@id/picedit_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20:53" />
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/picedit_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2016.05.06 周六 晴转多云 16℃" />
+                    </LinearLayout>
+                    <ImageView android:textColor="#ffffffff" android:id="@id/iv_logo" android:layout_width="39.0dip" android:layout_height="15.0dip" android:src="@drawable/camera_logo" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/picedit_location_lly" android:background="@drawable/picedit_background" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_marginTop="13.0dip">
+                <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/picedit_username_lly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="17.0dip" android:src="@drawable/camera_user" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="right" android:id="@id/picedit_username" android:layout_width="wrap_content" android:layout_height="17.0dip" android:text="蒋海洋" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/picedit_location_info_lly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="17.0dip" android:src="@drawable/camera_location" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/picedit_location" android:layout_width="wrap_content" android:layout_height="17.0dip" android:text="龙章大厦华星分部 杭州" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/picedit_retake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/dt_image_picker_editing_retake" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/picedit_usephoto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/dt_image_picker_editing_use" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkim.views.MakeupLinearLayout android:orientation="vertical" android:id="@id/rl_makeup_below" android:layout_width="@dimen/chat_item_max_width" android:layout_height="wrap_content" makeup:makeUpDrawable="@drawable/im_chat_oa_buble_bg" xmlns:makeup="http://schemas.android.com/apk/res-auto">
+            <View android:id="@id/header_bg" android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/rl_body" android:background="@drawable/chatfrom_bg" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/makeup_padding_left">
+                <TextView android:textSize="@dimen/text_size_16_in_sp" android:ellipsize="end" android:gravity="top" android:id="@id/tv_body_big_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="6" android:includeFontPadding="false" />
+                <TextView android:textSize="@dimen/text_size_16_in_sp" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:gravity="top" android:id="@id/tv_body_title" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+                <com.alibaba.android.dingtalkim.mdrender.view.AspectRatioImageView android:id="@id/chatting_content_image" android:focusable="false" android:layout_width="@dimen/im_oa_card_image_width" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@color/ui_common_content_fg_color_alpha_12" android:scaleType="centerCrop" image:heightWidthRatio="0.5625" image:heightWidthRatioEnabled="true" image:dominantMeasurement="width" xmlns:image="http://schemas.android.com/apk/res-auto" />
+                <TextView android:textSize="@dimen/text_size_13_in_sp" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="end" android:gravity="top" android:id="@id/tv_body_content" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+                <ViewStub android:id="@id/view_stub_item_form" android:inflatedId="@id/view_stub_item_form" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="@color/ui_common_level1_text_color" android:id="@id/tv_rich" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/view_attachment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+                        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/attachment_icon" />
+                        <TextView android:textSize="@dimen/text_size_12_in_sp" android:textColor="@color/C6_2" android:id="@id/tv_attachment_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:id="@id/view_read_count" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_12" android:textColor="@color/gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_signal" />
+                        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/gray" android:ellipsize="end" android:id="@id/tv_read_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/view_author" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/text_size_10_in_sp" android:textColor="@color/ui_common_level4_text_color" android:ellipsize="end" android:id="@id/tv_author_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" />
+                </LinearLayout>
+                <ViewStub android:id="@id/view_stub_common_action" android:inflatedId="@id/view_stub_common_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+                <ViewStub android:id="@id/view_stub_show_detail" android:inflatedId="@id/view_stub_show_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+                <ViewStub android:id="@id/view_stub_email_action" android:inflatedId="@id/view_stub_email_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+                <com.alibaba.android.dingtalkbase.widgets.views.comment.CommentView android:id="@id/comment_view" android:background="@color/uidic_global_color_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" comment:directLeftRight="true" comment:showSplit="true" comment:showNumber="true" comment:mode="mode_just_comment" xmlns:comment="http://schemas.android.com/apk/res-auto" />
+                <View android:id="@id/view_for_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="15.0dip" />
+                <include android:visibility="gone" layout="@layout/chatting_item_oa_ex_btns" />
+            </LinearLayout>
+        </com.alibaba.android.dingtalkim.views.MakeupLinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/msg_tips" android:background="@drawable/msg_tips_bg" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip">
+            <ImageView android:id="@id/msg_tips_icon" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:scaleType="fitXY" />
+            <TextView android:textSize="@dimen/text_size_12_in_sp" android:textColor="@color/pure_white" android:ellipsize="end" android:id="@id/msg_tips_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center_vertical" android:id="@id/iv_remind" android:visibility="gone" android:layout_width="@dimen/gif_im_remind_width" android:layout_height="@dimen/gif_im_remind_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+</LinearLayout>

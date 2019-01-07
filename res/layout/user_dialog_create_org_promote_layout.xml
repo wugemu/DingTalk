@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/uidic_global_color_transparent" android:layout_width="291.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_corner_5_white_normal" android:paddingLeft="26.0dip" android:paddingTop="55.0dip" android:paddingRight="26.0dip" android:paddingBottom="55.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/ui_common_level1_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_contact_create_team_promote_title" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/dt_contact_create_team_promote_msg" />
+        <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="53.0dip" android:shrinkColumns="1">
+            <TableRow android:gravity="center_vertical">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="26.0dip" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:background="@drawable/contact_bg_circle_theme_blue_alpha_5" android:layout_width="49.0dip" android:layout_height="49.0dip" android:text="@string/icon_message" />
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:text="@string/dt_contact_create_team_promote_inner_group" />
+            </TableRow>
+            <TableRow android:gravity="center_vertical" android:layout_marginTop="22.0dip">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="26.0dip" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:background="@drawable/contact_bg_circle_theme_blue_alpha_5" android:padding="9.0dip" android:layout_width="49.0dip" android:layout_height="49.0dip" android:text="@string/icon_phone" />
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:text="@string/dt_contact_create_team_promote_voip" />
+            </TableRow>
+            <TableRow android:gravity="center_vertical" android:layout_marginTop="22.0dip">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="26.0dip" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:background="@drawable/contact_bg_circle_theme_blue_alpha_5" android:padding="9.0dip" android:layout_width="49.0dip" android:layout_height="49.0dip" android:text="@string/icon_allapp" />
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:text="@string/dt_contact_create_team_promote_apps" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_20" android:textColor="@color/ui_common_level1_white_text_color" android:layout_gravity="center_horizontal" android:id="@id/if_close" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/icon_close" />
+</LinearLayout>

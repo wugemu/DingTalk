@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.lightapp.runtime.location.MapViewEx android:id="@id/map_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/map_location" android:background="@drawable/map_location_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true" android:contentDescription="@string/dt_accessibility_map_location_selected" />
+    <ImageView android:id="@id/map_location_mine" android:background="@drawable/map_location_mine_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip" android:layout_above="@id/map_location" android:contentDescription="@string/dt_accessibility_map_location_current" />
+    <com.alibaba.lightapp.runtime.location.ProgressTextBar android:layout_gravity="center" android:id="@id/loading" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <include android:visibility="gone" layout="@layout/common_cant_location" />
+</RelativeLayout>

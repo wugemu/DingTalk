@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/chatting_content_view_container" android:background="@drawable/chatfrom_bg" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:longClickable="true" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" style="@style/ChattingUIFromContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_c11_1" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/img_biz_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="17.0dip" android:id="@id/tv_biz_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/img_biz_type" android:layout_alignTop="@id/img_biz_type" />
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.AutoTranslateTextView android:textSize="@dimen/text_size_17" android:textColor="@color/and_C6_1_333333" android:textColorLink="@color/default_tint_bg_blue" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="9" android:includeFontPadding="false" android:layout_below="@id/ll_title" android:layout_centerVertical="true" android:lineSpacingExtra="0.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/tv_content">
+        <TextView android:textSize="@dimen/text_size_15_in_sp" android:textColor="@color/and_C6_7_666666" android:ellipsize="end" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/text_size_15_in_sp" android:textColor="@color/and_C6_7_666666" android:ellipsize="end" android:id="@id/tv_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minLines="1" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/v_actionbar_split" android:layout_marginTop="10.0dip" android:layout_below="@id/ll_time" style="@style/ChattingMarkdownHorizontalLine" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_btns" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/v_actionbar_split">
+        <TextView android:id="@id/tv_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ChattingMarkdownBtn" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/v_horizontal_splitter" android:background="@color/uidic_global_color_c5" android:layout_width="2.0dip" android:layout_height="19.0dip" />
+        <TextView android:id="@id/tv_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ChattingMarkdownBtn" />
+    </LinearLayout>
+</RelativeLayout>

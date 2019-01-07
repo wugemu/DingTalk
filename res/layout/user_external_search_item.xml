@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/activity_main" android:background="@android:color/white" android:paddingLeft="8.0dip" android:paddingTop="@dimen/external_company_normal_padding" android:paddingRight="8.0dip" android:paddingBottom="@dimen/external_company_normal_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/user_external_company_tip_normal" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+</RelativeLayout>

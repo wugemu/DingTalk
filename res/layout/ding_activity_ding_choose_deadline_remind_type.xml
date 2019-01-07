@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.BaseSelectView android:id="@id/view_base_select" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="vertical" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="16.0dip">
+        <com.alibaba.android.ding.widget.RemindTypeSelector android:id="@id/v_task_remind_type_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

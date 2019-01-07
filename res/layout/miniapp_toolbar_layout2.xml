@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <RelativeLayout android:id="@id/back_layout" android:background="@drawable/ui_common_action_icon_bg" android:visibility="gone" android:layout_width="49.0dip" android:layout_height="?actionBarSize">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/ui_common_title2_text_size" android:textColor="@color/ui_common_theme_icon_bg_color" android:gravity="center" android:id="@id/back_icon" android:layout_width="49.0dip" android:layout_height="49.0dip" android:text="@string/icon_backarrow" android:layout_centerInParent="true" android:contentDescription="@string/dt_common_back" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/title_wrapper_view" android:paddingLeft="@dimen/dp10" android:paddingRight="@dimen/dp10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:layout_marginRight="100.0dip" android:layout_centerHorizontal="true">
+            <com.alibaba.lightapp.runtime.view.GestureDetectorTextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/text_color_black" android:gravity="center" android:id="@id/title_bar_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" android:layout_centerVertical="true" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="17.0dip" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/title_bar_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:maxEms="8" android:singleLine="true" android:layout_toRightOf="@id/title_bar_name" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/right_layout" android:layout_width="wrap_content" android:layout_height="?actionBarSize" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <RelativeLayout android:id="@id/more_and_close_layout" android:background="@drawable/mini_toolbar_right_corner_bg" android:padding="0.5dip" android:layout_width="89.0dip" android:layout_height="32.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <RelativeLayout android:id="@id/more_layout" android:background="@drawable/ui_common_action_icon_bg" android:layout_width="44.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/right_divider" android:layout_centerVertical="true">
+                    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="17.0dip" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/more_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/icon_eapp_more" android:lines="1" android:maxEms="8" android:singleLine="true" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <View android:id="@id/right_divider" android:background="@color/ui_common_content_fg_color_alpha_12" android:layout_width="1.0px" android:layout_height="16.0dip" android:layout_toLeftOf="@id/close_layout" android:layout_centerVertical="true" />
+                <RelativeLayout android:id="@id/close_layout" android:background="@drawable/ui_common_action_icon_bg" android:layout_width="44.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="17.0dip" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/close_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_eapp_close" android:lines="1" android:maxEms="8" android:singleLine="true" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <View android:id="@id/horizontal_line" android:background="@color/webview_splitter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

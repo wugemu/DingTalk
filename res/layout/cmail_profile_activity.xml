@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/contact_card_bg" android:padding="@dimen/cmail_dimen_24_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/cmail_dimen_12_dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0px" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_18_in_sp" android:textStyle="bold" android:textColor="@color/ui_common_level1_text_color" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/uidic_global_color_6_2" android:id="@id/email" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxx@aliyun.com" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/ui_common_warming_bg_color" android:id="@id/mail_not_same_org_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_mail_not_same_org_title" />
+            </LinearLayout>
+            <com.alibaba.alimei.mail.widget.CMailAvatarImageView android:id="@id/avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignTop="@id/ll_header_full_name" android:layout_alignParentRight="true" android:layout_centerVertical="true" avatar:textSize="@dimen/text_size_15" avatar:hasBorder="true" avatar:borderWidth="1.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_14_in_sp" android:textColor="@color/mail_menu_text_color_selector" android:id="@id/invite" android:paddingTop="@dimen/cmail_dimen_16_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:paddingBottom="@dimen/cmail_dimen_8_dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_mail_invite_active" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_18_in_sp" android:textStyle="bold" android:textColor="@color/mail_menu_text_color_selector" android:gravity="center" android:id="@id/send_mail_button" android:background="@drawable/cmail_round_btn_normal" android:padding="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/dt_mail_sendmail" />
+</LinearLayout>

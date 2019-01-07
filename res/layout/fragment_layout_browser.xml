@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/background" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alibaba.laiwang.photokit.browser.PhotoViewPager android:id="@id/photo_browser_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/tools" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/photo_page_download_origin" android:background="@drawable/download_origin_btn_bg" style="@style/ToolsTextView" />
+        <TextView android:gravity="center_horizontal" android:id="@id/photo_page_downloading_origin" android:background="@drawable/download_origin_btn_bg" android:layout_width="100.0dip" android:drawableRight="@drawable/download_orgin_cancel" android:drawablePadding="5.0dip" style="@style/ToolsTextView" />
+        <TextView android:id="@id/photo_page_error" android:background="@drawable/download_origin_btn_bg" style="@style/ToolsTextView" />
+        <ImageView android:id="@id/iv_pic_list" android:src="@drawable/view_pics_btn" android:contentDescription="@string/more" style="@style/ToolsImageView" />
+        <ImageView android:id="@id/iv_pic_save" android:src="@drawable/save_pics_btn" android:layout_alignParentBottom="true" android:contentDescription="@string/save_to_phone" style="@style/ToolsImageView" />
+    </RelativeLayout>
+</RelativeLayout>

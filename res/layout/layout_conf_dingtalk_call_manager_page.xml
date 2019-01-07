@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/uidic_global_color_8_5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/conf_ad_warning_banner" android:background="@color/conf_C3_1_8" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/warning_banner_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/uidic_global_color_6_7" android:id="@id/warning_banner_close" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_cancel" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <com.alibaba.android.teleconf.widget.MarqueeTextView android:textSize="@dimen/text_size_14" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="marquee" android:id="@id/warning_banner_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toLeftOf="@id/warning_banner_close" android:layout_toRightOf="@id/warning_banner_icon" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" />
+        </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/uidic_global_color_6_7" android:layout_gravity="center" android:id="@id/list_conf_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_conference_management_area_no_data" />
+            <ListView android:id="@id/list_conf_functions" android:background="@color/conf_transparent" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:fastScrollEnabled="false" android:headerDividersEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/conf_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

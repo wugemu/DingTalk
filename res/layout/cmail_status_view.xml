@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@android:id/progress" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/ui_common_alert_bg_color" android:id="@id/status_view_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_warn_fill" />
+</FrameLayout>

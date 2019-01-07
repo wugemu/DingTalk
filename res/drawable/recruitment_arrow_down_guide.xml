@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="300">
+        <bitmap android:src="@drawable/recruit_arrow_down_1" />
+    </item>
+    <item android:duration="300">
+        <bitmap android:src="@drawable/recruit_arrow_down_2" />
+    </item>
+    <item android:duration="300">
+        <bitmap android:src="@drawable/recruit_arrow_down_3" />
+    </item>
+</animation-list>

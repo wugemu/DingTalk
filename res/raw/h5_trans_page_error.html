@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=0"/>
+    <title>!!!!</title>
+    <style type="text/css">
+
+        html, body {
+          height: 100%;
+        }
+        body {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          padding: 0;
+          margin: 0;
+        }
+
+        .am-page-result {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+          flex-direction: column;
+          -webkit-align-self: center;
+          align-self: center;
+          width: 100%;
+        }
+
+        .am-page-result {
+        text-align: center;
+        margin-bottom: 40px;
+        }
+
+        .am-page-result .am-page-result-pic {
+        width: 135px;
+        height: 135px;
+        margin: 0 auto;
+        }
+
+        .am-page-result .am-page-result-pic img {
+        width: 100%;
+        height: 100%;
+        }
+
+        .am-page-result p {
+        margin: 0;
+        margin-bottom: 30px;
+        font-size: 16px;
+        color: #BBBBBB;
+        }
+
+        .am-page-result-button {
+        margin-top: 15px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        }
+
+        .am-button {
+        display: block;
+        margin: 0 20px;
+        padding: 0 10px;
+        height: 42px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 42px;
+        border-radius: 4px;
+        outline: 0;
+        -webkit-appearance: none;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+        width: 50%;
+        }
+
+        .am-button[am-mode~=white] {
+        border: 1px solid #DDDDDD;
+        color: #FFFFFF;
+        background-color: transparent;
+        }
+
+        .am-button[am-mode~=white]:active {
+        border-color: #888888;
+        background-color: #888888;
+        }
+
+        .am-button[am-mode~=blue] {
+        border: 1px solid #28F;
+        color: #FFF;
+        background-color: #39F;
+        }
+
+        .am-button[am-mode~=blue]:active {
+        border-color: #17F;
+        background-color: #28F;
+        }
+
+        @media screen and (min-device-width: 375px) {
+        .am-page-result .am-page-result-pic {
+        width: 110px;
+        height: 110px;
+        }
+
+        .am-page-result-button {
+        margin-top: 15px;
+        }
+
+        .am-button {
+        margin: 0 20px;
+        height: 44px;
+        line-height: 44px;
+        }
+
+        @media screen and (min-device-width: 414px) {
+        .am-page-result .am-page-result-pic {
+        width: 130px;
+        height: 130px;
+        }
+
+        .am-button {
+        margin: 0 40px;
+        height: 50px;
+        line-height: 50px;
+        }
+    </style>
+<body>
+<div class="am-page-result">
+    <div class="am-page-result-pic">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXoAAAF6AgMAAABqznsDAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJUExURQAAAMzMzMzMzJgfGpYAAAACdFJOUwB/timhlQAAA5VJREFUeNrtnEGOnDAQRQEpLDjALHwETsERsunNHIFTcAQWs8qKBS01PmWiRJGSGZehzP8Rmf5v2Ysn2lQZsF1VVUIIIYQQQgghhBBCCCGEEEIIIYT4VNS3Md5vNP1r/MUb5+LH+Js7Qx//YGNePeUf/K2PccXqX+J7vtIGn3ALxo9+5Ai1McVAvXzgH0hfPu4PjIZ/5V4+6g+Mpn8lxT40B4LtjzN1eCAD1MYcA3V4AANUZ/Xn73B+eM4PUNjxnx2gHX18cIfn7ACFXf9MSy5AitW7+nMRuj/8525Af8C/EKPzZIQ2R/yx3N8d8k/E6D+XAR+jf7sBM6BOXWvAZUCbUtW4DAjJoRhhN6BPmgIsw+JB/wOWXUN6ToJNboP9MyS7DP+MmjwN/4J6dhn+FfXsMvwbanI2/BE1OVv+CTQ5W/4ZEz6mf8GEj+lfIbOP7d8w4WP6I2T2yfgHSHja/gkSnrZ/hoSn7V8g4Wn7V0h42v4HYvbM+DdI+Nv+CAn/jH9AhH/GPyHCP+OfEeGf8S8Q/2SO3IJIr5+Lzi+Qz2D7UyggvvJq+1MoID6zG68/Xsvfuv0DIH1z/ulS/uD2z5fy927/cin/6PavgOkn5388k7/2+7cr+Ru/Pz6Tv82s1faAdWLL/5ZZUh9A14/wd5nF/hGwjCt/2cJ2zj/LL//OvlTOv8gv/+f31wh/yOzFRuL8cM9smSP8m/z/xN8V+Cf5Yf62wD88kb8p8FdP5K/9/u1K/srvh6zP/AjC9r/wj+YH/GtErL9ZLyip80XA9ckMPn9w++dL+Tu3f7qUv3X7ffsXjdtfXcpfe/XeDWav37tBPjr93v3Hnjo98P2BOj34E9i7/24l8DdI+poJZj6/MOc3zOev/wCTb33Af0RzdPn952d61/7F4vazzy91Lv/k9rPPj7HPv7HP79HPH/YO/1LgZ5//7Bz5NRX4G8f+XYE+OYMa809ZBUBKNFRfQOGTDqA5OfxLkT8cfj6WnT8//g49FPmPv+NWZbDePb3vcEuhP5De3bw3eCj0H/zIKK9gO/YRUF6B11OHn1//xa5fY9ff0esH2fWP7PpNdv0pvX6WXf/Lrl+m11+z68fZ9e/s+n16/wF2/wR6/wd2/wp2/w16/xB2/xN6/xZ2/xl6/xx2/x96/6JEEkP7L9H7R9H7X7H7d9H7j1Xs/mkVvf+bEEIIIYQQQgghhBBCCCGEEEIIIdJ8B7xfCi8NrxudAAAAAElFTkSuQmCC"/>
+    </div>
+    <p>&&&&</p>
+
+    <div class="am-page-result-button">
+        <button type="button" class="am-button buttonText" am-mode="blue" id="refresh">####</button>
+    </div>
+    <div class="am-page-result-button">
+        <button type="button" class="am-button buttonText" am-mode="white" id="close">^^^^</button>
+    </div>
+</div>
+</body>
+<script>
+    console.log(document.body.offsetHeight);
+    var messenger = window.__alipayConsole__ || window.console;
+    var log = messenger.log;
+    var postMessage = function (msg) {
+        log.call(messenger, "h5container.message: " + msg);
+    };
+
+    var refresh = document.querySelector('#refresh');
+    if (refresh) {
+        refresh.addEventListener('touchend', function () {
+            location.reload();
+        });
+    }
+
+    var close = document.querySelector('#close');
+    if (close) {
+        close.addEventListener('touchend', function () {
+
+            var clientId = '' + new Date().getTime() + (Math.random());
+            var invokeMsg = JSON.stringify({
+                func: "popWindow",
+                msgType: 'call',
+                clientId: clientId
+            });
+            postMessage(invokeMsg);
+
+        });
+    }
+    window.H5ISLOADERRORHTML = true;
+</script>
+</html>

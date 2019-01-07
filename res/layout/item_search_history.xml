@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/search_history_bg_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center_vertical" android:id="@id/avatar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="5.0dip" avatar:textSize="10.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/text_color_dark" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+</LinearLayout>

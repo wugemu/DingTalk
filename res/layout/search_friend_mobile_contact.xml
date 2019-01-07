@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_contact_mobile_search_key_bar" android:background="@color/pure_white" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/search_icon_orange" android:background="@drawable/search_icon_orange" android:clickable="false" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_black" android:id="@id/search_orange_tip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/dt_network_search_mobile" android:singleLine="true" android:layout_toRightOf="@id/search_icon_orange" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/uidic_global_color_c2" android:id="@id/search_orange_txt" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/dt_network_search_mobile" android:singleLine="true" android:layout_toRightOf="@id/search_orange_tip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/divider_search" android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/rl_contact_mobile_search_key_bar" />
+    <com.alibaba.android.dingtalkbase.widgets.JKViewPager android:id="@id/mobile_contact_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/divider_search" android:layout_alignParentBottom="true" />
+</RelativeLayout>

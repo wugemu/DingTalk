@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/media_controller_touch_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/media_controller_valid_root" android:background="@color/color_black_alpha_40" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/text_size_17_in_sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/tv_replay" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_user_video_slide_replay" android:drawableTop="@drawable/video_slide_replay" android:drawablePadding="17.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/text_size_17_in_sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/tv_retry" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_user_video_slide_retry" android:drawableTop="@drawable/video_slide_replay" android:drawablePadding="17.0dip" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/media_controller_controls" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageButton android:id="@id/ib_media_controller_previous" android:visibility="gone" style="@style/MediaButton.Previous" />
+            <ImageButton android:id="@id/ib_media_controller_play" style="@style/MediaButton.Play" />
+            <ImageButton android:id="@id/ib_media_controller_pause" android:visibility="gone" style="@style/MediaButton.Pause" />
+            <ImageButton android:id="@id/ib_media_controller_next" android:visibility="gone" style="@style/MediaButton.Next" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/media_controller_bottom_root" android:background="@color/black" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:paddingRight="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="60.0dip" android:paddingRight="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/tv_media_controller_time_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.0dip" style="@style/MediaText" />
+                <SeekBar android:id="@id/sb_media_controller_progress" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="3.0dip" android:progress="40" android:progressDrawable="@drawable/dd_media_seekbarb" android:minHeight="3.0dip" android:thumb="@drawable/dd_media_seekbar_thumb_shape" android:layout_weight="1.0" />
+                <TextView android:id="@id/tv_media_controller_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" style="@style/MediaText" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/pb_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/rl_volume" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="fill_parent" android:layout_marginLeft="38.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="12.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/video_slide_volume_raise" android:scaleType="fitCenter" android:layout_above="@id/pb_volume" />
+        <ProgressBar android:id="@id/pb_volume" android:layout_width="3.0dip" android:layout_height="150.0dip" android:progressDrawable="@drawable/dd_media_volumn_vertical_layer" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Horizontal" />
+        <ImageView android:layout_width="22.0dip" android:layout_height="12.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/video_slide_volume_lower" android:scaleType="fitCenter" android:layout_below="@id/pb_volume" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

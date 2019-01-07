@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/app_version_container" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:id="@id/version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" />
+        <TextView android:textSize="15.0dip" android:textColor="@android:color/darker_gray" android:id="@id/install_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+    <Button android:id="@id/delete_app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="删包操作" />
+</LinearLayout>

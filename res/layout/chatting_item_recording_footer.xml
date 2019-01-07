@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="22.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/chatting_time_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_centerHorizontal="true" style="@style/ChattingUITextBasic" />
+    <TextView android:textSize="@dimen/text_size_16_in_sp" android:textColor="@color/pure_white" android:textColorLink="@color/text_color_link_tip" android:gravity="center|left" android:id="@id/recording_tv" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="4.0dip" android:minWidth="120.0dip" android:layout_below="@id/chatting_time_tv" android:layout_alignParentRight="true" />
+</RelativeLayout>

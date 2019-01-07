@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/cspace_list_item_selected" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_ding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_favorite_ding" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/ll_common" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/favorite_margin_split">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/img_avatar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/favorite_margin" android:layout_centerVertical="true" android:contentDescription="@string/dt_accessibility_avatar" avatar:textSize="9.0dip" style="style/fav_avatar_style" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        <TextView android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="4.0dip" android:maxWidth="150.0dip" android:singleLine="true" android:layout_toRightOf="@id/img_avatar" android:layout_centerVertical="true" style="@style/favorite_item_light_14" />
+        <ImageView android:id="@id/img_group_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_name" android:layout_centerVertical="true" />
+        <TextView android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/favorite_margin" android:layout_toLeftOf="@id/img_group_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/favorite_time_light_12" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_ding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/favorite_margin" android:layout_marginTop="10.0dip" android:layout_below="@id/ll_common">
+        <TextView android:id="@id/tv_ding_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/favorite_item_weight_16" />
+        <com.alibaba.android.dingtalkbase.widgets.voice.VoicePlayerView android:textSize="@dimen/text_size_16" android:textColor="@color/white" android:gravity="center|left" android:id="@id/ding_voice_play" android:background="@drawable/favorite_voice_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="@dimen/favorite_margin_common" android:maxWidth="240.0dip" android:lineSpacingExtra="2.0dip" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/content_view_stub" android:inflatedId="@id/content_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/favorite_margin" android:layout_marginTop="10.0dip" android:layout_below="@id/rl_ding" />
+</RelativeLayout>

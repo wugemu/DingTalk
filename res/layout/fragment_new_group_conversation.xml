@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ExpandableListView android:id="@id/group_list" android:scrollbars="none" android:fadingEdge="none" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/list_item_common_selector" android:scrollingCache="false" android:cacheColorHint="@android:color/transparent" android:groupIndicator="@null" android:divider="@null" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/rl_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse" />
+        <TextView android:textColor="@color/text_color_gray" android:layout_gravity="center_vertical" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/loading" />
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.RimetListEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/list_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

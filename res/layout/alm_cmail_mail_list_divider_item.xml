@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/ui_common_button_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.alibaba.alimei.cmail.widget.MailListPerfTextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level2_text_color" android:id="@id/txtDivider" android:paddingLeft="15.5dip" android:paddingTop="5.0dip" android:paddingRight="15.5dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

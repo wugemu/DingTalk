@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:id="@id/cell_layout" android:background="@drawable/ui_common_cell_bg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="82.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/ui_common_content_fg_color_alpha_12" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.alibaba.android.dingtalkbase.widgets.RoundedImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/cell_icon" android:background="@drawable/bg_e_app_item_shape" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:id="@id/cell_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:lines="1" android:layout_toRightOf="@id/cell_icon" android:layout_centerVertical="true" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_10" android:textColor="@color/mini_app_sticky_to_top_tag_bg_color" android:id="@id/sticky_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/icon_sticky_to_top" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

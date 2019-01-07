@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_list_guide" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_up_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/white_guide_up_arrow" android:scaleType="centerInside" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_ads_list_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_banner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/ui_common_subhead_text_size" android:textColor="@color/ui_common_level2_text_color" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" />
+        <ListView android:id="@id/list_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0.0dip" android:overScrollMode="never" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header_inner" android:background="#ffc6e1fc" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s12" android:textColor="@color/ui_common_level1_icon_bg_color" android:gravity="center" android:id="@id/header_tip_close" android:paddingLeft="@dimen/ui_common_page_padding_left" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/icon_close" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/ui_common_subhead_text_size" android:textColor="@color/ui_common_level2_text_color" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_contact_mobileContact_suggest" android:lines="1" android:singleLine="true" />
+        <TextView android:textSize="@dimen/ui_common_subhead_text_size" android:textColor="@color/ui_common_level2_text_color" android:ellipsize="end" android:id="@id/new_friend_recommend_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_contact_mobileContact_suggest_desc" android:lines="1" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/ui_common_subhead_text_size" android:textColor="@color/ui_common_theme_text_fg" android:ellipsize="end" android:id="@id/header_tip_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_contact_open_immeditely" android:lines="1" android:singleLine="true" />
+</LinearLayout>

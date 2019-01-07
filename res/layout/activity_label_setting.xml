@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/window_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.views.MotionTrackListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="1.0dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_empty_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="150.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="110.0dip" android:textColor="@color/uidic_global_color_c5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_protect_fill" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/uidic_global_color_6_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/dt_contact_label_setting_no_perm_tip_title" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/uidic_global_color_6_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/dt_contact_label_setting_no_perm_tip_content" />
+    </LinearLayout>
+</LinearLayout>

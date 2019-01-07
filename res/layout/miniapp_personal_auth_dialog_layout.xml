@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#11ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/pure_white" android:layout_width="280.0dip" android:layout_height="wrap_content" android:minHeight="228.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/miniapp_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="27.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="17.0dip" android:textColor="#ff191f25" android:gravity="center" android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/dt_miniapp_personal_auth_tips" android:layout_below="@id/miniapp_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13.0dip" android:textColor="#72191f25" android:gravity="center" android:id="@id/auth_field" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dt_miniapp_personal_auth_field" android:layout_below="@id/tips" android:layout_centerHorizontal="true" />
+        <View android:id="@id/horizontal_line" android:background="#14191f25" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="25.0dip" android:layout_below="@id/auth_field" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_below="@id/horizontal_line">
+            <TextView android:textSize="17.0dip" android:textColor="#ff3896fa" android:gravity="center" android:id="@id/no" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_miniapp_personal_auth_cancel" android:singleLine="true" android:layout_weight="1.0" />
+            <View android:background="#14191f25" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <TextView android:textSize="17.0dip" android:textColor="#ff3896fa" android:gravity="center" android:id="@id/yes" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_miniapp_personal_auth_ok" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

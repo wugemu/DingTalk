@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkui.widget.text.font.DtFootnoteTextView android:textColor="@color/ui_common_level2_base_color" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="4.0dip" android:text="@string/dt_org_apply_form_custom_question_section_header" android:maxLines="1" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_customize_question" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/v_add_cell" android:layout_width="fill_parent" android:layout_height="56.0dip" layout="@layout/item_org_apply_form_customize_question" />
+    <com.alibaba.android.dingtalkui.widget.text.font.DtFootnoteTextView android:textColor="@color/ui_common_level2_base_color" android:layout_gravity="start" android:id="@id/tv_label_image" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="4.0dip" android:text="@string/dt_org_apply_form_upload_photo_setting" android:maxLines="1" />
+    <FrameLayout android:id="@id/cell_image" android:background="@drawable/_ui_private_form_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <com.alibaba.android.dingtalkui.widget.text.font.DtBodyTextView android:textColor="@color/ui_common_level1_base_color" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginLeft="16.0dip" android:text="@string/dt_org_apply_form_upload_photo" android:maxLines="1" />
+        <com.alibaba.android.dingtalkui.widget.tag.DtTagView android:layout_gravity="end|center" android:id="@id/tag_image_cell" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:text="@string/dt_org_apply_form_required_tag" app:tagTheme="green" app:tagSize="large" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="16.0dip" android:textColor="@color/ui_common_level7_base_color" android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/icon_right" />
+    </FrameLayout>
+</LinearLayout>

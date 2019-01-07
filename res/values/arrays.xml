@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sms_highlight">
+        <item>校验码</item>
+    </string-array>
+    <string-array name="add_org_member">
+        <item>@string/add_org_member</item>
+    </string-array>
+    <string-array name="ali_account_login">
+        <item>@string/dt_login_ali_account_icbu</item>
+        <item>@string/dt_login_ali_account_alipay</item>
+    </string-array>
+    <string-array name="alm_cmail_edit_quote">
+        <item>@string/cancel</item>
+        <item>@string/ok</item>
+    </string-array>
+    <string-array name="alm_cmail_filters">
+        <item>@string/dt_mail_filter_all_title</item>
+        <item>@string/dt_mail_filter_unread_title</item>
+        <item>@string/dt_mail_filter_flag_title</item>
+        <item>@string/dt_mail_filter_attachment_title</item>
+    </string-array>
+    <string-array name="alm_cmail_filters_agent">
+        <item>@string/dt_mail_filter_all_title</item>
+        <item>@string/dt_mail_filter_unread_title</item>
+        <item>@string/dt_mail_filter_attachment_title</item>
+    </string-array>
+    <string-array name="alm_cmail_local_save">
+        <item>@string/alm_cmail_save_to_space</item>
+    </string-array>
+    <string-array name="alm_cmail_long_click0">
+        <item>@string/alm_cmail_mail_delete</item>
+    </string-array>
+    <string-array name="alm_cmail_long_click3">
+        <item>@string/alm_cmail_mail_delete</item>
+        <item>@string/alm_cmail_mail_cancel_and_edit</item>
+        <item>@string/alm_cmail_mail_retry</item>
+    </string-array>
+    <string-array name="alm_cmail_long_click_only_delete">
+        <item>@string/alm_cmail_mail_delete</item>
+    </string-array>
+    <string-array name="alm_cmail_save_space">
+        <item>@string/alm_cmail_save_to_space</item>
+        <item>@string/space_file_forward</item>
+    </string-array>
+    <string-array name="alm_cspace_upload_menu">
+        <item>@string/dt_lightapp_upload_menu_photo_or_video</item>
+        <item>@string/dt_lightapp_upload_menu_device_files</item>
+    </string-array>
+    <string-array name="android_native_share_ways">
+        <item>@string/act_forward_title</item>
+        <item>@string/chat_menu_ding</item>
+    </string-array>
+    <string-array name="black_list_item_long_click">
+        <item>@string/black_list_cancel</item>
+    </string-array>
+    <string-array name="boss_list_item_long_click">
+        <item>@string/org_boss_cancel</item>
+    </string-array>
+    <string-array name="choose_add_people_mode_admin_items">
+        <item>@string/choose_add_people_dlg_auto</item>
+        <item>@string/choose_add_people_dlg_manual</item>
+        <item>@string/dt_createteam_add_admins_from_members</item>
+    </string-array>
+    <string-array name="choose_add_people_mode_items">
+        <item>@string/choose_add_people_dlg_auto</item>
+        <item>@string/choose_add_people_dlg_manual</item>
+    </string-array>
+    <string-array name="choose_add_people_mode_member_items">
+        <item>@string/choose_add_people_dlg_auto</item>
+        <item>@string/choose_add_people_dlg_manual</item>
+        <item>@string/dt_createteam_add_member_with_qrcode</item>
+    </string-array>
+    <string-array name="choose_avatar_dlg_items">
+        <item>@string/choose_avatar_dlg_modify</item>
+        <item>@string/choose_avatar_dlg_restore</item>
+    </string-array>
+    <string-array name="cmail_months">
+        <item>@string/dt_cmail_jan</item>
+        <item>@string/dt_cmail_feb</item>
+        <item>@string/dt_cmail_mar</item>
+        <item>@string/cmail_dt_apr</item>
+        <item>@string/dt_cmail_may</item>
+        <item>@string/cmail_dt_jun</item>
+        <item>@string/cmail_dt_jul</item>
+        <item>@string/cmail_dt_aug</item>
+        <item>@string/dt_cmail_sep</item>
+        <item>@string/cmail_dt_oct</item>
+        <item>@string/cmail_dt_nov</item>
+        <item>@string/dt_cmail_dec</item>
+    </string-array>
+    <string-array name="common_contact_long_click">
+        <item>@string/delete_common_contact</item>
+    </string-array>
+    <string-array name="common_filepicker_filters">
+        <item>@string/common_filepicker_apps</item>
+        <item>@string/common_filepicker_sdcard_internal</item>
+    </string-array>
+    <string-array name="concern_list_item_long_click">
+        <item>@string/concern_cancel</item>
+    </string-array>
+    <string-array name="conf_duration_type">
+        <item>@string/conf_txt_conference_duration_half_hour</item>
+        <item>@string/conf_txt_conference_duration_one_hour</item>
+        <item>@string/conf_txt_conference_duration_one_half_hour</item>
+        <item>@string/conf_txt_conference_duration_two_hour</item>
+    </string-array>
+    <string-array name="copy_to_clipboard">
+        <item>@string/copy_to_clipboard</item>
+    </string-array>
+    <string-array name="ding_dt_ding_sub_filter">
+        <item>@string/dt_ding_sub_filter_all</item>
+        <item>@string/dt_ding_sub_filter_sent</item>
+        <item>@string/dt_ding_sub_filter_receiver</item>
+    </string-array>
+    <string-array name="ding_dt_ding_sub_filter_empty">
+        <item>@string/dt_ding_empty_all_content_tips</item>
+        <item>@string/dt_ding_empty_sent_content_tips</item>
+        <item>@string/dt_ding_empty_received_content_tips</item>
+    </string-array>
+    <string-array name="ding_dt_meeting_sub_filter">
+        <item>@string/dt_meeting_sub_filter_not_end</item>
+        <item>@string/dt_meeting_sub_filter_end_cancel_not_join</item>
+        <item>@string/dt_meeting_sub_filter_sent</item>
+        <item>@string/dt_meeting_sub_filter_child_task</item>
+    </string-array>
+    <string-array name="ding_dt_meeting_sub_filter_empty">
+        <item>@string/dt_ding_empty_upcoming_meeting_tips</item>
+        <item>@string/dt_ding_empty_ended_or_canceled_or_declined_meeting_tips</item>
+        <item>@string/dt_ding_empty_sent_meeting_tips</item>
+        <item>@string/dt_ding_empty_tasks_attached_meeting_tips</item>
+    </string-array>
+    <string-array name="ding_dt_task_sub_filter">
+        <item>@string/dt_task_sub_filter_not_complete</item>
+        <item>@string/dt_task_sub_filter_complete</item>
+        <item>@string/dt_task_sub_filter_sent</item>
+        <item>@string/dt_task_sub_filter_receiver</item>
+        <item>@string/dt_task_sub_filter_cc</item>
+    </string-array>
+    <string-array name="ding_dt_task_sub_filter_empty">
+        <item>@string/dt_ding_empty_incomplete_task_tips</item>
+        <item>@string/dt_ding_empty_complete_task_tips</item>
+        <item>@string/dt_ding_empty_sent_task_tips</item>
+        <item>@string/dt_ding_empty_received_task_tips</item>
+        <item>@string/dt_ding_empty_cc_to_me_task_tips</item>
+    </string-array>
+    <string-array name="ding_long_click_operation">
+        <item>@string/ding_menu_copy</item>
+    </string-array>
+    <string-array name="ding_menu_remind_later">
+        <item>@string/dt_ding_remind_later_one_hour</item>
+        <item>@string/dt_ding_remind_later_two_hour</item>
+        <item>@string/dt_ding_remind_later_three_hour</item>
+        <item>@string/dt_ding_remind_later_ignore</item>
+    </string-array>
+    <string-array name="ding_remind_type">
+        <item>@string/ding_remind_type_phone</item>
+        <item>@string/ding_remind_type_sms</item>
+        <item>@string/ding_remind_type_app</item>
+    </string-array>
+    <string-array name="dt_privacy_share_mobile_cancel">
+        <item>@string/dt_privacy_share_mobile_cancel</item>
+    </string-array>
+    <string-array name="dt_user_login_more_items">
+        <item>@string/dt_login_facebox_other_account</item>
+        <item>@string/login_report_loss_title</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="dt_user_org_add_people_mode_items">
+        <item>@string/dt_user_org_add_people_mode_manual</item>
+        <item>@string/dt_user_org_add_people_mode_auto</item>
+        <item>@string/dt_contact_manager_invite_colleagues_join_dept</item>
+    </string-array>
+    <string-array name="dt_user_org_add_people_mode_items_ext">
+        <item>@string/dt_user_org_add_people_mode_manual</item>
+        <item>@string/dt_user_org_add_people_mode_auto</item>
+        <item>@string/dt_contact_manager_invite_colleagues_join_dept</item>
+        <item>@string/dt_invite_write_entry_registration</item>
+    </string-array>
+    <string-array name="dt_user_org_delete_member_items">
+        <item>@string/dt_remove_member_directly</item>
+        <item>@string/dt_handle_dimission</item>
+        <item>@string/dt_contact_deleteStaff_no</item>
+    </string-array>
+    <string-array name="educations_items">
+        <item>@string/dt_recruitment_education_zhongzhuan</item>
+        <item>@string/dt_recruitment_education_dazhuan</item>
+        <item>@string/dt_recruitment_education_bachelor</item>
+        <item>@string/dt_recruitment_education_master</item>
+        <item>@string/dt_recruitment_education_doctor</item>
+        <item>@string/dt_recruitment_education_other</item>
+    </string-array>
+    <string-array name="external_permission_menu">
+        <item>@string/dt_external_contact_permission_menu_update_follower</item>
+        <item>@string/dt_external_contact_permission_menu_share</item>
+    </string-array>
+    <string-array name="favorite_operate_common">
+        <item>@string/space_file_delete</item>
+    </string-array>
+    <string-array name="favorite_operate_common_forward">
+        <item>@string/forward_action</item>
+        <item>@string/space_file_delete</item>
+    </string-array>
+    <string-array name="favorite_operate_common_save">
+        <item>@string/forward_action</item>
+        <item>@string/space_save</item>
+        <item>@string/space_file_delete</item>
+    </string-array>
+    <string-array name="favorite_operate_delete_save">
+        <item>@string/space_save</item>
+        <item>@string/space_file_delete</item>
+    </string-array>
+    <string-array name="filepicker_filter_app_tabs">
+        <item>@string/filepicker_apps_tab_all</item>
+        <item>@string/filepicker_apps_tab_dingtalk</item>
+        <item>@string/filepicker_apps_tab_weixin</item>
+        <item>@string/filepicker_apps_tab_qq</item>
+    </string-array>
+    <string-array name="friend_group_request_long_click">
+        <item>@string/delete_org_apply</item>
+    </string-array>
+    <string-array name="friend_request_long_click">
+        <item>@string/delete_friend_request</item>
+    </string-array>
+    <string-array name="gender">
+        <item>@string/profile_male</item>
+        <item>@string/profile_female</item>
+    </string-array>
+    <string-array name="group_dt_im_forward_options">
+        <item>@string/dt_im_message_batch_forward</item>
+        <item>@string/dt_im_message_merge_forward</item>
+    </string-array>
+    <string-array name="group_id_share">
+        <item>@string/dt_im_forward_to_chat</item>
+        <item>@string/chat_menu_copy</item>
+    </string-array>
+    <string-array name="join_group_request_long_click">
+        <item>@string/dt_im_join_group_list_delete</item>
+    </string-array>
+    <array name="label_color_array">
+        <item>@color/uidic_global_color_c11_1</item>
+        <item>@color/uidic_global_color_c11_2</item>
+        <item>@color/uidic_global_color_c11_3</item>
+        <item>@color/uidic_global_color_c11_4</item>
+        <item>@color/uidic_global_color_c11_16</item>
+        <item>@color/uidic_global_color_c11_17</item>
+    </array>
+    <string-array name="locale_map">
+        <item>|跟随系统</item>
+        <item>zh_CN|简体中文</item>
+        <item>zh_TW|繁體中文（台灣）</item>
+        <item>zh_HK|繁體中文（香港）</item>
+        <item>en_US|English</item>
+        <item>ja_JP|日本語</item>
+        <item>vi_VN|Tiếng Việt</item>
+    </string-array>
+    <string-array name="mail_add_tag">
+        <item>@string/dt_cmail_edit</item>
+        <item>@string/dt_common_delete</item>
+    </string-array>
+    <string-array name="mail_bind_click">
+        <item>@string/dt_mail_agent_login</item>
+        <item>@string/dt_cmail_remind_next_time</item>
+        <item>@string/mail_account_ignore_distribution</item>
+    </string-array>
+    <string-array name="mail_bind_warning_choose">
+        <item>@string/and_guide_text_i_know_that</item>
+    </string-array>
+    <string-array name="mail_camera">
+        <item>@string/dt_cmail_take_photo</item>
+        <item>@string/dt_cmail_record_video</item>
+    </string-array>
+    <string-array name="mail_dispatch_ways">
+        <item>@string/dt_mail_setting_onestepdispatch</item>
+        <item>@string/dt_mail_batch_dispatch_orgmail</item>
+        <item>@string/dt_mail_batch_dispatch_add</item>
+    </string-array>
+    <string-array name="mail_list_failed_choose1">
+        <item>@string/dt_cmail_login_reenter_pwd</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose1">
+        <item>@string/dt_mail_csc_config</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose10">
+        <item>@string/dt_cmail_unlock_imap</item>
+        <item>@string/dt_mail_csc_config</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose11">
+        <item>@string/dt_cmail_login_reenter_pwd</item>
+        <item>@string/dt_mail_csc_config</item>
+        <item>@string/dt_cmail_unlock_imap</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose12">
+        <item>@string/dt_mail_config_safe_imap</item>
+        <item>@string/dt_mail_csc_config</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose2">
+        <item>@string/dt_mail_scs_adm</item>
+        <item>@string/dt_mail_csc_config</item>
+        <item>@string/alm_filepicker_back</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose3">
+        <item>@string/dt_cmail_login_bind_tip_action_title_qq</item>
+        <item>@string/dt_mail_csc_config</item>
+        <item>@string/dt_cmail_login_reenter_pwd</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose4">
+        <item>@string/dt_cmail_unlock_imap</item>
+        <item>@string/dt_mail_csc_config</item>
+        <item>@string/dt_cmail_login_reenter_pwd</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose5">
+        <item>@string/dt_mail_csc_config</item>
+        <item>@string/dt_cmail_login_reenter_pwd</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose6">
+        <item>@string/dt_cmail_unlock_imap</item>
+        <item>@string/dt_cmail_login_reenter_pwd</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose7">
+        <item>@string/dt_cmail_qq_auth_code_view</item>
+        <item>@string/dt_cmail_login_reenter_pwd</item>
+        <item>@string/dt_mail_csc_config</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose8">
+        <item>@string/dt_cmail_login_reenter_pwd</item>
+        <item>@string/dt_mail_csc_config</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="mail_login_failed_choose9">
+        <item>@string/dt_mail_trust_unsafe_cerficate</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="mail_tag_colors">
+        <item>\#F25643</item>
+        <item>\#925523</item>
+        <item>\#FF943E</item>
+        <item>\#FFCD38</item>
+        <item>\#C4C71C</item>
+        <item>\#4DBF21</item>
+        <item>\#089E47</item>
+        <item>\#1AAFBC</item>
+        <item>\#3296FA</item>
+        <item>\#3472DB</item>
+        <item>\#2442B2</item>
+        <item>\#6344AD</item>
+        <item>\#E64696</item>
+        <item>\#7F8C8D</item>
+        <item>\#4A5354</item>
+    </string-array>
+    <string-array name="member_long_click">
+        <item>@string/chat_menu_delete</item>
+    </string-array>
+    <string-array name="menu_against_harassment_group_chat">
+        <item>@string/conversation_quit</item>
+        <item>@string/dt_user_report_user</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="menu_against_harassment_single_chat">
+        <item>@string/dt_profile_add_friend</item>
+        <item>@string/dt_shield_unkown_contact_msg</item>
+        <item>@string/dt_user_report_user</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="menu_category_item">
+        <item>@string/dt_im_category_change_sort</item>
+    </string-array>
+    <string-array name="menu_category_move">
+        <item>@string/dt_im_category_move</item>
+    </string-array>
+    <string-array name="menu_contacts_batch_operation">
+        <item>@string/dt_contact_manager_navigation_button_batch_operation_move</item>
+        <item>@string/dt_contact_manager_navigation_button_batch_operation_delete</item>
+    </string-array>
+    <string-array name="menu_ding_audio_item">
+        <item>@string/dt_ding_create_type_ding_title</item>
+        <item>@string/dt_ding_create_type_task_title</item>
+    </string-array>
+    <string-array name="menu_ding_audio_item_with_notification">
+        <item>@string/dt_ding_create_type_notification_title</item>
+        <item>@string/dt_ding_create_type_task_title</item>
+    </string-array>
+    <string-array name="menu_ding_new_ding_item">
+        <item>@string/dt_ding_type_ding</item>
+        <item>@string/dt_ding_type_task</item>
+        <item>@string/dt_ding_type_calendar</item>
+    </string-array>
+    <string-array name="menu_ding_new_ding_item_with_notification">
+        <item>@string/dt_ding_type_notification</item>
+        <item>@string/dt_ding_type_task</item>
+        <item>@string/dt_ding_type_calendar</item>
+    </string-array>
+    <string-array name="menu_ding_non_audio_item">
+        <item>@string/dt_ding_create_type_ding_title</item>
+        <item>@string/dt_ding_create_type_task_title</item>
+        <item>@string/dt_ding_create_type_conference_title</item>
+    </string-array>
+    <string-array name="menu_ding_non_audio_item_with_notification">
+        <item>@string/dt_ding_create_type_notification_title</item>
+        <item>@string/dt_ding_create_type_task_title</item>
+        <item>@string/dt_ding_create_type_conference_title</item>
+    </string-array>
+    <string-array name="menu_remind_timemillis">
+        <item>@string/dt_ui_datepikcer_after_one_hour</item>
+        <item>@string/dt_ui_datepikcer_after_two_hour</item>
+        <item>@string/dt_ui_datepikcer_after_three_hour</item>
+        <item>@string/dt_menu_remind_timemillis_custom</item>
+    </string-array>
+    <string-array name="message_to_ding_remind_type">
+        <item>@string/dt_ding_remind_phone</item>
+        <item>@string/dt_ding_remind_sms</item>
+        <item>@string/dt_ding_remind_app</item>
+    </string-array>
+    <string-array name="message_to_ding_remind_type_no_phone">
+        <item>@string/dt_ding_remind_sms</item>
+        <item>@string/dt_ding_remind_app</item>
+    </string-array>
+    <string-array name="org_scales">
+        <item>@string/dt_org_create_scale_gear1</item>
+        <item>@string/dt_org_create_scale_gear2</item>
+        <item>@string/dt_org_create_scale_gear3</item>
+        <item>@string/dt_org_create_scale_gear4</item>
+        <item>@string/dt_org_create_scale_gear5</item>
+        <item>@string/dt_org_create_scale_gear6</item>
+        <item>@string/dt_org_create_scale_gear7</item>
+        <item>@string/dt_org_create_scale_gear8</item>
+        <item>@string/dt_org_create_scale_gear9</item>
+    </string-array>
+    <string-array name="permission_type_name">
+        <item>@string/dt_space_permission_type_manage_name</item>
+        <item>@string/dt_space_permission_type_edit_name</item>
+        <item>@string/dt_space_permission_type_browse_name</item>
+        <item>@string/space_file_delete</item>
+    </string-array>
+    <string-array name="photo_deal_menu">
+        <item>@string/space_file_forward</item>
+        <item>@string/user_favorite</item>
+        <item>@string/save_to_phone</item>
+        <item>@string/space_save</item>
+    </string-array>
+    <string-array name="reply_msg_array">
+        <item>@string/dt_tele_msg_reply_one</item>
+        <item>@string/dt_tele_msg_reply_two</item>
+        <item>@string/dt_tele_msg_reply_three</item>
+        <item>@string/dt_tele_msg_reply_custom</item>
+    </string-array>
+    <string-array name="scan_card_option_menu">
+        <item>@string/scan_menu_torch</item>
+        <item>@string/dt_scan_name_card_tip</item>
+    </string-array>
+    <string-array name="scan_qr_option_menu">
+        <item>@string/scan_menu_torch</item>
+        <item>@string/scan_menu_photo</item>
+        <item>@string/scan_my_qr_code</item>
+    </string-array>
+    <string-array name="scan_qr_option_menu2">
+        <item>@string/scan_menu_photo</item>
+        <item>@string/scan_my_qr_code</item>
+    </string-array>
+    <string-array name="selected_contacts_choose_add_people_mode_items">
+        <item>@string/dt_contact_choose_from_org_contacts</item>
+        <item>@string/dt_user_org_add_people_mode_auto</item>
+        <item>@string/dt_contact_choose_from_non_org_contacts</item>
+    </string-array>
+    <string-array name="space_member_operate">
+        <item>@string/cspace_operate_delete</item>
+    </string-array>
+    <string-array name="upgrade_guide_content">
+        <item>@string/upgrade_guide_content_1</item>
+        <item>@string/upgrade_guide_content_2</item>
+        <item>@string/upgrade_guide_content_3</item>
+        <item>@string/upgrade_guide_content_4</item>
+    </string-array>
+    <array name="upgrade_guide_icon">
+        <item>@drawable/upgrade_guide_dlg_icon_1</item>
+        <item>@drawable/upgrade_guide_dlg_icon_2</item>
+        <item>@drawable/upgrade_guide_dlg_icon_3</item>
+        <item>@drawable/upgrade_guide_dlg_icon_4</item>
+    </array>
+    <string-array name="upgrade_guide_title">
+        <item>@string/upgrade_guide_title_1</item>
+        <item>@string/upgrade_guide_title_2</item>
+        <item>@string/upgrade_guide_title_3</item>
+        <item>@string/upgrade_guide_title_4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/rl_title" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_theme_icon_bg" android:gravity="center_vertical" android:id="@id/iv_back" android:background="@drawable/ui_common_action_icon_bg" android:paddingLeft="24.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="-12.0dip" android:text="@string/icon_backarrow" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_theme_text_fg" android:gravity="center_vertical" android:id="@id/tv_action_share" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dt_navigation_item_share" android:includeFontPadding="false" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout android:id="@id/swipe_webview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.alibaba.dingtalk.recruitment.widget.TouchObservableLinearLayout android:orientation="vertical" android:id="@id/ll_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout>
+    </LinearLayout>
+    <com.alibaba.dingtalk.recruitment.widget.DraggableViewRelativeLayout android:id="@id/fl_draggable" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/view_draggable" android:background="@drawable/recruitment_float_video_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="100.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <com.alibaba.dingtalk.recruitment.widget.RecruitVideoView android:id="@id/v_video" android:layout_width="80.0dip" android:layout_height="120.0dip" />
+        </RelativeLayout>
+    </com.alibaba.dingtalk.recruitment.widget.DraggableViewRelativeLayout>
+</FrameLayout>

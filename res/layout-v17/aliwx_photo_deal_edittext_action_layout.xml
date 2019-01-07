@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/black_layout" android:background="#af000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textColor="@android:color/white" android:textColorHint="@android:color/white" android:gravity="center" android:id="@id/edit_text" android:background="@drawable/aliwx_photo_deal_dash_border_rect_bg" android:padding="5.0dip" android:layout_width="180.0dip" android:layout_height="wrap_content" android:minHeight="70.0dip" android:hint="@string/dt_photo_input" android:maxLength="24" android:layout_centerInParent="true" android:textCursorDrawable="@android:color/white" android:textAlignment="center" />
+    <TextView android:textColor="@android:color/white" android:id="@id/text_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/24" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

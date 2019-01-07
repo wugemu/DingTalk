@@ -1,0 +1,2912 @@
+en|阿尔巴尼亚|Albania
+en|阿尔及利亚|Algeria
+en|安道尔|Andorra
+en|安哥拉|Angola
+en|安哥拉_本戈|Bengo
+en|安哥拉_本格拉|Benguela
+en|安哥拉_比耶|Bie
+en|安哥拉_卡宾达|Cabinda
+en|安哥拉_宽多库邦戈|Cuando Cubango
+en|安哥拉_北宽扎|Cuanza Norte
+en|安哥拉_南宽扎|Cuanza Sul
+en|安哥拉_库内内|Cunene
+en|安哥拉_万博|Huambo
+en|安哥拉_威拉|Huila
+en|安哥拉_罗安达|Luanda
+en|安哥拉_北隆达|Lunda Norte
+en|安哥拉_南隆达|Lunda Sul
+en|安哥拉_马兰热|Malanje
+en|安哥拉_莫希科|Moxico
+en|安哥拉_纳米贝|Namibe
+en|安哥拉_威热|Uige
+en|安哥拉_扎伊尔|Zaire
+en|安提瓜岛和巴布达|Antigua and Barbuda
+en|阿根廷|Argentina
+en|阿根廷_布兰卡港|Bahia Blanca
+en|阿根廷_布宜诺斯艾利斯|Buenos Aires
+en|阿根廷_卡塔马卡|Catamarca
+en|阿根廷_里瓦达维亚海军准将城|Comodoro Rivadavia
+en|阿根廷_肯考迪娅|Concordia
+en|阿根廷_科尔多瓦|Cordoba
+en|阿根廷_科连特斯|Corrientes
+en|阿根廷_福莫萨|Formosa
+en|阿根廷_胡胡伊|Jujuy
+en|阿根廷_拉普拉塔|La Plata
+en|阿根廷_拉里奥哈|La Rioja
+en|阿根廷_马德普拉塔|Mar del Plata
+en|阿根廷_门多萨|Mendoza
+en|阿根廷_内乌肯|Neuquen
+en|阿根廷_巴拉那|Parana
+en|阿根廷_波萨达斯|Posadas
+en|阿根廷_罗森|Rawson
+en|阿根廷_雷西斯滕匹亚|Resistencia
+en|阿根廷_里奥夸尔托|Rio Cuarto
+en|阿根廷_里奥加耶戈斯|Rio Gallegos
+en|阿根廷_罗萨里奥|Rosario
+en|阿根廷_萨尔塔|Salta
+en|阿根廷_圣胡安|San Juan
+en|阿根廷_圣路易斯|San Luis
+en|阿根廷_圣米格尔-德图库曼|San Miguel de Tucuman
+en|阿根廷_圣尼古拉斯|San Nicolas
+en|阿根廷_圣拉斐尔|San Rafael
+en|阿根廷_圣菲|Santa Fe
+en|阿根廷_圣罗莎|Santa Rosa
+en|阿根廷_圣地亚哥-德尔埃斯特罗|Santiago del Estero
+en|阿根廷_特雷利乌|Trelew
+en|阿根廷_乌斯怀亚|Ushuaia
+en|阿根廷_别德马|Viedma
+en|阿根廷_克劳斯城|Villa Krause
+en|亚美尼亚|Armenia
+en|阿鲁巴|Aruba
+en|澳大利亚|Australia
+en|澳大利亚_堪培拉|Canberra
+en|澳大利亚_新南威尔士|New South Wales
+en|澳大利亚_新南威尔士_纽卡斯尔|Newcastle
+en|澳大利亚_新南威尔士_悉尼|Sydney
+en|澳大利亚_新南威尔士_伍伦贡|Wollongong
+en|澳大利亚_北部地区|Northern Territory
+en|澳大利亚_北部地区_达尔文|Darwin
+en|澳大利亚_北部地区_北帕默斯顿|Palmerston
+en|澳大利亚_昆士兰|Queensland
+en|澳大利亚_昆士兰_布里斯班|Brisbane
+en|澳大利亚_昆士兰_凯恩斯|Cairns
+en|澳大利亚_昆士兰_卡罗旺德拉|Caloundra
+en|澳大利亚_昆士兰_黄金海岸|Gold Coast
+en|澳大利亚_昆士兰_图文巴|Toowoomba
+en|澳大利亚_昆士兰_汤斯维尔|Townsville
+en|澳大利亚_南澳大利亚|South Australia
+en|澳大利亚_南澳大利亚_阿德莱德|Adelaide
+en|澳大利亚_南澳大利亚_甘比亚山|Mount Gambier
+en|澳大利亚_南澳大利亚_默里布里奇|Murray Bridge
+en|澳大利亚_南澳大利亚_奥古斯塔|Port Augusta
+en|澳大利亚_南澳大利亚_林肯港|Port Lincoln
+en|澳大利亚_南澳大利亚_皮里港|Port Pirie
+en|澳大利亚_南澳大利亚_维克托港|Victor Harbor
+en|澳大利亚_南澳大利亚_怀阿拉|Whyalla
+en|澳大利亚_塔斯马尼亚|Tasmania
+en|澳大利亚_塔斯马尼亚_伯尼港|Burnie
+en|澳大利亚_塔斯马尼亚_德文波特|Devonport
+en|澳大利亚_塔斯马尼亚_霍巴特|Hobart
+en|澳大利亚_塔斯马尼亚_朗塞斯顿|Launceston
+en|澳大利亚_维多利亚|Victoria
+en|澳大利亚_维多利亚_吉朗|Geelong
+en|澳大利亚_维多利亚_墨尔本|Melbourne
+en|澳大利亚_西澳大利亚|Western Australia
+en|澳大利亚_西澳大利亚_奥尔巴尼|Albany
+en|澳大利亚_西澳大利亚_班伯里|Bunbury
+en|澳大利亚_西澳大利亚_弗里曼特尔港|Fremantle
+en|澳大利亚_西澳大利亚_杰拉尔顿|Geraldton
+en|澳大利亚_西澳大利亚_卡尔古利|Kalgoorlie
+en|澳大利亚_西澳大利亚_曼哲拉|Mandurah
+en|澳大利亚_西澳大利亚_珀斯|Perth
+en|奥地利|Austria
+en|奥地利_布尔根兰|Burgenland
+en|奥地利_克恩顿|Carinthia
+en|奥地利_下奥地利|Lower Austria
+en|奥地利_萨尔茨堡|Salzburg
+en|奥地利_施蒂利亚|Styria
+en|奥地利_蒂罗尔|Tyrol
+en|奥地利_上奥地利|Upper Austria
+en|奥地利_维也纳|Vienna
+en|奥地利_福拉尔贝格|Vorarlberg
+en|阿塞拜疆|Azerbaijan
+en|巴哈马|Bahamas
+en|巴林|Bahrain
+en|孟加拉|Bangladesh
+en|巴巴多斯岛|Barbados
+en|比利时|Belgium
+en|贝宁|Benin
+en|百慕大|Bermuda
+en|不丹|Bhutan
+en|玻利维亚|Bolivia
+en|博茨瓦纳|Botswana
+en|巴西|Brazil
+en|巴西_阿克里|Acre
+en|巴西_阿拉戈斯|Alagoas
+en|巴西_阿马帕|Amapa
+en|巴西_亚马孙|Amazonas
+en|巴西_巴伊亚|Bahia
+en|巴西_巴西利亚|Brasilia
+en|巴西_塞阿拉|Ceara
+en|巴西_圣埃斯皮里图|Espirito Santo
+en|巴西_戈亚斯|Goias
+en|巴西_马拉尼昂|Maranhao
+en|巴西_马托格罗索|Mato Grosso
+en|巴西_南马托格罗索|Mato Grosso do Sul
+en|巴西_米纳斯吉拉斯|Minas Gerais
+en|巴西_帕拉|Para
+en|巴西_帕拉伊巴|Paraiba
+en|巴西_巴拉那|Parana
+en|巴西_伯南布哥|Pernambuco
+en|巴西_皮奥伊|Piaui
+en|巴西_北里奥格兰德|Rio Grande do Norte
+en|巴西_南里奥格兰德|Rio Grande do Sul
+en|巴西_里约热内卢|Rio de Janeiro
+en|巴西_朗多尼亚|Rondonia
+en|巴西_罗赖马|Roraima
+en|巴西_圣卡塔琳娜|Santa Catarina
+en|巴西_圣保罗|Sao Paulo
+en|巴西_塞尔希培|Sergipe
+en|巴西_托坎廷斯|Tocantins
+en|文莱|Brunei
+en|保加利亚|Bulgaria
+en|布隆迪|Burundi
+en|柬埔寨|Cambodia
+en|柬埔寨_班迭棉吉|Banteay Mean Chey
+en|柬埔寨_马德望|Bat Dambang
+en|柬埔寨_磅湛|Kampong Cham
+en|柬埔寨_磅清扬|Kampong Chhnang
+en|柬埔寨_磅士卑|Kampong Spoe
+en|柬埔寨_磅同|Kampong Thum
+en|柬埔寨_贡布|Kampot
+en|柬埔寨_干丹|Kandal
+en|柬埔寨_戈公|Kaoh Kong
+en|柬埔寨_桔井|Kracheh
+en|柬埔寨_白马市|Krong Keb
+en|柬埔寨_拜林市|Krong Pailin
+en|柬埔寨_西哈努克市|Krong Preah
+en|柬埔寨_蒙多基里|Mondol Kiri
+en|柬埔寨_奥多棉吉|Otdar Mean Chey
+en|柬埔寨_金边市|Phnum Penh
+en|柬埔寨_菩萨|Pouth sat
+en|柬埔寨_柏威夏|Preah Vihear
+en|柬埔寨_波罗勉|Prey Veng
+en|柬埔寨_腊塔纳基里|Rotanak Kiri
+en|柬埔寨_暹粒|Siem Reab
+en|柬埔寨_上丁|Stoeng Treng
+en|柬埔寨_柴桢|Svay Rieng
+en|柬埔寨_茶胶|Takev
+en|喀麦隆|Cameroon
+en|加拿大|Canada
+en|加拿大_阿伯茨福|Abbotsford
+en|加拿大_巴里|Barrie
+en|加拿大_基奇纳|Brampton
+en|加拿大_卡里加里|Calgary
+en|加拿大_布列塔尼角|Cape Breton
+en|加拿大_夏洛特敦|Charlottetown
+en|加拿大_埃德蒙顿|Edmonton
+en|加拿大_弗雷德里顿|Fredericton
+en|加拿大_圭尔夫|Guelph
+en|加拿大_哈利法克斯|Halifax
+en|加拿大_哈密尔顿|Hamilton
+en|加拿大_伊魁特|Iqaluit
+en|加拿大_基劳纳|Kelowna
+en|加拿大_金斯敦|Kingston
+en|加拿大_伦敦|London
+en|加拿大_蒙特利尔|Montreal
+en|加拿大_奥沙瓦|Oshawa
+en|加拿大_渥太华|Ottawa
+en|加拿大_魁北克|Quebec
+en|加拿大_里贾纳|Regina
+en|加拿大_圣约翰斯|Saint-John's
+en|加拿大_萨斯卡通|Saskatoon
+en|加拿大_舍布鲁克|Sherbrooke
+en|加拿大_圣卡塔琳娜|St. Catharines
+en|加拿大_萨德伯里|Sudbury
+en|加拿大_桑德贝|Thunder Bay
+en|加拿大_多伦多|Toronto
+en|加拿大_三河城|Trois-Rivieres
+en|加拿大_温哥华|Vancouver
+en|加拿大_维多利亚|Victoria
+en|加拿大_怀特霍斯|Whitehorse
+en|加拿大_温莎|Windsor
+en|加拿大_温尼伯|Winnipeg
+en|加拿大_耶洛奈夫|Yellowknife
+en|开曼群岛|Cayman Islands
+en|中非共和国|Central African Republic
+en|智利|Chile
+en|中国|China
+en|中国_安徽|Anhui
+en|中国_安徽_安庆|Anqing
+en|中国_安徽_蚌埠|Bengbu
+en|中国_安徽_亳州|Bozhou
+en|中国_安徽_巢湖|Chaohu
+en|中国_安徽_池州|Chizhou
+en|中国_安徽_滁州|Chuzhou
+en|中国_安徽_阜阳|Fuyang
+en|中国_安徽_合肥|Hefei
+en|中国_安徽_淮北|Huaibei
+en|中国_安徽_淮南|Huainan
+en|中国_安徽_黄山|Huangshan
+en|中国_安徽_六安|Luan
+en|中国_安徽_马鞍山|MOS
+en|中国_安徽_宿州|Suzhou
+en|中国_安徽_铜陵|Tongling
+en|中国_安徽_芜湖|Wuhu
+en|中国_安徽_宣城|Xuancheng
+en|中国_北京|Beijing
+en|中国_北京_昌平|Changping
+en|中国_北京_朝阳|Chaoyang
+en|中国_北京_大兴|Daxing
+en|中国_北京_东城|East
+en|中国_北京_房山|Fangshan
+en|中国_北京_丰台|Fengtai
+en|中国_北京_海淀|Haidian
+en|中国_北京_怀柔|Huairou
+en|中国_北京_门头沟|Mentougou
+en|中国_北京_密云|Miyun
+en|中国_北京_平谷|Pinggu
+en|中国_北京_石景山|Shijingshan
+en|中国_北京_顺义|Shunyi
+en|中国_北京_通州|Tongzhou
+en|中国_北京_西城|West
+en|中国_北京_延庆|Yanqing
+en|中国_重庆|Chongqing
+en|中国_重庆_合川|Aikawa
+en|中国_重庆_巴南|Banan
+en|中国_重庆_北碚|Beibei
+en|中国_重庆_璧山|Bishan
+en|中国_重庆_城口|Chengkou
+en|中国_重庆_大渡口|Dadukou
+en|中国_重庆_大足|Dazu
+en|中国_重庆_垫江|Dianjiang
+en|中国_重庆_丰都|Fengdu
+en|中国_重庆_奉节|Fengjie
+en|中国_重庆_涪陵|Fuling
+en|中国_重庆_江北|Jiangbei
+en|中国_重庆_江津|Jiangjin
+en|中国_重庆_九龙坡|Jiulongpo
+en|中国_重庆_开县|Kaixian
+en|中国_重庆_梁平|Liangping
+en|中国_重庆_南川|Nanchuan
+en|中国_重庆_彭水|Pengshui
+en|中国_重庆_万盛|Pine Valley
+en|中国_重庆_黔江|Qianjiang
+en|中国_重庆_綦江|Qijiang
+en|中国_重庆_荣昌|Rongchang
+en|中国_重庆_沙坪坝|Shapingba
+en|中国_重庆_双桥|Shuangqiao
+en|中国_重庆_南岸|South Bank
+en|中国_重庆_铜梁|Tongliang
+en|中国_重庆_潼南|Tongnan
+en|中国_重庆_两江新区|Two Rivers
+en|中国_重庆_万州|Wanzhou
+en|中国_重庆_武隆|Wulong
+en|中国_重庆_巫山|Wushan
+en|中国_重庆_巫溪|Wuxi
+en|中国_重庆_秀山|Xiushan
+en|中国_重庆_永川|Yongchuan
+en|中国_重庆_酉阳|Youyang
+en|中国_重庆_渝北|Yubei
+en|中国_重庆_云阳|Yunyang
+en|中国_重庆_渝中|Yuzhong
+en|中国_重庆_忠县|Zhongxian
+en|中国_重庆_石柱|columns
+en|中国_重庆_长寿|longevity
+en|中国_福建|Fujian
+en|中国_福建_福州|Fuzhou
+en|中国_福建_龙岩|Longyan
+en|中国_福建_南平|Nanping
+en|中国_福建_宁德|Ningde
+en|中国_福建_莆田|Putian
+en|中国_福建_泉州|Quanzhou
+en|中国_福建_三明|Sanming
+en|中国_福建_厦门|Xiamen
+en|中国_福建_漳州|Zhangzhou
+en|中国_甘肃|Gansu
+en|中国_甘肃_定西|Dingxi
+en|中国_甘肃_甘南|Gannan
+en|中国_甘肃_嘉峪关|Jiayuguan
+en|中国_甘肃_金昌|Jinchang
+en|中国_甘肃_酒泉|Jiuquan
+en|中国_甘肃_兰州市|Lanzhou
+en|中国_甘肃_临夏|Linxia
+en|中国_甘肃_陇南|Longnan
+en|中国_甘肃_平凉|Pingliang
+en|中国_甘肃_庆阳|Qingyang
+en|中国_甘肃_白银|Silver
+en|中国_甘肃_天水|Tin Shui
+en|中国_甘肃_武威|Wuwei
+en|中国_甘肃_张掖|Zhangye
+en|中国_广东|Guangdong
+en|中国_广东_潮州|Chaozhou
+en|中国_广东_东莞|Dongguan
+en|中国_广东_佛山|Foshan
+en|中国_广东_广州|Guangzhou
+en|中国_广东_河源|Heyuan
+en|中国_广东_惠州|Huizhou
+en|中国_广东_江门|Jiangmen
+en|中国_广东_揭阳|Jieyang
+en|中国_广东_茂名|Maoming
+en|中国_广东_梅州|Meizhou
+en|中国_广东_清远|Qingyuan
+en|中国_广东_汕头|Shantou
+en|中国_广东_汕尾|Shanwei
+en|中国_广东_韶关|Shaoguan
+en|中国_广东_深圳|Shenzhen
+en|中国_广东_阳江|Yangjiang
+en|中国_广东_云浮|Yunfu
+en|中国_广东_湛江|Zhanjiang
+en|中国_广东_肇庆|Zhaoqing
+en|中国_广东_中山|Zhongshan
+en|中国_广东_珠海|Zhuhai
+en|中国_广西|Guangxi
+en|中国_广西_百色|Baise
+en|中国_广西_北海|Beihai
+en|中国_广西_崇左|Chongzuo
+en|中国_广西_钦州|Chow
+en|中国_广西_防城港|Fangchenggang
+en|中国_广西_贵港|Guigang
+en|中国_广西_桂林|Guilin
+en|中国_广西_河池|Hechi
+en|中国_广西_贺州|Hezhou
+en|中国_广西_柳州|Liuzhou
+en|中国_广西_南宁|Nanning
+en|中国_广西_梧州|Wuzhou
+en|中国_广西_玉林|Yulin
+en|中国_广西_来宾|guests
+en|中国_贵州|Guizhou
+en|中国_贵州_安顺|Anshun
+en|中国_贵州_毕节|Bijie
+en|中国_贵州_贵阳|Guiyang
+en|中国_贵州_遵义|Lawrence
+en|中国_贵州_六盘水|Liupanshui
+en|中国_贵州_黔南|South Guizhou
+en|中国_贵州_黔东南|Southeast
+en|中国_贵州_黔西南|Southwest Guizhou
+en|中国_贵州_铜仁|Tongren
+en|中国_海南|Hainan
+en|中国_海南_保亭|Baoting
+en|中国_海南_昌江|Changjiang
+en|中国_海南_澄迈|Chengmai
+en|中国_海南_儋州|Danzhou
+en|中国_海南_东方|East
+en|中国_海南_五指山|Fingers
+en|中国_海南_海口|Haikou
+en|中国_海南_定安|Honour
+en|中国_海南_陵水|Lingshui
+en|中国_海南_万宁|Manning
+en|中国_海南_乐东|Music East
+en|中国_海南_南沙|Nansha
+en|中国_海南_临高|Pro High
+en|中国_海南_琼海|Qionghai
+en|中国_海南_琼中|Qiongzhong
+en|中国_海南_三亚|Sanya
+en|中国_海南_屯昌|Tunchang
+en|中国_海南_文昌|Wenchang
+en|中国_海南_白沙|White Sands
+en|中国_海南_西沙|Xisha
+en|中国_海南_中沙|in the sand
+en|中国_河北|Hebei
+en|中国_河北_保定|Baoding
+en|中国_河北_沧州|Cangzhou
+en|中国_河北_承德|Chengde
+en|中国_河北_邯郸|Handan
+en|中国_河北_衡水|Hengshui
+en|中国_河北_廊坊|Langfang
+en|中国_河北_秦皇岛|Qinhuangdao
+en|中国_河北_石家庄|Shijiazhuang
+en|中国_河北_唐山|Tangshan
+en|中国_河北_邢台|Xingtai
+en|中国_河北_雄安新区|Xionganxinqu
+en|中国_河北_张家口|Zhangjiakou
+en|中国_黑龙江|Heilongjiang
+en|中国_黑龙江_大庆|Daqing
+en|中国_黑龙江_哈尔滨|Harbin
+en|中国_黑龙江_鹤岗|Hegang
+en|中国_黑龙江_黑河|Heihe
+en|中国_黑龙江_佳木斯|Jiamusi
+en|中国_黑龙江_鸡西|Jixi
+en|中国_黑龙江_大兴安岭|Mountains
+en|中国_黑龙江_牡丹江|Mudanjiang
+en|中国_黑龙江_齐齐哈尔|Qiqihar
+en|中国_黑龙江_七台河|Qitaihe
+en|中国_黑龙江_双鸭山|Shuangyashan
+en|中国_黑龙江_绥化|Suihua
+en|中国_黑龙江_伊春|Yichun
+en|中国_河南|Henan
+en|中国_河南_安阳|Anyang
+en|中国_河南_鹤壁|Hebi
+en|中国_河南_焦作|Jiaozuo
+en|中国_河南_济源|Jiyuan
+en|中国_河南_开封|Kaifeng
+en|中国_河南_漯河|Luohe
+en|中国_河南_洛阳|Luoyang
+en|中国_河南_南阳|Nanyang
+en|中国_河南_濮阳|Puyang
+en|中国_河南_三门峡|Sanmenxia
+en|中国_河南_商丘|Shangqiu
+en|中国_河南_新乡|Xinxiang
+en|中国_河南_信阳|Xinyang
+en|中国_河南_许昌|Xuchang
+en|中国_河南_郑州|Zhengzhou
+en|中国_河南_周口|Zhoukou
+en|中国_河南_驻马店|Zhumadian
+en|中国_河南_平顶山|mesa
+en|中国_香港|Hong Kong
+en|中国_香港_中西区|Central and Western
+en|中国_香港_东区|Eastern
+en|中国_香港_离岛区|Islands
+en|中国_香港_九龙城区|Kowloon City
+en|中国_香港_葵青区|Kwai Tsing
+en|中国_香港_观塘区|Kwun Tong
+en|中国_香港_北区|North
+en|中国_香港_西贡区|Sai Kung
+en|中国_香港_沙田区|Sha Tin
+en|中国_香港_深水埗区|Sham Shui Po
+en|中国_香港_南区|Southern
+en|中国_香港_大埔区|Tai Po
+en|中国_香港_荃湾区|Tsuen Wan
+en|中国_香港_屯门区|Tuen Mun
+en|中国_香港_湾仔区|Wan Chai
+en|中国_香港_黄大仙区|Wong Tai Sin
+en|中国_香港_油尖旺区|Yau Tsim Mong
+en|中国_香港_元朗区|Yuen Long
+en|中国_湖北|Hubei
+en|中国_湖北_仙桃|Bristol
+en|中国_湖北_恩施|Enshi
+en|中国_湖北_鄂州|Ezhou
+en|中国_湖北_黄冈|Huanggang
+en|中国_湖北_荆门|Jingmen
+en|中国_湖北_荆州|Jingzhou
+en|中国_湖北_潜江|Qianjiang
+en|中国_湖北_神农架|Shennongjia
+en|中国_湖北_十堰|Shiyan
+en|中国_湖北_随州|Suizhou
+en|中国_湖北_天门|Tianmen
+en|中国_湖北_武汉|Wuhan
+en|中国_湖北_咸宁|Xianning
+en|中国_湖北_孝感|Xiaogan
+en|中国_湖北_襄阳|Yangyang
+en|中国_湖北_黄石|Yellowstone
+en|中国_湖北_宜昌|Yichang
+en|中国_湖南|Hunan
+en|中国_湖南_常德|Changde
+en|中国_湖南_长沙|Changsha
+en|中国_湖南_郴州|Chenzhou
+en|中国_湖南_衡阳|Hengyang
+en|中国_湖南_怀化|Huaihua
+en|中国_湖南_娄底|Loudi
+en|中国_湖南_邵阳|Shaoyang
+en|中国_湖南_湘潭|Xiangtan
+en|中国_湖南_湘西|Xiangxi
+en|中国_湖南_益阳|Yiyang
+en|中国_湖南_永州|Yongzhou
+en|中国_湖南_岳阳|Yueyang
+en|中国_湖南_张家界|Zhangjiajie
+en|中国_湖南_株洲|Zhuzhou
+en|中国_内蒙古|Inner Mongolia
+en|中国_内蒙古_阿拉善|Alxa
+en|中国_内蒙古_包头|Baotou
+en|中国_内蒙古_巴彦淖尔|Bayannur
+en|中国_内蒙古_乌兰察布|Bu
+en|中国_内蒙古_赤峰|Chifeng
+en|中国_内蒙古_鄂尔多斯|Erdos
+en|中国_内蒙古_锡林郭勒|Gol
+en|中国_内蒙古_呼和浩特|Hohhot
+en|中国_内蒙古_呼伦贝尔|Hulunbeier
+en|中国_内蒙古_通辽|Tongliao
+en|中国_内蒙古_乌海|Wuhai
+en|中国_内蒙古_兴安|Xing
+en|中国_江苏|Jiangsu
+en|中国_江苏_常州|Changzhou
+en|中国_江苏_淮安|Huaian
+en|中国_江苏_连云港|Lianyungang
+en|中国_江苏_南京|Nanjing
+en|中国_江苏_南通|Nantong
+en|中国_江苏_宿迁|Suqian
+en|中国_江苏_苏州|Suzhou
+en|中国_江苏_泰州|Taizhou
+en|中国_江苏_无锡|Wuxi
+en|中国_江苏_徐州|Xuzhou
+en|中国_江苏_盐城|Yancheng
+en|中国_江苏_扬州|Yangzhou
+en|中国_江苏_镇江|Zhenjiang
+en|中国_江西|Jiangxi
+en|中国_江西_抚州|Fuzhou
+en|中国_江西_赣州|Ganzhou
+en|中国_江西_吉安|Jian
+en|中国_江西_景德镇|Jingdezhen
+en|中国_江西_九江|Jiujiang
+en|中国_江西_南昌|Nanchang
+en|中国_江西_萍乡|Pingxiang
+en|中国_江西_上饶|Shangrao
+en|中国_江西_新余|Xinyu
+en|中国_江西_宜春|Yichun
+en|中国_江西_鹰潭|Yingtan
+en|中国_吉林|Jilin
+en|中国_吉林_长春|Changchun
+en|中国_吉林_吉林|Jilin
+en|中国_吉林_辽源|Liaoyuan
+en|中国_吉林_松原|Matsubara
+en|中国_吉林_四平|Siping
+en|中国_吉林_通化|Tonghua
+en|中国_吉林_白城|White City
+en|中国_吉林_白山|White Mountains
+en|中国_吉林_延边|Yanbian
+en|中国_辽宁|Liaoning
+en|中国_辽宁_鞍山|Anshan
+en|中国_辽宁_本溪|Benxi
+en|中国_辽宁_朝阳|Chaoyang
+en|中国_辽宁_大连|Dalian
+en|中国_辽宁_丹东|Dandong
+en|中国_辽宁_抚顺|Fushun
+en|中国_辽宁_阜新|Fuxin
+en|中国_辽宁_葫芦岛|Huludao
+en|中国_辽宁_锦州|Jinzhou
+en|中国_辽宁_辽阳|Liaoyang
+en|中国_辽宁_盘锦|Panjin
+en|中国_辽宁_沈阳|Shenyang
+en|中国_辽宁_铁岭|Tieling
+en|中国_辽宁_营口|Yingkou
+en|中国_澳门|Macao
+en|中国_澳门_大堂区|Cathedral
+en|中国_澳门_路环岛|Coloane
+en|中国_澳门_花地玛堂区|Fatima
+en|中国_澳门_圣安多尼堂区|St. Anthony
+en|中国_澳门_风顺堂区|St. Lawrence
+en|中国_澳门_望德堂区|St. Lazarus
+en|中国_澳门_氹仔|Taipa
+en|中国_宁夏|Ningxia
+en|中国_宁夏_固原|Guyuan
+en|中国_宁夏_石嘴山|Shizuishan
+en|中国_宁夏_吴忠|Wuzhong
+en|中国_宁夏_银川|Yinchuan
+en|中国_宁夏_中卫|Zhongwei
+en|中国_青海|Qinghai
+en|中国_青海_果洛|Guoluo
+en|中国_青海_海东|Haidong
+en|中国_青海_海南|Hainan
+en|中国_青海_海西|Hercynian
+en|中国_青海_黄南|Huangnan
+en|中国_青海_西宁|Xining
+en|中国_青海_玉树|Yushu
+en|中国_青海_海北|rambling
+en|中国_陕西|Shaanxi
+en|中国_陕西_安康|Ankang
+en|中国_陕西_宝鸡|Baoji
+en|中国_陕西_汉中|Hanzhong
+en|中国_陕西_商洛|Shangluo
+en|中国_陕西_铜川|Tongchuan
+en|中国_陕西_渭南|Weinan
+en|中国_陕西_西安|Xi'an
+en|中国_陕西_咸阳|Xianyang
+en|中国_陕西_延安|Yanan
+en|中国_陕西_榆林|Yulin
+en|中国_山东|Shandong
+en|中国_山东_滨州|Binzhou
+en|中国_山东_德州|Dezhou
+en|中国_山东_东营|Dongying
+en|中国_山东_菏泽|Heze
+en|中国_山东_济南|Jinan
+en|中国_山东_济宁|Jining
+en|中国_山东_莱芜|Laiwu
+en|中国_山东_聊城|Liaocheng
+en|中国_山东_临沂|Linyi
+en|中国_山东_青岛|Qingdao
+en|中国_山东_日照|Rizhao
+en|中国_山东_泰安|Taian
+en|中国_山东_潍坊|Weifang
+en|中国_山东_威海|Weihai
+en|中国_山东_烟台|Yantai
+en|中国_山东_枣庄|Zaozhuang
+en|中国_山东_淄博|Zibo
+en|中国_上海|Shanghai
+en|中国_上海_宝山|Baoshan
+en|中国_上海_长宁|Changning
+en|中国_上海_崇明|Chongming
+en|中国_上海_奉贤|Fengxian
+en|中国_上海_虹口|Hongkou
+en|中国_上海_黄浦|Huangpu
+en|中国_上海_嘉定|Jiading
+en|中国_上海_静安|Jing
+en|中国_上海_金山|Jinshan
+en|中国_上海_卢湾|Luwan
+en|中国_上海_闵行|Minhang
+en|中国_上海_普陀|Po
+en|中国_上海_浦东新区|Pudong New District
+en|中国_上海_青浦|Qingpu
+en|中国_上海_松江|Songjiang
+en|中国_上海_徐汇|Xuhui
+en|中国_上海_杨浦|Yangpu
+en|中国_上海_闸北|Zhabei
+en|中国_山西|Shanxi
+en|中国_山西_长治|Changzhi
+en|中国_山西_大同|Datong
+en|中国_山西_晋城|Jincheng
+en|中国_山西_晋中|Jinzhong
+en|中国_山西_临汾|Linfen
+en|中国_山西_吕梁|Luliang
+en|中国_山西_朔州|Shuozhou
+en|中国_山西_太原|Taiyuan
+en|中国_山西_忻州|Xinzhou
+en|中国_山西_阳泉|Yangquan
+en|中国_山西_运城|Yuncheng
+en|中国_四川|Sichuan
+en|中国_四川_阿坝|Aba
+en|中国_四川_成都|Chengdu
+en|中国_四川_德阳|Deyang
+en|中国_四川_达州|Florida
+en|中国_四川_甘孜|Ganzi
+en|中国_四川_广元|Guangyuan
+en|中国_四川_广安|Kwong
+en|中国_四川_乐山|Leshan
+en|中国_四川_凉山|Liangshan
+en|中国_四川_泸州|Luzhou
+en|中国_四川_眉山|Meishan
+en|中国_四川_绵阳|Mianyang
+en|中国_四川_南充|Nanchong
+en|中国_四川_内江|Neijiang
+en|中国_四川_巴中|Pakistan
+en|中国_四川_攀枝花|Panzhihua
+en|中国_四川_遂宁|Suining
+en|中国_四川_雅安|Yaan
+en|中国_四川_宜宾|Yibin
+en|中国_四川_自贡|Zigong
+en|中国_四川_资阳|Ziyang
+en|中国_台湾|Taiwan
+en|中国_台湾_彰化县|Changhua County
+en|中国_台湾_嘉义市|Chiayi City
+en|中国_台湾_嘉义县|Chiayi County
+en|中国_台湾_新竹市|Hsinchu City
+en|中国_台湾_新竹县|Hsinchu County
+en|中国_台湾_花莲县|Hualien County
+en|中国_台湾_高雄市|Kaohsiung City
+en|中国_台湾_基隆市|Keelung City
+en|中国_台湾_金门县|Kinmen County
+en|中国_台湾_连江县|Lianjiang County
+en|中国_台湾_苗栗县|Miaoli County
+en|中国_台湾_南投县|Nantou County
+en|中国_台湾_新北市|New Taipei City
+en|中国_台湾_澎湖县|Penghu County
+en|中国_台湾_屏东县|Pingtung County
+en|中国_台湾_台中市|Taichung City
+en|中国_台湾_台南市|Tainan City
+en|中国_台湾_台北市|Taipei
+en|中国_台湾_台东县|Taitung County
+en|中国_台湾_桃园县|Taoyuan County
+en|中国_台湾_宜兰县|Yilan County
+en|中国_台湾_云林县|Yunlin County
+en|中国_天津|Tianjin
+en|中国_天津_宝坻|Baodi
+en|中国_天津_滨海新区|Binhai New Area
+en|中国_天津_河北|Hebei
+en|中国_天津_静海|Jinghai
+en|中国_天津_津南|Jinnan
+en|中国_天津_蓟县|Jixian
+en|中国_天津_南开|Nankai
+en|中国_天津_宁河|Ninghe
+en|中国_天津_北辰|North Star
+en|中国_天津_和平|Peace
+en|中国_天津_红桥|Red Bridge
+en|中国_天津_东丽|Toray
+en|中国_天津_西青|West Green
+en|中国_天津_武清|Wuqing
+en|中国_天津_河东|east
+en|中国_天津_河西|west
+en|中国_西藏|Tibet
+en|中国_西藏_阿里|Ali
+en|中国_西藏_拉萨|Lhasa
+en|中国_西藏_那曲|Nagqu
+en|中国_西藏_林芝|Nyingchi
+en|中国_西藏_昌都|Qamdo
+en|中国_西藏_山南|Shannan
+en|中国_西藏_日喀则|Shigatse
+en|中国_新疆|Xinjiang
+en|中国_新疆_阿克苏|Aksu
+en|中国_新疆_阿勒泰|Altay
+en|中国_新疆_阿拉尔|Arar
+en|中国_新疆_巴音郭楞|Bayingolin
+en|中国_新疆_博尔塔拉|Bortala
+en|中国_新疆_昌吉|Changji
+en|中国_新疆_图木舒克|Figure wooden Shook
+en|中国_新疆_哈密|Hamilton
+en|中国_新疆_和田|Hotan
+en|中国_新疆_伊犁|Ili
+en|中国_新疆_克拉玛依|Karamay
+en|中国_新疆_喀什|Kashgar
+en|中国_新疆_克孜勒苏|Kizilsu
+en|中国_新疆_石河子|Shihezi
+en|中国_新疆_塔城|Tacheng
+en|中国_新疆_吐鲁番|Turpan
+en|中国_新疆_乌鲁木齐|Urumqi
+en|中国_新疆_五家渠|Wujiaqu
+en|中国_云南|Yunnan
+en|中国_云南_保山|Baoshan
+en|中国_云南_楚雄|Chuxiong
+en|中国_云南_大理|Dali
+en|中国_云南_德宏|Devon
+en|中国_云南_迪庆|Diqing
+en|中国_云南_昆明|Kunming
+en|中国_云南_丽江|Lijiang
+en|中国_云南_临沧|Lincang
+en|中国_云南_怒江|Nu
+en|中国_云南_普洱|Pu'er
+en|中国_云南_曲靖|Qujing
+en|中国_云南_红河|Red
+en|中国_云南_文山|Wenshan
+en|中国_云南_西双版纳|Xishuangbanna
+en|中国_云南_玉溪|Yuxi
+en|中国_云南_昭通|Zhaotong
+en|中国_浙江|Zhejiang
+en|中国_浙江_杭州|Hangzhou
+en|中国_浙江_湖州|Huzhou
+en|中国_浙江_嘉兴|Jiaxing
+en|中国_浙江_金华|Jinhua
+en|中国_浙江_丽水|Lishui
+en|中国_浙江_宁波|Ningbo
+en|中国_浙江_衢州|Quzhou
+en|中国_浙江_绍兴|Shaoxing
+en|中国_浙江_台州|Taizhou
+en|中国_浙江_温州|Wenzhou
+en|中国_浙江_舟山|Zhoushan
+en|哥伦比亚|Columbia
+en|刚果民主共和国|Congo(DRC)
+en|哥斯达黎加|Costa Rica
+en|克罗地亚|Croatia
+en|古巴|Cuba
+en|捷克共和国|Czech Republic
+en|丹麦|Denmark
+en|吉布提|Djibouti
+en|多米尼加共和国|Dominican Republic
+en|厄瓜多尔|Ecuador
+en|埃及|Egypt
+en|厄立特里亚|Eritrea
+en|埃塞俄比亚|Ethiopia
+en|斐济|Fiji Islands
+en|芬兰|Finland
+en|法国|France
+en|法国_艾克斯|Aix-en-Provence
+en|法国_阿雅克修|Ajaccio
+en|法国_亚眠|Amiens
+en|法国_阿尔勒|Arles
+en|法国_贝桑松|Besancon
+en|法国_卡昂|Caen
+en|法国_沙隆|Chalons-en-Champagne
+en|法国_第戎|Dijon
+en|法国_弗雷瑞斯|Fréjus
+en|法国_里尔|Lille
+en|法国_利摩日|Limoges
+en|法国_里昂|Lyon
+en|法国_马赛|Marseille
+en|法国_梅斯|Metz
+en|法国_蒙彼利埃|Montpellier
+en|法国_南特|Nantes
+en|法国_尼斯|Nice
+en|法国_奥尔良|Orleans
+en|法国_巴黎|Paris
+en|法国_雷恩|Rennes
+en|法国_鲁昂|Rouen
+en|法国_图卢兹|Toulouse
+en|法国_瓦朗斯|Valence
+en|冈比亚|Gambia
+en|乔治亚|Georgia
+en|德国|Germany
+en|德国_安斯巴格|Ansbach
+en|德国_阿恩斯贝格|Arnsberg
+en|德国_奥格斯堡|Augsburg
+en|德国_拜伊罗特|Bayreuth
+en|德国_柏林|Berlin
+en|德国_比勒费尔德|Bielefeld
+en|德国_波鸿|Bochum
+en|德国_不来梅|Bremen
+en|德国_不伦瑞克|Brunswick
+en|德国_开姆尼斯|Chemnitz
+en|德国_科隆|Cologne
+en|德国_达姆施塔特|Darmstadt
+en|德国_德绍|Dessau
+en|德国_代特莫尔特|Detmold
+en|德国_德累斯顿|Dresden
+en|德国_杜塞尔多夫|Dusseldorf
+en|德国_爱尔福特|Erfurt
+en|德国_法兰克福|Frankfurt
+en|德国_弗赖堡|Freiburg
+en|德国_吉森|GieBen
+en|德国_哈雷|Halle
+en|德国_汉堡|Hamburg
+en|德国_汉诺威|Hannover
+en|德国_卡尔斯鲁厄|Karlsruhe
+en|德国_卡塞尔|Kassel
+en|德国_基尔|Kiel
+en|德国_科布伦次|Koblenz
+en|德国_兰茨胡特|Landshut
+en|德国_莱比锡|Leipzig
+en|德国_吕讷堡|Luneburg
+en|德国_马格德堡|Magdeburg
+en|德国_美因兹|Mainz
+en|德国_曼海姆|Mannheim
+en|德国_明斯特|Muenster
+en|德国_慕尼黑|Munich
+en|德国_纽伦堡|Nuremberg
+en|德国_波茨坦|Potsdam
+en|德国_什未林|Schwerin
+en|德国_斯图加特|Stuttgart
+en|德国_特里尔|Trier
+en|德国_威斯巴登|Wiesbaden
+en|德国_维尔茨堡|Wuerzburg
+en|加纳|Ghana
+en|直布罗陀|Gibraltar
+en|希腊|Greece
+en|格陵兰|Greenland
+en|格林纳达|Grenada
+en|关岛|Guam
+en|危地马拉|Guatemala
+en|格恩西岛|Guernsey
+en|海地|Haiti
+en|洪都拉斯|Honduras
+en|中国香港|Hong Kong
+en|中国香港_中西区|Central and Western
+en|中国香港_东区|Eastern
+en|中国香港_离岛区|Islands
+en|中国香港_九龙城区|Kowloon City
+en|中国香港_葵青区|Kwai Tsing
+en|中国香港_观塘区|Kwun Tong
+en|中国香港_北区|North
+en|中国香港_西贡区|Sai Kung
+en|中国香港_沙田区|Sha Tin
+en|中国香港_深水埗区|Sham Shui Po
+en|中国香港_南区|Southern
+en|中国香港_大埔区|Tai Po
+en|中国香港_荃湾区|Tsuen Wan
+en|中国香港_屯门区|Tuen Mun
+en|中国香港_湾仔区|Wan Chai
+en|中国香港_黄大仙区|Wong Tai Sin
+en|中国香港_油尖旺区|Yau Tsim Mong
+en|中国香港_元朗区|Yuen Long
+en|匈牙利|Hungary
+en|匈牙利_巴奇-基什孔|Bacs-Kiskun
+en|匈牙利_巴兰尼亚|Baranya
+en|匈牙利_贝凯什|Bekes
+en|匈牙利_包尔绍德-奥包乌伊-曾普伦|Borsod-Abauj-Zemplen
+en|匈牙利_布达佩斯|Budapest
+en|匈牙利_琼格拉德|Csongrad
+en|匈牙利_费耶尔|Fejer
+en|匈牙利_杰尔-莫松-肖普朗|Gyor-Moson-Sopron
+en|匈牙利_豪伊杜-比豪尔|Hajdú-Bihar
+en|匈牙利_赫维什|Heves
+en|匈牙利_加兹-纳杰孔-索尔诺克|Jasz-Nagykun-Szolnok
+en|匈牙利_科马罗姆|Komarom-Esztergom
+en|匈牙利_诺格拉德|Nograd
+en|匈牙利_佩斯|Pest
+en|匈牙利_绍莫吉|Somogy
+en|匈牙利_索博尔奇-索特马尔-贝拉格|Szabolcs-Szatmar-Bereg
+en|匈牙利_托尔瑙|Tolna
+en|匈牙利_沃什|Vas
+en|匈牙利_维斯普雷姆|Veszprem
+en|匈牙利_佐洛|Zala
+en|冰岛|Iceland
+en|印度|India
+en|印度_阿加尔塔拉|Agartala
+en|印度_阿格拉|Agra
+en|印度_艾哈迈达巴德|Ahmedabad
+en|印度_艾藻尔|Aizawl
+en|印度_阿里格尔|Aligarh
+en|印度_阿拉哈巴德|Allahabad
+en|印度_阿姆利则|Amritsar
+en|印度_奥兰加巴德|Aurangabad
+en|印度_班加罗尔|Bangalore
+en|印度_巴罗达|Baroda
+en|印度_博帕尔|Bhopal
+en|印度_布巴内斯瓦尔|Bhubaneswar
+en|印度_波卡罗|Bokaro
+en|印度_昌迪加尔|Chandigarh
+en|印度_金奈|Chennai
+en|印度_科钦|Cochin
+en|印度_哥印拜陀|Coimbatore
+en|印度_克塔克|Cuttack
+en|印度_德拉敦|Dehradun
+en|印度_迪马普尔|Dimapur
+en|印度_杜加浦|Durgapur
+en|印度_法里达巴德|Faridabad
+en|印度_甘地讷格尔|Gandhinagar
+en|印度_加济阿巴德|Ghaziabad
+en|印度_果阿|Goa
+en|印度_古尔加翁|Gurgaon
+en|印度_古瓦哈提|Guwahati
+en|印度_瓜廖尔|Gwalior
+en|印度_海德拉巴|Hyderabad
+en|印度_因帕尔|Imphal
+en|印度_印多尔|Indore
+en|印度_贾巴尔普尔|Jabalpur
+en|印度_斋普尔|Jaipur
+en|印度_查谟|Jammu
+en|印度_贾姆纳格尔|Jamnagar
+en|印度_詹谢普尔|Jamshedpur
+en|印度_焦特布尔|Jodhpur
+en|印度_贾朗达尔|Jullundhar
+en|印度_坎普尔|Kanpur
+en|印度_戈尔|Kolhapur
+en|印度_加尔各答|Kolkata
+en|印度_勒克瑙|Lucknow
+en|印度_卢迪亚纳|Ludhiana
+en|印度_马杜赖|Madurai
+en|印度_芒格洛尔|Mangalore
+en|印度_马尔高|Margao
+en|印度_孟买|Mumbai
+en|印度_迈索尔|Mysore
+en|印度_那格浦尔|Nagpur
+en|印度_邦纳西克|Nasik
+en|印度_新德里|New Delhi
+en|印度_诺伊达|Noida
+en|印度_潘吉姆|Panjim
+en|印度_巴特那|Patna
+en|印度_本地治里|Pondicherry
+en|印度_浦那|Pune
+en|印度_赖布尔|Raipur
+en|印度_拉杰果德|Rajkot
+en|印度_兰契|Ranchi
+en|印度_鲁尔克拉|Rourkela
+en|印度_塞勒姆|Salem
+en|印度_塞康德拉巴德|Secunderabad
+en|印度_西隆|Shillong
+en|印度_西里古里|Siliguri
+en|印度_斯利那加|Srinagar
+en|印度_苏拉|Sura
+en|印度_塔那|Thane
+en|印度_特里凡得琅|Thiruvananthapuram
+en|印度_蒂鲁吉拉伯利|Tiruchirappalli
+en|印度_乌代布尔|Udaipur
+en|印度_瓦拉纳西|Varanasi
+en|印度_韦洛尔|Vellore
+en|印度_维杰亚瓦达|Vijayawada
+en|印度_維沙哈巴南|Visakhapatnam
+en|印度尼西亚|Indonesia
+en|印度尼西亚_亚齐|Aceh
+en|印度尼西亚_巴厘|Bali
+en|印度尼西亚_万丹|Banten
+en|印度尼西亚_明古鲁|Bengkulu
+en|印度尼西亚_日惹特区|Daerah Istimewa Yogyakarta
+en|印度尼西亚_大雅加达首都特区|Daerah Tingkat I Kalimantan Barat
+en|印度尼西亚_伊里安查亚|Irian Jaya
+en|印度尼西亚_雅加达|Jakarta Raya
+en|印度尼西亚_占碑|Jambi
+en|印度尼西亚_西爪哇|Java Barat
+en|印度尼西亚_中爪哇|Java Tengah
+en|印度尼西亚_东爪哇|Java Timur
+en|印度尼西亚_南加里曼丹|Kalimantan Selatan
+en|印度尼西亚_中加里曼丹|Kalimantan Tengah
+en|印度尼西亚_东加里曼丹|Kalimantan Timur
+en|印度尼西亚_邦加-勿里洞群岛|Kepulauan Bangka Belitung
+en|印度尼西亚_楠榜|Lampung
+en|印度尼西亚_马鲁古|Maluku
+en|印度尼西亚_西努沙登加拉|Nusa Tenggara Barat
+en|印度尼西亚_东努沙登加拉|Nusa Tenggara Timur
+en|印度尼西亚_廖内|Riau
+en|印度尼西亚_南苏拉威西|Sulawesi Selatan
+en|印度尼西亚_中苏拉威西|Sulawesi Tengah
+en|印度尼西亚_东南苏拉威西|Sulawesi Tenggara
+en|印度尼西亚_北苏拉威西|Sulawesi Utara
+en|印度尼西亚_西苏门答腊|Sumatera Barat
+en|印度尼西亚_南苏门答腊|Sumatera Selatan
+en|印度尼西亚_北苏门答腊|Sumatera Utara
+en|伊朗|Iran
+en|伊拉克|Iraq
+en|爱尔兰|Ireland
+en|爱尔兰_卡洛|Carlow
+en|爱尔兰_卡范|Cavan
+en|爱尔兰_克莱尔|Clare
+en|爱尔兰_科克|Cork
+en|爱尔兰_多内加尔|Donegal
+en|爱尔兰_都柏林|Dublin
+en|爱尔兰_戈尔韦|Galway
+en|爱尔兰_凯里|Kerry
+en|爱尔兰_基尔代尔|Kildare
+en|爱尔兰_基尔肯尼|Kilkenny
+en|爱尔兰_崂斯|Laois
+en|爱尔兰_利特里姆|Leitrim
+en|爱尔兰_利默里克|Limerick
+en|爱尔兰_朗福德|Longford
+en|爱尔兰_劳斯|Louth
+en|爱尔兰_梅奥|Mayo
+en|爱尔兰_米斯|Meath
+en|爱尔兰_莫内根|Monaghan
+en|爱尔兰_奥法利|Offaly
+en|爱尔兰_罗斯康芒|Roscommon
+en|爱尔兰_斯莱戈|Sligo
+en|爱尔兰_蒂珀雷里|Tipperary
+en|爱尔兰_沃特福德|Waterford
+en|爱尔兰_西米斯|Westmeath
+en|爱尔兰_韦克斯福德|Wexford
+en|爱尔兰_威克洛|Wicklow
+en|以色列|Israel
+en|意大利|Italy
+en|意大利_阿格里真托|Agrigento
+en|意大利_亚历山德里亚|Alessandria
+en|意大利_安科纳|Ancona
+en|意大利_奥斯塔|Aosta
+en|意大利_阿雷佐|Arezzo
+en|意大利_阿斯科利皮切诺|Ascoli Piceno
+en|意大利_阿斯蒂|Asti
+en|意大利_巴里|Bari
+en|意大利_巴列塔-安德里亚-特拉尼|Barletta-Andria-Trani
+en|意大利_贝卢诺|Belluno
+en|意大利_贝内文托|Benevento
+en|意大利_贝加莫|Bergamo
+en|意大利_布拉|Biella
+en|意大利_博洛尼亚|Bologna
+en|意大利_博尔扎诺|Bolzano
+en|意大利_布雷西亚|Brescia
+en|意大利_布林迪西|Brindisi
+en|意大利_卡利亚里|Cagliari
+en|意大利_坎波巴索|Campobasso
+en|意大利_卡博尼亚-伊格莱西亚斯|Carbonia-Iglesias
+en|意大利_卡塞塔|Caserta
+en|意大利_卡塔尼亚|Catania
+en|意大利_卡坦扎罗|Catanzaro
+en|意大利_基耶蒂|Chieti
+en|意大利_科摩|Como
+en|意大利_科森扎|Cosenza
+en|意大利_克罗托内|Crotone
+en|意大利_库内奥|Cuneo
+en|意大利_恩纳|Enna
+en|意大利_费尔莫|Fermo
+en|意大利_费拉拉|Ferrara
+en|意大利_佛罗伦萨|Firenze
+en|意大利_福贾|Foggia
+en|意大利_弗利-切塞纳|Forlì-Cesena
+en|意大利_费辛隆尼|Frosinone
+en|意大利_热那亚|Genova
+en|意大利_戈里齐亚|Gorizia
+en|意大利_格罗塞托|Grosseto
+en|意大利_因佩里亚|Imperia
+en|意大利_伊塞尔尼亚|Isernia
+en|意大利_拉奎拉|L'Aquila
+en|意大利_拉斯佩齐亚|La Spezia
+en|意大利_拉丁|Latina
+en|意大利_莱切|Lecce
+en|意大利_莱科|Lecco
+en|意大利_里窝那|Livorno
+en|意大利_洛迪|Lodi
+en|意大利_卢卡|Lucca
+en|意大利_马切拉塔|Macerata
+en|意大利_曼图亚|Mantova
+en|意大利_马萨|Massa-Carrara
+en|意大利_马泰拉|Matera
+en|意大利_墨西拿|Messina
+en|意大利_米兰|Milano
+en|意大利_摩德纳|Modena
+en|意大利_蒙扎|Monza e Brianza
+en|意大利_那不勒斯|Napoli
+en|意大利_诺瓦拉|Novara
+en|意大利_努奥罗|Nuoro
+en|意大利_奥尔比亚|Olbia-Tempio
+en|意大利_奥里斯塔诺|Oristano
+en|意大利_帕多瓦|Padova
+en|意大利_巴勒莫|Palermo
+en|意大利_帕尔马|Parma
+en|意大利_帕维亚|Pavia
+en|意大利_佩鲁贾|Perugia
+en|意大利_佩萨罗|Pesaro
+en|意大利_佩斯卡拉|Pescara
+en|意大利_皮亚琴察|Piacenza
+en|意大利_比萨|Pisa
+en|意大利_皮斯托亚|Pistoia
+en|意大利_波代诺内|Pordenone
+en|意大利_波坦察|Potenza
+en|意大利_普拉托|Prato
+en|意大利_拉古萨|Ragusa
+en|意大利_拉文纳|Ravenna
+en|意大利_雷焦卡拉布里亚|Reggio Calabria
+en|意大利_雷焦艾米利亚|Reggio Emilia
+en|意大利_列蒂|Rieti
+en|意大利_里米尼|Rimini
+en|意大利_罗马|Roma
+en|意大利_罗维戈|Rovigo
+en|意大利_萨莱诺|Salerno
+en|意大利_萨萨里|Sassari
+en|意大利_萨沃纳|Savona
+en|意大利_锡耶纳|Siena
+en|意大利_锡拉库扎|Siracusa
+en|意大利_松德里奥|Sondrio
+en|意大利_塔兰托|Taranto
+en|意大利_泰拉莫|Teramo
+en|意大利_特尔尼|Terni
+en|意大利_都灵|Torino
+en|意大利_特拉帕尼|Trapani
+en|意大利_特伦托|Trento
+en|意大利_特雷维索|Treviso
+en|意大利_的里雅斯特|Trieste
+en|意大利_乌迪内|Udine
+en|意大利_瓦雷泽|Varese
+en|意大利_威尼斯|Venezia
+en|意大利_韦巴诺-库西奥-奥索拉|Verbano-Cusio-Ossola
+en|意大利_韦尔切利|Vercelli
+en|意大利_维罗纳|Verona
+en|意大利_伦蒂亚|Vibo-valentia
+en|意大利_维琴察|Vicenza
+en|意大利_维泰博|Viterbo
+en|牙买加|Jamaica
+en|日本|Japan
+en|日本_爱知|Aichi
+en|日本_秋田|Akita
+en|日本_青森|Aomori
+en|日本_千叶|Chiba
+en|日本_爱媛|Ehime
+en|日本_福井|Fukui
+en|日本_福冈|Fukuoka
+en|日本_福岛|Fukushima
+en|日本_岐阜|Gifu
+en|日本_群马|Gunma
+en|日本_广岛|Hiroshima
+en|日本_北海道|Hokkaido
+en|日本_兵库|Hyogo
+en|日本_茨城|Ibaraki
+en|日本_石川|Ishikawa
+en|日本_岩手|Iwate
+en|日本_香川|Kagawa
+en|日本_鹿儿岛|Kagoshima
+en|日本_神奈川|Kanagawa
+en|日本_高知|Kochi
+en|日本_熊本|Kumamoto
+en|日本_京都|Kyoto
+en|日本_三重|Mie
+en|日本_宮城|Miyagi
+en|日本_宫崎|Miyazaki
+en|日本_长野|Nagano
+en|日本_长崎|Nagasaki
+en|日本_奈良|Nara
+en|日本_新潟|Niigata
+en|日本_大分|Oita
+en|日本_冈山|Okayama
+en|日本_冲绳|Okinawa
+en|日本_大阪|Osaka
+en|日本_佐贺|Saga
+en|日本_埼玉|Saitama
+en|日本_滋贺|Shiga
+en|日本_岛根|Shimane
+en|日本_静冈|Shizuoka
+en|日本_枥木|Tochigi
+en|日本_徳岛|Tokushima
+en|日本_东京|Tokyo
+en|日本_鸟取|Tottori
+en|日本_富山|Toyama
+en|日本_和歌山|Wakayama
+en|日本_山形|Yamagata
+en|日本_山口|Yamaguchi
+en|日本_山梨|Yamanashi
+en|泽西岛|Jersey
+en|约旦|Jordan
+en|哈萨克斯坦|Kazakhstan
+en|肯尼亚|Kenya
+en|基里巴斯|Kiribati
+en|韩国|Korea
+en|韩国_釜山|Busan
+en|韩国_庆尚北道|Chungcheongbuk-do
+en|韩国_庆尚北道_安东市|Andong
+en|韩国_庆尚北道_奉化郡|Bonghwa County
+en|韩国_庆尚北道_淸道郡|Cheongdo County
+en|韩国_庆尚北道_靑松郡|Cheongsong County
+en|韩国_庆尚北道_漆谷郡|Chilgok County
+en|韩国_庆尚北道_金泉市|Gimcheon
+en|韩国_庆尚北道_高灵郡|Goryeong County
+en|韩国_庆尚北道_龟尾市|Gumi
+en|韩国_庆尚北道_军威郡|Gunwi County
+en|韩国_庆尚北道_庆州市|Gyeongju
+en|韩国_庆尚北道_庆山市|Gyeongsan
+en|韩国_庆尚北道_闻庆市|Mungyeong
+en|韩国_庆尚北道_浦项市|Pohang
+en|韩国_庆尚北道_尙州市|Sangju
+en|韩国_庆尚北道_星州郡|Seongju County
+en|韩国_庆尚北道_义城郡|Uiseong County
+en|韩国_庆尚北道_蔚珍郡|Uljin County
+en|韩国_庆尚北道_郁陵郡|Ulleung County
+en|韩国_庆尚北道_醴泉郡|Yecheon County
+en|韩国_庆尚北道_永川市|Yeongcheon
+en|韩国_庆尚北道_盈德郡|Yeongdeok County
+en|韩国_庆尚北道_荣州市|Yeongju
+en|韩国_庆尚北道_英阳郡|Yeongyang County
+en|韩国_庆尚南道|Chungcheongnam-do
+en|韩国_庆尚南道_昌宁郡|Changnyeong County
+en|韩国_庆尚南道_昌原市|Changwon
+en|韩国_庆尚南道_居昌郡|Geochang County
+en|韩国_庆尚南道_巨济市|Geoje
+en|韩国_庆尚南道_金海市|Gimhae
+en|韩国_庆尚南道_固城郡|Goseong County
+en|韩国_庆尚南道_河东郡|Hadong County
+en|韩国_庆尚南道_咸安郡|Haman County
+en|韩国_庆尚南道_咸阳郡|Hamyang County
+en|韩国_庆尚南道_陜川郡|Hapcheon County
+en|韩国_庆尚南道_鎭海市|Jinhae
+en|韩国_庆尚南道_晋州市|Jinju
+en|韩国_庆尚南道_马山市|Masan
+en|韩国_庆尚南道_密阳市|Miryang
+en|韩国_庆尚南道_南海郡|Namhae County
+en|韩国_庆尚南道_泗川市|Sacheon
+en|韩国_庆尚南道_山淸郡|Sancheong County
+en|韩国_庆尚南道_统营市|Tongyeong
+en|韩国_庆尚南道_宜宁郡|Uiryeong County
+en|韩国_庆尚南道_梁山市|Yangsan
+en|韩国_大邱|Daegu
+en|韩国_大邱_大邱|Daegu
+en|韩国_大邱_达城郡|Dalseong-gun
+en|韩国_大邱_寿城区|Suseong-gu
+en|韩国_大田|Daejeon
+en|韩国_江原道|Gangwon-do
+en|韩国_江原道_铁原郡|Cheorwon County
+en|韩国_江原道_春川市|Chuncheon
+en|韩国_江原道_东海市|Donghae
+en|韩国_江原道_江陵市|Gangneung
+en|韩国_江原道_高城郡|Goseong County
+en|韩国_江原道_横城郡|Hoengseong County
+en|韩国_江原道_洪川郡|Hongcheon County
+en|韩国_江原道_华川郡|Hwacheon County
+en|韩国_江原道_麟蹄郡|Inje County
+en|韩国_江原道_旌善郡|Jeongseon County
+en|韩国_江原道_平昌郡|Pyeongchang County
+en|韩国_江原道_三陟市|Samcheok
+en|韩国_江原道_束草市|Sokcho
+en|韩国_江原道_太白市|Taebaek
+en|韩国_江原道_原州市|Wonju
+en|韩国_江原道_杨口郡|Yanggu County
+en|韩国_江原道_襄阳郡|Yangyang County
+en|韩国_江原道_宁越郡|Yeongwol County
+en|韩国_光州|Gwangju
+en|韩国_济州特别自治道|Gyeonggi-do
+en|韩国_全罗北道|Gyeongsangbuk-do
+en|韩国_全罗北道_扶安郡|Buan County
+en|韩国_全罗北道_金堤市|Gimje
+en|韩国_全罗北道_高敞郡|Gochang County
+en|韩国_全罗北道_群山市|Gunsan
+en|韩国_全罗北道_益山市|Iksan
+en|韩国_全罗北道_任实郡|Imsil County
+en|韩国_全罗北道_长水郡|Jangsu County
+en|韩国_全罗北道_井邑市|Jeongeup
+en|韩国_全罗北道_全州市|Jeonju
+en|韩国_全罗北道_鎭安郡|Jinan County
+en|韩国_全罗北道_茂朱郡|Muju County
+en|韩国_全罗北道_南原市|Namwon
+en|韩国_全罗北道_淳昌郡|Sunchang County
+en|韩国_全罗北道_完州郡|Wanju County
+en|韩国_全罗南道|Gyeongsangnam-do
+en|韩国_全罗南道_宝城郡|Boseong County
+en|韩国_全罗南道_潭阳郡|Damyang County
+en|韩国_全罗南道_康津郡|Gangjin County
+en|韩国_全罗南道_高兴郡|Goheung County
+en|韩国_全罗南道_谷城郡|Gokseong County
+en|韩国_全罗南道_求礼郡|Gurye County
+en|韩国_全罗南道_光阳市|Gwangyang
+en|韩国_全罗南道_海南郡|Haenam County
+en|韩国_全罗南道_咸平郡|Hampyeong County
+en|韩国_全罗南道_和顺郡|Hwasun County
+en|韩国_全罗南道_长兴郡|Jangheung County
+en|韩国_全罗南道_长城郡|Jangseong County
+en|韩国_全罗南道_珍岛郡|Jindo County
+en|韩国_全罗南道_木浦市|Mokpo
+en|韩国_全罗南道_务安郡|Muan County
+en|韩国_全罗南道_罗州市|Naju
+en|韩国_全罗南道_新安郡|Sinan County
+en|韩国_全罗南道_顺天市|Suncheon
+en|韩国_全罗南道_莞岛郡|Wando County
+en|韩国_全罗南道_灵岩郡|Yeongam County
+en|韩国_全罗南道_灵光郡|Yeonggwang County
+en|韩国_全罗南道_丽水市|Yeosu
+en|韩国_仁川|Incheon
+en|韩国_济州岛|Jeju-do
+en|韩国_济州岛_安山市|Ansan
+en|韩国_济州岛_安城市|Anseong
+en|韩国_济州岛_安养市|Anyang
+en|韩国_济州岛_富川市|Bucheon
+en|韩国_济州岛_东豆川市|Dongducheon
+en|韩国_济州岛_加平郡|Gapyeong County
+en|韩国_济州岛_金浦市|Gimpo
+en|韩国_济州岛_高阳市|Goyang
+en|韩国_济州岛_军浦市|Gunpo
+en|韩国_济州岛_九里市|Guri
+en|韩国_济州岛_果川市|Gwacheon
+en|韩国_济州岛_广州市|Gwangju
+en|韩国_济州岛_光明市|Gwangmyeong
+en|韩国_济州岛_河南市|Hanam
+en|韩国_济州岛_华城市|Hwaseong
+en|韩国_济州岛_利川市|Icheon
+en|韩国_济州岛_南杨州市|Namyangju
+en|韩国_济州岛_乌山市|Osan
+en|韩国_济州岛_坡州市|Paju
+en|韩国_济州岛_抱川市|Pocheon
+en|韩国_济州岛_平泽市|Pyeongtaek
+en|韩国_济州岛_城南市|Seongnam
+en|韩国_济州岛_始兴市|Siheung
+en|韩国_济州岛_水原市|Suwon
+en|韩国_济州岛_议政府|Uijeongbu
+en|韩国_济州岛_仪旺市|Uiwang
+en|韩国_济州岛_杨州市|Yangju
+en|韩国_济州岛_扬平郡|Yangpyeong County
+en|韩国_济州岛_骊州郡|Yeoju County
+en|韩国_济州岛_涟川郡|Yeoncheon County
+en|韩国_济州岛_龙仁市|Yongin
+en|韩国_忠清北道|Jeollabuk-do
+en|韩国_忠清北道_报恩郡|Boeun County
+en|韩国_忠清北道_淸州市|Cheongju
+en|韩国_忠清北道_淸原郡|Cheongwon County
+en|韩国_忠清北道_忠州市|Chungju
+en|韩国_忠清北道_丹阳郡|Danyang County
+en|韩国_忠清北道_阴城郡|Eumseong County
+en|韩国_忠清北道_槐山郡|Goesan County
+en|韩国_忠清北道_堤川市|Jecheon
+en|韩国_忠清北道_曾坪郡|Jeungpyeong County
+en|韩国_忠清北道_鎭川郡|Jincheon County
+en|韩国_忠清北道_沃川郡|Okcheon County
+en|韩国_忠清北道_永同郡|Yeongdong County
+en|韩国_忠清南道|Jeollanam-do
+en|韩国_忠清南道_牙山市|Asan
+en|韩国_忠清南道_保宁市|Boryeong
+en|韩国_忠清南道_扶余郡|Buyeo County
+en|韩国_忠清南道_天安市|Cheonan
+en|韩国_忠清南道_青阳郡|Cheongyang County
+en|韩国_忠清南道_唐津郡|Dangjin County
+en|韩国_忠清南道_锦山郡|Geumsan County
+en|韩国_忠清南道_公州市|Gongju
+en|韩国_忠清南道_鸡龙市|Gyeryong
+en|韩国_忠清南道_洪城郡|Hongseong County
+en|韩国_忠清南道_论山市|Nonsan
+en|韩国_忠清南道_舒川郡|Seocheon County
+en|韩国_忠清南道_瑞山市|Seosan
+en|韩国_忠清南道_泰安郡|Taean County
+en|韩国_忠清南道_燕岐郡|Yeongi County
+en|韩国_忠清南道_礼山郡|Yesan County
+en|韩国_首尔|Seoul
+en|韩国_蔚山|Ulsan
+en|科威特|Kuwait
+en|吉尔吉斯斯坦|Kyrgyzstan
+en|老挝|Laos
+en|拉脱维亚|Latvia
+en|黎巴嫩|Lebanon
+en|莱索托|Lesotho
+en|利比里亚|Liberia
+en|利比亚|Libya
+en|列支敦士登|Liechtenstein
+en|卢森堡|Luxembourg
+en|中国澳门|Macao
+en|中国澳门_大堂区|Cathedral
+en|中国澳门_路环岛|Coloane
+en|中国澳门_花地玛堂区|Fatima
+en|中国澳门_圣安多尼堂区|St. Anthony
+en|中国澳门_风顺堂区|St. Lawrence
+en|中国澳门_望德堂区|St. Lazarus
+en|中国澳门_氹仔|Taipa
+en|马其顿|Macedonia,Former Yugoslav Republic of
+en|马达加斯加|Madagascar
+en|马拉维|Malawi
+en|马来西亚|Malaysia
+en|马来西亚_柔佛|Johor
+en|马来西亚_柔佛_峇株巴辖|Batu Pahat
+en|马来西亚_柔佛_新山|Johor Bahru
+en|马来西亚_柔佛_居銮|Kluang
+en|马来西亚_柔佛_哥打丁宜|Kota Tinggi
+en|马来西亚_柔佛_丰盛港|Mersing
+en|马来西亚_柔佛_麻坡|Muar
+en|马来西亚_柔佛_笨珍|Pontian
+en|马来西亚_柔佛_昔加末|Segamat
+en|马来西亚_吉打|Kedah
+en|马来西亚_吉打_华玲|Baling
+en|马来西亚_吉打_万拉峇鲁|Bandar Baharu
+en|马来西亚_吉打_哥打士打|Kota Setar
+en|马来西亚_吉打_瓜拉姆达|Kuala Muda
+en|马来西亚_吉打_古邦巴素|Kubang Pasu
+en|马来西亚_吉打_居林|Kulim
+en|马来西亚_吉打_浮罗交怡|Langkawi
+en|马来西亚_吉打_巴东得腊|Padang Terap
+en|马来西亚_吉打_笨筒|Pendang
+en|马来西亚_吉兰丹|Kelantan
+en|马来西亚_吉兰丹_登卓|Bachok
+en|马来西亚_吉兰丹_话望生|Gua Musang
+en|马来西亚_吉兰丹_日里|Jeli
+en|马来西亚_吉兰丹_哥打巴鲁|Kota Bharu
+en|马来西亚_吉兰丹_瓜拉吉赖|Kuala Krai
+en|马来西亚_吉兰丹_马樟|Machang
+en|马来西亚_吉兰丹_巴西马|Pasir Mas
+en|马来西亚_吉兰丹_巴西富地|Pasir Putih
+en|马来西亚_吉兰丹_丹那美拉|Tanah Merah
+en|马来西亚_吉兰丹_道北|Tumpat
+en|马来西亚_吉隆坡|Kuala Lumpur
+en|马来西亚_吉隆坡_吉隆坡|Kuala Lumpur
+en|马来西亚_纳闽|Labuan
+en|马来西亚_纳闽_纳闽|Labuan
+en|马来西亚_纳闽_维多利亚|Victoria
+en|马来西亚_马六甲|Malacca
+en|马来西亚_马六甲_亚罗牙也|Alor Gajah
+en|马来西亚_马六甲_野新|Jasin
+en|马来西亚_马六甲_马六甲市|Melaka
+en|马来西亚_森美兰|Negeri Sembilan
+en|马来西亚_森美兰_日叻务|Jelebu
+en|马来西亚_森美兰_仁保|Jempol
+en|马来西亚_森美兰_瓜拉庇劳|Kuala Pilah
+en|马来西亚_森美兰_波德申|Port Dickson
+en|马来西亚_森美兰_林茂|Rembau
+en|马来西亚_森美兰_芙蓉|Seremban
+en|马来西亚_森美兰_淡边|Tampin
+en|马来西亚_彭亨|Pahang
+en|马来西亚_彭亨_文冬|Bentong
+en|马来西亚_彭亨_百乐|Bera
+en|马来西亚_彭亨_金马仑高原|Cameron Highlands
+en|马来西亚_彭亨_而连突|Jerantut
+en|马来西亚_彭亨_立卑|Kuala Lipis
+en|马来西亚_彭亨_关丹|Kuantan
+en|马来西亚_彭亨_马兰|Maran
+en|马来西亚_彭亨_北根|Pekan
+en|马来西亚_彭亨_劳勿|Raub
+en|马来西亚_彭亨_云冰|Rompin
+en|马来西亚_彭亨_淡马鲁|Temerloh
+en|马来西亚_霹雳|Perak
+en|马来西亚_霹雳_华都牙也|Batu Gajah
+en|马来西亚_霹雳_怡保|Ipoh
+en|马来西亚_霹雳_江沙|Kuala Kangsar
+en|马来西亚_霹雳_紅土坎|Lumut
+en|马来西亚_霹雳_和丰|Sungai Siput
+en|马来西亚_霹雳_太平|Taiping
+en|马来西亚_霹雳_丹绒马|Tanjung Malim
+en|马来西亚_霹雳_安顺|Teluk Intan
+en|马来西亚_玻璃市|Perlis
+en|马来西亚_玻璃市_加央|Kangar
+en|马来西亚_槟榔屿|Pulau Pinang
+en|马来西亚_槟榔屿_大山脚|Bukit Mertajam
+en|马来西亚_槟榔屿_北海|Butterworth
+en|马来西亚_槟榔屿_槟城|George Town
+en|马来西亚_槟榔屿_高渊|Nibong Tebal
+en|马来西亚_沙巴|Sabah
+en|马来西亚_沙巴_保佛|Beaufort
+en|马来西亚_沙巴_比鲁兰|Beluran
+en|马来西亚_沙巴_根地咬|Keningau
+en|马来西亚_沙巴_京那巴登岸|Kinabatangan
+en|马来西亚_沙巴_古打毛律|Kota Belud
+en|马来西亚_沙巴_哥打基纳巴鲁|Kota Kinabalu
+en|马来西亚_沙巴_哥打马鲁都|Kota Marudu
+en|马来西亚_沙巴_瓜拉班尤|Kuala Penyu
+en|马来西亚_沙巴_古达|Kudat
+en|马来西亚_沙巴_古纳|Kunak
+en|马来西亚_沙巴_拿笃|Lahad Datu
+en|马来西亚_沙巴_纳巴湾|Nabawan
+en|马来西亚_沙巴_吧巴|Papar
+en|马来西亚_沙巴_兵南邦|Penampang
+en|马来西亚_沙巴_必达士|Pitas
+en|马来西亚_沙巴_兰脑|Ranau
+en|马来西亚_沙巴_山打根|Sandakan
+en|马来西亚_沙巴_仙本那|Semporna
+en|马来西亚_沙巴_西比陶|Sipitang
+en|马来西亚_沙巴_担布南|Tambunan
+en|马来西亚_沙巴_斗湖|Tawau
+en|马来西亚_沙巴_丹南|Tenom
+en|马来西亚_沙巴_斗亚兰|Tuaran
+en|马来西亚_沙捞越|Sarawak
+en|马来西亚_沙捞越_木中|Betong
+en|马来西亚_沙捞越_民都鲁|Bintulu
+en|马来西亚_沙捞越_加帛|Kapit
+en|马来西亚_沙捞越_古晋|Kuching
+en|马来西亚_沙捞越_林梦|Limbang
+en|马来西亚_沙捞越_美里|Miri
+en|马来西亚_沙捞越_木胶|Mukah
+en|马来西亚_沙捞越_三马拉汉|Samarahan
+en|马来西亚_沙捞越_泗里街|Sarikei
+en|马来西亚_沙捞越_泗务|Sibu
+en|马来西亚_沙捞越_斯里阿曼|Sri Aman
+en|马来西亚_雪兰莪|Selangor
+en|马来西亚_雪兰莪_鹅麦|Gombak
+en|马来西亚_雪兰莪_乌鲁冷岳|Hulu Langat
+en|马来西亚_雪兰莪_乌鲁雪兰莪|Hulu Selangor
+en|马来西亚_雪兰莪_瓜拉冷岳|Kuala Langat
+en|马来西亚_雪兰莪_瓜拉雪兰莪|Kuala Selangor
+en|马来西亚_雪兰莪_八打灵|Petaling
+en|马来西亚_雪兰莪_沙白安南|Sabak Bernam
+en|马来西亚_雪兰莪_雪邦|Sepang
+en|马来西亚_丁加奴|Terengganu
+en|马来西亚_丁加奴_勿述|Besut
+en|马来西亚_丁加奴_龙运|Dungun
+en|马来西亚_丁加奴_乌鲁|Hulu
+en|马来西亚_丁加奴_甘马挽|Kemaman
+en|马来西亚_丁加奴_瓜拉丁加奴|Kuala Terengganu
+en|马来西亚_丁加奴_马江|Marang
+en|马来西亚_丁加奴_实兆|Setiu
+en|马尔代夫|Maldives
+en|马尔代夫_阿杜|Addu Atoll
+en|马尔代夫_法迪福卢|Faadhippolhu
+en|马尔代夫_费利杜|Felidhu Atoll
+en|马尔代夫_福阿穆拉库|Foammulah
+en|马尔代夫_哈杜马蒂|Hadhdhunmathi
+en|马尔代夫_科卢马杜卢|Kolhumadulu
+en|马尔代夫_马累|Male
+en|马尔代夫_马累岛|Male Atoll
+en|马尔代夫_穆拉库|Mulakatholhu
+en|马尔代夫_北阿里|North Ari Atoll
+en|马尔代夫_北苏瓦迪瓦|North Huvadhu Atoll
+en|马尔代夫_北马洛斯马杜卢|North Maalhosmadhulu
+en|马尔代夫_北米拉杜马杜卢|North Miladhunmadhulu
+en|马尔代夫_北尼兰杜|North Nilandhe Atoll
+en|马尔代夫_北蒂拉杜马蒂|North Thiladhunmathi
+en|马尔代夫_南阿里|South Ari Atoll
+en|马尔代夫_南苏瓦迪瓦|South Huvadhu Atoll
+en|马尔代夫_南马洛斯马杜卢|South Maalhosmadulu
+en|马尔代夫_南米拉杜马杜卢|South Miladhunmadhulu
+en|马尔代夫_南尼兰杜|South Nilandhe Atoll
+en|马尔代夫_南蒂拉杜马蒂|South Thiladhunmathi
+en|马绍尔群岛|Marshall Islands
+en|毛里塔尼亚|Mauritania
+en|毛里求斯|Mauritius
+en|墨西哥|Mexico
+en|墨西哥_阿卡普尔科|Acapulco
+en|墨西哥_阿瓜斯卡连斯特|Aguascalientes
+en|墨西哥_贝尼托·胡亚雷斯|Benito Juárez
+en|墨西哥_埃佩切|Campeche
+en|墨西哥_卡门|Carmen
+en|墨西哥_塞拉亚|Celaya
+en|墨西哥_切图马尔|Cheturnal
+en|墨西哥_奇瓦瓦|Chihuahua
+en|墨西哥_奇尔潘辛戈|Chilpancingo
+en|墨西哥_夸察夸拉克斯|Coatzacoalcos
+en|墨西哥_科利马|Colima
+en|墨西哥_库埃纳瓦卡|Cuernavaca
+en|墨西哥_库利阿坎|Culiacan
+en|墨西哥_杜兰戈|Durango
+en|墨西哥_恩塞纳达|Ensenada
+en|墨西哥_瓜达拉哈拉|Guadalajara
+en|墨西哥_瓜纳华托|Guanajuato
+en|墨西哥_埃莫西约|Hermosillo
+en|墨西哥_伊拉普阿托|Irapuato
+en|墨西哥_哈拉帕|Jalapa
+en|墨西哥_华雷斯|Juarez
+en|墨西哥_拉巴斯|La Paz
+en|墨西哥_莱昂|Leon
+en|墨西哥_洛斯莫奇斯|Los Mochis
+en|墨西哥_马塔莫罗斯|Matamoros
+en|墨西哥_马萨特兰|Mazatlan
+en|墨西哥_梅里达|Merida
+en|墨西哥_墨西卡利|Mexicali
+en|墨西哥_墨西哥城|Mexico City
+en|墨西哥_蒙克洛瓦|Monclova
+en|墨西哥_蒙特雷|Monterrey
+en|墨西哥_莫雷利亚|Morelia
+en|墨西哥_诺加莱斯|Nogales
+en|墨西哥_新拉雷多|Nuevo Laredo
+en|墨西哥_瓦哈卡|Oaxaca
+en|墨西哥_奥夫雷贡城|Obregon
+en|墨西哥_奥里萨巴|Orizaba
+en|墨西哥_帕丘卡|Pachuca
+en|墨西哥_波萨里卡|Poza Rica de Hidalgo
+en|墨西哥_普埃布拉|Puebla
+en|墨西哥_巴亚尔塔港|Puerto Vallarta
+en|墨西哥_克雷塔罗|Queretaro
+en|墨西哥_雷诺萨|Reynosa
+en|墨西哥_萨尔蒂约|Saltillo
+en|墨西哥_圣路易斯波托亚|San Luis Potosi
+en|墨西哥_坦皮科|Tampico
+en|墨西哥_塔帕丘拉|Tapachula
+en|墨西哥_特瓦坎|Tehuacán
+en|墨西哥_特皮克|Tepic
+en|墨西哥_蒂华纳|Tijuana
+en|墨西哥_特拉斯卡拉|Tlaxcala
+en|墨西哥_托卢卡|Toluca
+en|墨西哥_托雷翁|Torreon
+en|墨西哥_图斯特拉-古铁雷斯|Tuxtla Gutierrez
+en|墨西哥_乌鲁阿潘|Uruapan
+en|墨西哥_巴利城|Valles
+en|墨西哥_韦拉克鲁斯|Veracruz
+en|墨西哥_维多利亚城|Victoria
+en|墨西哥_比利亚埃尔莫萨|Villahermosa
+en|墨西哥_萨卡特卡斯|Zacatecas
+en|摩尔多瓦|Moldova
+en|摩纳哥|Monaco
+en|蒙古|Mongolia
+en|摩洛哥|Morocco
+en|莫桑比克|Mozambique
+en|缅甸|Myanmar
+en|纳米比亚|Namibia
+en|尼泊尔|Nepal
+en|荷兰|Netherlands
+en|荷兰_斯海尔托亨博思|'s-Hertogenbosch
+en|荷兰_阿尔梅勒|Almere
+en|荷兰_阿默斯福特|Amersfoort
+en|荷兰_阿姆斯特丹|Amsterdam
+en|荷兰_阿珀尔多伦|Apeldoorn
+en|荷兰_阿纳姆|Arnhem
+en|荷兰_阿森|Assen
+en|荷兰_布雷达|Breda
+en|荷兰_多德雷赫特|Dordrecht
+en|荷兰_埃德|Ede
+en|荷兰_埃因霍芬|Eindhoven
+en|荷兰_埃门|Emmen
+en|荷兰_恩斯赫德|Enschede
+en|荷兰_格罗宁根|Groningen
+en|荷兰_哈勒姆|Haarlem
+en|荷兰_海牙|Hague
+en|荷兰_霍夫多尔普|Hoofddorp
+en|荷兰_吕伐登|Leeuwarden
+en|荷兰_莱顿|Leiden
+en|荷兰_莱利斯塔德|Lelystad
+en|荷兰_马斯特里赫特|Maastricht
+en|荷兰_米德尔堡|Middelburg
+en|荷兰_奈梅亨|Nijmegen
+en|荷兰_鹿特丹|Rotterdam
+en|荷兰_蒂尔堡|Tilburg
+en|荷兰_乌得勒支|Utrecht
+en|荷兰_佐特尔梅|Zoetermeer
+en|荷兰_兹沃勒|Zwolle
+en|新喀里多尼亚|New Caledonia
+en|新西兰|New Zealand
+en|新西兰_奥克兰|Auckland
+en|新西兰_布莱尼姆|Blenheim
+en|新西兰_克赖斯特彻奇|Christchurch
+en|新西兰_达尼丁|Dunedin
+en|新西兰_北远|Far North
+en|新西兰_吉斯伯恩|Gisborne
+en|新西兰_格雷茅斯|Greymouth
+en|新西兰_哈密尔顿|Hamilton
+en|新西兰_黑斯廷斯|Hastings
+en|新西兰_因弗卡吉尔|Invercargill
+en|新西兰_凯帕拉|Kaipara
+en|新西兰_马努考|Manukau
+en|新西兰_内皮尔|Napier
+en|新西兰_纳尔逊|Nelson
+en|新西兰_新普利茅斯|New Plymouth
+en|新西兰_北岸|North Shore
+en|新西兰_北帕默斯顿|Palmerston North
+en|新西兰_里士满|Richmond
+en|新西兰_斯特拉特福德|Stratford
+en|新西兰_陶马鲁努伊|Taumarunui
+en|新西兰_怀塔科拉|Waitakere
+en|新西兰_旺格努伊|Wanganui
+en|新西兰_瓦卡塔尼|Whakatane
+en|新西兰_旺阿雷|Whangarei
+en|尼加拉瓜|Nicaragua
+en|尼日利亚|Nigeria
+en|朝鲜|North Korea
+en|北马里亚纳群岛|Northern Mariana Islands
+en|挪威|Norway
+en|阿曼|Oman
+en|巴基斯坦|Pakistan
+en|帕劳群岛|Palau
+en|巴拿马|Panama
+en|巴布亚新几内亚|Papua New Guinea
+en|秘鲁|Peru
+en|菲律宾|Philippines
+en|菲律宾_卡卢坎|Caloocan
+en|菲律宾_宿务|Cebu
+en|菲律宾_达沃|Davao
+en|菲律宾_马尼拉|Manila
+en|波兰|Poland
+en|葡萄牙|Portugal
+en|葡萄牙_中阿连特茹|Alentejo Central
+en|葡萄牙_滨海阿连特茹|Alentejo Litoral
+en|葡萄牙_上阿连特茹|Alto Alentejo
+en|葡萄牙_上特拉斯山|Alto Tros-os-Montes
+en|葡萄牙_万福|Ave
+en|葡萄牙_下阿连特茹|Baixo Alentejo
+en|葡萄牙_下蒙德古|Baixo Mondego
+en|葡萄牙_下伏日|Baixo Vouga
+en|葡萄牙_内贝拉北|Beira Interior Norte
+en|葡萄牙_内贝拉南|Beira Interior Sul
+en|葡萄牙_卡瓦多|Cavado
+en|葡萄牙_科瓦贝拉|Cova da Beira
+en|葡萄牙_杜罗|Douro
+en|葡萄牙_恩特拉杜罗伏日|Entre Douro e Vouga
+en|葡萄牙_法鲁|Faro
+en|葡萄牙_丰沙尔|Funchal
+en|葡萄牙_利巴特茹|Leziria do Tejo
+en|葡萄牙_里斯本|Lisboa
+en|葡萄牙_梅地奥特茹|Medio Tejo
+en|葡萄牙_米尼奥-利马|Minho-Lima
+en|葡萄牙_西部|Oeste
+en|葡萄牙_塞图巴尔半岛|Peninsula de Setubal
+en|葡萄牙_内皮尼亚尔北|Pinhal Interior Norte
+en|葡萄牙_内皮尼亚尔南|Pinhal Interior Sul
+en|葡萄牙_滨海皮尼亚尔|Pinhal Litoral
+en|葡萄牙_蓬塔德尔加达|Ponta Delgada
+en|葡萄牙_波尔图|Porto
+en|葡萄牙_山后|Serra da Estrela
+en|葡萄牙_塔梅加|Tamega
+en|波多黎各|Puerto Rico
+en|卡塔尔|Qatar
+en|留尼旺岛|Reunion
+en|罗马尼亚|Romania
+en|俄罗斯|Russia
+en|俄罗斯_阿巴坎|Abakan
+en|俄罗斯_阿金斯科耶|Aginskoye
+en|俄罗斯_阿纳德尔|Anadyr
+en|俄罗斯_阿尔汉格尔斯克|Arkhangelsk
+en|俄罗斯_阿斯特拉罕|Astrakhan
+en|俄罗斯_巴尔瑙尔|Barnaul
+en|俄罗斯_别尔哥罗德|Belgorod
+en|俄罗斯_比罗比詹|Birobidzan
+en|俄罗斯_布拉戈维申斯克|Blagoveshchensk
+en|俄罗斯_布良斯克|Bryansk
+en|俄罗斯_伯力|Chabarovsk
+en|俄罗斯_切博克萨雷|Cheboksary
+en|俄罗斯_车里雅宾斯克|Chelyabinsk
+en|俄罗斯_切尔克斯克|Cherkessk
+en|俄罗斯_赤塔|Chita
+en|俄罗斯_埃利斯塔|Elista
+en|俄罗斯_戈尔诺-阿尔泰斯克|Gorno-Altajsk
+en|俄罗斯_格罗兹尼|Grozny
+en|俄罗斯_伊尔库茨克|Irkutsk
+en|俄罗斯_伊万诺沃|Ivanovo
+en|俄罗斯_伊热夫斯克|Izhevsk
+en|俄罗斯_雅库茨克|Jakutsk
+en|俄罗斯_雅罗斯拉夫尔|Jaroslavl
+en|俄罗斯_叶卡捷林堡|Jekaterinburg
+en|俄罗斯_南萨哈林斯克|Juzno-Sachalinsk
+en|俄罗斯_加里宁格勒|Kaliningrad
+en|俄罗斯_卡卢加|Kaluga
+en|俄罗斯_喀山|Kazan
+en|俄罗斯_克麦罗沃|Kemerovo
+en|俄罗斯_汉特-曼西斯克|Khanty-Mansiysk
+en|俄罗斯_基洛夫|Kirov
+en|俄罗斯_科斯特罗马|Kostroma
+en|俄罗斯_克拉斯诺达尔|Krasnodar
+en|俄罗斯_克拉斯诺亚尔斯克|Krasnojarsk
+en|俄罗斯_库德姆卡尔|Kudymkar
+en|俄罗斯_库尔干|Kurgan
+en|俄罗斯_库尔斯克|Kursk
+en|俄罗斯_克孜勒|Kyzyl
+en|俄罗斯_利佩茨克|Lipeck
+en|俄罗斯_马加丹|Magadan
+en|俄罗斯_马加斯|Magas
+en|俄罗斯_马哈奇卡拉|Makhachkala
+en|俄罗斯_迈科普|Maykop
+en|俄罗斯_莫斯科|Moscow
+en|俄罗斯_摩尔曼斯克|Murmansk
+en|俄罗斯_纳尔奇克|Nalchik
+en|俄罗斯_纳里扬马尔|Naryan-Mar
+en|俄罗斯_下诺夫哥罗德|Niznij Novgorod
+en|俄罗斯_新西伯利亚|Novosibirsk
+en|俄罗斯_鄂木斯克|Omsk
+en|俄罗斯_奥廖尔|Orel
+en|俄罗斯_奥伦堡|Orenburg
+en|俄罗斯_帕拉纳|Palana
+en|俄罗斯_奔萨|Penza
+en|俄罗斯_彼尔姆|Perm
+en|俄罗斯_彼得罗巴甫洛夫斯克|Petropavlovsk-Kamchatskiy
+en|俄罗斯_彼得罗扎沃茨克|Petrozavodsk
+en|俄罗斯_普斯科夫|Pskov
+en|俄罗斯_顿河畔罗斯托夫|Rostov-na-Donu
+en|俄罗斯_梁赞|Ryazan
+en|俄罗斯_萨列哈尔德|Salekhard
+en|俄罗斯_萨马拉|Samara
+en|俄罗斯_萨兰斯克|Saransk
+en|俄罗斯_萨拉托夫|Saratov
+en|俄罗斯_斯摩棱斯克|Smolensk
+en|俄罗斯_圣彼得堡|St. Peterburg
+en|俄罗斯_斯塔夫罗波尔|Stavropol
+en|俄罗斯_瑟克特夫卡尔|Syktyvkar
+en|俄罗斯_坦波夫|Tambov
+en|俄罗斯_托木斯克|Tomsk
+en|俄罗斯_图拉|Tula
+en|俄罗斯_特维尔|Tver
+en|俄罗斯_秋明|Tyumen
+en|俄罗斯_乌法|Ufa
+en|俄罗斯_乌兰乌德|Ulan-Ude
+en|俄罗斯_乌里扬诺夫斯克|Uljanovsk
+en|俄罗斯_乌斯季奥尔登斯基|Ust-Ordynsky
+en|俄罗斯_诺夫哥罗德|Velikij Novgorod
+en|俄罗斯_弗拉季高加索|Vladikavkaz
+en|俄罗斯_弗拉基米尔|Vladimir
+en|俄罗斯_海参崴|Vladivostok
+en|俄罗斯_伏尔加格勒|Volgograd
+en|俄罗斯_沃洛格达|Vologda
+en|俄罗斯_沃罗涅什|Voronezh
+en|俄罗斯_约什卡尔奥拉|Yoshkar-Ola
+en|卢旺达|Rwanda
+en|萨摩亚|Samoa
+en|圣马力诺|San Marino
+en|沙特阿拉伯|Saudi Arabia
+en|沙特阿拉伯_艾卜哈|Abha
+en|沙特阿拉伯_巴哈|Al Bahah
+en|沙特阿拉伯_阿尔胡富夫|Al Hofuf
+en|沙特阿拉伯_阿尔朱拜勒|Al Jubail
+en|沙特阿拉伯_阿尔卡里|Al Kharj
+en|沙特阿拉伯_阿尔姆巴拉兹|Al Mubarraz
+en|沙特阿拉伯_阿尔阿尔|Arar
+en|沙特阿拉伯_塔伊夫|At Tarif
+en|沙特阿拉伯_布赖代|Buraydah
+en|沙特阿拉伯_达曼|Dammam
+en|沙特阿拉伯_哈费尔巴廷|Hafar al-Batin
+en|沙特阿拉伯_哈伊勒|Hail
+en|沙特阿拉伯_吉达|Jiddah
+en|沙特阿拉伯_吉赞|Jizan
+en|沙特阿拉伯_海米斯穆谢特|Khamis Mushayt
+en|沙特阿拉伯_麦加|Makkah
+en|沙特阿拉伯_麦地那|Medina
+en|沙特阿拉伯_纳季兰|Najran
+en|沙特阿拉伯_利雅得|Riyad
+en|沙特阿拉伯_塞卡卡|Sakaka
+en|沙特阿拉伯_塔布克|Tabuk
+en|沙特阿拉伯_延布|Yanbu al-Bahr
+en|塞内加尔|Senegal
+en|塞尔维亚,黑山|Serbia,Montenegro
+en|塞舌尔|Seychelles
+en|塞拉利昂|Sierra Leone
+en|新加坡|Singapore
+en|斯洛伐克|Slovakia
+en|斯洛文尼亚|Slovenia
+en|所罗门群岛|Solomon Islands
+en|南非|South Africa
+en|南非_东巴克利|Barkley East
+en|南非_西博福特|Beaufort West
+en|南非_比索|Bisho
+en|南非_布隆方丹|Bloemfontein
+en|南非_布雷达斯多普|Bredasdorp
+en|南非_布隆克斯特斯普利特|Bronkhorstspruit
+en|南非_开普敦|Cape Town
+en|南非_德阿尔|De Aar
+en|南非_邓迪|Dundee
+en|南非_德班|Durban
+en|南非_东伦敦|East London
+en|南非_乔治|George
+en|南非_基雅尼|Giyani
+en|南非_格罗布莱斯达尔|Groblersdal
+en|南非_特克索波|Ixopo
+en|南非_约翰内斯堡|Johannesburg
+en|南非_金伯利|Kimberley
+en|南非_克莱克斯多普|Klerksdorp
+en|南非_库鲁曼|Kuruman
+en|南非_莱迪史密斯|Ladysmith
+en|南非_米德尔堡|Middelburg
+en|南非_姆库泽|Mkuze
+en|南非_穆里斯堡|Moorreesburg
+en|南非_艾利弗山|Mount Ayliff
+en|南非_内尔斯普雷特|Nelspruit
+en|南非_纽卡斯尔|Newcastle
+en|南非_尼尔斯特隆|Nylstroom
+en|南非_彼德马里茨堡|Pietermaritzburg
+en|南非_彼德斯堡|Pietersburg
+en|南非_伊丽莎白港|Port Elizabeth
+en|南非_谢普斯通港|Port Shepstone
+en|南非_比勒陀利亚|Pretoria
+en|南非_昆士敦|Queenstown
+en|南非_兰德方丹|Randfontein
+en|南非_理查兹湾|Richards Bay
+en|南非_利斯滕堡|Rustenburg
+en|南非_萨索尔堡|Sasolburg
+en|南非_瑟孔达|Secunda
+en|南非_跳羚|Springbok
+en|南非_托霍延杜|Thohoyandou
+en|南非_图拉马哈谢|Thulamahashe
+en|南非_特隆普斯堡|Trompsburg
+en|南非_乌伦迪|Ulundi
+en|南非_乌姆塔塔|Umtata
+en|南非_阿平顿|Upington
+en|南非_弗里尼欣|Vereeniging
+en|南非_弗雷堡|Vryburg
+en|南非_韦尔科姆|Welkom
+en|南非_韦茨肖克|Witsieshoek
+en|南非_伍斯特|Worcester
+en|西班牙|Spain
+en|西班牙_阿拉瓦|Alava
+en|西班牙_阿尔瓦塞特|Albacete
+en|西班牙_阿利坎特|Alicante
+en|西班牙_阿尔梅里亚|Almeria
+en|西班牙_阿斯图利亚斯|Asturias
+en|西班牙_阿维拉|Avila
+en|西班牙_巴达霍斯|Badajoz
+en|西班牙_巴利阿里|Baleares
+en|西班牙_巴塞罗那|Barcelona
+en|西班牙_布尔戈斯|Burgos
+en|西班牙_卡塞雷斯|Caceres
+en|西班牙_加的斯|Cadiz
+en|西班牙_卡斯特利翁|Castellon
+en|西班牙_雷阿尔城|Ciudad Real
+en|西班牙_科尔多瓦|Cordoba
+en|西班牙_昆卡|Cuenca
+en|西班牙_赫罗纳|Gerona
+en|西班牙_格拉纳达|Granada
+en|西班牙_瓜达拉哈拉|Guadalajara
+en|西班牙_吉普斯夸|Guipuzcoa
+en|西班牙_韦尔瓦|Huelva
+en|西班牙_韦斯卡|Huesca
+en|西班牙_哈恩|Jaen
+en|西班牙_拉科鲁尼亚|La Coruna
+en|西班牙_拉里奥哈|La Rioja
+en|西班牙_拉斯帕尔马斯|Las Palmas
+en|西班牙_莱昂|Leon
+en|西班牙_莱里达|Lleida
+en|西班牙_马德里|Madrid
+en|西班牙_马拉加|Malaga
+en|西班牙_穆尔西亚|Murcia
+en|西班牙_纳瓦拉|Navarra
+en|西班牙_奥伦塞|Orense
+en|西班牙_帕伦西亚|Palencia
+en|西班牙_卢戈|Provincia de Lugo
+en|西班牙_蓬特韦德拉|Provincia de Pontevedra
+en|西班牙_萨拉曼卡|Salamanca
+en|西班牙_圣克鲁斯-德特内里费|Santa Cruz de Tenerife
+en|西班牙_桑坦德|Santander
+en|西班牙_塞哥维亚|Segovia
+en|西班牙_塞维利亚|Sevilla
+en|西班牙_索里亚|Soria
+en|西班牙_塔拉戈纳|Tarragona
+en|西班牙_特鲁埃尔|Teruel
+en|西班牙_托莱多|Toledo
+en|西班牙_巴伦西亚|Valencia
+en|西班牙_巴利亚多利德|Valladolid
+en|西班牙_比斯开|Vizcaya
+en|西班牙_萨莫拉|Zamora
+en|西班牙_萨拉戈萨|Zaragoza
+en|斯里兰卡|Sri Lanka
+en|圣基茨和尼维斯|St.Kitts and Nevis
+en|苏丹|Sudan
+en|苏里南|Surinam
+en|斯威士兰|Swaziland
+en|瑞典|Sweden
+en|瑞典_布莱金厄|Blekinge
+en|瑞典_达拉纳|Dalarnas
+en|瑞典_耶夫勒堡|Gavleborgs
+en|瑞典_哥得兰|Gotlands
+en|瑞典_哈兰|Hallands
+en|瑞典_耶姆特兰|Jamtlands
+en|瑞典_延雪平|Jonkopings
+en|瑞典_卡尔马|Kalmar
+en|瑞典_克鲁努贝里|Kronobergs
+en|瑞典_北博滕|Norrbottens
+en|瑞典_厄勒布鲁|Orebro
+en|瑞典_斯科耐|Skane
+en|瑞典_南曼兰|Sodermanlands
+en|瑞典_斯德哥尔摩|Stockholms
+en|瑞典_乌普萨拉|Uppsala
+en|瑞典_东约特兰|Ustergotland
+en|瑞典_韦姆兰|Varmlands
+en|瑞典_西博滕|Vasterbottens
+en|瑞典_西诺尔兰|Vasternorrlands
+en|瑞典_西曼兰|Vastmanlands
+en|瑞典_西约特兰|Vastra Gotalands
+en|瑞士|Switzerland
+en|瑞士_阿尔高|Aargau
+en|瑞士_外阿彭策尔|Appenzell Ausserrhon
+en|瑞士_内阿彭策尔|Appenzell Innerrhodn
+en|瑞士_巴塞尔乡村|Basel Landschaft
+en|瑞士_巴塞尔|Basel-stadt
+en|瑞士_伯尔尼|Bern
+en|瑞士_弗里堡|Freiburg
+en|瑞士_日内瓦|Geneve
+en|瑞士_格拉鲁斯|Glarus
+en|瑞士_格劳宾登|Graub nden
+en|瑞士_汝拉|Jura
+en|瑞士_洛桑|Lausanne
+en|瑞士_卢塞恩|Luzern
+en|瑞士_纳沙泰尔|Neuchatel
+en|瑞士_下瓦尔登|Nidwalden
+en|瑞士_上瓦尔登|Obwalden
+en|瑞士_沙夫豪森|Schaffhausen
+en|瑞士_施维茨|Schwyz
+en|瑞士_索洛图恩|Solothurn
+en|瑞士_圣加仑|St.Gallen
+en|瑞士_图尔高|Thurgau
+en|瑞士_提契诺|Ticino
+en|瑞士_乌里|Uri
+en|瑞士_沃|Vaud
+en|瑞士_瓦莱|Wallis
+en|瑞士_楚格|Zug
+en|瑞士_苏黎世|Zurich
+en|中国台湾|Taiwan
+en|中国台湾_彰化县|Changhua County
+en|中国台湾_嘉义市|Chiayi City
+en|中国台湾_嘉义县|Chiayi County
+en|中国台湾_新竹市|Hsinchu City
+en|中国台湾_新竹县|Hsinchu County
+en|中国台湾_花莲县|Hualien County
+en|中国台湾_高雄市|Kaohsiung City
+en|中国台湾_基隆市|Keelung City
+en|中国台湾_金门县|Kinmen County
+en|中国台湾_连江县|Lianjiang County
+en|中国台湾_苗栗县|Miaoli County
+en|中国台湾_南投县|Nantou County
+en|中国台湾_新北市|New Taipei City
+en|中国台湾_澎湖县|Penghu County
+en|中国台湾_屏东县|Pingtung County
+en|中国台湾_台中市|Taichung City
+en|中国台湾_台南市|Tainan City
+en|中国台湾_台北市|Taipei
+en|中国台湾_台东县|Taitung County
+en|中国台湾_桃园县|Taoyuan County
+en|中国台湾_宜兰县|Yilan County
+en|中国台湾_云林县|Yunlin County
+en|塔吉克斯坦|Tajikistan
+en|坦桑尼亚|Tanzania
+en|泰国|Thailand
+en|泰国_安纳乍能|Amnat Charoen
+en|泰国_红统|Ang Thong
+en|泰国_曼谷|Bangkok
+en|泰国_武里南|Buri Ram
+en|泰国_北柳|Chachoengsao
+en|泰国_猜那|Chai Nat
+en|泰国_猜也奔|Chaiyaphum
+en|泰国_尖竹汶|Chanthaburi
+en|泰国_清迈|Chiang Mai
+en|泰国_清莱|Chiang Rai
+en|泰国_春武里|Chon Buri
+en|泰国_春蓬|Chumphon
+en|泰国_加拉信|Kalasin
+en|泰国_甘烹碧|Kamphaeng Phet
+en|泰国_北碧|Kanchanaburi
+en|泰国_孔敬|Khon Kaen
+en|泰国_甲米|Krabi
+en|泰国_南奔|Lamphun
+en|泰国_黎|Loei
+en|泰国_华富里|Lop Buri
+en|泰国_夜丰颂|Mae Hong Son
+en|泰国_玛哈沙拉堪|Maha Sarakham
+en|泰国_莫达汉|Mukdahan
+en|泰国_那空那育|Nakhon Nayok
+en|泰国_佛统|Nakhon Pathom
+en|泰国_那空帕农|Nakhon Phanom
+en|泰国_北榄坡|Nakhon Sawan
+en|泰国_洛坤|Nakhon Si Thammarat
+en|泰国_难|Nan
+en|泰国_陶公|Narathiwat
+en|泰国_廊莫那浦|Nong Bua Lamphu
+en|泰国_廊开|Nong Khai
+en|泰国_暖武里|Nonthaburi
+en|泰国_巴吞他尼|Pathum Thani
+en|泰国_北大年|Pattani
+en|泰国_攀牙|Phangnga
+en|泰国_博达伦|Phatthalung
+en|泰国_帕尧|Phayao
+en|泰国_碧差汶|Phetchabun
+en|泰国_佛丕|Phetchaburi
+en|泰国_披集|Phichit
+en|泰国_彭世洛|Phitsanulok
+en|泰国_大城|Phra Nakhon Si Ayutthaya
+en|泰国_帕|Phrae
+en|泰国_普吉|Phuket
+en|泰国_巴真|Prachin Buri
+en|泰国_巴蜀|Prachuap Khiri Khan
+en|泰国_罗勇|Ranong
+en|泰国_叻丕|Ratchaburi
+en|泰国_拉农|Rayong
+en|泰国_黎逸|Roi Et
+en|泰国_沙缴|Sa Kaeo
+en|泰国_色军|Sakon Nakhon
+en|泰国_北揽|Samut Prakan
+en|泰国_龙仔厝|Samut Sakhon
+en|泰国_夜功|Samut Songkhram
+en|泰国_北标|Saraburi
+en|泰国_沙敦|Satun
+en|泰国_四色菊|Si sa ket
+en|泰国_信武里|Sing Buri
+en|泰国_宋卡|Songkhla
+en|泰国_素可泰|Sukhothai
+en|泰国_素攀武里|Suphan Buri
+en|泰国_素叻|Surat Thani
+en|泰国_素林|Surin
+en|泰国_达|Tak
+en|泰国_董里|Trang
+en|泰国_达叻|Trat
+en|泰国_乌汶|Ubon Ratchathani
+en|泰国_乌隆|Udon Thani
+en|泰国_乌泰他尼|Uthai Thani
+en|泰国_程逸|Uttaradit
+en|泰国_也拉|Yala
+en|泰国_耶梭通|Yasothon
+en|汤加|Tonga
+en|特立尼达和多巴哥|Trinidad and Tobago
+en|土耳其|Turkey
+en|土耳其_阿达纳|Adana
+en|土耳其_阿德亚曼|Adiyaman
+en|土耳其_阿菲永|Afyon
+en|土耳其_阿勒|Agri
+en|土耳其_阿克萨赖|Aksaray
+en|土耳其_阿马西亚|Amasya
+en|土耳其_安卡拉|Ankara
+en|土耳其_安塔利亚|Antalya
+en|土耳其_阿尔达罕|Ardahan
+en|土耳其_阿尔特温|Artvin
+en|土耳其_艾登|Aydin
+en|土耳其_巴勒克埃西尔|Balikesir
+en|土耳其_巴尔腾|Bartin
+en|土耳其_巴特曼|Batman
+en|土耳其_巴伊布尔特|Bayburt
+en|土耳其_比莱吉克|Bilecik
+en|土耳其_宾格尔|Bingol
+en|土耳其_比特利斯|Bitlis
+en|土耳其_博卢|Bolu
+en|土耳其_布尔杜尔|Burdur
+en|土耳其_布尔萨|Bursa
+en|土耳其_恰纳卡莱|Canakkale
+en|土耳其_昌克勒|Cankiri
+en|土耳其_乔鲁姆|Corum
+en|土耳其_代尼兹利|Denizli
+en|土耳其_迪亚巴克尔|Diyarbakir
+en|土耳其_埃迪尔内|Edirne
+en|土耳其_埃拉泽|Elazig
+en|土耳其_埃尔津詹|Erzincan
+en|土耳其_埃尔祖鲁姆|Erzurum
+en|土耳其_埃斯基谢希尔|Eskisehir
+en|土耳其_加济安泰普|Gaziantep
+en|土耳其_吉雷松|Giresun
+en|土耳其_居米什哈内|Gumushane
+en|土耳其_哈卡里|Hakkari
+en|土耳其_哈塔伊|Hatay
+en|土耳其_伊切尔|Icel
+en|土耳其_伊迪尔|Igdir
+en|土耳其_伊斯帕尔塔|Isparta
+en|土耳其_伊斯坦布尔|Istanbul
+en|土耳其_伊兹密尔|Izmir
+en|土耳其_卡赫拉曼马拉什|Kahraman Maras
+en|土耳其_卡拉比克|Karabuk
+en|土耳其_卡拉曼|Karaman
+en|土耳其_卡尔斯|Kars
+en|土耳其_卡斯塔莫努|Kastamonu
+en|土耳其_开塞利|Kayseri
+en|土耳其_基利斯|Kilis
+en|土耳其_克勒克卡莱|Kirikkale
+en|土耳其_柯克拉雷利|Kirklareli
+en|土耳其_克尔谢希尔|Kirsehir
+en|土耳其_科贾埃利|Kocaeli
+en|土耳其_科尼亚|Konya
+en|土耳其_屈塔希亚|Kutahya
+en|土耳其_马拉蒂亚|Malatya
+en|土耳其_马尼萨|Manisa
+en|土耳其_马尔丁|Mardin
+en|土耳其_穆拉|Mugla
+en|土耳其_穆什|Mus
+en|土耳其_内夫谢希尔|Nevsehir
+en|土耳其_尼代|Nigde
+en|土耳其_奥尔杜|Ordu
+en|土耳其_里泽|Rize
+en|土耳其_萨卡里亚|Sakarya
+en|土耳其_萨姆松|Samsun
+en|土耳其_锡尔特|Siirt
+en|土耳其_锡诺普|Sinop
+en|土耳其_锡尔纳克|Sirnak
+en|土耳其_锡瓦斯|Sivas
+en|土耳其_泰基尔达|Tekirdag
+en|土耳其_托卡特|Tokat
+en|土耳其_特拉布宗|Trabzon
+en|土耳其_通杰利|Tunceli
+en|土耳其_拉飞|Urfa
+en|土耳其_乌萨克|Usak
+en|土耳其_凡|Van
+en|土耳其_约兹加特|Yozgat
+en|土耳其_宗古尔达克|Zonguldak
+en|乌干达|Uganda
+en|乌克兰|Ukraine
+en|乌克兰_切尔卡瑟|Cherkasy
+en|乌克兰_切尔尼戈夫|Chernihiv
+en|乌克兰_切尔诺夫策|Chernivtsi
+en|乌克兰_第聂伯罗波得罗夫斯克|Dnipropetrovsk
+en|乌克兰_顿涅茨克|Donetsk
+en|乌克兰_伊万-弗兰科夫州|Ivano-Frankivsk
+en|乌克兰_哈尔科夫|Kharkiv
+en|乌克兰_赫尔松州|Khersonsrka
+en|乌克兰_赫梅利尼茨基|Khmelnytsky
+en|乌克兰_基洛夫格勒|Kirovohrad
+en|乌克兰_基辅|Kyiv
+en|乌克兰_卢甘斯克|Luhansk
+en|乌克兰_利沃夫|Lviv
+en|乌克兰_尼古拉耶夫|Mykolayiv
+en|乌克兰_敖德萨|Odessa
+en|乌克兰_波尔塔瓦|Poltava
+en|乌克兰_克里米亚自治共和国|Respublika Krym
+en|乌克兰_罗夫诺|Rivne
+en|乌克兰_苏梅|Sumy
+en|乌克兰_捷尔诺波尔|Ternopil
+en|乌克兰_文尼察|Vinnytsya
+en|乌克兰_沃伦|Volyn
+en|乌克兰_外喀尔巴阡|Zakarpatska
+en|乌克兰_扎波罗热|Zaporizhzhya
+en|乌克兰_日托米尔|Zhytomyr
+en|阿拉伯联合酋长国|United Arab Emirates
+en|阿拉伯联合酋长国_阿布扎比|Abu Dhabi
+en|阿拉伯联合酋长国_艾因|Al l'Ayn
+en|阿拉伯联合酋长国_沙迦|Ash Shariqah
+en|阿拉伯联合酋长国_迪拜|Dubai
+en|英国|United Kingdom
+en|英国_英格兰|England
+en|英国_英格兰_巴斯|Bath
+en|英国_英格兰_伯明翰|Birmingham
+en|英国_英格兰_布拉德福德|Bradford
+en|英国_英格兰_布莱顿霍夫|Brighton & Hove
+en|英国_英格兰_布里斯托尔|Bristol
+en|英国_英格兰_剑桥|Cambridge
+en|英国_英格兰_坎特伯雷|Canterbury
+en|英国_英格兰_卡莱尔|Carlisle
+en|英国_英格兰_切斯特|Chester
+en|英国_英格兰_奇切斯特|Chichester
+en|英国_英格兰_考文垂|Coventry
+en|英国_英格兰_德比|Derby
+en|英国_英格兰_德罕|Durham
+en|英国_英格兰_伊利|Ely
+en|英国_英格兰_爱塞特|Exeter
+en|英国_英格兰_格洛斯特|Gloucester
+en|英国_英格兰_赫里福德|Hereford
+en|英国_英格兰_赫尔河畔京斯敦|Kingston upon Hull
+en|英国_英格兰_兰开斯特|Lancaster
+en|英国_英格兰_利茲|Leeds
+en|英国_英格兰_列斯特|Leicester
+en|英国_英格兰_利奇菲尔德|Lichfield
+en|英国_英格兰_林肯|Lincoln
+en|英国_英格兰_利物浦|Liverpool
+en|英国_英格兰_伦敦|London
+en|英国_英格兰_曼彻斯特|Manchester
+en|英国_英格兰_纽卡斯尔|Newcastle
+en|英国_英格兰_诺里奇|Norwich
+en|英国_英格兰_诺丁汉|Nottingham
+en|英国_英格兰_牛津|Oxford
+en|英国_英格兰_彼得伯勒|Peterborough
+en|英国_英格兰_普利茅斯|Plymouth
+en|英国_英格兰_朴茨茅斯|Portsmouth
+en|英国_英格兰_普雷斯顿|Preston
+en|英国_英格兰_里彭|Ripon
+en|英国_英格兰_圣阿本斯|Saint Albans
+en|英国_英格兰_索福特|Salford
+en|英国_英格兰_索尔斯堡|Salisbury
+en|英国_英格兰_谢菲尔德|Sheffield
+en|英国_英格兰_南安普敦|Southampton
+en|英国_英格兰_特伦特河畔斯多克|Stoke-on-Trent
+en|英国_英格兰_桑德兰|Sunderland
+en|英国_英格兰_特鲁罗|Truro
+en|英国_英格兰_韦克菲尔德|Wakefield
+en|英国_英格兰_威尔斯|Wells
+en|英国_英格兰_温彻斯特|Winchester
+en|英国_英格兰_伍尔弗汉普顿|Wolverhampton
+en|英国_英格兰_伍斯特|Worcester
+en|英国_英格兰_约克|York
+en|英国_北爱尔兰|Northern Ireland
+en|英国_北爱尔兰_贝尔法斯特|Belfast
+en|英国_北爱尔兰_德里|Derry
+en|英国_北爱尔兰_利斯本|Lisburn
+en|英国_北爱尔兰_纽里|Newry
+en|英国_苏格兰|Scotland
+en|英国_苏格兰_阿伯丁|Aberdeen
+en|英国_苏格兰_丹迪|Dundee
+en|英国_苏格兰_爱丁堡|Edinburgh
+en|英国_苏格兰_格拉斯哥|Glasgow
+en|英国_苏格兰_因弗内斯|Inverness
+en|英国_苏格兰_斯特灵|Stirling
+en|英国_威尔士|Wales
+en|英国_威尔士_班戈|Bangor
+en|英国_威尔士_卡迪夫|Cardiff
+en|英国_威尔士_纽波特|Newport
+en|英国_威尔士_斯旺西|Swansea
+en|美国|United States
+en|美国_阿拉巴马|Alabama
+en|美国_阿拉巴马_伯明罕|Birmingham
+en|美国_阿拉巴马_亨茨维尔|Huntsville
+en|美国_阿拉巴马_莫比尔|Mobile
+en|美国_阿拉巴马_蒙哥马利|Montgomery
+en|美国_阿拉斯加|Alaska
+en|美国_阿拉斯加_安克雷奇|Anchorage
+en|美国_阿拉斯加_费尔班克斯|Fairbanks
+en|美国_阿拉斯加_朱诺|Juneau
+en|美国_亚利桑那|Arizona
+en|美国_亚利桑那_钱德勒|Chandler
+en|美国_亚利桑那_吉尔伯特|Gilbert
+en|美国_亚利桑那_格兰代尔|Glendale
+en|美国_亚利桑那_梅萨|Mesa
+en|美国_亚利桑那_皮奥里亚|Peoria
+en|美国_亚利桑那_凤凰城|Phoenix
+en|美国_亚利桑那_史卡兹代尔|Scottsdale
+en|美国_亚利桑那_瑟普赖斯|Surprise
+en|美国_亚利桑那_坦普|Tempe
+en|美国_亚利桑那_图森|Tucson
+en|美国_亚利桑那_优玛|Yuma
+en|美国_阿肯色|Arkansas
+en|美国_阿肯色_费耶特维尔|Fayetteville
+en|美国_阿肯色_史密斯堡|Fort Smith
+en|美国_阿肯色_小石城|Little Rock
+en|美国_加利福尼亚|California
+en|美国_加利福尼亚_安那罕|Anaheim
+en|美国_加利福尼亚_安条克|Antioch
+en|美国_加利福尼亚_贝克斯菲尔德|Bakersfield
+en|美国_加利福尼亚_伯克利|Berkeley
+en|美国_加利福尼亚_伯班克|Burbank
+en|美国_加利福尼亚_卡尔斯巴德|Carlsbad
+en|美国_加利福尼亚_丘拉维斯塔|Chula Vista
+en|美国_加利福尼亚_康科德|Concord
+en|美国_加利福尼亚_科洛纳|Corona
+en|美国_加利福尼亚_科斯塔梅萨|Costa Mesa
+en|美国_加利福尼亚_戴利城|Daly City
+en|美国_加利福尼亚_唐尼|Downey
+en|美国_加利福尼亚_埃尔卡洪|El Cajon
+en|美国_加利福尼亚_艾尔蒙地|El Monte
+en|美国_加利福尼亚_埃尔克格罗夫|Elk Grove
+en|美国_加利福尼亚_埃斯孔迪多|Escondido
+en|美国_加利福尼亚_费尔菲尔德|Fairfield
+en|美国_加利福尼亚_方塔纳|Fontana
+en|美国_加利福尼亚_弗里蒙特|Fremont
+en|美国_加利福尼亚_弗雷斯诺|Fresno
+en|美国_加利福尼亚_富勒顿|Fullerton
+en|美国_加利福尼亚_园林市|Garden Grove
+en|美国_加利福尼亚_格伦代尔|Glendale
+en|美国_加利福尼亚_海沃德|Hayward
+en|美国_加利福尼亚_亨丁顿滩|Huntington Beach
+en|美国_加利福尼亚_英格尔伍德|Inglewood
+en|美国_加利福尼亚_尔湾|Irvine
+en|美国_加利福尼亚_兰开斯特|Lancaster
+en|美国_加利福尼亚_长滩|Long Beach
+en|美国_加利福尼亚_洛杉矶|Los Angeles
+en|美国_加利福尼亚_莫德斯托|Modesto
+en|美国_加利福尼亚_莫雷诺谷|Moreno Valley
+en|美国_加利福尼亚_穆列塔|Murrieta
+en|美国_加利福尼亚_诺沃克|Norwalk
+en|美国_加利福尼亚_奥克兰|Oakland
+en|美国_加利福尼亚_欧申赛德|Oceanside
+en|美国_加利福尼亚_安大略|Ontario
+en|美国_加利福尼亚_橙市|Orange
+en|美国_加利福尼亚_奥克斯纳德|Oxnard
+en|美国_加利福尼亚_棕榈谷|Palmdale
+en|美国_加利福尼亚_帕萨迪纳|Pasadena
+en|美国_加利福尼亚_波莫纳|Pomona
+en|美国_加利福尼亚_库卡蒙格牧场|Rancho Cucamonga
+en|美国_加利福尼亚_里亚托|Rialto
+en|美国_加利福尼亚_里士满|Richmond
+en|美国_加利福尼亚_里弗塞得|Riverside
+en|美国_加利福尼亚_罗斯维尔|Roseville
+en|美国_加利福尼亚_萨克拉门托|Sacramento
+en|美国_加利福尼亚_萨利纳斯|Salinas
+en|美国_加利福尼亚_圣贝纳迪诺|San Bernardino
+en|美国_加利福尼亚_圣迭戈|San Diego
+en|美国_加利福尼亚_旧金山|San Francisco
+en|美国_加利福尼亚_圣何塞|San Jose
+en|美国_加利福尼亚_圣马特奥|San Mateo
+en|美国_加利福尼亚_圣安娜|Santa Ana
+en|美国_加利福尼亚_圣克拉拉|Santa Clara
+en|美国_加利福尼亚_圣塔克拉利塔|Santa Clarita
+en|美国_加利福尼亚_圣玛丽亚|Santa Maria
+en|美国_加利福尼亚_圣罗莎|Santa Rosa
+en|美国_加利福尼亚_西米谷|Simi Valley
+en|美国_加利福尼亚_斯托克顿|Stockton
+en|美国_加利福尼亚_森尼韦尔|Sunnyvale
+en|美国_加利福尼亚_蒂梅丘拉|Temecula
+en|美国_加利福尼亚_千橡市|Thousand Oaks
+en|美国_加利福尼亚_托伦斯|Torrance
+en|美国_加利福尼亚_瓦列霍|Vallejo
+en|美国_加利福尼亚_文图拉|Ventura
+en|美国_加利福尼亚_维克多维尔|Victorville
+en|美国_加利福尼亚_维塞利亚|Visalia
+en|美国_加利福尼亚_西柯汶纳|West Covina
+en|美国_科罗拉多|Colorado
+en|美国_科罗拉多_阿瓦达|Arvada
+en|美国_科罗拉多_阿斯彭|Aspen
+en|美国_科罗拉多_奥罗拉|Aurora
+en|美国_科罗拉多_博尔德|Boulder
+en|美国_科罗拉多_森特尼尔|Centennial
+en|美国_科罗拉多_科罗拉多斯普林斯|Colorado Springs
+en|美国_科罗拉多_丹佛|Denver
+en|美国_科罗拉多_柯林斯堡|Fort Collins
+en|美国_科罗拉多_大章克申|Grand Junction
+en|美国_科罗拉多_莱克伍德|Lakewood
+en|美国_科罗拉多_普韦布洛|Pueblo
+en|美国_科罗拉多_桑顿|Thornton
+en|美国_科罗拉多_韦尔|Vail
+en|美国_科罗拉多_威斯敏斯特|Westminster
+en|美国_康涅狄格|Connecticut
+en|美国_康涅狄格_布里奇波特|Bridgeport
+en|美国_康涅狄格_达里恩|Darien
+en|美国_康涅狄格_格林尼治|Greenwich
+en|美国_康涅狄格_哈特福德|Hartford
+en|美国_康涅狄格_米德尔顿|Middletown
+en|美国_康涅狄格_新不列颠|New Britain
+en|美国_康涅狄格_纽黑文|New Haven
+en|美国_康涅狄格_斯坦福|Stamford
+en|美国_康涅狄格_沃特伯里|Waterbury
+en|美国_康涅狄格_韦斯特波特|Westport
+en|美国_特拉华|Delaware
+en|美国_特拉华_多佛|Dover
+en|美国_特拉华_纽瓦克|Newark
+en|美国_特拉华_威明顿|Wilmington
+en|美国_哥伦比亚特区|District of Columbia
+en|美国_哥伦比亚特区_华盛顿|Washington
+en|美国_哥伦比亚特区_华盛顿哥伦比亚特区|Washington D.C.
+en|美国_佛罗里达|Florida
+en|美国_佛罗里达_卡纳维拉尔角|Cape Canaveral?
+en|美国_佛罗里达_开普科勒尔|Cape Coral
+en|美国_佛罗里达_克利尔沃特|Clearwater
+en|美国_佛罗里达_科勒尔斯普林斯|Coral Springs
+en|美国_佛罗里达_罗德岱堡|Fort Lauderdale
+en|美国_佛罗里达_盖恩斯维尔|Gainesville
+en|美国_佛罗里达_海厄利亚|Hialeah
+en|美国_佛罗里达_好莱坞|Hollywood
+en|美国_佛罗里达_杰克逊维尔|Jacksonville
+en|美国_佛罗里达_基韦斯特|Key West
+en|美国_佛罗里达_莱克兰|Lakeland
+en|美国_佛罗里达_迈阿密|Miami
+en|美国_佛罗里达_迈阿密花园|Miami Gardens
+en|美国_佛罗里达_米拉马尔|Miramar
+en|美国_佛罗里达_奥兰多|Orlando
+en|美国_佛罗里达_棕榈湾|Palm Bay
+en|美国_佛罗里达_潘布鲁克派恩斯|Pembroke Pines
+en|美国_佛罗里达_庞帕诺比奇|Pompano Beach
+en|美国_佛罗里达_圣露西港|Port St. Lucie
+en|美国_佛罗里达_圣彼德斯堡市|St. Petersburg
+en|美国_佛罗里达_塔拉哈西|Tallahassee
+en|美国_佛罗里达_坦帕|Tampa
+en|美国_佛罗里达_西棕榈滩|West Palm Beach
+en|美国_佐治亚|Georgia
+en|美国_佐治亚_雅典|Athens
+en|美国_佐治亚_亚特兰大|Atlanta
+en|美国_佐治亚_奥古斯塔|Augusta
+en|美国_佐治亚_哥伦布|Columbus
+en|美国_佐治亚_梅肯|Macon
+en|美国_佐治亚_沙瓦纳|Savannah
+en|美国_夏威夷|Hawaii
+en|美国_夏威夷_希洛|Hilo
+en|美国_夏威夷_檀香山|Honolulu
+en|美国_夏威夷_凯卢阿|Kailua
+en|美国_爱达荷州|Idaho
+en|美国_爱达荷州_亚美利加瀑布城|American Falls
+en|美国_爱达荷州_布莱克富特|Blackfoot
+en|美国_爱达荷州_博伊西|Boise
+en|美国_爱达荷州_科达伦|Coeur d'Alene
+en|美国_爱达荷州_爱达荷福尔斯|Idaho Falls
+en|美国_爱达荷州_岂彻姆|Ketchum
+en|美国_爱达荷州_刘易斯顿|Lewiston
+en|美国_爱达荷州_莫斯科|Moscow
+en|美国_爱达荷州_墨菲|Murphy
+en|美国_爱达荷州_楠帕|Nampa
+en|美国_爱达荷州_波卡特洛|Pocatello
+en|美国_爱达荷州_森瓦利|Sun Valley
+en|美国_伊利诺斯州|Illinois
+en|美国_伊利诺斯州_奥尔顿|Alton
+en|美国_伊利诺斯州_奥罗拉|Aurora
+en|美国_伊利诺斯州_布卢明顿|Bloomington
+en|美国_伊利诺斯州_卡本代尔|Carbondale
+en|美国_伊利诺斯州_森特勒利亚|Centralia
+en|美国_伊利诺斯州_厄巴纳-香槟|Champaign-Urbana
+en|美国_伊利诺斯州_芝加哥|Chicago
+en|美国_伊利诺斯州_丹维尓|Danville
+en|美国_伊利诺斯州_迪卡尔布|De Kalb
+en|美国_伊利诺斯州_迪凯特|Decatur
+en|美国_伊利诺斯州_东圣路易斯|East St Louis
+en|美国_伊利诺斯州_埃尔金|Elgin
+en|美国_伊利诺斯州_盖尔斯堡|Galesburg
+en|美国_伊利诺斯州_乔利埃特|Joliet
+en|美国_伊利诺斯州_内珀维尔|Naperville
+en|美国_伊利诺斯州_诺黙尔|Normal
+en|美国_伊利诺斯州_皮奥里亚|Peoria
+en|美国_伊利诺斯州_罗克艾兰|Rock Island
+en|美国_伊利诺斯州_罗克福德|Rockford
+en|美国_伊利诺斯州_斯普林菲尔德|Springfield
+en|美国_伊利诺斯州_沃其根|Waukegan
+en|美国_印第安那|Indiana
+en|美国_印第安那_埃文斯维尔|Evansville
+en|美国_印第安那_韦恩堡|Fort Wayne
+en|美国_印第安那_印第安纳波利斯|Indianapolis
+en|美国_印第安那_南本德|South Bend
+en|美国_爱荷华|Iowa
+en|美国_爱荷华_锡达拉皮兹|Cedar Rapids
+en|美国_爱荷华_达文波特|Davenport
+en|美国_爱荷华_得梅因|Des Moines
+en|美国_堪萨斯|Kansas
+en|美国_堪萨斯_阿比林|Abilene
+en|美国_堪萨斯_哈钦森|Hutchinson
+en|美国_堪萨斯_堪萨斯城|Kansas City
+en|美国_堪萨斯_劳伦斯|Lawrence
+en|美国_堪萨斯_莱文沃思|Leavenworth
+en|美国_堪萨斯_曼哈顿|Manhattan
+en|美国_堪萨斯_奥拉西|Olathe
+en|美国_堪萨斯_奥弗兰公园|Overland Park
+en|美国_堪萨斯_托皮卡|Topeka
+en|美国_堪萨斯_威奇托|Wichita
+en|美国_肯塔基|Kentucky
+en|美国_肯塔基_列克星敦|Lexington
+en|美国_肯塔基_路易斯维尔|Louisville
+en|美国_肯塔基_欧文斯伯勒|Owensboro
+en|美国_路易斯安那|Louisiana
+en|美国_路易斯安那_巴吞鲁日|Baton Rouge
+en|美国_路易斯安那_拉法叶|Lafayette
+en|美国_路易斯安那_新奥尔良|New Orleans
+en|美国_路易斯安那_什里夫波特|Shreveport
+en|美国_缅因|Maine
+en|美国_缅因_班戈|Bangor
+en|美国_缅因_刘易斯顿|Lewiston
+en|美国_缅因_波特兰|Portland
+en|美国_马里兰|Maryland
+en|美国_马里兰_巴尔的摩|Balitmore
+en|美国_马里兰_盖瑟斯堡|Gaithersburg
+en|美国_马里兰_罗克维尔|Rockville
+en|美国_马萨诸塞|Massachusetts
+en|美国_马萨诸塞_波士顿|Boston
+en|美国_马萨诸塞_剑桥|Cambridge
+en|美国_马萨诸塞_洛厄尔|Lowell
+en|美国_马萨诸塞_斯普林菲尔德|Springfield
+en|美国_马萨诸塞_伍斯特|Worcester
+en|美国_密歇根|Michigan
+en|美国_密歇根_安娜堡|Ann Arbor
+en|美国_密歇根_巴特尔克里克|Battle Creek
+en|美国_密歇根_贝城|Bay City
+en|美国_密歇根_迪尔伯恩|Dearborn
+en|美国_密歇根_底特律|Detroit
+en|美国_密歇根_弗林特|Flint
+en|美国_密歇根_大急流城|Grand Rapids
+en|美国_密歇根_卡拉马袓|Kalamazoo
+en|美国_密歇根_兰辛|Lansing
+en|美国_密歇根_马斯基根|Muskegon
+en|美国_密歇根_庞菷亚克|Pontiac
+en|美国_密歇根_休伦港|Port Huron
+en|美国_密歇根_萨吉诺|Saginaw
+en|美国_密歇根_苏圣玛丽|Sault Ste Marie
+en|美国_密歇根_斯特灵海茨|Sterling Heights
+en|美国_密歇根_沃伦|Warren
+en|美国_密歇根_怀恩多特|Wyandotte
+en|美国_明尼苏达|Minnesota
+en|美国_明尼苏达_明尼阿波利斯|Minneapolis
+en|美国_明尼苏达_罗切斯特|Rochester
+en|美国_明尼苏达_圣保罗|Saint Paul
+en|美国_密西西比|Mississippi
+en|美国_密西西比_比洛克西|Biloxi
+en|美国_密西西比_格林维尔|Greenville
+en|美国_密西西比_格尔夫波特|Gulfport
+en|美国_密西西比_哈蒂斯堡|Hattiesburg
+en|美国_密西西比_杰克逊|Jackson
+en|美国_密西西比_默里迪恩|Meridian
+en|美国_密西西比_维克斯堡|Vicksburg
+en|美国_密苏里|Missouri
+en|美国_密苏里_哥伦比亚|Columbia
+en|美国_密苏里_独立城|Independence
+en|美国_密苏里_杰佛逊市|Jefferson City
+en|美国_密苏里_堪萨斯城|Kansas City
+en|美国_密苏里_圣路易斯|Saint Louis
+en|美国_密苏里_斯普林菲尔德|Springfield
+en|美国_蒙大拿|Montana
+en|美国_蒙大拿_比灵斯|Billings
+en|美国_蒙大拿_大瀑布村|Great Falls
+en|美国_蒙大拿_米苏拉|Missoula
+en|美国_内布拉斯加|Nebraska
+en|美国_内布拉斯加_贝尔维尤|Bellevue
+en|美国_内布拉斯加_林肯|Lincoln
+en|美国_内布拉斯加_奥马哈|Omaha
+en|美国_内华达州|Nevada
+en|美国_内华达州_卡森城|Carson City
+en|美国_内华达州_埃尔科|Elko
+en|美国_内华达州_亨德森|Henderson
+en|美国_内华达州_拉斯维加斯|Las Vegas
+en|美国_内华达州_北拉斯维加斯|North Las Vegas
+en|美国_内华达州_里诺|Reno
+en|美国_内华达州_斯帕克斯|Sparks
+en|美国_内华达州_弗吉尼亚城|Virginia City
+en|美国_新罕布什尔|New Hampshire
+en|美国_新罕布什尔_康科德|Concord
+en|美国_新罕布什尔_曼彻斯特|Manchester
+en|美国_新罕布什尔_纳舒厄|Nashua
+en|美国_新泽西|New Jersey
+en|美国_新泽西_爱迪生|Edison
+en|美国_新泽西_伊丽莎白|Elizabeth
+en|美国_新泽西_泽西城|Jersey City
+en|美国_新泽西_纽瓦克|Newark
+en|美国_新泽西_帕特森|Paterson
+en|美国_新墨西哥|New Mexico
+en|美国_新墨西哥_阿尔伯克基|Albuquerque
+en|美国_新墨西哥_拉斯克鲁塞斯|Las Cruces
+en|美国_新墨西哥_罗斯韦尔|Roswell
+en|美国_新墨西哥_圣菲|Santa Fe
+en|美国_纽约|New York
+en|美国_纽约_布法罗|Buffalo
+en|美国_纽约_纽约市|New York
+en|美国_纽约_罗切斯特|Rochester
+en|美国_纽约_雪城|Syracuse
+en|美国_纽约_扬克斯|Yonkers
+en|美国_北卡罗来纳|North Carolina
+en|美国_北卡罗来纳_艾许维尔|Asheville
+en|美国_北卡罗来纳_凯利|Cary
+en|美国_北卡罗来纳_教堂山|Chapel Hill
+en|美国_北卡罗来纳_夏洛特|Charlotte
+en|美国_北卡罗来纳_杜罕|Durham
+en|美国_北卡罗来纳_费耶特维尔|Fayetteville
+en|美国_北卡罗来纳_格林斯伯勒|Greensboro
+en|美国_北卡罗来纳_海波特|High Point
+en|美国_北卡罗来纳_罗利|Raleigh
+en|美国_北卡罗来纳_洛利杜罕都会区|Raleigh-Durham
+en|美国_北卡罗来纳_威尔明顿|Wilmington
+en|美国_北卡罗来纳_温斯顿.萨利姆|Winston–Salem
+en|美国_北达科他|North Dakota
+en|美国_北达科他_俾斯麦|Bismarck
+en|美国_北达科他_法戈|Fargo
+en|美国_北达科他_大福克斯|Grand Forks
+en|美国_北达科他_迈诺特|Minot
+en|美国_俄亥俄|Ohio
+en|美国_俄亥俄_阿克伦|Akron
+en|美国_俄亥俄_辛辛那提|Cincinnati
+en|美国_俄亥俄_克利夫兰|Cleveland
+en|美国_俄亥俄_哥伦布|Columbus
+en|美国_俄亥俄_代顿|Dayton
+en|美国_俄亥俄_托莱多|Toledo
+en|美国_俄克拉荷马|Oklahoma
+en|美国_俄克拉荷马_断箭城|Broken Arrow
+en|美国_俄克拉荷马_诺曼|Norman
+en|美国_俄克拉荷马_俄克拉荷马城|Oklahoma City
+en|美国_俄克拉荷马_塔尔萨|Tulsa
+en|美国_俄勒冈|Oregon
+en|美国_俄勒冈_本德|Bend
+en|美国_俄勒冈_库斯贝|Coos Bay
+en|美国_俄勒冈_科瓦利斯|Corvallis
+en|美国_俄勒冈_火山口湖|Crater Lake
+en|美国_俄勒冈_达拉斯|Dallas
+en|美国_俄勒冈_尤金|Eugene
+en|美国_俄勒冈_格兰茨帕斯|Grant's Pass
+en|美国_俄勒冈_格雷沙姆|Gresham
+en|美国_俄勒冈_胡德里弗|Hood River
+en|美国_俄勒冈_梅德福|Medford
+en|美国_俄勒冈_波特兰|Portland
+en|美国_俄勒冈_塞勒姆|Salem
+en|美国_俄勒冈_斯普林菲尔德|Springfield
+en|美国_俄勒冈_圣海伦斯|St Helens
+en|美国_俄勒冈_达尔斯|The Dalles
+en|美国_俄勒冈_蒂拉穆克|Tillamook
+en|美国_宾夕法尼亚|Pennsylvania
+en|美国_宾夕法尼亚_阿伦敦|Allentown
+en|美国_宾夕法尼亚_伊利|Erie
+en|美国_宾夕法尼亚_费城|Philadephia
+en|美国_宾夕法尼亚_匹兹堡|Pittsburgh
+en|美国_罗德岛|Rhode Island
+en|美国_罗德岛_克兰斯顿|Cranston
+en|美国_罗德岛_纽波特|Newport
+en|美国_罗德岛_波塔基特|Pawtucket
+en|美国_罗德岛_普罗维登斯|Providence
+en|美国_罗德岛_沃威克|Warwick
+en|美国_罗德岛_韦斯特利|Westerly
+en|美国_罗德岛_文索基特|Woonsocket
+en|美国_南卡罗来纳|South Carolina
+en|美国_南卡罗来纳_查尔斯顿|Charleston
+en|美国_南卡罗来纳_哥伦比亚|Columbia
+en|美国_南卡罗来纳_北查尔斯顿|North Charleston
+en|美国_南达科他|South Dakota
+en|美国_南达科他_阿伯丁|Aberdeen
+en|美国_南达科他_拉皮德城|Rapid City
+en|美国_南达科他_苏福尔斯|Sioux Falls
+en|美国_田纳西|Tennessee
+en|美国_田纳西_布利斯托|Bristol
+en|美国_田纳西_查塔努加|Chattanooga
+en|美国_田纳西_克拉克维尔|Clarksville
+en|美国_田纳西_约翰逊城|Johnson City
+en|美国_田纳西_金斯波特|Kingsport
+en|美国_田纳西_诺克斯维尔|Knoxville
+en|美国_田纳西_孟菲斯|Memphis
+en|美国_田纳西_默弗里斯伯勒|Murfreesboro
+en|美国_田纳西_纳什维尔|Nashville
+en|美国_田纳西_士麦那|Smyrna
+en|美国_田纳西_斯普林希尔|Spring Hill
+en|美国_田纳西_三城区|Tri-City Area
+en|美国_德州|Texas
+en|美国_德州_阿比林|Abilene
+en|美国_德州_阿马里洛|Amarillo
+en|美国_德州_阿灵顿|Arlington
+en|美国_德州_奥斯汀|Austin
+en|美国_德州_博蒙特|Beaumont
+en|美国_德州_布朗斯维尔|Brownsville
+en|美国_德州_卡罗敦|Carrollton
+en|美国_德州_大学城|College Station
+en|美国_德州_哥帕斯基斯蒂|Corpus Christi
+en|美国_德州_达拉斯|Dallas
+en|美国_德州_丹敦|Denton
+en|美国_德州_埃尔帕索|El Paso
+en|美国_德州_沃斯堡|Fort Worth
+en|美国_德州_弗里斯科|Frisco
+en|美国_德州_交维斯顿|Galveston
+en|美国_德州_加兰|Garland
+en|美国_德州_大草原城|Grand Prairie
+en|美国_德州_休斯敦|Houston
+en|美国_德州_欧文|Irving
+en|美国_德州_基林|Killeen
+en|美国_德州_拉雷多|Laredo
+en|美国_德州_路易斯维尔|Lewisville
+en|美国_德州_拉伯克|Lubbock
+en|美国_德州_麦卡伦|McAllen
+en|美国_德州_麦金尼|McKinney
+en|美国_德州_梅斯基特|Mesquite
+en|美国_德州_米德兰|Midland
+en|美国_德州_敖德萨|Odessa
+en|美国_德州_帕萨迪纳|Pasadena
+en|美国_德州_梨城|Pearland
+en|美国_德州_布兰诺|Plano
+en|美国_德州_理查森|Richardson
+en|美国_德州_朗德罗克|Round Rock
+en|美国_德州_圣安东尼奥|San Antonio
+en|美国_德州_泰勒|Tyler
+en|美国_德州_韦科|Waco
+en|美国_德州_威奇托福尔斯|Wichita Falls
+en|美国_犹他|Utah
+en|美国_犹他_雷登|Layton
+en|美国_犹他_奥格登|Ogden
+en|美国_犹他_欧仁|Orem
+en|美国_犹他_帕克城|Park City
+en|美国_犹他_普罗沃|Provo
+en|美国_犹他_盐湖城|Salt Lake City
+en|美国_犹他_圣乔治|St.George
+en|美国_犹他_西乔丹|West Jordan
+en|美国_犹他_西瓦利城|West Valley City
+en|美国_佛蒙特|Vermont
+en|美国_佛蒙特_伯灵顿|Burlington
+en|美国_佛蒙特_拉特兰|Rutland
+en|美国_佛蒙特_南伯灵顿|South Burlington
+en|美国_维吉尼亚|Virginia
+en|美国_维吉尼亚_阿科马克|Accomack
+en|美国_维吉尼亚_阿尔伯马尔|Albemarle
+en|美国_维吉尼亚_亚历山大港|Alexandria
+en|美国_维吉尼亚_阿利根尼|Alleghany
+en|美国_维吉尼亚_阿米利亚|Amelia
+en|美国_维吉尼亚_阿默斯特|Amherst
+en|美国_维吉尼亚_阿波马托克斯|Appomattox
+en|美国_维吉尼亚_阿灵顿|Arlington
+en|美国_维吉尼亚_奥古斯塔|Augusta
+en|美国_维吉尼亚_巴斯|Bath
+en|美国_维吉尼亚_贝德福|Bedford
+en|美国_维吉尼亚_布兰德|Bland
+en|美国_维吉尼亚_博特托尔特|Botetourt
+en|美国_维吉尼亚_布里斯托尔|Bristol
+en|美国_维吉尼亚_布伦瑞克|Brunswick
+en|美国_维吉尼亚_布坎南|Buchanan
+en|美国_维吉尼亚_白金汉|Buckingham
+en|美国_维吉尼亚_布尤纳维斯塔|Buena Vista
+en|美国_维吉尼亚_坎贝尔|Campbell
+en|美国_维吉尼亚_加罗林|Caroline
+en|美国_维吉尼亚_卡罗尔|Carroll
+en|美国_维吉尼亚_查尔斯城|Charles City
+en|美国_维吉尼亚_夏洛特|Charlotte
+en|美国_维吉尼亚_夏洛茨维尔|Charlottesville
+en|美国_维吉尼亚_切萨皮克|Chesapeake
+en|美国_维吉尼亚_切斯特菲尔德|Chesterfield
+en|美国_维吉尼亚_克拉尔克|Clarke
+en|美国_维吉尼亚_科隆尼尔海次|Colonial Heights
+en|美国_维吉尼亚_科文顿|Covington
+en|美国_维吉尼亚_克雷格|Craig
+en|美国_维吉尼亚_库尔佩珀|Culpeper
+en|美国_维吉尼亚_坎伯兰|Cumberland
+en|美国_维吉尼亚_丹维尔|Danville
+en|美国_维吉尼亚_迪肯森|Dickenson
+en|美国_维吉尼亚_丁威迪|Dinwiddie
+en|美国_维吉尼亚_恩波利亚|Emporia
+en|美国_维吉尼亚_埃塞克斯|Essex
+en|美国_维吉尼亚_费尔法克斯|Fairfax
+en|美国_维吉尼亚_福尔斯彻奇|Falls Church
+en|美国_维吉尼亚_福基尔|Fauquier
+en|美国_维吉尼亚_弗洛伊德|Floyd
+en|美国_维吉尼亚_弗卢万纳|Fluvanna
+en|美国_维吉尼亚_富兰克林|Franklin
+en|美国_维吉尼亚_弗雷德里克|Frederick
+en|美国_维吉尼亚_弗雷德里克斯堡|Fredericksburg
+en|美国_维吉尼亚_加莱克斯|Galax
+en|美国_维吉尼亚_贾尔斯|Giles
+en|美国_维吉尼亚_格洛斯特|Gloucester
+en|美国_维吉尼亚_古奇兰|Goochland
+en|美国_维吉尼亚_格雷森|Grayson
+en|美国_维吉尼亚_格林|Greene
+en|美国_维吉尼亚_格林维尔|Greensville
+en|美国_维吉尼亚_哈利法克斯|Halifax
+en|美国_维吉尼亚_汉普顿|Hampton
+en|美国_维吉尼亚_汉诺威|Hanover
+en|美国_维吉尼亚_哈里森堡|Harrisonburg
+en|美国_维吉尼亚_亨利科|Henrico
+en|美国_维吉尼亚_亨利|Henry
+en|美国_维吉尼亚_海兰|Highland
+en|美国_维吉尼亚_霍普韦尔|Hopewell
+en|美国_维吉尼亚_怀特岛|Isle of Wight
+en|美国_维吉尼亚_詹姆斯城|James City
+en|美国_维吉尼亚_乔治王|King George
+en|美国_维吉尼亚_威廉王|King William
+en|美国_维吉尼亚_国王与王后县|King and Queen
+en|美国_维吉尼亚_兰开斯特|Lancaster
+en|美国_维吉尼亚_李县|Lee
+en|美国_维吉尼亚_列克星敦|Lexington
+en|美国_维吉尼亚_劳登郡|Loudoun
+en|美国_维吉尼亚_路易莎郡|Louisa
+en|美国_维吉尼亚_卢嫩堡郡|Lunenburg
+en|美国_维吉尼亚_林奇堡|Lynchburg
+en|美国_维吉尼亚_麦迪逊|Madison
+en|美国_维吉尼亚_马纳萨斯|Manassas
+en|美国_维吉尼亚_马纳萨斯帕克|Manassas Park
+en|美国_维吉尼亚_马丁斯维尔|Martinsville
+en|美国_维吉尼亚_马修斯|Mathews
+en|美国_维吉尼亚_梅克伦堡|Mecklenburg
+en|美国_维吉尼亚_米德尔塞克斯|Middlesex
+en|美国_维吉尼亚_蒙哥马利|Montgomery
+en|美国_维吉尼亚_纳尔逊|Nelson
+en|美国_维吉尼亚_新肯特|New Kent
+en|美国_维吉尼亚_纽波特纽斯|Newport News
+en|美国_维吉尼亚_诺福克|Norfolk
+en|美国_维吉尼亚_北安普敦|Northampton
+en|美国_维吉尼亚_诺森伯兰郡|Northumberland
+en|美国_维吉尼亚_诺顿|Norton
+en|美国_维吉尼亚_诺托韦|Nottoway
+en|美国_维吉尼亚_奥兰治|Orange
+en|美国_维吉尼亚_佩奇县|Page
+en|美国_维吉尼亚_帕特里克|Patrick
+en|美国_维吉尼亚_彼得斯堡|Petersburg
+en|美国_维吉尼亚_皮特斯瓦|Pittsylvania
+en|美国_维吉尼亚_普库森|Poquoson
+en|美国_维吉尼亚_朴茨茅斯|Portsmouth
+en|美国_维吉尼亚_波瓦坦|Powhatan
+en|美国_维吉尼亚_爱德华王子县|Prince Edward
+en|美国_维吉尼亚_乔治王子县|Prince George
+en|美国_维吉尼亚_威廉王子县|Prince William
+en|美国_维吉尼亚_普瓦斯基|Pulaski
+en|美国_维吉尼亚_瑞德福|Radford
+en|美国_维吉尼亚_拉帕汉诺克|Rappahannock
+en|美国_维吉尼亚_里士满|Richmond
+en|美国_维吉尼亚_洛亚诺克|Roanoke
+en|美国_维吉尼亚_石桥郡|Rockbridge
+en|美国_维吉尼亚_罗金厄姆|Rockingham
+en|美国_维吉尼亚_拉塞尔|Russell
+en|美国_维吉尼亚_萨利姆|Salem
+en|美国_维吉尼亚_斯科特|Scott
+en|美国_维吉尼亚_谢南多厄|Shenandoah
+en|美国_维吉尼亚_史密斯|Smyth
+en|美国_维吉尼亚_南安普敦|Southampton
+en|美国_维吉尼亚_斯波特瑟尔韦尼亚|Spotsylvania
+en|美国_维吉尼亚_斯塔福德|Stafford
+en|美国_维吉尼亚_士丹顿|Staunton
+en|美国_维吉尼亚_萨福克|Suffolk
+en|美国_维吉尼亚_萨里|Surry
+en|美国_维吉尼亚_苏塞克斯|Sussex
+en|美国_维吉尼亚_塔兹韦尔|Tazewell
+en|美国_维吉尼亚_弗吉尼亚比奇|Virginia Beach
+en|美国_维吉尼亚_沃伦|Warren
+en|美国_维吉尼亚_华盛顿|Washington
+en|美国_维吉尼亚_韦恩斯伯勒|Waynesboro
+en|美国_维吉尼亚_威斯特摩兰德|Westmoreland
+en|美国_维吉尼亚_威廉斯堡|Williamsburg
+en|美国_维吉尼亚_温彻斯特|Winchester
+en|美国_维吉尼亚_怀斯|Wise
+en|美国_维吉尼亚_威斯|Wythe
+en|美国_维吉尼亚_约克|York
+en|美国_华盛顿|Washington
+en|美国_华盛顿_贝尔维尤|Bellevue
+en|美国_华盛顿_艾佛雷特|Everett
+en|美国_华盛顿_肯特|Kent
+en|美国_华盛顿_西雅图|Seattle
+en|美国_华盛顿_斯波坎|Spokane
+en|美国_华盛顿_塔科马|Tacoma
+en|美国_华盛顿_范库弗峰|Vancouver
+en|美国_西佛吉尼亚|West Virginia
+en|美国_西佛吉尼亚_查尔斯顿|Charleston
+en|美国_西佛吉尼亚_亨廷顿|Huntington
+en|美国_西佛吉尼亚_帕克斯堡|Parkersburg
+en|美国_威斯康星|Wisconsin
+en|美国_威斯康星_阿普尓顿|Appleton
+en|美国_威斯康星_欧克莱尓|Eau Claire
+en|美国_威斯康星_格林贝|Green Bay
+en|美国_威斯康星_基诺沙|Kenosha
+en|美国_威斯康星_拉克罗斯|LaCrosse
+en|美国_威斯康星_迈迪逊|Madison
+en|美国_威斯康星_马尼托沃克|Manitowoc
+en|美国_威斯康星_密尔沃基|Milwaukee
+en|美国_威斯康星_奥什科什|Oshkosh
+en|美国_威斯康星_拉辛|Racine
+en|美国_威斯康星_希博伊根|Sheboygan
+en|美国_威斯康星_沃索|Wausau
+en|美国_怀俄明州|Wyoming
+en|美国_怀俄明州_卡斯帕|Casper
+en|美国_怀俄明州_夏延|Cheyenne
+en|美国_怀俄明州_埃文斯顿|Evanston
+en|美国_怀俄明州_拉勒米|Laramie
+en|美国_怀俄明州_罗克斯普林斯|Rock Springs
+en|美国_怀俄明州_谢里登|Sheridan
+en|乌拉圭|Uruguay
+en|乌兹别克斯坦|Uzbekistan
+en|瓦努阿图|Vanuatu
+en|委内瑞拉|Venezuela
+en|委内瑞拉_亚马孙|Amazonas
+en|委内瑞拉_安索阿特吉|Anzoategui
+en|委内瑞拉_阿普雷|Apure
+en|委内瑞拉_阿拉瓜|Aragua
+en|委内瑞拉_巴里纳斯|Barinas
+en|委内瑞拉_玻利瓦尔|Bolivar
+en|委内瑞拉_卡拉沃沃|Carabobo
+en|委内瑞拉_加拉加斯|Caracas
+en|委内瑞拉_科赫德斯|Cojedes
+en|委内瑞拉_阿马库罗三角洲|Delta Amacuro
+en|委内瑞拉_联邦属地|Dependencias Federales
+en|委内瑞拉_新埃斯帕塔|Estado Nueva Esparta
+en|委内瑞拉_法尔孔|Falcon
+en|委内瑞拉_瓜里科|Guarico
+en|委内瑞拉_拉腊|Lara
+en|委内瑞拉_梅里达|Merida
+en|委内瑞拉_米兰达|Miranda
+en|委内瑞拉_莫纳加斯|Monagas
+en|委内瑞拉_波图格萨|Portuguesa
+en|委内瑞拉_苏克雷|Sucre
+en|委内瑞拉_塔奇拉|Tachira
+en|委内瑞拉_特鲁希略|Trujillo
+en|委内瑞拉_亚拉奎|Yaracuy
+en|委内瑞拉_苏利亚|Zulia
+en|越南|Vietnam
+en|越南_海防|Haiphong
+en|越南_河内|Hanoi
+en|越南_胡志明市|Ho Chi Minh City
+en|也门|Yemen
+en|赞比亚|Zambia

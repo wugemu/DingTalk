@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.Light.NoActionBar.dd.FullScreen" parent="@style/DtTheme.NoTitle">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    <style name="Theme.AppCompat.Light.NoActionBar.wml.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    <style name="UserBusinessProfileActivityTransparent" parent="@style/DtTheme.Normal">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="ui_common_base_ui_attr_hasImmersiveStatusBar">true</item>
+        <item name="ui_common_base_ui_attr_hasToolbarDivide">false</item>
+        <item name="ui_common_base_ui_attr_immersiveStatusBarPlaceholderColor">@android:color/transparent</item>
+        <item name="ui_common_base_ui_attr_isImmersiveStatusBarTextDarkMode">false</item>
+        <item name="ui_common_base_ui_attr_rootContentViewLayout">@layout/ui_profile_base_ui_overlay_activity</item>
+        <item name="ui_common_base_ui_attr_toolbarBackgroundColor">@android:color/transparent</item>
+        <item name="ui_common_base_ui_attr_toolbarForegroundColor">@color/pure_white</item>
+        <item name="ui_common_base_ui_attr_toolbarTitleTextColor">@color/pure_white</item>
+    </style>
+</resources>

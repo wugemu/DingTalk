@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_top_line" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" />
+    <RelativeLayout android:id="@id/rl_base_mode" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:textSize="17.0dip" android:id="@id/tv_base_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="20.0dip" android:textColor="@color/ui_common_level1_button_bg_color" android:id="@id/iv_base_mode_toggle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/icon_right_fill" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="16.0dip" />
+    </LinearLayout>
+</LinearLayout>

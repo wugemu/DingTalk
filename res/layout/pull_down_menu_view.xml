@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/pulldown_back_btn" android:background="@drawable/actbar_back_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pulldown_x_padding" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/text_size_17" android:gravity="center_vertical" android:id="@id/pulldown_index_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pulldown_index_text" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <ImageButton android:id="@id/pulldown_remove_btn" android:background="@drawable/pull_down_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/pulldown_x_padding" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

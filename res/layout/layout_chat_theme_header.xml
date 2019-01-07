@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.HeaderGridView android:id="@id/grid_view_header" android:background="@color/ui_common_content_bg_color" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="10.0dip" android:stretchMode="columnWidth" android:numColumns="3" />
+    <TextView android:textSize="@dimen/text_size_17" android:textStyle="bold" android:textColor="@color/ui_common_level1_text_color" android:id="@id/tv_header_title" android:paddingTop="13.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_im_chat_background_recommended" />
+</LinearLayout>

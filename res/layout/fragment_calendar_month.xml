@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.views.calendar2.CalendarWeekDayBar android:id="@id/calendar_widget_weekday_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    <com.alibaba.lightapp.runtime.adapter.CalendarWidgetMonthViewPager android:id="@id/calendar_widget_month_pager" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/calendar_widget_weekday_bar" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="top" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.alibaba.android.dingtalkbase.widgets.views.ViewPagerFixed android:id="@id/message_more_menu_pager" android:layout_width="fill_parent" android:layout_height="80.0dip" />
+    <LinearLayout android:gravity="center|top" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/points_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+</FrameLayout>

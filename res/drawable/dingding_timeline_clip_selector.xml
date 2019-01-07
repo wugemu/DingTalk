@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_selected="true">
+        <layer-list>
+            <item>
+                <color android:color="@android:color/white" />
+            </item>
+            <item android:right="1.0px">
+                <color android:color="@color/dingding_color_red_normal" />
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="true" android:state_checked="false">
+        <layer-list>
+            <item>
+                <color android:color="#50000000" />
+            </item>
+            <item android:right="1.0px">
+                <color android:color="@android:color/white" />
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <color android:color="@android:color/white" />
+    </item>
+</selector>

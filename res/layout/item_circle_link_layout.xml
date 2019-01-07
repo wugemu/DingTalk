@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ver_line" android:layout_width="@dimen/ver_line_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ver_line_margin_left" android:layout_alignBottom="@id/content" android:layout_alignParentTop="true" layout="@layout/item_circle_ver_line" />
+    <include android:id="@id/avatar_and_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/avatar_margin_left" android:layout_marginTop="@dimen/avatar_margin_top" layout="@layout/item_circle_header_avatar_and_name" />
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/circle_content_margin_left" android:layout_below="@id/avatar_and_name"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/comments_margin_right" layout="@layout/item_circle_header_summary" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12" android:layout_marginRight="@dimen/comments_margin_right" layout="@layout/item_circle_link" />
+        <include layout="@layout/item_circle_bottom" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/rl_user_info_work_status_bg_inner" android:background="@color/pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/user_water_list_item_selector" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="#ff3296fa" android:id="@id/profile_external_log_tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="填写拜访记录" android:singleLine="true" android:layout_centerInParent="true" />
+        <View android:id="@id/divider_line" android:background="@color/ui_common_content_fg_color_alpha_12" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

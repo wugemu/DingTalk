@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.android.teleconf.widget.TeleVideoAnimationFrameLayout android:id="@id/conf_main_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/conf_call_and_video_bg_color" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+            <include android:id="@id/conf_main_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_conf_video_main_panel" />
+            <include android:id="@id/conf_preparing_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_conf_video_called_panel" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:layout_gravity="right" android:orientation="horizontal" android:id="@id/conf_share_window_enter" android:background="@drawable/conf_status_bg_circle_44_small_shape" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s24" android:textColor="@color/ui_common_content_bg_color" android:id="@id/conf_share_window_enter_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_Hscreen_fill" />
+            </LinearLayout>
+            <com.alibaba.android.teleconf.widget.CustomHorizontalRecyclerView android:id="@id/conf_sub_windows_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/conf_control_layout" android:background="@color/conf_call_and_video_bg_color" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/conf_control_action" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/video_member_list_view" android:background="@drawable/conf_voip_switch_stroke_shape" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="40.0dip">
+                        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s20" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/video_member_list_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_member_fill" />
+                        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/video_member_list_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/dt_conference_video_member_list_title" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.alibaba.android.teleconf.widget.TeleConfCallControlLayout android:gravity="center" android:orientation="vertical" android:id="@id/conf_control_btns" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <include android:id="@id/conf_member_list_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_conf_video_member_list_panel" />
+    </RelativeLayout>
+</com.alibaba.android.teleconf.widget.TeleVideoAnimationFrameLayout>

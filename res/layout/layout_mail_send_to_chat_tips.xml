@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/org_guide_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="@color/text_color_white" android:gravity="center_vertical" android:id="@id/tv_blue_guide_content" android:background="@drawable/first_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_mail_guide_createchat" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/iv_blue_guide_down_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:src="@drawable/blue_guide_down_arrow" android:scaleType="centerInside" android:layout_below="@id/tv_blue_guide_content" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</LinearLayout>

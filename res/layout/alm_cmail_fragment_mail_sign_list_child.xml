@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/cmail_top_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/alm_cmail_mail_common_bg" android:paddingLeft="48.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="16.0dip" android:textColor="@color/alm_cmail_color_6_6" android:textColorHint="@color/compose_label_text" android:gravity="left" android:id="@id/personal_sign_content" android:background="@drawable/alm_cmail_bg_edit_border" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:hint="@string/dt_mail_default_signature" android:maxLength="1000" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/enterprise_sign_content_layout" android:background="@drawable/alm_cmail_mail_common_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:paddingLeft="40.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="90.0dip">
+            <com.alibaba.alimei.cmail.widget.mail.SignatureTitleBarWebView android:id="@id/enterprise_sign_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="90.0dip" />
+            <TextView android:gravity="center" android:id="@id/tv_mail_sign_template_overlay" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/alm_cmail_color_c2" android:gravity="center" android:id="@id/enterprise_modify_content" android:background="@drawable/alm_cmail_mail_common_bg" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/dt_mail_modify_singnature_content" />
+        <View android:background="@color/alm_cmail_color_c5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/alm_cmail_color_c2" android:gravity="center" android:id="@id/enterprise_switch_template" android:background="@drawable/alm_cmail_mail_common_bg" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/dt_mail_switch_signature_template" />
+        <View android:background="@color/alm_cmail_color_c5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="8.0dip" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/alm_cmail_mail_common_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/alm_cmail_color_c2" android:gravity="center" android:id="@id/sing_open_by_admin_status" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_mail_signature_open_orgsignature_onstep_admin" />
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s13" android:textColor="@color/alm_cmail_color_6_2" android:gravity="center" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_mail_signaute_operate_admin_only" android:maxLength="120" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

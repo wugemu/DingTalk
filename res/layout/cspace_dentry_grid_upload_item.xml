@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/rl_item" android:layout_width="96.0dip" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip">
+        <include android:id="@id/layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" layout="@layout/cspace_dentry_grid_item_file_icon" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level1_base_color" android:ellipsize="middle" android:gravity="center_horizontal" android:id="@id/tv_name" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" android:layout_below="@id/layout_icon" android:layout_centerHorizontal="true" />
+        <ProgressBar android:id="@id/pb_progress" android:layout_width="80.0dip" android:layout_height="4.0dip" android:layout_marginTop="8.0dip" android:max="100" android:indeterminate="false" android:progressDrawable="@drawable/progress_blue" android:layout_below="@id/tv_name" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleHorizontal" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginTop="11.0dip" android:layout_below="@id/pb_progress" android:layout_centerHorizontal="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_17" android:textColor="@color/cspace_common_blue" android:gravity="center_horizontal" android:id="@id/iftv_pause" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/icon_suspend" android:layout_weight="1.0" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_17" android:textColor="@color/cspace_common_blue" android:gravity="center_horizontal" android:id="@id/iftv_delete" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/icon_roundclose" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

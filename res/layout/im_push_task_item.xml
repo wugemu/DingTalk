@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/im_top_task_item_width" android:layout_height="65.0dip" android:minWidth="@dimen/im_top_task_item_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="48.0dip" android:layout_height="48.0dip">
+        <ImageView android:id="@id/iv_task_icon" android:layout_width="43.0dip" android:layout_height="48.0dip" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/iv_red_dot" android:background="@drawable/im_bg_ring_red_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.5dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0dip" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_task_title" android:layout_width="72.0dip" android:layout_height="16.0dip" android:layout_marginTop="4.0dip" android:maxLines="1" android:maxEms="6" />
+</LinearLayout>

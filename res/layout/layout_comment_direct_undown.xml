@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_line" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <View android:id="@id/view_split" android:background="@color/ui_common_level1_line_bg_color" android:visibility="invisible" android:layout_width="1.0dip" android:layout_height="18.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_centerInParent="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="2.0dip" android:layout_toLeftOf="@id/view_split" android:layout_centerVertical="true">
+        <RelativeLayout android:id="@id/rl_like_good" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s22" android:textColor="@color/uidic_global_color_6_7" android:id="@id/iv_like_good" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_likegood" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/uidic_global_color_6_7" android:id="@id/tv_like_good" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dt_chat_quick_message_praise" android:layout_below="@id/iv_like_good" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="2.0dip" android:layout_toRightOf="@id/view_split" android:layout_centerVertical="true">
+        <RelativeLayout android:id="@id/rl_comment" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s22" android:textColor="@color/uidic_global_color_6_7" android:id="@id/iv_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_message" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/uidic_global_color_6_7" android:id="@id/tv_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dt_reaction_icon_comment" android:layout_below="@id/iv_comment" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

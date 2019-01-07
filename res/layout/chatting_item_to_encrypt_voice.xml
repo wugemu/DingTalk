@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/voice_play_view_container" android:background="@drawable/im_chatto_bg_normal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.voice.EncryptVoicePlayerView android:gravity="center|left" android:id="@id/voice_play_view" android:paddingLeft="@dimen/im_encrypt_to_voice_player_left" android:paddingRight="@dimen/im_encrypt_to_padding" android:focusable="true" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="40.0dip" />
+    <View android:id="@id/chatting_divide_line_v" android:background="@color/chat_item_divider_color" android:paddingLeft="@dimen/im_encrypt_to_padding" android:paddingRight="@dimen/im_encrypt_to_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.alibaba.android.dingtalkbase.widgets.LaiwangSpanFixTextView android:id="@id/chatting_content_translate_tv" android:paddingLeft="@dimen/im_encrypt_to_padding" android:paddingRight="@dimen/im_encrypt_to_padding" android:visibility="gone" android:layout_width="fill_parent" android:maxWidth="@dimen/chat_item_max_width" style="@style/ChattingViewText" />
+</LinearLayout>

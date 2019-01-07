@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_user_guide_task" android:background="@color/ui_common_content_fg_color_alpha_40" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ll_user_guide_task" android:background="@color/ui_common_content_bg_color" android:layout_width="311.0dip" android:layout_height="518.0dip" android:layout_centerInParent="true">
+        <com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout android:id="@id/progress_webview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout>
+        <ImageView android:id="@id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

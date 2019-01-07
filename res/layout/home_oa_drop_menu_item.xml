@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="52.0dip" android:minHeight="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:singleLine="true" android:layout_toLeftOf="@id/ll_selected_and_red_dot" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" />
+    <LinearLayout android:id="@id/ll_selected_and_red_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_15" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/if_selected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_right_fill" />
+        <TextView android:textSize="@dimen/text_size_10" android:textStyle="bold" android:textColor="@color/text_color_white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/item_micro_unread_count_tv" android:background="@drawable/tab_remind" android:padding="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_10" android:textColor="@color/im_sticky_to_top_tag_bg_color" android:id="@id/session_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/icon_sticky_to_top" />
+    <TextView android:textSize="@dimen/ui_common_caption1_text_size" android:textColor="@color/ui_common_level3_text_color" android:id="@id/session_gmt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="16.0dip" android:lineSpacingExtra="2.0dip" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="16.0dip" layout="@layout/im_layout_session_notify" />
+</LinearLayout>

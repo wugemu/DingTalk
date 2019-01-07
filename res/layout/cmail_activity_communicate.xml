@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingTop="@dimen/cmail_dimen_12_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:paddingBottom="@dimen/cmail_dimen_12_dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/cmail_text_white_blue_color" android:gravity="center" android:id="@id/from" android:background="@drawable/cmail_rect_left_bottom_bg_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/cmail_dimen_30_dp" android:text="@string/mail_sender" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/cmail_text_white_blue_color" android:gravity="center" android:id="@id/to" android:background="@drawable/cmail_middle_color_bg_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/cmail_dimen_30_dp" android:text="@string/mail_receiver" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/cmail_text_white_blue_color" android:gravity="center" android:id="@id/commulicate" android:background="@drawable/cmail_rect_right_top_bg_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/cmail_dimen_30_dp" android:text="@string/dt_cmail_communicate_mail" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.alibaba.alimei.mail.widget.CommonListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

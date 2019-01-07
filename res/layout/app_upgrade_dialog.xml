@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.android.dingtalkbase.widgets.views.RoundClippingRelativeLayout android:background="@drawable/dlg_bg_shape" android:layout_width="271.0dip" android:layout_height="382.0dip" android:minWidth="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dlg_rl" android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_alignParentTop="true">
+        <com.alibaba.android.dingtalkbase.widgets.views.ViewPagerFixed android:id="@id/dlg_banner_viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/uidic_global_color_6_5" android:id="@id/dlg_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:text="@string/icon_calendar_close" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dlg_banner_dot_layout" android:background="@drawable/transprent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_below="@id/dlg_rl" android:layout_centerHorizontal="true" />
+    <Button android:textSize="17.0dip" android:textColor="@color/white" android:orientation="horizontal" android:id="@id/btn_start_chat" android:background="@drawable/button_selector_radius_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_margin="6.0dip" android:layout_below="@id/dlg_banner_dot_layout" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_start_chat" android:background="@drawable/custom_dialog_botton_selector" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_below="@id/dlg_banner_dot_layout" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/dialog_btn_text_color" android:gravity="center" android:id="@id/btn_left_text" android:background="@drawable/label_selector_radius_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@color/uidic_global_color_6_9" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/dialog_btn_text_color" android:gravity="center" android:id="@id/btn_right_text" android:background="@drawable/label_selector_radius_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:id="@id/dlg_bottom_line" android:background="@color/uidic_global_color_6_9" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/ll_start_chat" />
+</com.alibaba.android.dingtalkbase.widgets.views.RoundClippingRelativeLayout>

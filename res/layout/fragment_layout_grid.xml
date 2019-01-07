@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/gv_pic" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:horizontalSpacing="3.0dip" android:verticalSpacing="3.0dip" android:stretchMode="columnWidth" android:numColumns="3" android:fadeScrollbars="true" android:overScrollMode="never" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_tip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_empty_tip" />
+        <TextView android:textSize="17.0dip" android:textColor="#ff929292" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/pic_empty_tip" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/dlg_bg_shape" android:layout_width="271.0dip" android:layout_height="wrap_content" android:minWidth="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fail_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_wifi" />
+    <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/ui_common_content_fg_color" android:id="@id/fail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="@dimen/dp12" android:text="@string/dt_focus_local_connect_fail_title" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp24">
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:id="@id/fail_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/blue_100" android:id="@id/wifi_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/custom_dialog_botton_selector" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/txt_color_blue_bg_selector" android:gravity="center" android:id="@id/cancel_btn" android:background="@drawable/label_selector_radius_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_common_cancel" android:layout_weight="1.0" />
+            <View android:background="@color/_uidic_forms_item_divider_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_17" android:textStyle="bold" android:textColor="@color/txt_color_blue_bg_selector" android:gravity="center" android:id="@id/sure_btn" android:background="@drawable/label_selector_radius_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/and_title_feedback" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

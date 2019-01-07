@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ui_common_cell_bg" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/checkbox" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" style="@style/cspace_checkbox_style" />
+    <ImageView android:id="@id/img_file_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/checkbox" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/img_encrpt_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/avatar_safe_icon" android:layout_toRightOf="@id/img_file_icon" android:layout_below="@id/img_file_icon" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" android:layout_toLeftOf="@id/img_more_operation_button" android:layout_toRightOf="@id/img_file_icon" android:layout_centerVertical="true">
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:shrinkColumns="0">
+            <TableRow>
+                <TextView android:ellipsize="middle" android:id="@id/tv_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/cspace_item_weight_16" />
+                <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/alm_cmail_color_6_2" android:id="@id/tv_expired_flag" android:background="@drawable/alm_cspace_corner_gray_bg" android:padding="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/dt_ding_deadline_expired" />
+            </TableRow>
+        </TableLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/mail_agent_color_tt" android:ellipsize="end" android:id="@id/tv_file_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/mail_agent_color_tt" android:ellipsize="end" android:id="@id/tv_info_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="3.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level3_text_color" android:id="@id/img_more_operation_button" android:paddingLeft="8.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/bottom_line" android:background="@color/ui_common_level2_line_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="56.0dip" android:layout_alignParentBottom="true" />
+    <View android:id="@id/bottom_full_line" android:background="@color/ui_common_level2_line_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

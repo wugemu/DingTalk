@@ -1,0 +1,268 @@
+.class public final Ljhq;
+.super Ljava/lang/Object;
+.source "FieldSpec.java"
+
+
+# instance fields
+.field public final a:Ljhv;
+
+.field public final b:Ljava/lang/String;
+
+.field public final c:Ljho;
+
+.field public final d:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List",
+            "<",
+            "Ljhl;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final e:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set",
+            "<",
+            "Ljavax/lang/model/element/Modifier;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final f:Ljho;
+
+
+# virtual methods
+.method public final a(Ljhp;Ljava/util/Set;)V
+    .locals 4
+    .param p1, "codeWriter"    # Ljhp;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljhp;",
+            "Ljava/util/Set",
+            "<",
+            "Ljavax/lang/model/element/Modifier;",
+            ">;)V"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    invoke-static {}, Lcom/pnf/dex2jar4;->a()Z
+
+    move-result v3
+
+    invoke-static {v3}, Lcom/pnf/dex2jar4;->b(I)V
+
+    .prologue
+    .local p2, "implicitModifiers":Ljava/util/Set;, "Ljava/util/Set<Ljavax/lang/model/element/Modifier;>;"
+    const/4 v3, 0x0
+
+    .line 57
+    iget-object v0, p0, Ljhq;->c:Ljho;
+
+    invoke-virtual {p1, v0}, Ljhp;->a(Ljho;)V
+
+    .line 58
+    iget-object v0, p0, Ljhq;->d:Ljava/util/List;
+
+    invoke-virtual {p1, v0, v3}, Ljhp;->a(Ljava/util/List;Z)V
+
+    .line 59
+    iget-object v0, p0, Ljhq;->e:Ljava/util/Set;
+
+    invoke-virtual {p1, v0, p2}, Ljhp;->a(Ljava/util/Set;Ljava/util/Set;)V
+
+    .line 60
+    const-string/jumbo v0, "$T $L"
+
+    const/4 v1, 0x2
+
+    new-array v1, v1, [Ljava/lang/Object;
+
+    iget-object v2, p0, Ljhq;->a:Ljhv;
+
+    aput-object v2, v1, v3
+
+    const/4 v2, 0x1
+
+    iget-object v3, p0, Ljhq;->b:Ljava/lang/String;
+
+    aput-object v3, v1, v2
+
+    invoke-virtual {p1, v0, v1}, Ljhp;->a(Ljava/lang/String;[Ljava/lang/Object;)Ljhp;
+
+    .line 61
+    iget-object v0, p0, Ljhq;->f:Ljho;
+
+    invoke-virtual {v0}, Ljho;->a()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 62
+    const-string/jumbo v0, " = "
+
+    .line 1206
+    invoke-virtual {p1, v0}, Ljhp;->b(Ljava/lang/String;)Ljhp;
+
+    .line 63
+    iget-object v0, p0, Ljhq;->f:Ljho;
+
+    invoke-virtual {p1, v0}, Ljhp;->b(Ljho;)Ljhp;
+
+    .line 65
+    :cond_0
+    const-string/jumbo v0, ";\n"
+
+    .line 2206
+    invoke-virtual {p1, v0}, Ljhp;->b(Ljava/lang/String;)Ljhp;
+
+    .line 66
+    return-void
+.end method
+
+.method public final a(Ljavax/lang/model/element/Modifier;)Z
+    .locals 1
+    .param p1, "modifier"    # Ljavax/lang/model/element/Modifier;
+
+    .prologue
+    .line 53
+    iget-object v0, p0, Ljhq;->e:Ljava/util/Set;
+
+    invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 3
+    .param p1, "o"    # Ljava/lang/Object;
+
+    invoke-static {}, Lcom/pnf/dex2jar4;->a()Z
+
+    move-result v2
+
+    invoke-static {v2}, Lcom/pnf/dex2jar4;->b(I)V
+
+    .prologue
+    const/4 v0, 0x0
+
+    .line 69
+    if-ne p0, p1, :cond_1
+
+    const/4 v0, 0x1
+
+    .line 72
+    :cond_0
+    :goto_0
+    return v0
+
+    .line 70
+    :cond_1
+    if-eqz p1, :cond_0
+
+    .line 71
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v2
+
+    if-ne v1, v2, :cond_0
+
+    .line 72
+    invoke-virtual {p0}, Ljhq;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    goto :goto_0
+.end method
+
+.method public final hashCode()I
+    .locals 1
+
+    .prologue
+    .line 76
+    invoke-virtual {p0}, Ljhq;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 3
+
+    invoke-static {}, Lcom/pnf/dex2jar4;->a()Z
+
+    move-result v2
+
+    invoke-static {v2}, Lcom/pnf/dex2jar4;->b(I)V
+
+    .prologue
+    .line 80
+    new-instance v1, Ljava/io/StringWriter;
+
+    invoke-direct {v1}, Ljava/io/StringWriter;-><init>()V
+
+    .line 82
+    .local v1, "out":Ljava/io/StringWriter;
+    :try_start_0
+    new-instance v0, Ljhp;
+
+    invoke-direct {v0, v1}, Ljhp;-><init>(Ljava/lang/Appendable;)V
+
+    .line 83
+    .local v0, "codeWriter":Ljhp;
+    invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
+
+    move-result-object v2
+
+    invoke-virtual {p0, v0, v2}, Ljhq;->a(Ljhp;Ljava/util/Set;)V
+
+    .line 84
+    invoke-virtual {v1}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    move-result-object v2
+
+    return-object v2
+
+    .line 86
+    .end local v0    # "codeWriter":Ljhp;
+    :catch_0
+    move-exception v2
+
+    new-instance v2, Ljava/lang/AssertionError;
+
+    invoke-direct {v2}, Ljava/lang/AssertionError;-><init>()V
+
+    throw v2
+.end method

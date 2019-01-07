@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="105.0dip" android:layout_height="112.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="82.0dip" android:layout_height="82.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center" android:id="@id/fl_txt_avatar" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="60.0dip" android:layout_height="60.0dip" avatar:textSize="@dimen/text_size_14" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/conf_white_6_0" android:gravity="center" android:layout_gravity="center" android:id="@id/fl_img_calling" android:background="@drawable/conf_status_bg_circle_shape" android:visibility="visible" android:layout_width="61.0dip" android:layout_height="61.0dip" android:singleLine="true" />
+        <com.alibaba.android.teleconf.widget.TeleConfImageView android:layout_gravity="center" android:id="@id/fl_txt_avatar_anim" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="60.0dip" android:layout_height="60.0dip" avatar:textSize="@dimen/text_size_14" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        <com.alibaba.android.dingtalkbase.widgets.views.wave.WaveView android:id="@id/fl_img_background" android:visibility="visible" android:layout_width="82.0dip" android:layout_height="82.0dip" wave:wvCircleColor="@color/conf_circle_wave_color" xmlns:wave="http://schemas.android.com/apk/res-auto" />
+        <RelativeLayout android:layout_gravity="center" android:id="@id/fl_img_mute" android:background="@drawable/conf_status_black_circle_bg_shape" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="28.0dip" android:textColor="@color/ui_common_content_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_muteoff_fill" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/text_color_white" android:ellipsize="end" android:gravity="center" android:id="@id/text_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/text_color_white" android:id="@id/text_user_name_append" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

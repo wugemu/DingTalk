@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_empty_not_support" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="150.0dip">
+        <ImageView android:id="@id/imageView" android:layout_width="90.0dip" android:layout_height="90.0dip" android:src="@drawable/icon_none_data" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/gray" android:gravity="center" android:id="@id/tv_empty_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/dt_im_business_item_error_over" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_business" android:background="@color/uidic_global_color_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/text_color_dark_gray" android:ellipsize="middle" android:id="@id/tv_total_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:singleLine="true" />
+        <ListView android:id="@id/list_business" android:background="@color/pure_white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:overScrollMode="never" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/cell_layout_icon_left" />
+    <ToggleButton android:id="@id/cell_toggle" android:layout_marginRight="@dimen/cell_margin_size" style="@style/uidic_forms_toggle" />
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_record" android:paddingLeft="20.0dip" android:paddingTop="8.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_12" android:textColor="@color/ui_common_level1_icon_bg_color" android:id="@id/tv_status_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="@string/icon_dialrecord" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level3_text_color" android:id="@id/tv_duration" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/tv_duration" android:layout_toRightOf="@id/tv_status_icon" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level3_text_color" android:gravity="center" android:id="@id/tv_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level3_text_color" android:id="@id/tv_begin_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

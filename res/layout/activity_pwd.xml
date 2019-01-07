@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left" android:id="@id/pwd_back" android:layout_width="wrap_content" android:layout_height="?actionBarSize" android:src="@drawable/dd_pwd_back" android:scaleType="centerInside" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="84.0" />
+    <TextView android:textSize="@dimen/text_size_18" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/pwd_title" android:paddingLeft="38.0dip" android:paddingTop="2.0dip" android:paddingRight="38.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="84.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/pwd_input_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/pwd_input_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/pwd_input" />
+        <ImageView android:id="@id/pwd_input_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/pwd_input" />
+        <ImageView android:id="@id/pwd_input_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/pwd_input" />
+        <ImageView android:id="@id/pwd_input_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pwd_input" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="58.0" />
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="#ffffffff" android:gravity="center" android:id="@id/pwd_error_tip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="16.0dip" android:lines="1" android:singleLine="true" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="16.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="134.0">
+        <FrameLayout android:id="@id/pwd_kb_1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="1" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kbd_bg" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/pwd_kb_2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="2" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kbd_bg" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/pwd_kb_3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="3" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kbd_bg" android:scaleType="fitCenter" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="134.0">
+        <FrameLayout android:id="@id/pwd_kb_4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="4" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kbd_bg" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/pwd_kb_5" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="5" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kbd_bg" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/pwd_kb_6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="6" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kbd_bg" android:scaleType="fitCenter" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="134.0">
+        <FrameLayout android:id="@id/pwd_kb_7" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="7" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kbd_bg" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/pwd_kb_8" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="8" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kbd_bg" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/pwd_kb_9" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="9" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kbd_bg" android:scaleType="fitCenter" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="134.0">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/pwd_kb_0" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="25.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kbd_bg" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/pwd_kb_delete" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kb_delete" android:scaleType="centerInside" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pwd_kbd_bg" android:scaleType="fitCenter" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="88.0" />
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@drawable/text_press_white" android:layout_gravity="right" android:id="@id/pwd_other_action" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginRight="35.0dip" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="75.0" />
+</LinearLayout>

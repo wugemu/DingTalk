@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/calendar_journal_layout" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/calendar_divider_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="44.0dip" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:id="@id/calendar_journal_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="4.0dip" android:singleLine="true" />
+</LinearLayout>

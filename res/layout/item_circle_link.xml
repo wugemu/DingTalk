@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_circle_link_layout" android:background="@drawable/circle_gray_round_3_dp_corner" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_circle_link_img" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <TextView android:gravity="center_vertical" android:id="@id/item_circle_link_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxLines="3" />
+</LinearLayout>

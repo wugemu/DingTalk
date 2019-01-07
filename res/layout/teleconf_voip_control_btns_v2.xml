@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/video_control_layout" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/voip_operation_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="24.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/voip_operation_call_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:id="@id/voip_operation_call_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voip_normal_call_recommend" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/voip_operation_color" android:gravity="center" android:id="@id/voip_operation_call_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/dt_conference_single_normalcall" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/voip_operation_msg_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:id="@id/voip_operation_msg_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voip_send_msg" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/voip_operation_color" android:gravity="center" android:id="@id/voip_operation_msg_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/dt_tele_msg_label" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/voip_operation_ding_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:id="@id/voip_operation_ding_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voip_ding" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/voip_operation_color" android:gravity="center" android:id="@id/voip_operation_ding_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/dt_tele_ding_label" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/voip_control_extra_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="12.0dip">
+        <View android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/voip_control_extra_right_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/voip_control_btn_right_accept_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="32.0dip" android:textColor="@color/txt_color_white_bg_selector" android:id="@id/voip_control_btn_right_accept_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_voicephone_fill" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/voip_control_btn_right_accept_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/dt_conf_video_accept_audio_only" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/voip_control_preconn_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/voip_control_btn_left" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/voip_control_btn_left_icon_bg" android:background="@drawable/teleconf_hanpup_call_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="36.0dip" android:textColor="@color/txt_color_white_bg_selector" android:id="@id/voip_control_btn_left_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_reject_fill" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/voip_control_btn_left_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/conf_txt_voip_reject" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/voip_control_btn_middle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/voip_control_btn_middle_icon_bg" android:background="@drawable/teleconf_hanpup_call_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="36.0dip" android:textColor="@color/txt_color_white_bg_selector" android:id="@id/voip_control_btn_middle_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_reject_fill" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/voip_control_btn_middle_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/conf_txt_voip_hangup" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/voip_control_btn_right" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/voip_control_btn_right_icon_bg" android:background="@drawable/teleconf_accept_call_bg" android:layout_width="64.0dip" android:layout_height="64.0dip">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="36.0dip" android:textColor="@color/txt_color_white_bg_selector" android:id="@id/voip_control_btn_right_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_phone_fill" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/voip_control_btn_right_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/conf_txt_voip_answer" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

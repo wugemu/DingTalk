@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="0.5dip" android:color="@color/ui_common_level2_icon_bg_color" />
+    <corners android:radius="3.0dip" />
+    <solid android:color="@color/ui_common_white_icon_pressed_bg_color" />
+</shape>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="@dimen/favorite_margin_split" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="160.0dip" android:layout_height="200.0dip" android:layout_marginTop="6.0dip">
+        <ImageView android:id="@id/img_picture" android:background="@color/text_color_gray" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/favorite_margin_common" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_play_button_normal" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

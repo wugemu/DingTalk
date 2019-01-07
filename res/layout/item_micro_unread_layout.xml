@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="11.0dip" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s18" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/item_micro_unread_org_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/text_size_10" android:textStyle="bold" android:textColor="@color/text_color_white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/item_micro_unread_count_tv" android:background="@drawable/tab_remind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:singleLine="true" />
+</LinearLayout>

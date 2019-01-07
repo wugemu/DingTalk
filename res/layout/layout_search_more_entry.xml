@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ui_common_subhead_text_size" android:textColor="@color/ui_common_level3_text_color" android:gravity="center_vertical" android:id="@id/tv_search_more_title" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/dt_search_global_category_title" />
+    <GridView android:id="@id/grid_view" android:fitsSystemWindows="true" android:scrollbars="none" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:stretchMode="columnWidth" android:numColumns="4" />
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dlg_bg_shape" android:paddingLeft="5.0dip" android:paddingTop="15.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="320.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/text_color_black" android:id="@id/tv_tip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/favorite_margin_split" />
+    <View android:id="@id/bottom_line" android:background="@color/cspace_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="12.0dip" />
+    <RelativeLayout android:padding="@dimen/favorite_margin_common" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:id="@id/tv_sub_title" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" style="@style/favorite_item_weight_16" />
+        <ImageView android:id="@id/img" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="center" android:layout_below="@id/tv_sub_title" />
+        <TextView android:ellipsize="end" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/favorite_margin_common" android:maxLines="3" android:layout_toRightOf="@id/img" android:layout_below="@id/tv_sub_title" android:layout_alignBaseline="@id/img" style="@style/favorite_item_light_14" />
+    </RelativeLayout>
+    <View android:background="#66666666" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="12.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_start_chat" android:background="@drawable/custom_dialog_botton_selector" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/dialog_btn_text_color" android:gravity="center" android:id="@id/btn_left_text" android:background="@drawable/label_selector_radius_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@color/divider_light_gray" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/dialog_btn_text_color" android:gravity="center" android:id="@id/btn_right_text" android:background="@drawable/label_selector_radius_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

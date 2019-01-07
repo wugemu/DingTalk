@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/layout_content" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.alibaba.android.dingtalkbase.widgets.ExtendedImageView android:id="@id/ding_attachment_iv_image" android:background="#ffeeeeee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" android:maxWidth="@dimen/ding_attachment_image_view_max_length" android:maxHeight="@dimen/ding_attachment_image_view_max_length" />
+        <ImageView android:id="@id/iv_gif_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/gif_icon" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="11.0dip" android:layout_toRightOf="@id/ding_attachment_iv_image" android:layout_centerVertical="true">
+            <TextView android:textSize="13.0dip" android:ellipsize="middle" android:id="@id/ding_attachment_file_name" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="10" android:singleLine="true" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/ui_common_level2_text_color" android:ellipsize="end" android:id="@id/ding_attachment_uploading" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/ding_text_has_uploaded" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

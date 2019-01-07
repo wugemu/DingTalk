@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_webview_loading" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/btn_webview_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/webview_loading_bg" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/webview_loading_color_6_3" android:id="@id/tv_webview_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/common_webview_loading_tip" android:layout_below="@id/btn_webview_loading" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout android:id="@id/progress_indicator" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout>
+    </LinearLayout>
+</FrameLayout>

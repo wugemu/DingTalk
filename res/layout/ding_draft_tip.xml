@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:minHeight="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_level1_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="5.0dip" android:text="@string/dt_ding_create_draft_conform_content" android:layout_weight="1.0" android:lineSpacingExtra="2.0dip" />
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:src="@color/ui_common_level1_line_bg_color" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="17.0dip" android:textColor="@color/ui_common_theme_text_color" android:id="@id/btn_cancel" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/dt_ding_create_draft_conform_nouse" android:layout_weight="1.0" />
+        <View android:layout_width="1.0dip" android:layout_height="fill_parent" android:src="@color/ui_common_level1_line_bg_color" />
+        <Button android:textSize="17.0dip" android:textColor="@color/ui_common_theme_text_color" android:id="@id/btn_ok" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/dt_ding_create_draft_conform_use" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

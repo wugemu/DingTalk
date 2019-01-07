@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/user_calendar_hint_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/pure_white" android:id="@id/user_calendar_hint_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_calendar_hint_title_entry" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

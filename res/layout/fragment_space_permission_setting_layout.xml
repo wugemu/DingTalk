@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/cspace_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list_view" android:background="@color/cspace_white" android:focusable="false" android:scrollbars="none" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+    <ImageView android:id="@id/ding_secretary_service" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/icon_ding_secretary" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

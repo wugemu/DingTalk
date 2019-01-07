@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_icon" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.laiwang.photokit.browser.SquareImageView android:id="@id/iv_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="8.0dip" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/iv_icon_boarder" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/cspace_dentry_icon_boarder" android:layout_alignLeft="@id/iv_icon" android:layout_alignTop="@id/iv_icon" />
+    <ImageView android:id="@id/iv_video_flag" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/cspace_video_flag" android:layout_alignRight="@id/iv_icon" android:layout_alignBottom="@id/iv_icon" />
+    <ImageView android:id="@id/iv_red_dot_flag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-13.0dip" android:layout_marginBottom="-13.0dip" android:src="@drawable/red_dot_icon" android:layout_toRightOf="@id/iv_icon" android:layout_above="@id/iv_icon" />
+    <ImageView android:id="@id/iv_encrpt_flag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-16.0dip" android:layout_marginTop="-19.0dip" android:src="@drawable/avatar_safe_icon" android:layout_toRightOf="@id/iv_icon" android:layout_below="@id/iv_icon" />
+    <ImageView android:id="@id/iv_link_flag" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" android:src="@drawable/icon_file_link" android:scaleType="fitCenter" android:layout_alignRight="@id/iv_icon" android:layout_alignBottom="@id/iv_icon" />
+</RelativeLayout>

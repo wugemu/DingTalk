@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/vertical_scroll_layout" android:background="@color/pure_white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_24" android:textColor="@color/ui_common_level1_text_color" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_login_set_a_password" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/ui_common_level1_text_color" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_login_set_a_password_tips" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:id="@id/tv_change_pwd_mobilenum" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/ui_common_level1_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/password" />
+        <LinearLayout android:orientation="horizontal" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.widgets.views.ClearableEditText android:textSize="@dimen/text_size_medium" android:textColor="@color/text_color_dark" android:textColorHint="@color/ui_common_level4_text_color" android:gravity="left" android:id="@id/et_pwd_input" android:background="@android:color/transparent" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/dt_login_password_input_placeholder" android:ems="10" android:maxLength="21" android:drawableRight="@drawable/icon_clear" android:layout_weight="1.0" android:inputType="textPassword" />
+            <CheckBox android:gravity="center_vertical" android:id="@id/cb_see_pwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+        </LinearLayout>
+        <View android:background="@color/alpha12Black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/home_title" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_login_password_required" />
+        <Button android:textSize="@dimen/text_size_17_in_sp" android:textColor="@color/text_color_white" android:id="@id/btn_confirm" android:background="@drawable/btn_login_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:minHeight="44.0dip" android:text="@string/login_next" android:onClick="onClick" />
+    </LinearLayout>
+</ScrollView>

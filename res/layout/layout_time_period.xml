@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/uidic_global_color_6_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_base_time_period_start" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:id="@id/tv_start_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:id="@id/tv_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_time_period_arrow" android:scaleType="fitXY" android:layout_weight="0.0" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_end" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/uidic_global_color_6_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_base_time_period_end" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:id="@id/tv_end_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:id="@id/tv_end_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

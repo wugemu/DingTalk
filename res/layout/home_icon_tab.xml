@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="64.0dip" />
+    <TextView android:textSize="@dimen/text_size_xsmall" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/unread_num" android:background="@drawable/unread_msg_front_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="8.0dip" android:text="@string/app_name" android:layout_alignTop="@id/icon_tab" android:layout_alignRight="@id/icon_tab" />
+    <ImageView android:id="@id/unread_notice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/home_remind" android:layout_alignTop="@id/unread_num" android:layout_alignRight="@id/unread_num" />
+</merge>

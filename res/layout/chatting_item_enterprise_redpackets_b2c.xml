@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/chatto_hongbao_bg" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_redpackets" android:layout_width="@dimen/chat_item_max_width" android:layout_height="70.0dip">
+        <FrameLayout android:id="@id/fl_icon" android:background="@drawable/enterprise_red_packets_avatar_layout_bg" android:layout_width="67.0dip" android:layout_height="45.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_enterprise" android:background="@drawable/enterprise_red_packets_avatar_bg" android:padding="1.3299866dip" android:layout_width="39.0dip" android:layout_height="39.0dip" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/text_color_white" android:ellipsize="end" android:id="@id/tv_title" android:paddingLeft="8.5dip" android:paddingRight="8.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:singleLine="true" android:layout_toRightOf="@id/fl_icon" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/text_color_white_alpha_80" android:ellipsize="end" android:id="@id/tv_summary" android:paddingLeft="8.5dip" android:paddingTop="1.0dip" android:paddingRight="8.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/fl_icon" android:layout_below="@id/tv_title" />
+        <ImageView android:id="@id/iv_cover" android:background="@color/text_color_white_alpha_60" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/text_color_gray" android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/tv_redpackets_type" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="24.329987dip" android:text="@string/dt_redenvelop_enterprise" />
+</LinearLayout>

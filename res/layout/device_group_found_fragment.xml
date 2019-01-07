@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/device_group_found_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="right" android:background="@drawable/device_group_found_header" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="32.0dip" android:layout_marginTop="20.0dip">
+            <TextView android:textSize="@dimen/text_size_14_in_sp" android:textColor="@color/device_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_device_quick_connect_and_bind_tips" android:alpha="0.56" />
+            <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="@color/device_black" android:id="@id/tv_group_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/and_device_group_found_count" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/device_group_found_bg" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@null" android:divider="@null" android:dividerHeight="20.0dip" />
+        <TextView android:textSize="@dimen/text_size_17_in_sp" android:gravity="center" android:id="@id/tv_confirm_ext" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="27.0dip" android:text="@string/dt_device_quick_connect_and_bind" style="@style/ui_common_level1_button" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/device_group_found_bg" android:paddingLeft="20.0dip" android:paddingTop="15.0dip" android:paddingRight="20.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_17_in_sp" android:gravity="center" android:id="@id/tv_confirm" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginBottom="17.0dip" android:text="@string/dt_device_quick_connect_and_bind" style="@style/ui_common_level1_button" />
+        <LinearLayout android:layout_gravity="center" android:id="@id/layout_manual_associate" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_17_in_sp" android:textColor="@color/device_blue" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_device_manual_bind" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_14_in_sp" android:textColor="@color/device_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/icon_right" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkui.button.DtSearchButton android:id="@id/view_search" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/ui_common_search_height" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/search" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_create_new" android:background="@drawable/list_item_common_white_selector" android:paddingLeft="22.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_20" android:textColor="@color/ui_common_level1_button_bg_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_add" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level1_button_bg_color" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/dt_im_coop_create_new_group" android:maxLines="2" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_level3_text_color" android:id="@id/tv_list_tips" android:paddingLeft="16.0dip" android:paddingTop="16.5dip" android:paddingRight="16.0dip" android:paddingBottom="13.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

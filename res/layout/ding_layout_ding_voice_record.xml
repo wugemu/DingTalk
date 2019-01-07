@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="210.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/v_ding_audio_recording_bg" android:visibility="gone" android:layout_width="210.0dip" android:layout_height="210.0dip" android:src="@drawable/ding_audio_recording_bg" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/v_ding_audio_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ding_audio_record_bg" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_ding_audio_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ding_audio_icon_record" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level1_text_color" android:id="@id/tv_ding_audio_record_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/ding_audio_start_record" android:includeFontPadding="false" android:layout_below="@id/v_ding_audio_record" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/v_ding_audio_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:src="@drawable/ding_audio_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/dt_accessibility_ding_delete_audio" />
+</RelativeLayout>

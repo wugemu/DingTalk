@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pure_white" android:paddingLeft="44.0dip" android:paddingRight="44.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="56.0dip">
+        <TextView android:textSize="28.0dip" android:textStyle="bold" android:textColor="@color/chat_item_text_color" android:id="@id/tv_intro_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_lab_efficient_title" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip">
+                <ImageView android:id="@id/img_session" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_efficient_tip_1" android:layout_centerVertical="true" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/img_session" android:layout_centerVertical="true">
+                    <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/chat_item_text_color" android:id="@id/tv_session" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_im_streamline_mode_feature_1_title" />
+                    <TextView android:textSize="13.0dip" android:textColor="@color/chat_item_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/dt_im_streamline_mode_feature_1_desc" android:layout_below="@id/tv_session" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip">
+                <ImageView android:id="@id/img_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_efficient_tip_2" android:layout_centerVertical="true" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/img_filter" android:layout_centerVertical="true">
+                    <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/chat_item_text_color" android:id="@id/tv_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_im_streamline_mode_feature_3_title" />
+                    <TextView android:textSize="13.0dip" android:textColor="@color/chat_item_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/dt_im_streamline_mode_feature_3_desc" android:layout_below="@id/tv_filter" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip">
+                <ImageView android:id="@id/img_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_efficient_tip_3" android:layout_centerVertical="true" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/img_category" android:layout_centerVertical="true">
+                    <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/chat_item_text_color" android:id="@id/tv_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_im_streamline_mode_feature_2_title" />
+                    <TextView android:textSize="13.0dip" android:textColor="@color/chat_item_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/dt_im_streamline_mode_feature_2_desc" android:layout_below="@id/tv_category" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textSize="17.0dip" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/tv_try" android:background="@drawable/blue_btn" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginBottom="56.0dip" android:text="@string/dt_im_streamline_mode_try_now" />
+</LinearLayout>

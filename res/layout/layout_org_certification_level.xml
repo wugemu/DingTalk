@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_warming_bg_color" android:id="@id/if_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_certification_f" />
+    <TextView android:textSize="@dimen/text_size_13" android:id="@id/tv_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+</LinearLayout>

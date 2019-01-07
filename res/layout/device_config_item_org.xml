@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/user_water_list_item_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <FrameLayout android:id="@id/avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uidic_cell_margin_size" android:layout_centerVertical="true">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/uidic_global_color_6_5" android:gravity="center" android:id="@id/tv_avatar" android:layout_width="38.0dip" android:layout_height="38.0dip" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s9" android:textColor="@color/title_tag_yellow" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tv_main_org" android:background="@drawable/device_shape_main_org_title_tag" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="14.0dip" android:text="@string/dt_my_main_org" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/org_info" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_toLeftOf="@id/icon_selected" android:layout_toRightOf="@id/avatar">
+            <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/device_text_black" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s12" android:textColor="@color/device_permission_tips" android:id="@id/tv_permission_tips" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/dt_smartdevice_no_admin_right" />
+        </LinearLayout>
+        <ImageView android:id="@id/icon_selected" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/device_color_org_selected_background" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

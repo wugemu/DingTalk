@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/alm_cmail_font_size_s12" android:textColor="@color/cmail_color_7d8082" android:ellipsize="end" android:id="@id/text_view" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingTop="@dimen/cmail_dimen_10_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:paddingBottom="@dimen/cmail_dimen_10_dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

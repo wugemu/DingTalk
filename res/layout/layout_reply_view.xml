@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_reply" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_line" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/gray" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_reply_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_im_message_quote" android:layout_centerInParent="true" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s16" android:textColor="@color/ui_common_level2_text_color" android:id="@id/tv_reply_icon_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/icon_transpond" android:layout_toLeftOf="@id/tv_reply_tips" android:layout_centerVertical="true" />
+</RelativeLayout>

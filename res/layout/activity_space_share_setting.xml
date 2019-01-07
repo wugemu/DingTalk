@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_share_name" android:background="@drawable/cspace_list_item_selected" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:id="@id/tv_share_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/space_share_folder_name" style="@style/cspace_share_weight_16" />
+            <TextView android:id="@id/tv_share_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/cspace_share_setting_light_14" />
+            <ImageView android:id="@id/img_share_next" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/right_arrow" />
+        </LinearLayout>
+        <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/cspace_white" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:id="@id/tv_save_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/space_share_save_to" style="@style/cspace_share_weight_16" />
+            <TextView android:id="@id/tv_save_org" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/cspace_share_setting_light_14" />
+        </LinearLayout>
+        <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+        <LinearLayout android:orientation="vertical" android:background="@color/cspace_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.dingtalk.cspace.widget.ExpandableHeightGridView android:id="@id/grid_user" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="12.0dip" android:horizontalSpacing="4.0dip" android:verticalSpacing="8.0dip" android:stretchMode="columnWidth" android:numColumns="6" android:layout_centerVertical="true" android:isScrollContainer="false" />
+            <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" />
+            <RelativeLayout android:id="@id/rl_user_list" android:background="@drawable/cspace_list_item_selected" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:id="@id/user_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/space_share_member_tip" android:layout_centerVertical="true" style="@style/cspace_share_weight_16" />
+                <TextView android:id="@id/tv_user_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/img_next" android:layout_centerVertical="true" style="@style/cspace_share_setting_light_14" />
+                <ImageView android:id="@id/img_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/alm_cmail_color_c2" android:id="@id/tv_right_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:text="@string/space_share_right_tip" />
+        <View android:background="@color/alm_setting_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+        <RelativeLayout android:id="@id/rl_conversation" android:background="@drawable/cspace_list_item_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/space_share_enter_org_conv" android:layout_centerVertical="true" style="@style/cspace_share_weight_16" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_auto_create" android:background="@drawable/cspace_list_item_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/org_conv" android:layout_centerVertical="true" style="@style/cspace_share_weight_16" />
+            <ImageView android:id="@id/img_create_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:id="@id/tv_create_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/img_create_next" android:layout_centerVertical="true" style="@style/cspace_share_setting_light_14" />
+            <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_exit_share" android:background="@drawable/cspace_list_item_selected" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="15.0dip">
+            <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/text_color_red" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/space_share_exit_tip" android:layout_centerInParent="true" />
+            <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_delete_share" android:background="@drawable/cspace_list_item_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="15.0dip">
+            <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/text_color_red" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/space_share_delete" android:layout_centerInParent="true" />
+            <View android:background="@color/alm_setting_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

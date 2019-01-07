@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_ll_bottom_calling" android:background="@color/uidic_global_color_8_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/bottom_conf_action_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="51.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:background="@drawable/conf_bg_blue" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_bottom_conf_action" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_add_to_ext_contact" android:drawablePadding="3.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider_bottom" android:background="@color/conf_item_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/layout_ll_bottom_calling" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/divider_bottom" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_record_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ListView android:id="@id/history_records_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/ll_loading" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

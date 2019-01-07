@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/C6_2" android:id="@id/tv_des" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/dt_external_company_access_tip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_container" android:background="@color/window_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

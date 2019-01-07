@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_window_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_assure_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    <ListView android:id="@id/list_view" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/list_item_common_selector" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="1.0dip" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+    <LinearLayout android:orientation="vertical" android:id="@id/extend_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/divider_common_contact_container" android:background="@color/bg_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_search_empty_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_empty_hint" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/text_color_gray" android:ellipsize="middle" android:layout_gravity="center_horizontal" android:id="@id/tv_empty_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:maxWidth="288.0dip" android:text="@string/empty_search_content" android:singleLine="true" />
+        </LinearLayout>
+        <include android:id="@id/ll_empty_footer_network_search" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/footer_network_search" />
+        <com.alibaba.android.search.widget.SearchFeedbackView android:layout_gravity="center_horizontal" android:id="@id/empty_layout_feedback_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+    </LinearLayout>
+</LinearLayout>

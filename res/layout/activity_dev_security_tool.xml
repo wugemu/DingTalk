@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_rootview" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="cid" />
+        <EditText android:id="@id/et_cid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="21105:52008" android:ems="10" android:inputType="textPersonName" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="mid" />
+        <EditText android:id="@id/et_mid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="\ 19541069603" android:ems="10" android:inputType="textPersonName" />
+    </LinearLayout>
+    <Button android:id="@id/btn_load_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="读取Message" android:onClick="onClick" />
+    <TextView android:id="@id/tv_load_message_tips" android:layout_width="fill_parent" android:layout_height="50.0dip" android:maxLines="5" />
+    <Button android:id="@id/btn_decrypt_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="解密" android:onClick="onClick" />
+    <TextView android:id="@id/tv_decrypt_message" android:layout_width="fill_parent" android:layout_height="100.0dip" android:text="解密的内容如下" android:maxLines="10" />
+</LinearLayout>

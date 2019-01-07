@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/layout_bottom" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/mail_chooser_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/cspace_bottom_operate_selector" android:gravity="center" android:id="@id/right_operate" android:layout_width="40.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="12.0dip" android:text="@string/send" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/cspace_white" android:gravity="center" android:id="@id/tv_send_count" android:background="@drawable/cspace_circle_bg" android:visibility="visible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_toLeftOf="@id/right_operate" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ListView android:id="@android:id/list" android:background="#00000000" android:scrollbars="none" android:fadingEdge="none" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@color/alm_cmail_color_c5" android:dividerHeight="1.0px" android:layout_above="@id/layout_bottom" android:layout_alignParentTop="true" android:fastScrollEnabled="false" android:fadeScrollbars="false" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/progressContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_bottom" android:layout_centerInParent="true">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" style="?android:attr/progressBarStyleInverse" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="center_vertical" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alm_cmail_loading_mails" android:singleLine="true" />
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.RimetListEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/list_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_bottom" android:layout_centerInParent="true" />
+</RelativeLayout>

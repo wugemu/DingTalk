@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/C6_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="17.0dip" android:layout_marginBottom="8.0dip" android:text="名片" android:layout_centerVertical="true" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_exchange_card" android:background="@drawable/ui_common_cell_bg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:onClick="onClick">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_24" android:textColor="@color/ui_common_orange1_color" android:id="@id/iftv_exchange_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_namecard_fill" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s16" android:textColor="@color/ui_common_level1_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/dt_user_exchange_card" android:layout_toRightOf="@id/iftv_exchange_card" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_scan_card" android:background="@drawable/ui_common_cell_bg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:onClick="onClick">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_24" android:textColor="@color/ui_common_orange1_color" android:id="@id/iftv_scan_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_scan_fill" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s16" android:textColor="@color/ui_common_level1_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/dt_user_scan_card" android:layout_toRightOf="@id/iftv_scan_card" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</merge>

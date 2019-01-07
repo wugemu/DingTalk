@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.views.wave.WaveView android:id="@id/conf_running_anim" android:visibility="gone" android:layout_width="82.0dip" android:layout_height="82.0dip" android:layout_centerInParent="true" wave:wvCircleColor="@color/conf_C2_3_0" wave:wvCircleInnerRadius="32.0dip" xmlns:wave="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout android:background="@drawable/conf_video_stroke_shape" android:layout_width="68.0dip" android:layout_height="68.0dip" android:layout_centerInParent="true">
+        <View android:id="@id/floating_tv_cover" android:background="@drawable/conf_video_solid_shape" android:visibility="visible" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s24" android:textColor="@color/uidic_global_color_6_5" android:gravity="center" android:id="@id/conf_running_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_conf_call_fill" />
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/conf_running_txt" android:layout_width="50.0dip" android:layout_height="wrap_content" android:text="@string/and_conference_call" android:maxLines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

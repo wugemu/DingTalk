@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.user.namecard.widget.SmoothViewPager android:id="@id/card_viewpager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.alibaba.android.user.namecard.widget.CircleIndicator android:id="@id/card_page_indicator" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_below="@id/card_viewpager" android:layout_centerHorizontal="true" />
+</RelativeLayout>

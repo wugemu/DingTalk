@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="@dimen/ver_line_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ver_line_margin_left" android:layout_alignBottom="@id/content" android:layout_alignParentTop="true" layout="@layout/item_circle_ver_line" />
+    <include android:id="@id/avatar_and_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/avatar_margin_left" android:layout_marginTop="@dimen/avatar_margin_top" layout="@layout/item_circle_header_avatar_and_name" />
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingRight="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/circle_content_margin_left" android:layout_marginRight="@dimen/circle_content_margin_top" android:layout_below="@id/avatar_and_name">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/circle_gray_round_3_dp_corner" android:paddingLeft="@dimen/dp6" android:paddingRight="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="@dimen/dp12">
+            <TextView android:textSize="12.0dip" android:gravity="center_vertical" android:id="@id/misc_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp6" android:text="@string/dt_circle_unsupported_type" android:singleLine="true" />
+        </LinearLayout>
+        <include android:layout_width="fill_parent" android:layout_height="@dimen/bottom_line_height" android:layout_marginTop="@dimen/bottom_line_margin_top" layout="@layout/circle_line" />
+    </LinearLayout>
+</RelativeLayout>

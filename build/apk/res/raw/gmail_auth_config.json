@@ -1,0 +1,11 @@
+{
+  "client_id": "674387763378-co7188pvnpen8sj0l346q0e85m23p37k.apps.googleusercontent.com",
+  "redirect_uri": "http://localhost",
+  "authorization_scope": "openid email profile https://mail.google.com/ https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email https://mail.google.com/mail/feed/atom",
+  "discovery_uri": "",
+  "authorization_endpoint_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_endpoint_uri": "https://accounts.google.com/o/oauth2/token",
+  "registration_endpoint_uri": "",
+  "user_info_endpoint_uri": "",
+  "https_required": true
+}

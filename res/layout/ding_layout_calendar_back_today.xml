@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:id="@id/org_guide_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+        <ImageView android:id="@id/iv_blue_guide_up_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:src="@drawable/blue_guide_up_arrow" android:scaleType="centerInside" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/ui_common_level1_white_text_color" android:gravity="center" android:id="@id/tv_blue_guide_content" android:background="@drawable/first_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_calendar_back_today_tips" />
+    </LinearLayout>
+</LinearLayout>

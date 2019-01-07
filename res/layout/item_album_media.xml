@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/album_item_media_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/album_video_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/photo_picker_video_icon" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <CheckBox android:id="@id/album_item_media_cbx" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:button="@drawable/checkbox_album_style" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

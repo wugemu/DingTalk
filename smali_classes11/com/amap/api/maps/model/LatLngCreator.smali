@@ -1,0 +1,98 @@
+.class public Lcom/amap/api/maps/model/LatLngCreator;
+.super Ljava/lang/Object;
+.source "LatLngCreator.java"
+
+# interfaces
+.implements Landroid/os/Parcelable$Creator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Landroid/os/Parcelable$Creator",
+        "<",
+        "Lcom/amap/api/maps/model/LatLng;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final CONTENT_DESCRIPTION:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 6
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public createFromParcel(Landroid/os/Parcel;)Lcom/amap/api/maps/model/LatLng;
+    .locals 5
+
+    invoke-static {}, Lcom/pnf/dex2jar1;->a()Z
+
+    move-result v4
+
+    invoke-static {v4}, Lcom/pnf/dex2jar1;->b(I)V
+
+    .prologue
+    .line 11
+    invoke-virtual {p1}, Landroid/os/Parcel;->readDouble()D
+
+    move-result-wide v0
+
+    .line 12
+    invoke-virtual {p1}, Landroid/os/Parcel;->readDouble()D
+
+    move-result-wide v2
+
+    .line 13
+    new-instance v4, Lcom/amap/api/maps/model/LatLng;
+
+    invoke-direct {v4, v2, v3, v0, v1}, Lcom/amap/api/maps/model/LatLng;-><init>(DD)V
+
+    return-object v4
+.end method
+
+.method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    .locals 1
+
+    .prologue
+    .line 6
+    invoke-virtual {p0, p1}, Lcom/amap/api/maps/model/LatLngCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/amap/api/maps/model/LatLng;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public newArray(I)[Lcom/amap/api/maps/model/LatLng;
+    .locals 1
+
+    .prologue
+    .line 18
+    new-array v0, p1, [Lcom/amap/api/maps/model/LatLng;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic newArray(I)[Ljava/lang/Object;
+    .locals 1
+
+    .prologue
+    .line 6
+    invoke-virtual {p0, p1}, Lcom/amap/api/maps/model/LatLngCreator;->newArray(I)[Lcom/amap/api/maps/model/LatLng;
+
+    move-result-object v0
+
+    return-object v0
+.end method

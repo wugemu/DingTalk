@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/add_expression_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="64.5dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s20" android:textColor="@color/mail_menu_text_color_selector" android:id="@id/addExpressionIcon" android:paddingLeft="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_revise" />
+        <TextView android:textSize="14.5dip" android:textColor="@color/mail_add_mail_bg_color" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_mail_quick_add" />
+    </LinearLayout>
+    <View android:background="@color/ui_common_content_fg_color_alpha_4" android:paddingLeft="24.0dip" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/listview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/ui_common_cell_bg" android:divider="@null" android:dividerHeight="0.0dip" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/progressContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layout_alignWithParentIfMissing="true">
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" style="?android:attr/progressBarStyleInverse" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="center" android:id="@id/progress_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alm_cmail_loading_mails" android:singleLine="true" />
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.RimetListEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/list_empty_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_centerInParent="true" android:layout_alignWithParentIfMissing="true" />
+</FrameLayout>

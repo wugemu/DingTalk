@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_rl" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_feedback" android:background="@drawable/dialog_bg_feedback" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip">
+        <ImageView android:id="@id/screen_shot_iv" android:layout_width="62.0dip" android:layout_height="62.0dip" android:layout_marginTop="5.0dip" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/ui_common_level1_white_text_color" android:gravity="center" android:id="@id/share_tv" android:layout_width="70.0dip" android:layout_height="30.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:text="@string/dt_feedback_screen_shot" android:layout_below="@id/screen_shot_iv" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/ui_common_level1_white_text_color" android:gravity="center" android:id="@id/tv_send" android:background="@drawable/dialog_bg_feedback" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="30.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="160.0dip" android:text="@string/dt_feedback_screen_shot_send" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

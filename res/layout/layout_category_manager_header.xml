@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ui_common_footnote_text_size" android:textColor="@color/ui_common_level3_text_color" android:layout_gravity="center" android:id="@id/tv_sort_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:text="@string/dt_im_category_change_sort_tips" />
+    <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_name" android:background="@drawable/list_item_common_white_selector" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:maxLines="1" android:layout_below="@id/tv_sort_tip" />
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_below="@id/tv_name" />
+</RelativeLayout>

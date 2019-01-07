@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/alm_cmail_mail_folder_marginTop" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/title_ll" android:background="@color/ui_common_content_bg_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize">
+            <ImageView android:id="@id/menu_back" android:background="@drawable/actbar_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/actbar_home_up_indicator" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_6" android:id="@id/menu_mail_filter" android:background="@drawable/actbar_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_mail_action_moveto_title" android:maxLines="1" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View android:background="@color/alm_cmail_color_c5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="vertical" android:id="@id/llSystemFolders" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alm_cmail_mail_folder_item_height" />
+        <LinearLayout android:orientation="vertical" android:id="@id/llCustomFolders" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/alm_cmail_mail_folder_marginTop" android:minHeight="@dimen/alm_cmail_mail_folder_item_height" />
+        <LinearLayout android:orientation="vertical" android:id="@id/llPopFolders" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/alm_cmail_mail_folder_marginTop" android:minHeight="@dimen/alm_cmail_mail_folder_item_height" />
+        <Button android:textSize="16.0dip" android:textColor="@color/mail_detail_recipient" android:gravity="center" android:id="@id/btn_add_folder" android:background="@drawable/alm_cmail_mail_common_bg" android:paddingLeft="@dimen/alm_cmail_mail_folder_marginLeft" android:paddingRight="@dimen/alm_cmail_mail_folder_marginRight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alm_cmail_mail_folder_item_height" android:text="@string/dt_mail_action_add_folder_title" />
+    </LinearLayout>
+</ScrollView>

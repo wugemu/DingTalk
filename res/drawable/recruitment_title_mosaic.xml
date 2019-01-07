@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/recruitment_title_mosaic_bg" android:dither="true" android:tileMode="repeat" android:alpha="0.99"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

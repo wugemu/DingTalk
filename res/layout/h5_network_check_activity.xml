@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/h5_error_check_layout" android:background="@color/h5_nav_bar" android:layout_width="fill_parent" android:layout_height="@dimen/h5_title_height">
+        <ImageButton android:id="@id/h5_lv_nav_back" android:background="@drawable/h5_title_bar_back_btn_bg_selector" android:layout_width="46.0dip" android:layout_height="fill_parent" android:src="@drawable/h5_title_bar_back_btn_selector" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <View android:layout_gravity="center" android:id="@id/h5_v_divider" android:background="#ffd9d9d9" android:layout_width="0.70000005dip" android:layout_height="24.0dip" android:layout_marginRight="12.0dip" android:layout_toRightOf="@id/h5_lv_nav_back" android:layout_centerVertical="true" />
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/h5_v_divider" android:layout_centerVertical="true">
+            <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/h5_ll_lv_title" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textSize="16.0dip" android:textColor="@color/h5_white" android:ellipsize="end" android:gravity="left" android:id="@id/h5_lv_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h5_network_check" android:singleLine="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/core_h5_nav_title_text" android:textColor="@color/network_check_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h5_network_check_errorcode" />
+        <View android:layout_gravity="center" android:background="@color/network_check_split" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <TextView android:textSize="@dimen/core_h5_nav_subtitle_text" android:textColor="@color/network_check_value" android:id="@id/error_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+        <TextView android:textSize="@dimen/core_h5_nav_title_text" android:textColor="@color/network_check_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h5_network_check_url" />
+        <View android:layout_gravity="center" android:background="@color/network_check_split" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <TextView android:textSize="@dimen/core_h5_nav_subtitle_text" android:textColor="@color/network_check_value" android:id="@id/url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+        <TextView android:textSize="@dimen/core_h5_nav_title_text" android:textColor="@color/network_check_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h5_network_check_state" />
+        <View android:layout_gravity="center" android:background="@color/network_check_split" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <TextView android:textSize="@dimen/core_h5_nav_subtitle_text" android:textColor="@color/network_check_value" android:id="@id/state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+        <TextView android:textSize="@dimen/core_h5_nav_title_text" android:textColor="@color/network_check_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h5_network_check_dns" />
+        <View android:layout_gravity="center" android:background="@color/network_check_split" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <TextView android:textSize="@dimen/core_h5_nav_subtitle_text" android:textColor="@color/network_check_value" android:id="@id/dns" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+        <TextView android:textSize="@dimen/core_h5_nav_title_text" android:textColor="@color/network_check_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h5_network_check_fail" />
+        <View android:layout_gravity="center" android:background="@color/network_check_split" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <TextView android:textSize="@dimen/core_h5_nav_subtitle_text" android:textColor="@color/network_check_value" android:id="@id/reason" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="@dimen/text_size_17" android:textColor="@color/C1" android:id="@id/feedback_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:hint="@string/feedback_hint" />
+            <LinearLayout android:id="@id/feedback_iv_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:id="@id/feedback_iv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feedback_add_image" android:scaleType="centerCrop" />
+                <ImageView android:id="@id/feedback_iv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:src="@drawable/feedback_add_image" android:scaleType="centerCrop" />
+                <ImageView android:id="@id/feedback_iv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:src="@drawable/feedback_add_image" android:scaleType="centerCrop" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textSize="@dimen/text_size_20" android:textColor="@color/pure_white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/feedback_submit" android:background="@color/feedback_btn" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/feedback_submit" android:maxEms="500" />
+</FrameLayout>

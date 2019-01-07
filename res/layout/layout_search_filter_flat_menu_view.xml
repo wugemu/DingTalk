@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp22"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/ui_common_button_border_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12" android:layout_marginBottom="@dimen/dp12">
+        <TextView android:textSize="@dimen/dp18" android:textColor="@color/ui_common_theme_text_color" android:id="@id/left_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View android:id="@id/ver_bar" android:background="@color/ui_common_button_border_color" android:layout_width="1.0px" android:layout_height="30.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/dp18" android:textColor="@color/ui_common_theme_bg_color" android:id="@id/right_btn" android:paddingLeft="@dimen/dp22" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

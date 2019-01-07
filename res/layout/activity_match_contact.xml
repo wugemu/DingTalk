@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:src="@drawable/icon_match_phone" />
+    <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/black" android:layout_gravity="center" android:id="@id/tv_tip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ding_item_date_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="25.0dip" android:layout_centerHorizontal="true" android:lineSpacingExtra="8.0dip" />
+    <View android:background="#66666666" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="20.0dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/rl_start_chat" android:layout_width="fill_parent" android:layout_height="48.0dip" android:weightSum="2.0">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/burn_chat_start_color" android:gravity="center" android:id="@id/tv_cancel_match" android:background="@drawable/custom_dialog_bottom_left_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/later_again" android:layout_weight="1.0" />
+        <View android:background="#66666666" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/burn_chat_start_color" android:gravity="center" android:id="@id/tv_match" android:background="@drawable/custom_dialog_bottom_right_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/match_ok" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

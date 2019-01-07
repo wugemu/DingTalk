@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/list_contact_favorites" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkui.button.DtSearchButton android:id="@id/view_search" android:layout_width="fill_parent" android:layout_height="@dimen/ui_common_search_height" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/dt_conference_search_hint" />
+    <LinearLayout android:orientation="vertical" android:id="@id/favorites_user_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/color_6_3" android:gravity="bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="5.0dip" android:text="@string/conf_txt_user_favorites" />
+        <View android:background="@color/bg_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/color_6_3" android:gravity="center" android:id="@id/favorites_user_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/conf_txt_user_favorites_tip" android:singleLine="true" />
+            <com.alibaba.android.teleconf.widget.UnFoldGridView android:layout_gravity="center_horizontal" android:id="@id/favorites_user_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:listSelector="@color/conf_transparent" android:horizontalSpacing="30.0dip" android:numColumns="5" />
+        </RelativeLayout>
+        <View android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+</LinearLayout>

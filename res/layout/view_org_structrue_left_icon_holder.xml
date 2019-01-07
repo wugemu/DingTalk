@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@color/divider_dark_gray" android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <View android:id="@id/v_branch_line_down" android:background="@color/divider_dark_gray" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_centerVertical="true">
+        <View android:background="@color/divider_dark_gray" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginLeft="5.0dip" android:layout_weight="1.0" />
+        <View android:layout_gravity="center" android:background="@drawable/bg_org_structure_branch_left_icon" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+    </LinearLayout>
+</RelativeLayout>

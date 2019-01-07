@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.rimet.biz.splash.SplashImageView android:id="@id/welcome_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="100.0dip" />
+    <Button android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/btn_check_detail" android:background="@drawable/main_bg_splash_skip_btn" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" android:layout_marginBottom="121.0dip" android:minHeight="30.0dip" android:text="@string/jump" android:singleLine="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/splash_welcome_logo_height" android:layout_alignParentBottom="true">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center" android:id="@id/iv_splash_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_logo" android:scaleType="fitCenter" android:layout_centerInParent="true" avatar:textSize="12.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_birthday" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150.0dip" android:layout_centerHorizontal="true">
+        <com.alibaba.android.dingtalkbase.widgets.DecorationRelativeLayout android:id="@id/decoration_for_avatar" android:layout_width="100.0dip" android:layout_height="100.0dip">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/my_avatar" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" avatar:textSize="17.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        </com.alibaba.android.dingtalkbase.widgets.DecorationRelativeLayout>
+        <TextView android:textSize="24.0dip" android:gravity="center_horizontal" android:id="@id/tv_nick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <TextView android:textSize="24.0dip" android:gravity="center_horizontal" android:id="@id/tv_happy_birthday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_splash_happy_birthday" />
+    </LinearLayout>
+</RelativeLayout>

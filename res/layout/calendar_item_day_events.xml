@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.calendar.widget.ScrollControlScrollView android:id="@id/scroll_view" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_all_day" android:overScrollMode="never" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_all_day" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-5.0dip">
+        <RelativeLayout android:background="@color/pure_white" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/ui_common_level3_text_color" android:gravity="center|left" android:id="@id/tv_all_day" android:layout_width="@dimen/calendar_day_events_view_indicator_width" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/dt_create_event_item_all_day" android:includeFontPadding="false" android:layout_centerVertical="true" />
+            <com.alibaba.android.calendar.widget.CalendarAllDayEventsView android:id="@id/v_all_day_events" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/calendar_day_events_view_divider_margin_left_hour_12" />
+        </RelativeLayout>
+        <View android:id="@id/v_line_shadow" android:background="@drawable/calendar_line_shadow" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    </LinearLayout>
+</RelativeLayout>

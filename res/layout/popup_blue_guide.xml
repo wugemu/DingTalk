@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.widgets.views.ads.AdsBlueGuideView android:id="@id/bl_hide_conv_guide_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_alignParentRight="true" app:content="@string/dt_im_session_remove_first_tip" app:arrowOrientation="down" />
+</RelativeLayout>

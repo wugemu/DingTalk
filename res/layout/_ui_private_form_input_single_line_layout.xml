@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/ui_common_form_height_fixed_single_line" style="@style/ui_common_form_input_single_line"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkui.widget.image.DtRedAsteriskView android:id="@id/rav_must_fill" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="32.0dip" />
+    <com.alibaba.android.dingtalkui.form.privatewidget.FormLabelTextView android:id="@id/label_float" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="25.0dip" />
+    <com.alibaba.android.dingtalkui.form.privatewidget.FormFixedEditText android:id="@id/input" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="48.0dip" />
+    <com.alibaba.android.dingtalkui.widget.image.DtDeleteImageButton android:layout_gravity="end|bottom|center" android:id="@id/bt_clear" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginBottom="2.0dip" />
+    <com.alibaba.android.dingtalkui.form.privatewidget.FormAlertTextView android:layout_gravity="bottom" android:id="@id/atv_alert" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkui.form.input.DtMultiLineInputFormView android:id="@id/name_card_infos_form_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:labelText="@string/dt_card_introduction" />
+    <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+</LinearLayout>

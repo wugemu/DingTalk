@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <ImageView android:id="@id/camera_flash" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/camera_flash_off" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/camera_alternate" android:background="@drawable/camera_rotate_selector" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="30.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/camera_region" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <SurfaceView android:id="@id/camera_glsurfaceview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.alibaba.laiwang.photokit.picker.edit.view.RotableLinearLayout android:orientation="horizontal" android:id="@id/camera_info_lly" android:background="@drawable/picedit_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:background="#ffffffff" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip">
+                <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@id/camera_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20:53" />
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/camera_year" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ImageView android:textColor="#ffffffff" android:id="@id/iv_logo" android:layout_width="39.0dip" android:layout_height="15.0dip" android:src="@drawable/camera_logo" />
+            </LinearLayout>
+        </com.alibaba.laiwang.photokit.picker.edit.view.RotableLinearLayout>
+        <com.alibaba.laiwang.photokit.picker.edit.view.RotableLinearLayout android:layout_gravity="bottom|center|right" android:orientation="vertical" android:id="@id/camera_location_lly" android:background="@drawable/picedit_background" android:layout_width="wrap_content" android:layout_height="66.0dip" android:layout_marginTop="13.0dip">
+            <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/camera_username_lly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:layout_width="fill_parent" android:layout_height="17.0dip" android:src="@drawable/camera_user" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="right" android:id="@id/camera_username" android:layout_width="wrap_content" android:layout_height="17.0dip" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/camera_location_info_lly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:layout_width="fill_parent" android:layout_height="17.0dip" android:src="@drawable/camera_location" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/camera_location" android:layout_width="wrap_content" android:layout_height="17.0dip" />
+            </LinearLayout>
+        </com.alibaba.laiwang.photokit.picker.edit.view.RotableLinearLayout>
+    </FrameLayout>
+    <RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/camera_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/cancel" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/camera_takephoto" android:background="@drawable/camera_takephoto_selector" android:padding="5.0dip" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

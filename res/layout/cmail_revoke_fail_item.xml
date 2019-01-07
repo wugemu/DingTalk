@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ui_common_cell_bg" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cmail_dimen_72_dp"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.alibaba.alimei.mail.widget.CMailAvatarImageView android:layout_gravity="center_vertical" android:id="@id/avatar" android:layout_width="@dimen/cmail_dimen_32_dp" android:layout_height="@dimen/cmail_dimen_32_dp" android:layout_marginRight="@dimen/cmail_dimen_8_dp" />
+        <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@android:id/primary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cmail_dimen_8_dp" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:gravity="center|left" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/ui_common_content_fg_color_alpha_28" android:ellipsize="end" android:gravity="center|left" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/ui_common_alert_bg_color" android:ellipsize="end" android:gravity="center|left" android:id="@id/fail_reason" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/ui_common_content_fg_color_alpha_4" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

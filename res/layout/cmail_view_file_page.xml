@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/file_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="20.0dip" />
+    <TextView android:textSize="@dimen/alm_cmail_font_size_s18" android:textColor="@color/alm_cmail_color_6_6" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:maxLines="2" />
+    <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/alm_cmail_color_6_2" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="20.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_common" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <ProgressBar android:id="@android:id/progress" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" style="@android:style/Widget.ProgressBar.Small.Inverse" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/alm_cmail_color_6_2" android:ellipsize="end" android:id="@id/tv_preview_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/alm_cmail_color_c1" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_preview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+</merge>

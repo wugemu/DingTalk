@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/usr_time_text_size" android:textStyle="bold" android:textColor="@color/circle_normal_title_color" android:id="@id/item_circle_time" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

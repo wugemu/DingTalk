@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mini_apps_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="64.0dip" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:id="@id/mini_apps_empty_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_miniapp_full" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:ellipsize="end" android:id="@id/mini_apps_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/ll_mini_app_list_empty_text" android:lines="1" android:layout_below="@id/mini_apps_empty_icon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

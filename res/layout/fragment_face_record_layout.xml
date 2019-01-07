@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/face_glview" android:layout="@layout/camera_glview_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/face_textureview" android:layout="@layout/camera_texture_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/face_detect_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/face_scan_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/face_record_scan" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="#fff8f8f8" android:gravity="center" android:id="@id/face_message_text" android:background="#40000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/face_imageview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alibaba.dingtalk.facebox.ui.widget.FaceMaskView android:id="@id/face_mask_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/circle_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/face_record_circle" />
+        <ImageView android:id="@id/circle_imageview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/face_record_circle_rotate" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/text_size_18" android:textColor="#ff333333" android:id="@id/source_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_below="@id/face_detect_layout" android:layout_centerHorizontal="true">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="26.0dip" android:textColor="@color/C2" android:layout_gravity="center" android:id="@id/record_success_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/icon_checkbox_select" />
+        <TextView android:textSize="@dimen/text_size_24" android:textColor="#ff333333" android:gravity="center" android:id="@id/record_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_facebox_face_recording" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/gray" android:gravity="center" android:id="@id/record_tips_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.5dip" android:text="@string/dt_facebox_record_tips" android:layout_above="@id/record_retry_button" />
+    <TextView android:textSize="@dimen/text_size_20" android:textColor="@color/retry_btn_text_color" android:gravity="center" android:id="@id/record_retry_button" android:background="@drawable/retry_btn_selector" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="12.5dip" android:text="@string/dt_facebox_record_retry" android:layout_above="@id/record_confirm_button" />
+    <TextView android:textSize="@dimen/text_size_20" android:textColor="@color/C6_5" android:gravity="center" android:id="@id/record_confirm_button" android:background="@drawable/actbar_btn_selector" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip" android:text="@string/sure" android:layout_alignParentBottom="true" />
+</RelativeLayout>

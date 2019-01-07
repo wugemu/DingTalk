@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="50.0dip">
+        <ImageView android:id="@id/img_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:src="@drawable/icon_add_business_normal" />
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/default_divider" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginBottom="4.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_c2" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginBottom="31.0dip" android:text="@string/dt_business_add_visit_records" />
+</LinearLayout>

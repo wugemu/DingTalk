@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/followed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" app:text="@string/dt_channel_assistant_followed" app:first="true" app:last="true" app:include_layout="@layout/uidic_forms_tip_link_item" />
+    <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/invited" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" app:text="@string/dt_manege_org_channel_attention_invited" app:last="true" app:include_layout="@layout/uidic_forms_tip_link_item" />
+</LinearLayout>

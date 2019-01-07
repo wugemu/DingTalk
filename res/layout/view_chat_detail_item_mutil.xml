@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/chat_list_item_link_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_thumbnail" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="12.0dip" />
+    <TextView android:textSize="17.0dip" android:textColor="@color/emotion_search_text" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="9.0dip" android:maxLines="1" android:layout_toRightOf="@id/img_thumbnail" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/uidic_global_color_6_2" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="8.0dip" android:maxLines="1" android:layout_toRightOf="@id/img_thumbnail" android:layout_below="@id/tv_title" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/wrapper" android:background="#ffefeff4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alipay.mobile.verifyidentity.ui.APTitleBar android:id="@id/titleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:vi_titleText="@string/sms_title" app:vi_showGenericButton="false" />
+    <ScrollView android:id="@id/sms_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="19.299988dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/sms_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+            <TextView android:textSize="19.299988dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/sms_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:maxLines="1" />
+            <com.alipay.mobile.verifyidentity.ui.VISmsCheckCodeInputBox android:id="@id/sms_input" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" />
+            <Button android:id="@id/sms_submit" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="26.299988dip" android:layout_marginRight="16.0dip" android:text="@string/sms_submit" style="@style/mainButtonStyle" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/linkColorBlue" android:layout_gravity="center_horizontal" android:id="@id/sms_other" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/sms_other" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

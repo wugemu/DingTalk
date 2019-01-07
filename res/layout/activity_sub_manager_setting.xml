@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/lv_manager_roles" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:divider="@drawable/layout_padding_divider" android:dividerHeight="0.5dip" android:footerDividersEnabled="false" android:overScrollFooter="@android:color/transparent" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="17.0dip" android:textColor="@color/uidic_global_color_6_7" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_contact_subManager_havent_set" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/uidic_global_color_6_2" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_contact_subManager_addSub" />
+    </LinearLayout>
+</FrameLayout>

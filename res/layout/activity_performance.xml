@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/segment_control" android:background="#ff1e90ff" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="32.0dip" />
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

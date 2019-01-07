@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/grey" android:gravity="center_vertical" android:id="@id/tv_external_contact_perm_divider_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="17.0dip" android:layout_marginBottom="7.0dip" />
+</LinearLayout>

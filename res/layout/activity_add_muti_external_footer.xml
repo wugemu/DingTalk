@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/add_external" android:background="@drawable/bg_setting_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s22" android:textColor="#ff00c853" android:paddingLeft="@dimen/chatting_setting_item_spaceLeft" android:paddingRight="@dimen/chatting_setting_item_spaceLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_roundadd_fill" />
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/text_color_dark" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_external_contact_batch_add_more" android:lines="1" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/label_button" android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_setting_marginTop">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/chatting_setting_item_spaceLeft" android:paddingTop="@dimen/chatting_setting_item_spaceTop" android:paddingBottom="@dimen/chatting_setting_item_spaceTop" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/text_color_dark" android:id="@id/label_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_external_contact_fields_label" />
+                <com.alibaba.android.dingtalkbase.widgets.views.label.LabelLayout android:id="@id/label_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minHeight="19.0dip" app:line_height="19.0dip" app:column_space="8.0dip" app:row_space="8.0dip" app:ellipsize_drawable="@drawable/label_ellipsize" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/right_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/C6_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:text="@string/dt_external_label_select_intro" />
+    <LinearLayout android:orientation="vertical" android:id="@id/share_button" android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_setting_marginTop">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/chatting_setting_item_spaceLeft" android:paddingTop="@dimen/chatting_setting_item_spaceTop" android:paddingBottom="@dimen/chatting_setting_item_spaceTop" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/text_color_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_external_label_select_share_to" />
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/text_color_gray" android:id="@id/share_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/right_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/C6_2" android:id="@id/select_share_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:text="@string/dt_external_label_select_share" />
+    <LinearLayout android:orientation="vertical" android:id="@id/send_sms" android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_setting_marginTop">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/text_color_dark" android:ellipsize="end" android:paddingLeft="@dimen/chatting_setting_item_spaceLeft" android:paddingTop="@dimen/chatting_setting_item_spaceTop" android:paddingRight="@dimen/chatting_setting_item_spaceLeft" android:paddingBottom="@dimen/chatting_setting_item_spaceTop" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/dt_external_invite_to_active" android:lines="1" android:singleLine="true" android:layout_weight="1.0" />
+            <ToggleButton android:id="@id/send_sms_toggle" android:layout_marginRight="@dimen/chatting_setting_item_spaceLeft" style="@style/uidic_forms_toggle" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/C6_2" android:id="@id/send_sms_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:text="@string/dt_external_invite_remind_message" />
+    <LinearLayout android:orientation="vertical" android:id="@id/invite_to_focus_org_homepage" android:background="@drawable/ui_common_cell_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_setting_marginTop">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/text_color_dark" android:ellipsize="end" android:id="@id/invite_to_focus_org_homepage_title" android:paddingLeft="@dimen/chatting_setting_item_spaceLeft" android:paddingTop="@dimen/chatting_setting_item_spaceTop" android:paddingRight="@dimen/chatting_setting_item_spaceLeft" android:paddingBottom="@dimen/chatting_setting_item_spaceTop" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/dt_external_invite_to_focus_channel" android:lines="1" android:singleLine="true" android:layout_weight="1.0" />
+            <ToggleButton android:id="@id/invite_to_focus_org_homepage_toggle" android:layout_marginRight="@dimen/chatting_setting_item_spaceLeft" style="@style/uidic_forms_toggle" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/C6_2" android:id="@id/invite_to_focus_org_homepage_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:text="@string/dt_external_invite_to_focus_channel_tip" />
+    <View android:layout_width="fill_parent" android:layout_height="44.0dip" />
+</LinearLayout>

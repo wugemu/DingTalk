@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="18.0dip" android:gravity="center" android:id="@id/finish" android:background="@drawable/actbar_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/dt_mail_csc_finish" />
+</LinearLayout>

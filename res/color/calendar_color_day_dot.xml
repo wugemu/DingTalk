@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/ui_common_level1_white_text_color" />
+    <item android:state_enabled="true" android:color="@color/ui_common_level1_text_color" />
+    <item android:color="@color/ui_common_level4_text_color" android:state_activated="true" />
+    <item android:color="@color/ui_common_text_disabled_color" />
+</selector>

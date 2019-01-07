@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.user.widget.LimitedSizeHorizontalScrollView android:layout_gravity="bottom" android:id="@id/horizontal_scroller_bread_crumbs" android:background="@color/actionbar_bg" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_bread_crumbs" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.alibaba.android.user.widget.LimitedSizeHorizontalScrollView>
+    <include layout="@layout/layout_choose_new_header" />
+    <View android:id="@id/bottom_border_bread" android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

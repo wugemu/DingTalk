@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_container" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:scrollbarStyle="insideOverlay" android:gravity="center" android:id="@id/album_gv" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:horizontalSpacing="3.0dip" android:verticalSpacing="3.0dip" android:stretchMode="columnWidth" android:numColumns="3" android:layout_weight="1.0" android:fadeScrollbars="true" android:overScrollMode="never" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:clickable="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="8.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/selector_theme_text_color" android:ellipsize="end" android:layout_gravity="center|left" android:id="@id/tv_image_folder" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="106.0dip" android:text="@string/chat_all_pics" android:singleLine="true" android:drawableRight="@drawable/selector_picker_folder_arrow" android:drawablePadding="4.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <CheckBox android:textSize="16.0dip" android:textColor="@color/ui_common_text_color" android:gravity="center" android:id="@id/cb_send_origin" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@drawable/checkbox_select_style" android:text="@string/origin_pic" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/ui_common_text_color" android:ellipsize="end" android:gravity="center|left" android:id="@id/tv_pic_size" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="16.0dip" android:textColor="@color/selector_theme_text_color" android:ellipsize="end" android:gravity="center|right" android:id="@id/tv_preview" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/chat_pic_preview" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

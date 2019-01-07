@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:avatar="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/tv_avatar" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/icon_search_more" android:layout_centerVertical="true" avatar:textSize="@dimen/text_size_15" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s12" android:textColor="@color/ui_common_level2_icon_bg_color" android:id="@id/tv_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/icon_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:layout_toLeftOf="@id/tv_right_arrow" android:layout_toRightOf="@id/tv_avatar" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/ui_common_body_text_size" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_search_more_hint" android:maxLines="1" />
+            <TextView android:textSize="@dimen/ui_common_body_text_size" android:textColor="@color/ui_common_theme_text_color" android:ellipsize="end" android:id="@id/tv_search_more_keyword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxLines="1" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/ui_common_footnote_text_size" android:textColor="@color/ui_common_level2_text_color" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_search_more_sub_hint" android:maxLines="1" />
+    </LinearLayout>
+</RelativeLayout>

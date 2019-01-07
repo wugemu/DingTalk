@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_md_core_content" android:background="@drawable/chatfrom_bg_normal" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkim.views.InterceptableLinearLayout android:orientation="vertical" android:id="@id/ll_markdown_parent" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="2.5dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/v_md_translate_auto_topline" android:background="@color/border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="5.0dip" />
+    <com.alibaba.android.dingtalkim.views.InterceptableLinearLayout android:orientation="vertical" android:id="@id/ll_markdown_parent_auto_translate" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="2.5dip" android:visibility="gone" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/v_md_translate_menu_topline" android:background="@color/border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="5.0dip" />
+    <com.alibaba.android.dingtalkim.views.InterceptableLinearLayout android:orientation="vertical" android:id="@id/ll_markdown_parent_menual_translate" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="2.5dip" android:visibility="gone" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/layout_markdown_translate" />
+    <include layout="@layout/layout_reply_view" />
+</LinearLayout>

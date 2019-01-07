@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingTop="50.0dip" android:paddingRight="20.0dip" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalk.circle.ui.RoundedCornerLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.view.ViewPager android:id="@id/guide_view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:gravity="center" android:id="@id/fl_indicator" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_guide_indicator_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <View android:id="@id/view_selected_indicator" android:background="@drawable/guide_indicator_selected" android:layout_width="20.0px" android:layout_height="20.0px" />
+            </RelativeLayout>
+            <Button android:textSize="@dimen/text_size_14" android:textColor="@color/white" android:layout_gravity="top" android:id="@id/btn_start_circle" android:background="@drawable/bg_round_btn_action_next" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:text="@string/dt_circle_intro_action_post" />
+        </FrameLayout>
+    </com.alibaba.android.dingtalk.circle.ui.RoundedCornerLayout>
+</LinearLayout>

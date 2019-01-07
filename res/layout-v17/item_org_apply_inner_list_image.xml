@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ll_image_list" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.widgets.RoundedImageView android:id="@id/riv_position_1" android:layout_width="48.0dip" android:layout_height="48.0dip" app:topLeft="3.0dip" app:topRight="3.0dip" app:bottomLeft="3.0dip" app:bottomRight="3.0dip" />
+    <com.alibaba.android.dingtalkbase.widgets.RoundedImageView android:id="@id/riv_position_2" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_marginStart="12.0dip" app:topLeft="3.0dip" app:topRight="3.0dip" app:bottomLeft="3.0dip" app:bottomRight="3.0dip" />
+    <com.alibaba.android.dingtalkbase.widgets.RoundedImageView android:id="@id/riv_position_3" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_marginStart="12.0dip" app:topLeft="3.0dip" app:topRight="3.0dip" app:bottomLeft="3.0dip" app:bottomRight="3.0dip" />
+</LinearLayout>

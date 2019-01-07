@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alm_file_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/icon_select" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/cspace_checkbox_style" />
+    <ImageView android:id="@id/icon_token" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:scaleType="centerInside" android:layout_toRightOf="@id/icon_select" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <LinearLayout android:layout_gravity="center|left" android:orientation="vertical" android:id="@id/select_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/icon_token" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/alm_cmail_color_6_1" android:ellipsize="end" android:id="@id/file_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/icon_token" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/alm_cmail_color_6_7" android:ellipsize="end" android:id="@id/file_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <View android:id="@id/bottom_line" android:background="@color/cspace_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignLeft="@id/select_layout" android:layout_alignParentBottom="true" />
+</RelativeLayout>

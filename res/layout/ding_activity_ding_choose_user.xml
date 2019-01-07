@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@id/list_view" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+        <com.alibaba.android.dingtalkbase.widgets.views.LetterListView android:id="@id/letter_list" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="65.0dip" android:textColor="@color/ui_common_level1_white_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_overlay" android:background="@drawable/ding_letter_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:minWidth="100.0dip" />
+</FrameLayout>

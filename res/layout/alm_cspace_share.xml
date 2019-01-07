@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/alm_cspace_operate_footer" />
+    <com.alibaba.dingtalk.cspace.widget.SpaceToolBarView android:gravity="center" android:id="@id/space_tool_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffffffff" android:dividerHeight="0.0dip" android:layout_above="@id/bottom_container" android:layout_below="@id/space_tool_bar" android:overScrollMode="never" />
+</RelativeLayout>

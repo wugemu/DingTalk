@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/oa_group_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_group" android:background="@drawable/microapp_group_bg" android:layout_width="48.0dip" android:layout_height="48.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_group1" android:layout_width="fill_parent" android:layout_height="16.0dip">
+                <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/session_user_icon0" android:layout_width="17.0dip" android:layout_height="fill_parent" avatar:textSize="8.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+                <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/session_user_icon1" android:layout_width="17.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" avatar:textSize="8.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_group2" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_marginTop="2.0dip">
+                <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/session_user_icon2" android:layout_width="17.0dip" android:layout_height="fill_parent" avatar:textSize="8.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+                <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/session_user_icon3" android:layout_width="17.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" avatar:textSize="8.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="#73191f25" android:ellipsize="end" android:id="@id/oa_entry_group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="6.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/ll_group" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_10" android:textColor="@android:color/white" android:gravity="center" android:id="@id/oa_entry_new" android:background="@android:color/holo_red_light" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="18.0dip" android:text="@string/oa_entry_upgrade_tip" android:singleLine="true" android:layout_alignParentRight="true" android:translationX="20.0dip" android:translationY="8.0dip" android:rotation="45.0" />
+</RelativeLayout>

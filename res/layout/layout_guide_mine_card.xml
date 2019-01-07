@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alpha40Black" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="210.0dip" android:layout_marginLeft="@dimen/dp16" android:layout_marginRight="@dimen/dp16" android:layout_marginBottom="-10.0dip">
+        <View android:background="@drawable/namecard_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.alibaba.android.user.namecard.widget.NameCardView android:id="@id/name_card" android:layout_width="fill_parent" android:layout_height="180.0dip" />
+    </RelativeLayout>
+    <include android:visibility="gone" layout="@layout/layout_mine_tab" />
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/text_size_16" android:id="@id/textView4" android:paddingLeft="10.0px" android:paddingTop="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lws_string" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/text_size_16" android:id="@id/dev_daily" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/daily_env" android:onClick="onClick" />
+            <Button android:textSize="@dimen/text_size_16" android:id="@id/dev_pub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pre_env" android:onClick="onClick" />
+            <Button android:textSize="@dimen/text_size_16" android:layout_gravity="right" android:id="@id/dev_online" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/online_env" android:onClick="onClick" />
+        </LinearLayout>
+        <EditText android:textSize="@dimen/text_size_16" android:textColor="@android:color/holo_red_light" android:id="@id/dev_lws" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="主连接" />
+        <EditText android:textSize="@dimen/text_size_16" android:textColor="@android:color/holo_red_light" android:id="@id/dev_lws_short" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="文件连接" />
+        <EditText android:textSize="@dimen/text_size_16" android:textColor="@android:color/holo_red_light" android:id="@id/dev_oauth_url" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="OAUTH" />
+        <Button android:textSize="@dimen/text_size_16" android:id="@id/dev_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/switch_string" android:onClick="onClick" />
+        <Button android:textSize="@dimen/text_size_16" android:id="@id/dev_aladdin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="刷新VIP" android:onClick="onClick" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_dev_setting" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                <TextView android:id="@id/tv_cur_uid_head" android:paddingLeft="15.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前uid：" />
+                <TextView android:id="@id/tv_cur_uid" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/text_size_16" android:id="@id/textView3" android:paddingLeft="15.0px" android:paddingTop="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Language:" />
+            <Spinner android:id="@id/spinner_lang" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Button android:textSize="@dimen/text_size_16" android:id="@id/btn_set_lang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/switch_string" android:onClick="onClick" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="2.0">
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/open_js" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打开js调试" android:layout_weight="1.0" android:onClick="onClick" />
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/close_js" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="关闭js调试" android:layout_weight="1.0" android:onClick="onClick" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="2.0">
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/forbid_webview_cache" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="禁用webview_cache" android:layout_weight="1.0" android:onClick="onClick" />
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/enable_webview_cache" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="启用webview_cache" android:layout_weight="1.0" android:onClick="onClick" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/text_size_16" android:id="@id/tv_status_webview_debug" android:paddingLeft="15.0px" android:paddingTop="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="2.0">
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/core_system" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="系统内核" android:layout_weight="1.0" android:onClick="onClick" />
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/core_uc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="UC内核" android:layout_weight="1.0" android:onClick="onClick" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/text_size_16" android:id="@id/tv_status_core" android:paddingLeft="15.0px" android:paddingTop="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="2.0">
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/enable_uc_proxy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打开UCProxy" android:layout_weight="1.0" android:onClick="onClick" />
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/disable_uc_proxy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="关闭UCProxy" android:layout_weight="1.0" android:onClick="onClick" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/text_size_16" android:id="@id/tv_uc_proxy" android:paddingLeft="15.0px" android:paddingTop="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="2.0">
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/enable_uc_preload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打开UCPreload" android:layout_weight="1.0" android:onClick="onClick" />
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/disable_uc_preload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="关闭UCPreload" android:layout_weight="1.0" android:onClick="onClick" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/text_size_16" android:id="@id/tv_uc_preload" android:paddingLeft="15.0px" android:paddingTop="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="2.0">
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/enable_perf_window" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="启用性能浮窗" android:layout_weight="1.0" android:onClick="onClick" />
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/disable_perf_window" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="关闭性能浮窗" android:layout_weight="1.0" android:onClick="onClick" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/text_size_16" android:id="@id/tv_enable_perf_window" android:paddingLeft="15.0px" android:paddingTop="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="2.0">
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/release_hpm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prod_hpm" android:layout_weight="1.0" android:onClick="onClick" />
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/debug_hpm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="dev_hpm" android:layout_weight="1.0" android:onClick="onClick" />
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/no_hpm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="no_hpm" android:layout_weight="1.0" android:onClick="onClick" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/text_size_16" android:id="@id/tv_status_hpm_debug" android:paddingLeft="15.0px" android:paddingTop="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:textSize="@dimen/text_size_16" android:id="@id/btn_test_activity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="测试Activity" android:onClick="onClick" />
+            <Button android:textSize="@dimen/text_size_16" android:id="@id/btn_test_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="测试布局" android:onClick="onClick" />
+            <Button android:textSize="@dimen/text_size_16" android:id="@id/btn_test_proguard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="测试混淆" android:onClick="onClick" />
+            <Button android:textSize="@dimen/text_size_16" android:id="@id/btn_test_provider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="测试provider" android:onClick="onClick" />
+            <Button android:textSize="@dimen/text_size_16" android:id="@id/btn_dump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关闭dump" android:onClick="onClick" />
+            <Button android:id="@id/btn_strict_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打开StrictMode检测" android:onClick="onClick" />
+            <Button android:id="@id/btn_dr_thread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dump_doraemon_thread" android:onClick="onClick" />
+            <Button android:id="@id/btn_dr_httpdns" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dump_httpdns_hosts" android:onClick="onClick" />
+            <Button android:id="@id/btn_dr_img_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Use http download" android:onClick="onClick" />
+            <Button android:id="@id/btn_mail_login_way" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="邮箱登录方式切换到H5登录" android:onClick="onClick" />
+            <Button android:id="@id/btn_mail_accounts_way" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="邮箱单/多账号模式切换" android:onClick="onClick" />
+            <Button android:id="@id/btn_mail_conversation_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="at群组邮件的灰度开关切换" android:onClick="onClick" />
+            <Button android:id="@id/btn_mail_signature_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="邮件签名灰度开关切换" android:onClick="onClick" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/mail_reader_debug" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="邮件阅读器调试" android:onClick="onClick" />
+                <EditText android:textSize="@dimen/text_size_16" android:id="@id/et_mail_reader_remote" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="开发版地址" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                <Button android:textSize="@dimen/text_size_16" android:id="@id/create_chat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="创建单聊" android:onClick="onClick" />
+                <EditText android:textSize="@dimen/text_size_16" android:id="@id/et_uid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="用户uid" />
+            </LinearLayout>
+            <Button android:id="@id/btn_beacon_diagnostics" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Beacon诊断" android:onClick="onClick" />
+            <Button android:id="@id/btn_encrypt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加密与解密" android:onClick="onClick" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/et_ut_debug_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="输入debugKey" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_ut_debug_key_gen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="修改UTDebugKey" android:onClick="onClick" />
+            </LinearLayout>
+            <Button android:id="@id/btn_debug_statistics" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="埋点调试开关切换" android:onClick="onClick" />
+            <Button android:id="@id/btn_debug_fps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打开FPS（确保悬浮窗权限已打开）" android:onClick="onClick" />
+            <Button android:id="@id/btn_debug_personal_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打印个人信息" android:onClick="onClick" />
+            <Button android:id="@id/btn_debug_search_stat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打开搜索埋点调试" android:onClick="onClick" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_facebox_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="切换刷脸灰度" android:onClick="onClick" />
+                <Button android:id="@id/btn_facebox_env" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="切换刷脸sdk环境" android:onClick="onClick" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_get_advertising_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="获取advertising id" android:onClick="onClick" />
+                <TextView android:id="@id/tv_advertising_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:onClick="onClick" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

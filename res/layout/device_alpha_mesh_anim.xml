@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="240.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_down_ripple_1" android:background="@drawable/device_alpha_ripple" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleX="0.5" android:scaleY="0.5" android:rotation="180.0" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_down_ripple_2" android:background="@drawable/device_alpha_ripple" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleX="0.5" android:scaleY="0.5" android:rotation="180.0" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_down_ripple_3" android:background="@drawable/device_alpha_ripple" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleX="0.5" android:scaleY="0.5" android:rotation="180.0" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/iv_up_ripple_1" android:background="@drawable/device_alpha_ripple" android:layout_width="120.0dip" android:layout_height="120.0dip" android:scaleX="0.5" android:scaleY="0.5" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/iv_up_ripple_2" android:background="@drawable/device_alpha_ripple" android:layout_width="120.0dip" android:layout_height="120.0dip" android:scaleX="0.5" android:scaleY="0.5" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/iv_up_ripple_3" android:background="@drawable/device_alpha_ripple" android:layout_width="120.0dip" android:layout_height="120.0dip" android:scaleX="0.5" android:scaleY="0.5" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_sta_ap" android:background="@drawable/device_alpha_sta_ap_disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/iv_main_ap" android:background="@drawable/device_alpha_main_ap_disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="37.0sp" android:textColor="@color/ui_common_green_icon_bg_color" android:layout_gravity="center" android:id="@id/ic_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/icon_checkbox_fill" />
+</merge>

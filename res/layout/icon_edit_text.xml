@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/IconEditText_icon_iv" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="12.0dip" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <EditText android:textSize="@dimen/text_size_16" android:ellipsize="end" android:id="@id/IconEditText_editText_et" android:background="@null" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_toRightOf="@id/IconEditText_icon_iv" android:layout_centerVertical="true" />
+    <View android:id="@id/IconEditText_top_dividerLine_v" android:background="@color/light_gray_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/IconEditText_editText_et" />
+    <View android:id="@id/IconEditText_bottom_dividerLine_v" android:background="@color/light_gray_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/IconEditText_editText_et" android:layout_alignLeft="@id/IconEditText_editText_et" />
+</RelativeLayout>

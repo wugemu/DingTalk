@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ding_selected_add_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/add_receiver_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="-4.0dip" android:src="@drawable/conf_add_member_gray" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/text_color_dark" android:id="@id/add_receiver_tip_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/ding_add_receiver" android:layout_weight="1.0" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/bread_crumbs_arrow" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/text_tip_color" android:id="@id/selected_receiver_tip_tv" android:background="@color/bg_gray" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ding_selected_receiver" />
+</LinearLayout>

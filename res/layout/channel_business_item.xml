@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/oa_entry_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/oa_entry_inner_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <ImageView android:id="@id/oa_entry_icon" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/oa_app_border_id" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/oa_app_border" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/oa_entry_security_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-5.0dip" android:layout_marginBottom="-3.0dip" android:src="@drawable/avatar_safe_icon" android:layout_alignRight="@id/oa_entry_icon" android:layout_alignBottom="@id/oa_entry_icon" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/uidic_global_color_6_6" android:ellipsize="end" android:gravity="center" android:id="@id/oa_entry_title" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:maxLines="2" android:maxEms="5" android:includeFontPadding="false" android:layout_below="@id/oa_entry_icon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_10" android:textColor="@android:color/white" android:gravity="center" android:id="@id/oa_entry_new" android:background="@color/oa_entry_new_bg" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="16.0dip" android:singleLine="true" android:layout_alignParentRight="true" android:translationX="23.0dip" android:translationY="8.0dip" android:rotation="45.0" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?ui_common_base_ui_attr_toolbarActionBackground" android:layout_width="48.0dip" android:layout_height="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/home_action_bar_button_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s10" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/home_action_bar_button_red_dot_text" android:background="@drawable/home_scale_red_dot" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginTop="-5.0dip" android:layout_marginRight="-9.0dip" android:minWidth="18.0dip" android:lines="1" android:singleLine="true" android:layout_alignTop="@id/home_action_bar_button_icon" android:layout_alignRight="@id/home_action_bar_button_icon" />
+    <ImageView android:id="@id/home_action_bar_button_red_dot" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="-5.0dip" android:layout_marginRight="-5.0dip" android:src="@drawable/home_red_dot" android:layout_alignTop="@id/home_action_bar_button_icon" android:layout_alignRight="@id/home_action_bar_button_icon" />
+</RelativeLayout>

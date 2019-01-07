@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/viewfinder_width" android:layout_height="@dimen/viewfinder_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/corner_width" android:layout_height="@dimen/corner_height" android:src="@drawable/viewfinder_left_top" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:layout_width="@dimen/corner_width" android:layout_height="@dimen/corner_height" android:src="@drawable/viewfinder_left_bottom" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:layout_width="@dimen/corner_width" android:layout_height="@dimen/corner_height" android:src="@drawable/viewfinder_right_top" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageView android:layout_width="@dimen/corner_width" android:layout_height="@dimen/corner_height" android:src="@drawable/viewfinder_right_bottom" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/viewfinder_ray" android:background="@drawable/viewfinder_ray" android:layout_width="@dimen/ray_width" android:layout_height="@dimen/ray_height" android:layout_centerInParent="true" />
+</RelativeLayout>

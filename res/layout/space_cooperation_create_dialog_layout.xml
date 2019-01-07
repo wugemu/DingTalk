@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="19.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="270.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_theme_text_color" android:gravity="center_vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="22.0dip" android:text="@string/dt_space_cooperation_create_folder" />
+        <View android:background="@color/ui_common_theme_text_color" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="15.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:background="@drawable/space_coopration_edit_bg" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="18.0dip">
+        <EditText android:textSize="16.0dip" android:textColor="@color/alm_cmail_color_6_6" android:id="@id/et_item1" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/dt_cspace_co_folder_create_name_placeholder" android:singleLine="true" android:maxLength="32" android:layout_toLeftOf="@id/clear" android:imeOptions="actionUnspecified|normal" />
+        <LinearLayout android:gravity="center" android:id="@id/clear" android:background="@drawable/actbar_selector" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cspace_input_cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:background="@drawable/space_coopration_edit_bg" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="18.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/alm_cmail_color_6_6" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_item2_choose" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_toLeftOf="@id/choose" />
+        <LinearLayout android:gravity="center" android:id="@id/choose" android:background="@drawable/actbar_selector" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cspace_right_arrow" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="19.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/ui_common_cell_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:gravity="center" android:id="@id/tv_sure" android:background="@drawable/ui_common_cell_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sure" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

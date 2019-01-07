@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/account_verify_code_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:email="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.SetupEditView android:textColor="@color/ui_common_level1_text_color" android:textColorHint="@color/ui_common_uninput_text_color" android:id="@id/account_verify_code" android:background="@null" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_weight="1.0" email:editSize="@dimen/ui_common_body_text_size" email:editHint="@string/mail_verify_code_hint" email:editLabelWidth="0.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/account_verify_code_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:minWidth="61.0dip" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:layout_gravity="center_vertical" android:id="@id/account_verify_code_refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_refresh" />
+    </LinearLayout>
+    <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

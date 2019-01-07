@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/ui_common_cell_ripple_bg_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_focused="true" android:drawable="@color/ui_common_cell_bg_color" />
+            <item android:state_pressed="true" android:drawable="@color/ui_common_cell_pressed_bg_color" />
+            <item android:drawable="@color/ui_common_theme_bg_color_alpha_12" android:state_activated="true" />
+            <item android:drawable="@android:color/white" />
+        </selector>
+    </item>
+</ripple>

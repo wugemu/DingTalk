@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="actbar_black">#ff222222</item>
+    <item type="drawable" name="action_divider_line">#ff372f38</item>
+    <item type="drawable" name="actionbar_gray">#ff414753</item>
+    <item type="drawable" name="album_action_bar_color">#ff282828</item>
+    <item type="drawable" name="btn_gray_bg">#ffefeff4</item>
+    <item type="drawable" name="chat_item_color_normal">@android:color/transparent</item>
+    <item type="drawable" name="chat_item_color_pressed">#77000000</item>
+    <item type="drawable" name="chatting_item_divider_bg">#ffb9b9b9</item>
+    <item type="drawable" name="circle_bg_color">#ff2d2c32</item>
+    <item type="drawable" name="common_blue_pressed">#ff005ab3</item>
+    <item type="drawable" name="common_navigator">#ff0066cc</item>
+    <item type="drawable" name="common_navigator_divder">#ff0259b0</item>
+    <item type="drawable" name="default_divider">#ffd9d9d9</item>
+    <item type="drawable" name="drawable_white_alpha_60">#99ffffff</item>
+    <item type="drawable" name="mini_keyboard_bg">#ff282931</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="safepay_fp_btn_bg_normal">#ffffffff</item>
+    <item type="drawable" name="safepay_fp_btn_bg_press">#ffe3e3e3</item>
+    <item type="drawable" name="safepay_fp_dialog_bg">#ffffffff</item>
+    <item type="drawable" name="safepay_wear_dialog_bg">#ffffffff</item>
+    <item type="drawable" name="tab_indicator_pressed_bg">#ffdfdfdf</item>
+    <item type="drawable" name="transparent">#00000000</item>
+    <item type="drawable" name="transprent">#00000000</item>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="white_drawable">#fff3f3f3</item>
+</resources>

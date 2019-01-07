@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_other_org_layout" android:background="@drawable/ui_common_cell_bg" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/dt_contact_other_group_at"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_other_org_icon" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="40.0dip" android:textColor="@color/uidic_global_color_c2" android:gravity="center" android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="@string/icon_round_fill" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_content_bg_color" android:gravity="center" android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="@string/icon_more_group_fill" />
+    </FrameLayout>
+    <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_level1_text_color" android:id="@id/other_org_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:drawablePadding="5.0dip" android:layout_toLeftOf="@id/ll_right_part" android:layout_toRightOf="@id/fl_other_org_icon" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_right_part" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.alibaba.android.dingtalkbase.widgets.views.ads.AdsView android:layout_gravity="center_vertical" android:id="@id/other_org_adsview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_15" android:textColor="@color/ui_common_level1_text_color" android:layout_gravity="center_vertical" android:id="@id/iv_dingspace_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_next_arrow" android:alpha="0.28" />
+    </LinearLayout>
+</RelativeLayout>

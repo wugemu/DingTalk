@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_rootview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:gravity="center_vertical" android:id="@id/tv_admin_num" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/dp17" android:text="@string/dt_im_conversation_setting_admin_title" />
+    <ListView android:id="@id/lv_admin" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/pure_white" android:dividerHeight="0.0dip" android:footerDividersEnabled="false" />
+</LinearLayout>

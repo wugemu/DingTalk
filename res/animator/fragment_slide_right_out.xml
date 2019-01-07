@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="@integer/frag_anim_duration" android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="xFraction"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</set>

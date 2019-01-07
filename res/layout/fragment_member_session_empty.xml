@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_member_empty_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/member_session_empty" />
+    <TextView android:textSize="@dimen/text_size_20" android:textColor="@color/text_color_bread_gray" android:id="@id/tv_member_empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/dt_im_newretail_chatlist_empty_title" />
+    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/text_color_gray" android:id="@id/tv_member_empty_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/dt_im_newretail_chatlist_empty_detailtext" />
+</LinearLayout>

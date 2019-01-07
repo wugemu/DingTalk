@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_setting_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/text_color_dark" android:id="@id/tv_staff_title" android:paddingLeft="@dimen/chatting_setting_item_spaceLeft" android:paddingTop="@dimen/chatting_setting_item_spaceTop" android:paddingRight="@dimen/chatting_setting_item_spaceLeft" android:paddingBottom="@dimen/chatting_setting_item_spaceTop" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+        <com.alibaba.android.dingtalkbase.widgets.views.ClearableEditText android:textSize="@dimen/text_size_16" android:textColorHint="@color/divider_gray" android:id="@id/et_manage_staff_content" android:background="@null" android:paddingTop="@dimen/chatting_setting_item_spaceTop" android:paddingRight="@dimen/chatting_setting_item_spaceLeft" android:paddingBottom="@dimen/chatting_setting_item_spaceTop" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:hint="@string/input_optional" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

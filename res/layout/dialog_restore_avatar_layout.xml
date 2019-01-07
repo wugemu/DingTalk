@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dlg_bg_shape" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center" android:id="@id/restore_avatar_iv_avatar" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginTop="32.0dip" avatar:textSize="@dimen/text_size_17" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_6_6" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/restore_avatar_tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:text="@string/choose_avatar_dlg_tips" android:lineSpacingExtra="8.0dip" />
+    <View android:background="#66666666" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="45.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_start_chat" android:background="@drawable/custom_dialog_botton_selector" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/dialog_btn_text_color" android:gravity="center" android:id="@id/btn_left_text" android:background="@drawable/label_selector_radius_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+            <View android:background="@color/divider_light_gray" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/dialog_btn_text_color" android:gravity="center" android:id="@id/btn_right_text" android:background="@drawable/label_selector_radius_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/login_ok" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

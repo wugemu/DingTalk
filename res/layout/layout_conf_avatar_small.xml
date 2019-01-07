@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/avatar_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/user_avatar_layout" android:background="@drawable/conf_stroke_shape_small" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/user_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true" avatar:textSize="@dimen/text_size_14" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center" android:id="@id/user_tail" android:background="@drawable/conf_status_bg_circle_small_shape" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/conf_white_6_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_more" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/pure_white" android:ellipsize="middle" android:gravity="center" android:id="@id/nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxEms="4" android:singleLine="true" />
+</LinearLayout>

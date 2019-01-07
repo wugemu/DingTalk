@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uidic_global_text_size_s16" android:textColor="@color/ui_common_content_fg_color" android:gravity="center" android:id="@id/text" android:background="@drawable/custom_dialog_botton_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/dt_circle_action_change_cover" />
+    <include layout="@layout/circle_line" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/client_application_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alipay.mobile.verifyidentity.ui.APTitleBar android:id="@id/titleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:vi_titleText="@string/verify_id_authentication" app:vi_showGenericButton="false" />
+    <ScrollView android:id="@id/scroll_view_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/list_root" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+</LinearLayout>

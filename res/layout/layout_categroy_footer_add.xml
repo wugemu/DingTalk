@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_theme_icon_bg_color" android:id="@id/icon_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ui_common_page_padding_left" android:layout_marginRight="8.0dip" android:text="@string/icon_roundadd" android:layout_centerVertical="true" />
+    <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/ui_common_theme_bg_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/dt_im_category_add_session" android:layout_toRightOf="@id/icon_add" />
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:scrollbarStyle="outsideOverlay" android:textSize="@dimen/text_size_24" android:textColor="@color/text_color_black" android:gravity="center|left" android:id="@id/tv_expand_msg" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:scrollbarFadeDuration="2000" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_to_task" android:background="@drawable/im_bg_expand_msg_to_task_selector" android:paddingLeft="24.0dip" android:paddingTop="12.0dip" android:paddingRight="24.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:layout_weight="0.0">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="16.0dip" android:textColor="@color/ui_common_warming_text_fg" android:layout_gravity="center_vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_task_fill" android:includeFontPadding="false" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/ui_common_warming_text_fg" android:layout_gravity="center_vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/dt_im_menu_send_pic_task" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

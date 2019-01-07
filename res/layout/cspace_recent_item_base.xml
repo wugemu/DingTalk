@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/alm_cmail_mail_common_bg" android:paddingLeft="@dimen/cspace_recent_item_marginLeft" android:paddingTop="@dimen/cspace_recent_item_marginTop" android:paddingRight="@dimen/cspace_recent_item_marginLeft" android:paddingBottom="@dimen/cspace_recent_item_marginTop" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:gravity="center" android:id="@id/img_avatar" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" avatar:textSize="9.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_sub_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:minHeight="28.0dip" android:layout_toRightOf="@id/img_avatar" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/alm_cmail_color_6_6" android:gravity="center|left" android:id="@id/file_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s12" android:textColor="@color/alm_cmail_color_6_2" android:gravity="center|left" android:id="@id/file_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <ViewStub android:id="@id/content_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

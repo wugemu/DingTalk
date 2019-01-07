@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_tab" android:layout_width="wrap_content" android:layout_height="48.0dip" android:minWidth="@dimen/search_tab_min_width">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/ui_common_tab_bar_active_fg_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s10" android:textColor="@color/ui_common_tab_bar_active_fg_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(99+)" />
+        </LinearLayout>
+        <View android:id="@id/selected_line" android:background="@color/ui_common_tab_bar_active_fg_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <View android:id="@id/unselected_line" android:background="@color/ui_common_button_border_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

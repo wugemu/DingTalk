@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout android:orientation="vertical" android:background="@color/pure_white" android:paddingLeft="15.0dip" android:paddingTop="25.0dip" android:paddingRight="15.0dip" android:paddingBottom="33.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/robot_avatar" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/robot_avatar_default" android:layout_centerHorizontal="true" avatar:textSize="@dimen/text_size_15_in_sp" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_name" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/robot_avatar" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/text_size_17_in_sp" android:textColor="@color/uidic_global_color_6_6" android:id="@id/tv_robot_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="16.0dip" android:textColor="@color/uidic_global_color_6_9" android:id="@id/iftv_robot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.5dip" android:text="@string/icon_robot_two_round_fill" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/dp16" android:textColor="@color/C6_2" android:id="@id/tv_creator_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_below="@id/ll_name" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/dp16" android:id="@id/tv_robot_chat" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="@string/and_sendmsg" android:singleLine="true" android:layout_below="@id/ll_name" android:layout_centerHorizontal="true" style="@style/ui_common_level1_button" />
+        </RelativeLayout>
+        <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="16.0dip" />
+        <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/robot_setting" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" app:text="@string/dt_robot_mid_setting" app:first="true" app:last="true" app:include_layout="@layout/uidic_forms_tip_link_item" />
+        <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/robot_profile" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:text="@string/dt_robot_mid_profile" app:first="true" app:last="false" app:include_layout="@layout/uidic_forms_tip_link_item" />
+        <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/robot_market" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:text="@string/dt_robot_more_robot" app:first="true" app:last="true" app:include_layout="@layout/uidic_forms_tip_link_item" />
+    </LinearLayout>
+</ScrollView>

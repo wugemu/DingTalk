@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header" android:background="@color/actionbar_bg" android:paddingRight="11.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <RelativeLayout android:id="@id/menu_left" android:background="@drawable/actbar_selector" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="?actionBarSize">
+            <ImageView android:id="@id/actionbar_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/actbar_home_up_indicator" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/text_color_black" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location_title" android:layout_toRightOf="@id/actionbar_icon" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/menu_done" android:background="@drawable/actbar_selector" android:layout_width="50.0dip" android:layout_height="?actionBarSize" android:layout_alignParentRight="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/done" android:background="@drawable/actbar_btn_selector" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sure" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/menu_search" android:background="@drawable/actbar_selector" android:layout_width="50.0dip" android:layout_height="?actionBarSize" android:layout_toLeftOf="@id/menu_done">
+            <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_actbar_search" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="#ffd4d4d8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/header" />
+</RelativeLayout>

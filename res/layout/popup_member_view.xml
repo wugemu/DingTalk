@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_root_view" android:background="@color/member_view_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/member_container_rect_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="52.0dip" android:layout_marginTop="120.0dip" android:layout_marginRight="52.0dip" android:layout_marginBottom="120.0dip" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/rl_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="17.0dip" android:textColor="@color/uidic_global_color_6_6" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="12.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/uidic_global_color_6_6" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/tv_title" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:id="@id/rl_horizontal_member" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/tv_content">
+                <com.alibaba.android.dingtalkbase.widgets.views.WrapGridView android:layout_gravity="center|left|top" android:id="@id/grid_view" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="48.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:verticalSpacing="1.0dip" android:stretchMode="none" android:columnWidth="36.0dip" android:numColumns="6" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/img_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_sub_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/rl_sub_title" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <ImageView android:textColor="@color/color_blue_selector" android:id="@id/img_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:src="@drawable/actbar_home_up_indicator_blue" android:layout_centerVertical="true" />
+                <TextView android:textSize="17.0dip" android:textColor="@color/uidic_global_color_6_6" android:ellipsize="end" android:id="@id/tv_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginRight="12.0dip" android:maxLines="2" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <View android:id="@id/sub_split" android:background="@color/session_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/rl_sub_title" />
+            <ListView android:id="@id/list_view" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@color/session_divider" android:dividerHeight="0.5dip" android:layout_below="@id/sub_split" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+        </RelativeLayout>
+        <View android:id="@id/v_bottom_divider" android:background="@color/session_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_bottom_operation" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip">
+            <Button android:textSize="17.0dip" android:textColor="@color/color_blue_selector" android:id="@id/btn_sure" android:background="@color/member_container_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_group_upgrade_alert_action_continue" android:layout_weight="1.0" />
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <View android:id="@id/view_split" android:background="@color/session_divider" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+                <Button android:textSize="17.0dip" android:textColor="@color/color_blue_selector" android:id="@id/btn_cancel" android:background="@color/member_container_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_toRightOf="@id/view_split" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

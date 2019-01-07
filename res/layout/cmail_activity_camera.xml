@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SurfaceView android:id="@id/surfaceView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <SurfaceView android:id="@id/transparentView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/cmail_dimen_24_dp" android:textColor="@color/ui_common_inverse_content_fg_color" android:gravity="center" android:id="@id/switch_camera" android:layout_width="@dimen/cmail_dimen_48_dp" android:layout_height="@dimen/cmail_dimen_48_dp" android:layout_marginTop="@dimen/cmail_dimen_20_dp" android:layout_marginRight="@dimen/cmail_dimen_20_dp" android:text="@string/icon_switchcamera" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/timer_layout" android:background="@drawable/cmail_round_rect_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cmail_dimen_16_dp" android:layout_above="@id/action_layout" android:layout_centerHorizontal="true">
+        <Chronometer android:textSize="@dimen/alm_cmail_font_size_s12" android:textColor="@color/ui_common_inverse_content_fg_color" android:id="@id/timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format="00:00" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/action_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cmail_dimen_20_dp" android:layout_alignParentBottom="true">
+        <FrameLayout android:gravity="center" android:id="@id/camera_action" android:layout_width="@dimen/cmail_dimen_48_dp" android:layout_height="@dimen/cmail_dimen_48_dp" android:layout_centerHorizontal="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/cmail_dimen_48_dp" android:textColor="@color/cmail_camera_btn_lite_gray_selector" android:layout_gravity="center" android:layout_width="@dimen/cmail_dimen_48_dp" android:layout_height="@dimen/cmail_dimen_48_dp" android:text="@string/icon_round_fill" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/cmail_dimen_42_dp" android:textColor="@color/cmail_lite_white_selector" android:layout_gravity="center" android:layout_width="@dimen/cmail_dimen_42_dp" android:layout_height="@dimen/cmail_dimen_42_dp" android:text="@string/icon_round_fill" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/cmail_dimen_36_dp" android:textColor="@color/cmail_white_selector" android:layout_gravity="center" android:layout_width="@dimen/cmail_dimen_36_dp" android:layout_height="@dimen/cmail_dimen_36_dp" android:text="@string/icon_round_fill" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/cmail_dimen_24_dp" android:textColor="@color/ui_common_content_fg_color" android:layout_gravity="center" android:id="@id/action_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_camera_fill" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:id="@id/change_action" android:layout_width="@dimen/cmail_dimen_48_dp" android:layout_height="@dimen/cmail_dimen_48_dp" android:layout_marginRight="@dimen/cmail_dimen_30_dp" android:layout_alignParentRight="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/cmail_dimen_48_dp" android:textColor="@color/cmail_camera_btn_gray_selector" android:layout_gravity="center" android:layout_width="@dimen/cmail_dimen_48_dp" android:layout_height="@dimen/cmail_dimen_48_dp" android:text="@string/icon_round_fill" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/cmail_dimen_24_dp" android:textColor="@color/cmail_white_selector" android:layout_gravity="center" android:id="@id/change_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_video_fill" />
+        </FrameLayout>
+    </RelativeLayout>
+    <com.alibaba.alimei.mail.widget.MediaPreviewView android:id="@id/preview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/org_member_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:fillViewport="false" android:layout_above="@id/ll_btn_next">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_org_create_fragment_container" android:background="@color/window_background" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0dip" android:textColor="@color/uidic_global_color_6_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="7.0dip" android:text="@string/dt_external_contact_label_group_name" />
+            <com.alibaba.android.dingtalkbase.uidic.cells.C8E1EditCell android:id="@id/te_group_name" android:layout_width="fill_parent" android:layout_height="44.0dip" app:bottomDividerVisibility="visible" app:hint="@string/input_required" app:titleSize="@dimen/text_size_17" app:topDividerVisibility="visible" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/uidic_global_color_6_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="7.0dip" android:text="@string/dt_external_contact_all_label" />
+            <com.alibaba.android.user.contact.view.ListViewForScroll android:id="@id/list_label" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/uidic_global_color_6_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="7.0dip" android:text="@string/dt_external_contact_label_group_color" />
+            <com.alibaba.android.user.external.manage.LabelColorSelectLayout android:id="@id/color_select_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_delete_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/uidic_global_color_9_1" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="20.0dip" />
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/C3" android:gravity="center" android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/dt_external_contact_delete_label_group" />
+                <View android:background="@color/uidic_global_color_9_1" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="20.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

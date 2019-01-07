@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/recyclerview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:horizontalSpacing="0.0dip" android:verticalSpacing="0.0dip" android:stretchMode="columnWidth" android:numColumns="4" android:overScrollMode="never"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <RelativeLayout android:id="@id/channel_close_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/empty_channel_info" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/channel_detail_info_layout" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_gray" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/dt_channel_main_has_closed" android:layout_below="@id/empty_channel_info" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

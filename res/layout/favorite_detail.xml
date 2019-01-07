@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_pic" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/favorite_margin_split">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/img_pic_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/favorite_margin_split" avatar:textSize="@dimen/text_size_12" style="style/fav_avatar_style" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+            <TextView android:id="@id/tv_pic_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/favorite_margin_common" android:maxWidth="240.0dip" style="@style/favorite_item_light_14" />
+            <ImageView android:id="@id/img_group_pic_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="@dimen/favorite_margin_common" android:minWidth="24.0dip" android:layout_toRightOf="@id/tv_pic_name" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/rl_ding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/favorite_margin_split" android:layout_marginTop="10.0dip">
+            <TextView android:id="@id/tv_ding_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/favorite_item_weight_14" />
+            <com.alibaba.android.dingtalkbase.widgets.voice.VoicePlayerView android:textSize="@dimen/text_size_16" android:textColor="@color/white" android:gravity="center|left" android:id="@id/ding_voice_play" android:background="@drawable/favorite_voice_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="@dimen/favorite_margin_common" android:maxWidth="240.0dip" android:lineSpacingExtra="2.0dip" />
+        </RelativeLayout>
+        <ImageView android:id="@id/img_picture" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/favorite_margin_common" android:scaleType="fitStart" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/line_pic" android:background="@color/cspace_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="8.0dip" />
+            <TextView android:id="@id/tv_pic_time" android:paddingBottom="@dimen/favorite_margin_split" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/favorite_margin_common" android:layout_marginTop="@dimen/favorite_margin_split" android:layout_below="@id/line_pic" style="@style/favorite_time_light_12" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ScrollView android:id="@id/s_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/favorite_margin_split">
+                <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/img_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/favorite_margin_split" avatar:textSize="@dimen/text_size_12" style="style/fav_avatar_style" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+                <TextView android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/favorite_margin_common" android:maxWidth="240.0dip" style="@style/favorite_item_light_14" />
+                <ImageView android:id="@id/img_group_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="@dimen/favorite_margin_common" android:minWidth="24.0dip" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_top">
+                <RelativeLayout android:id="@id/rl_text_voice" android:padding="@dimen/favorite_margin_common" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:id="@id/tv_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" style="@style/favorite_item_weight_16" />
+                    <com.alibaba.android.dingtalkbase.widgets.voice.VoicePlayerView android:textSize="@dimen/text_size_16" android:textColor="@color/white" android:gravity="center|left" android:id="@id/voice_play" android:background="@drawable/favorite_voice_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/favorite_margin_common" android:layout_marginBottom="@dimen/favorite_margin_split" android:maxWidth="240.0dip" android:lineSpacingExtra="2.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_text_voice">
+                    <View android:id="@id/line" android:background="@color/cspace_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="8.0dip" />
+                    <TextView android:id="@id/tv_time" android:paddingBottom="@dimen/favorite_margin_split" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/favorite_margin_common" android:layout_marginTop="@dimen/favorite_margin_split" android:layout_below="@id/line" style="@style/favorite_time_light_12" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

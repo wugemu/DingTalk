@@ -1,0 +1,185 @@
+{
+	"deviceConfigs": [{
+		"deviceItems": [{
+			"maxSdkVersion": 20,
+			"minSdkVersion": 16,
+			"mode": "Nexus 5"
+		}],
+		"faceSetting": {
+			"cameraInfo": {
+				"autoRotation": 0,
+				"camareid": 1,
+				"displayOrientation": 90
+			},
+			"faceAlgorithmInfo": {
+				"rotationAngle": 270
+			},
+			"faceUploadInfo": {
+				"horizontalAngle": 270,
+				"verticalAngle": 180
+			}
+		}
+	},
+	{
+		"deviceItems": [{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "Nexus 6"
+		},
+		{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "ZTE U9180"
+		},
+		{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "Moto X Pro"
+		},
+		{
+			"maxSdkVersion": 20,
+			"minSdkVersion": 16,
+			"mode": "MI NOTE Pro"
+		}],
+		"faceSetting": {
+			"cameraInfo": {
+				"autoRotation": 0,
+				"camareid": 1,
+				"displayOrientation": 270
+			},
+			"faceAlgorithmInfo": {
+				"rotationAngle": 90
+			},
+			"faceUploadInfo": {
+				"horizontalAngle": 90,
+				"verticalAngle": 180
+			}
+		}
+	},
+	{
+		"deviceItems": [{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "N5200"
+		}],
+		"faceSetting": {
+			"cameraInfo": {
+				"autoRotation": 1,
+				"camareid": 0,
+				"displayOrientation": 270
+			},
+			"faceAlgorithmInfo": {
+				"rotationAngle": 270
+			},
+			"faceUploadInfo": {
+				"horizontalAngle": 270,
+				"verticalAngle": 180
+			}
+		}
+	},
+	{
+		"deviceItems": [{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "ATH-CL00"
+		},{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "ATH-AL00"
+		},{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "ATH-UL00"
+		},{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "ATH-TL00H"
+		},{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "DOOV V1"
+		}],
+		"faceSetting": {
+			"cameraInfo": {
+				"autoRotation": 0,
+				"camareid": 0,
+				"displayOrientation": 90
+			},
+			"faceAlgorithmInfo": {
+				"rotationAngle": 90
+			},
+			"faceUploadInfo": {
+				"horizontalAngle": 90,
+				"verticalAngle": 180
+			}
+		}
+	},
+	{
+		"deviceItems": [{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "N5117"
+		},
+		{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "N5209"
+		}],
+		"faceSetting": {
+			"cameraInfo": {
+				"autoRotation": 0,
+				"camareid": 0,
+				"displayOrientation": 90
+			},
+			"faceAlgorithmInfo": {
+				"rotationAngle": 90
+			},
+			"faceUploadInfo": {
+				"horizontalAngle": 90,
+				"verticalAngle": 180
+			}
+		}
+	},
+	{
+		"deviceItems": [{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "TAB A10-80HC"
+		}],
+		"faceSetting": {
+			"cameraInfo": {
+				"autoRotation": 0,
+				"camareid": 1,
+				"displayOrientation": 0
+			},
+			"faceAlgorithmInfo": {
+				"rotationAngle": 0
+			},
+			"faceUploadInfo": {
+				"horizontalAngle": 1,
+				"verticalAngle": 180
+			}
+		}
+	},
+	{
+		"deviceItems": [{
+			"maxSdkVersion": 100,
+			"minSdkVersion": 16,
+			"mode": "Lenovo TAB 2 A10-70LC"
+		}],
+		"faceSetting": {
+			"cameraInfo": {
+				"autoRotation": 0,
+				"camareid": 1,
+				"displayOrientation": 0
+			},
+			"faceAlgorithmInfo": {
+				"rotationAngle": 0
+			},
+			"faceUploadInfo": {
+				"horizontalAngle": 1,
+				"verticalAngle": 180
+			}
+		}
+	}]
+}

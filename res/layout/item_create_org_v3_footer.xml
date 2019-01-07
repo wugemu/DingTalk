@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/alm_cmail_font_size_s12" android:textColor="@color/uidic_global_color_6_2" android:id="@id/tv_create_org_desc" android:paddingLeft="@dimen/ui_common_page_padding_left" android:paddingTop="8.0dip" android:paddingRight="@dimen/ui_common_page_padding_right" android:paddingBottom="@dimen/ui_common_page_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_createteam_add_admin_section_tip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

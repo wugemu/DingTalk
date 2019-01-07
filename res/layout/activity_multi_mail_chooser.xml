@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/alm_cmail_color_8_5" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_en_mail_free_get" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:src="@drawable/cmail_mail_free_get_banner" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_ali_item" android:background="@drawable/cspace_list_item_selected" android:layout_width="fill_parent" android:layout_height="64.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/cmail_mail_alibaba_icon" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+                <TextView android:textSize="@dimen/ui_common_subhead2_text_size" android:textColor="@color/ui_common_alert_text_color" android:ellipsize="end" android:id="@id/tv_mail_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_mail_supplier_alimail" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/ui_common_caption1_text_size" android:textColor="@color/ui_common_level3_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/dt_mail_login_ali_feature_tip" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/alm_public_sub_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        <include android:id="@id/include_qq_item" android:layout_width="fill_parent" android:layout_height="64.0dip" layout="@layout/mail_chooser_item" />
+        <View android:background="@color/alm_public_sub_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        <include android:id="@id/include_qq_en_item" android:layout_width="fill_parent" android:layout_height="64.0dip" layout="@layout/mail_chooser_item" />
+        <View android:background="@color/alm_public_sub_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        <include android:id="@id/include_163_item" android:layout_width="fill_parent" android:layout_height="64.0dip" layout="@layout/mail_chooser_item" />
+        <View android:background="@color/alm_public_sub_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        <include android:id="@id/include_163_en_item" android:layout_width="fill_parent" android:layout_height="64.0dip" layout="@layout/mail_chooser_item" />
+        <View android:background="@color/alm_public_sub_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        <include android:id="@id/include_126_item" android:layout_width="fill_parent" android:layout_height="64.0dip" layout="@layout/mail_chooser_item" />
+        <View android:background="@color/alm_public_sub_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        <include android:id="@id/include_gmail_item" android:layout_width="fill_parent" android:layout_height="64.0dip" layout="@layout/mail_chooser_item" />
+        <View android:background="@color/alm_public_sub_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        <include android:id="@id/include_outlook_item" android:layout_width="fill_parent" android:layout_height="64.0dip" layout="@layout/mail_chooser_item" />
+        <View android:background="@color/alm_public_sub_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        <include android:id="@id/include_other_item" android:layout_width="fill_parent" android:layout_height="64.0dip" layout="@layout/mail_chooser_item" />
+        <View android:background="@color/alm_public_sub_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/mail_agent_color_tt" android:gravity="bottom" android:background="@color/alm_cmail_color_8_5" android:paddingLeft="12.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="37.0dip" android:text="@string/dt_mail_chose_havenot_mail" android:singleLine="true" />
+    </LinearLayout>
+</ScrollView>

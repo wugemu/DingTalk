@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s18" android:textColor="@color/ui_common_alert_icon_bg_color" android:id="@id/my_balance_icon_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/icon_wifiwarning_fill" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:id="@id/tv_network_error_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/dt_search_no_network_hint" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/ui_common_alert_text_fg" android:layout_gravity="center_vertical" android:id="@id/tv_retry_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="12.0dip" android:text="@string/dt_search_network_error_retry_text" android:layout_weight="0.0" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

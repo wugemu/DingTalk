@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center_vertical" android:id="@id/iv_remind" android:visibility="gone" android:layout_width="@dimen/gif_im_remind_width" android:layout_height="@dimen/gif_im_remind_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/img_cancel" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/im_send_cancel_btn" android:contentDescription="@string/dt_accessibility_message_send_cancel" />
+    <FrameLayout android:id="@id/container" android:background="@drawable/chatting_share_bg_selector" android:paddingLeft="0.0dip" android:paddingTop="12.0dip" android:paddingRight="0.0dip" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/item_file_link" />
+    </FrameLayout>
+</LinearLayout>

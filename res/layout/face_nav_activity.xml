@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff0f4f7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="#ff93cbee" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <Button android:id="@id/face_nav_title_bar_back_button" android:background="@drawable/face_top_back" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="11.0dip" />
+        <Button android:id="@id/face_nav_title_bar_sound_button" android:background="@drawable/face_top_sound_on" android:layout_width="25.0dip" android:layout_height="23.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="112.0dip" android:text="@string/face_liveness_nav_tip_text" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="173.0dip" android:text="@string/face_liveness_nav_hint_text" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/face_nav" android:layout_width="163.0dip" android:layout_height="260.0dip" android:layout_marginTop="200.0dip" android:layout_centerHorizontal="true" />
+    <Button android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/abface_nav_start" android:background="@drawable/face_button_corner" android:layout_width="220.0dip" android:layout_height="40.0dip" android:layout_marginBottom="115.0dip" android:text="@string/face_liveness_nav_button_text" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

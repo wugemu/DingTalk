@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_theme_icon_bg" android:gravity="center_vertical" android:id="@id/iv_back" android:background="@drawable/ui_common_action_icon_bg" android:paddingLeft="24.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="-12.0dip" android:text="@string/icon_backarrow" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ding_detail" android:maxLines="1" android:minLines="1" android:layout_centerInParent="true" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_24" android:textColor="@color/ui_common_level3_text_color" android:id="@id/iv_focus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/icon_ping_fill" android:layout_toLeftOf="@id/ll_more" android:layout_centerVertical="true" android:contentDescription="@string/ding_filter_focus" />
+        <LinearLayout android:id="@id/ll_more" android:background="@drawable/ui_common_action_icon_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true">
+            <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ding_more" android:maxLines="1" android:minLines="1" />
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_level1_button_bg_color" android:id="@id/more_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_more" android:layout_centerInParent="true" android:contentDescription="@string/more" />
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="8.0dip" android:textColor="@color/ui_common_alert_bg_color" android:layout_gravity="center|right|top" android:id="@id/iv_red" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:text="@string/icon_round_fill" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ding_comment_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/header">
+        <com.alibaba.android.dingtalkbase.widgets.views.MotionTrackListView android:id="@id/ding_comment_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="46.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:overScrollMode="never" />
+        <com.alibaba.android.dingtalkbase.widgets.views.InputPanelView android:id="@id/ding_detail_inputpanel" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="32.0dip" android:layout_alignParentBottom="true" />
+        <ViewStub android:id="@id/vs_bottom_meeting" android:visibility="gone" android:layout="@layout/ding_layout_bottom_meeting" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ding_detail_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_ding_detail_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ding_icon_ding_can_not_found" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/ui_common_level3_text_color" android:id="@id/tv_ding_detail_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/ding_detail_cannot_find" />
+    </LinearLayout>
+    <com.alibaba.android.ding.widget.CommentFilterLayout android:id="@id/view_fake_comment_filter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/header" />
+    <RelativeLayout android:id="@id/rl_loading" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleInverse" />
+    </RelativeLayout>
+</RelativeLayout>

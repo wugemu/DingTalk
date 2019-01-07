@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/ll_add_share" android:background="@android:color/white" android:paddingLeft="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="16.0dip">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_ding_add_sharer" android:drawablePadding="12.0dip" />
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp16" app:srcCompat="@drawable/right_arrow" />
+        </LinearLayout>
+        <View android:id="@id/divider_line" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/dp16" />
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/ll_add_share_to_department" android:background="@android:color/white" android:paddingLeft="@dimen/dp16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_ding_add_sharer_to_department" android:drawablePadding="12.0dip" />
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp16" app:srcCompat="@drawable/right_arrow" />
+        </LinearLayout>
+        <View android:id="@id/divider_line2" android:background="@color/ui_common_level1_line_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/dp16" />
+        <TextView android:textSize="@dimen/text_size_14" android:id="@id/tv_show_intro" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp16" android:layout_marginTop="@dimen/dp8" android:layout_marginRight="@dimen/dp16" android:layout_marginBottom="@dimen/dp8" android:text="@string/dt_ding_share_allow_check_and_edit_your_schedule" />
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.MotionTrackListView android:id="@id/lv_content" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:layout_below="@id/ll_content" android:overScrollMode="never" />
+</RelativeLayout>

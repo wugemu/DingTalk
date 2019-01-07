@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/float_view" android:background="@drawable/focus_bg_white_corner_shape" android:layout_width="63.0dip" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s20" android:textColor="#ff3296fa" android:id="@id/float_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/icon_airplay" />
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="#ff3296fa" android:id="@id/float_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="#ff191f25" android:id="@id/float_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_projection_projecting_title" android:maxLines="1" android:includeFontPadding="false" />
+</LinearLayout>

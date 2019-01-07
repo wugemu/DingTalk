@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_root" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="406.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dp17" android:textColor="@color/ui_common_level1_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/dt_lv_linkmic_request" />
+    <ListView android:id="@id/hands_up_list_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/dp14" android:textColor="@color/ui_common_level2_text_color" android:gravity="center" android:id="@id/tv_empty" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/dt_lv_linkmic_no_appliers" android:layout_weight="1.0" />
+    <Button android:textSize="@dimen/dp17" android:id="@id/btn_action" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:maxWidth="168.0dip" android:text="@string/dt_live_linkmic_hands_up" style="@style/ui_common_level1_button" />
+</LinearLayout>

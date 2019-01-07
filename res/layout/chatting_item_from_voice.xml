@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/voice_play_view_container" android:background="@drawable/chatfrom_bg_normal" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:focusable="true" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.widgets.voice.VoicePlayerView android:gravity="center|left" android:id="@id/voice_play_view" android:paddingRight="2.5dip" android:focusable="true" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="40.0dip" />
+            <View android:id="@id/chatting_divide_line_v" android:background="@color/chat_item_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <com.alibaba.android.dingtalkbase.widgets.LaiwangSpanFixTextView android:id="@id/chatting_content_translate_tv" android:visibility="gone" android:layout_width="fill_parent" android:maxWidth="@dimen/chat_item_max_width" style="@style/ChattingViewText" />
+        </LinearLayout>
+        <TextView android:id="@id/chatting_redpoint_icon" android:padding="0.0dip" android:layout_marginLeft="5.0dip" style="@style/ChattingUISendTime" />
+    </LinearLayout>
+    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center_vertical" android:id="@id/iv_remind" android:visibility="gone" android:layout_width="@dimen/gif_im_remind_width" android:layout_height="@dimen/gif_im_remind_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+</LinearLayout>

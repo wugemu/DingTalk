@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/alm_event_panel" android:paddingRight="@dimen/cmail_dimen_16_dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.alimei.cmail.widget.MailListPerfTextView android:textSize="14.0dip" android:textColor="@color/cmail_color_7d8082" android:ellipsize="end" android:gravity="center|left" android:id="@id/alm_event_meeting_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    <com.alibaba.alimei.cmail.widget.MailListPerfTextView android:textSize="14.0dip" android:textColor="@color/cmail_color_7d8082" android:ellipsize="end" android:gravity="center|left" android:id="@id/alm_event_meeting_addr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

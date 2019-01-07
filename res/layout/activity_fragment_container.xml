@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:background="@color/transparent_black" android:layout_width="fill_parent" android:layout_height="@dimen/scan_vcard_top_height">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s28" android:textColor="@color/uidic_global_color_c5" android:id="@id/img_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/icon_roundclose_fill" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClick" />
+        <TextView android:textSize="@dimen/text_size_18_in_sp" android:textColor="@color/white" android:id="@id/tv_scan_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s28" android:textColor="@color/uidic_global_color_c5" android:id="@id/img_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/icon_more_two_fill" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" />
+    </RelativeLayout>
+</FrameLayout>

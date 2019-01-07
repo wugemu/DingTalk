@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.widgets.OneBoxView android:id="@id/ll_onebox_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_tele_pager" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.indicator.PagerSlidingTabStrip android:layout_gravity="center_horizontal" android:id="@id/ll_pager_tabs" android:layout_width="165.0dip" android:layout_height="?actionBarSize" app:pstsIndicatorColor="@color/ui_common_level1_button_bg_color" app:pstsUnderlineColor="@color/uidic_global_color_c5" app:pstsIndicatorHeight="2.0dip" app:pstsTabTextSize="@dimen/uidic_global_text_size_s17" app:pstsUnderlineHeight="0.0px" app:pstsTabPaddingLeftRight="0.0dip" app:pstsShouldExpand="true" />
+        <com.alibaba.android.teleconf.widget.TeleCustomViewPager android:orientation="horizontal" android:id="@id/ll_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_search_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" />
+    <include android:id="@id/grant_view" android:visibility="gone" layout="@layout/layout_conf_grant_dialog" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/act_bar_btn_bg_normal" />
+    <padding android:right="10.0dip" />
+</shape>

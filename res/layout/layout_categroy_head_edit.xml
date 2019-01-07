@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.uidic.cells.C1T1TextCell android:id="@id/cell_edit_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:bottomDividerAlign="alignParent" app:bottomDividerVisibility="visible" app:rightImage="@drawable/right_arrow" app:title="@string/dt_im_category_edit_name" app:titleColor="@color/ui_common_level1_text_color" app:topDividerAlign="alignParent" app:topDividerVisibility="visible" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/ui_common_level3_text_color" android:id="@id/tv_category_contain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ui_common_page_padding_left" android:layout_marginTop="16.0dip" android:layout_marginBottom="6.0dip" />
+</LinearLayout>

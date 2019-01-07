@@ -1,0 +1,25 @@
+//{
+//  "client_id": "000000004414E7B3",
+//  "client_secret": "QXJwTmAiiqLnbl8Uh2t0Urx7nWq935qk",
+//  "redirect_uri": "https://android.dingtalkmail.com",
+//  "authorization_scope": "wl.emails,wl.imap,wl.offline_access",
+//  "discovery_uri": "",
+//  "authorization_endpoint_uri": "https://login.live.com/oauth20_authorize.srf",
+//  "token_endpoint_uri": "https://login.live.com/oauth20_token.srf",
+//  "registration_endpoint_uri": "",
+//  "user_info_endpoint_uri": "",
+//  "https_required": true
+//}
+
+{
+  "client_id": "9c61a352-c960-492d-8f03-9a8f73d27e8b",
+  "client_secret": "ksjkiOYMP01]afKFM812-~[",
+  "redirect_uri": "https://android.dingtalkmail.com",
+  "authorization_scope": "wl.emails,wl.imap,wl.offline_access",
+  "discovery_uri": "",
+  "authorization_endpoint_uri": "https://login.live.com/oauth20_authorize.srf",
+  "token_endpoint_uri": "https://login.live.com/oauth20_token.srf",
+  "registration_endpoint_uri": "",
+  "user_info_endpoint_uri": "",
+  "https_required": true
+}

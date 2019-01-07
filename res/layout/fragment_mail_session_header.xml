@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_16" android:textStyle="bold" android:textColor="@color/alm_cmail_color_191f25" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/mail_session_subject_header" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingTop="@dimen/cmail_dimen_12_dp" android:paddingRight="@dimen/cmail_dimen_12_dp" android:paddingBottom="@dimen/cmail_dimen_12_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+    <View android:background="@color/ui_common_button_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/info" android:background="#fff0f0f0" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/common_listview_divider_height" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/conf_bg_color" android:ellipsize="end" android:gravity="center" android:id="@id/title" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_share_invitation_password" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/uidic_global_color_6_2" android:id="@id/message" android:paddingLeft="17.5dip" android:paddingRight="17.5dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" />
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/common_listview_divider_height" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/conf_bg_color" android:ellipsize="end" android:gravity="center" android:paddingLeft="12.0dip" android:paddingTop="16.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_share_ding_word_paste_title" android:singleLine="true" />
+        <com.alibaba.android.dingtalkbase.widgets.FixedViewPager android:id="@id/view_pager" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+        <com.alibaba.dingtalk.share.share.view.ShareViewpagerIndicator android:id="@id/indicator" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/conf_bg_color" android:gravity="center" android:id="@id/cancel" android:background="@drawable/selector_bg_btn_cancel" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_below="@id/info" />
+</RelativeLayout>

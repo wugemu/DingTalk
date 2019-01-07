@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0dip" android:gravity="center" android:id="@id/h5_tabbaritem_txticon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/h5_white_title_bar_close_btn" android:layout_centerInParent="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-2.0dip" android:layout_marginTop="2.0dip" android:layout_toRightOf="@id/h5_tabbaritem_txticon">
+        <TextView android:textSize="8.0dip" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/h5_tabbaritem_badge" android:background="@drawable/h5_point_large" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <ImageView android:layout_gravity="center" android:id="@id/h5_tabbaritem_badge_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/h5_point_small" android:scaleType="centerInside" />
+    </RelativeLayout>
+</RelativeLayout>

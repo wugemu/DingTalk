@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.alibaba.lightapp.runtime.view.ScrollDatePicker android:id="@id/datepicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:calendarViewShown="false" android:datePickerMode="spinner" />
+            <com.alibaba.lightapp.runtime.view.ScrollTimePicker android:id="@id/timepicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:timePickerMode="spinner" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

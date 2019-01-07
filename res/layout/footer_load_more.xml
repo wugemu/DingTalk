@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_footer_load_more" android:background="@color/ui_common_window_bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_divider_line" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginLeft="16.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_footer_load_more" android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s18" android:textColor="@color/ui_common_theme_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/icon_search" android:layout_weight="0.0" />
+        <TextView android:textSize="@dimen/ui_common_body_text_size" android:textColor="@color/ui_common_theme_text_color" android:ellipsize="middle" android:id="@id/tv_search_view_more" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/search_text_view_more" android:singleLine="true" android:layout_weight="1.0" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s12" android:textColor="@color/uidic_global_color_c11_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="10.0dip" android:text="@string/icon_right" android:layout_weight="0.0" />
+    </LinearLayout>
+    <include android:id="@id/ll_footer_network_search" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/footer_network_search" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/common_white_cell_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="16.0dip" android:textColor="@color/ui_common_level2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/icon_notice_fill" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="51.0dip" android:layout_marginTop="16.0dip">
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level3_text_color" android:id="@id/comment_text_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/ui_common_level4_text_color" android:gravity="bottom" android:id="@id/comment_time" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="17.0dip" android:includeFontPadding="false" android:layout_weight="0.0" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level3_text_color" android:id="@id/comment_text_notice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:includeFontPadding="false" android:layout_below="@id/ll_content" android:layout_alignLeft="@id/ll_content" />
+    <View android:id="@id/divider_line" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="51.0dip" android:layout_marginTop="16.0dip" android:layout_below="@id/comment_text_notice" />
+</RelativeLayout>

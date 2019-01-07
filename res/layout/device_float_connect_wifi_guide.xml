@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/device_sub_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_float_guide" android:background="@drawable/device_shape_radius" android:layout_width="270.0dip" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_centerInParent="true">
+        <com.alibaba.android.dingtalkbase.widgets.RoundedImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/device_alpha_entrance_guide" android:scaleType="centerCrop" app:topLeft="10.0dip" app:topRight="10.0dip" />
+        <TextView android:textSize="@dimen/text_size_17_in_sp" android:textColor="@color/device_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="@string/dt_alpha_entrance_guide_title" />
+        <TextView android:textSize="@dimen/text_size_13_in_sp" android:textColor="@color/device_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="@string/dt_alpha_entrance_guide_content" android:alpha="0.56" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_operate" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="10.0dip" android:layout_alignParentBottom="true">
+            <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/device_blue" android:gravity="center" android:id="@id/tv_single" android:background="@drawable/device_radius_bottom_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/dt_alpha_i_know" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

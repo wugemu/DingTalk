@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/chatting_item_split_view" />
+    <TextView android:textSize="@dimen/text_size_13_in_sp" android:textColor="@color/text_color_white" android:gravity="left" android:id="@id/chatting_content_tv" android:background="@drawable/im_chat_sys_bg_common" android:paddingLeft="12.0dip" android:paddingTop="3.0dip" android:paddingRight="12.0dip" android:paddingBottom="3.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" style="@style/ChattingUISystemText" />
+</LinearLayout>

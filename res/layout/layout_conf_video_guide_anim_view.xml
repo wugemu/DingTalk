@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/anim_bg" android:background="@color/ui_common_content_fg_color_alpha_40" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/anim_main_layout" android:layout_width="fill_parent" android:layout_height="244.0dip" android:layout_alignParentBottom="true">
+        <View android:id="@id/anim_track_bg" android:background="@drawable/conf_video_anim_track_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" />
+        <RelativeLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="48.0dip">
+            <ImageView android:id="@id/anim_start_point" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="48.0dip" android:src="@drawable/conf_video_anim_start_point" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="40.0dip" android:src="@drawable/conf_video_anim_left_arrow" android:layout_toLeftOf="@id/anim_start_point" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:layout_width="81.0dip" android:layout_height="161.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/conf_video_anim_finger" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginRight="72.0dip" android:layout_marginBottom="30.0dip" android:layout_above="@id/anim_main_layout">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_content_bg_color" android:id="@id/anim_tip" android:background="@drawable/conf_bg_corner_blue_shape" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_conference_video_swipe_left_tip" android:includeFontPadding="false" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/conf_triangle_down" android:layout_below="@id/anim_tip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

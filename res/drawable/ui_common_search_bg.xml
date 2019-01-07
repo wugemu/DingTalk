@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/ui_common_search_pressed_bg_color" />
+            <corners android:topLeftRadius="@dimen/ui_common_button_radius" android:topRightRadius="@dimen/ui_common_button_radius" android:bottomLeftRadius="@dimen/ui_common_button_radius" android:bottomRightRadius="@dimen/ui_common_button_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/ui_common_search_bg_color" />
+            <corners android:topLeftRadius="@dimen/ui_common_button_radius" android:topRightRadius="@dimen/ui_common_button_radius" android:bottomLeftRadius="@dimen/ui_common_button_radius" android:bottomRightRadius="@dimen/ui_common_button_radius" />
+        </shape>
+    </item>
+</selector>

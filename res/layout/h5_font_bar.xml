@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/h5_font_blank" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/h5_font_bar" android:background="@drawable/h5_bottom_bg" android:layout_width="fill_parent" android:layout_height="@dimen/h5_tool_bar_height" android:baselineAligned="false">
+        <FrameLayout android:layout_gravity="center" android:id="@id/h5_font_size1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/h5_iv_font_size1" android:padding="10.0dip" android:clickable="false" android:layout_width="@dimen/h5_tool_bar_icon" android:layout_height="fill_parent" android:src="@drawable/h5_font_size1_selector" android:scaleType="centerInside" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/h5_font_size2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/h5_iv_font_size2" android:padding="10.0dip" android:clickable="false" android:layout_width="@dimen/h5_tool_bar_icon" android:layout_height="@dimen/h5_tool_bar_icon" android:src="@drawable/h5_font_size2_selector" android:scaleType="centerInside" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/h5_font_size3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/h5_iv_font_size3" android:padding="10.0dip" android:clickable="false" android:layout_width="@dimen/h5_tool_bar_icon" android:layout_height="@dimen/h5_tool_bar_icon" android:src="@drawable/h5_font_size3_selector" android:scaleType="centerInside" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/h5_font_size4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/h5_iv_font_size4" android:padding="10.0dip" android:clickable="false" android:layout_width="@dimen/h5_tool_bar_icon" android:layout_height="@dimen/h5_tool_bar_icon" android:src="@drawable/h5_font_size4_selector" android:scaleType="centerInside" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/h5_font_close" android:layout_width="wrap_content" android:layout_height="@dimen/h5_tool_bar_icon" android:layout_marginRight="10.0dip">
+            <ImageView android:id="@id/h5_iv_font_close" android:padding="10.0dip" android:clickable="false" android:layout_width="@dimen/h5_tool_bar_icon" android:layout_height="@dimen/h5_tool_bar_icon" android:src="@drawable/h5_font_close_selector" android:scaleType="centerInside" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

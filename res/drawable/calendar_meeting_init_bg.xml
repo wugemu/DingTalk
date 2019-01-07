@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/calendar_meeting_init_bg_unit" android:tileMode="repeat"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/view_one_box" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rl_header" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize">
+        <ImageView android:gravity="left" android:id="@id/img_back" android:layout_width="56.0dip" android:layout_height="?actionBarSize" android:layout_alignParentLeft="true" android:contentDescription="@string/dt_common_back" style="@style/DtTheme.Widget.Toolbar.Nav" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_right_menu" android:layout_width="wrap_content" android:layout_height="?actionBarSize" android:layout_alignParentRight="true" />
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/avatar_user_icon" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="-50.0dip" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_title" android:layout_width="wrap_content" android:layout_height="?actionBarSize" android:layout_below="@id/avatar_user_icon" android:layout_centerInParent="true">
+            <RelativeLayout android:id="@id/rl_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_6" android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:singleLine="true" android:drawablePadding="2.0dip" android:layout_centerInParent="true" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_title_suffix_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_toRightOf="@id/tv_title" android:layout_alignTop="@id/tv_title" android:layout_alignBottom="@id/tv_title" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/ui_common_caption3_text_size" android:textColor="@color/ui_common_warming_text_color" android:ellipsize="end" android:id="@id/tv_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:singleLine="true" />
+                <TextView android:textSize="@dimen/uidic_global_text_size_s9" android:textColor="@color/uidic_global_color_6_2" android:ellipsize="middle" android:id="@id/tv_sub_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="4.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/divider_title" android:background="@drawable/default_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_tag" android:background="@color/pure_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/ll_title" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/ll_contain" android:layout_width="fill_parent" android:layout_height="0.0dip">
+        <ViewStub android:id="@id/ll_contain_child" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    </FrameLayout>
+    <ImageView android:id="@id/img_shape" android:background="@drawable/shape_drag_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="-30.0dip" />
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/ll_pull" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="18.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="16.0dip" android:textColor="@color/uidic_global_color_6_2" android:gravity="center" android:id="@id/img_pull" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/icon_onebox__arrow_down" android:layout_weight="1.0" />
+        <View android:id="@id/divider_pull" android:background="@color/ui_common_content_fg_color_alpha_12" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <ViewStub android:id="@id/layout_box_guide" android:layout="@layout/one_box_layout_guide" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/layout_subtitle_guide" android:layout="@layout/one_box_layout_sub_title_guide" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

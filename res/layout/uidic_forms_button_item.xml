@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/uidic_forms_item" android:background="@drawable/_uidic_forms_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/uidic_forms_item_top_divider" android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:paddingLeft="@dimen/_uidic_forms_item_padding" android:paddingRight="@dimen/_uidic_forms_item_padding" android:layout_width="fill_parent" android:layout_height="@dimen/_uidic_forms_item_height">
+        <TextView android:textSize="@dimen/_uidic_forms_item_text_size" android:textColor="@color/_uidic_forms_item_text_color" android:ellipsize="end" android:layout_gravity="center" android:id="@id/uidic_forms_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="@dimen/_uidic_forms_item_text_drawable_padding" />
+    </FrameLayout>
+    <View android:id="@id/uidic_forms_item_inner_bottom_divider" android:background="@color/_uidic_forms_item_inner_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:id="@id/uidic_forms_item_bottom_divider" android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

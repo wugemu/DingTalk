@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="wrap_content" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/ding_type_navigator_height">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_text_tab" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level2_text_color" android:id="@id/iv_text_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_a_fill" android:layout_centerInParent="true" />
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level2_text_color" android:gravity="center" android:id="@id/tv_text_tab" android:layout_width="wrap_content" android:layout_height="@dimen/ding_type_navigator_height" android:layout_marginLeft="8.0dip" android:text="@string/ding_content_text" />
+        </LinearLayout>
+        <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_audio_tab" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level2_text_color" android:id="@id/iv_audio_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_voice_fill" />
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level2_text_color" android:gravity="center" android:id="@id/tv_audio_tab" android:layout_width="wrap_content" android:layout_height="@dimen/ding_type_navigator_height" android:layout_marginLeft="8.0dip" android:text="@string/ding_content_audio" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/indicator_ding_tab" android:background="@color/ui_common_level1_button_bg_color" android:layout_width="43.0dip" android:layout_height="3.0dip" />
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="wrap_content" android:layout_height="0.5dip" />
+    <com.alibaba.android.ding.widget.DingVoiceRecordView android:id="@id/v_ding_voice_record" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="190.0dip" />
+</LinearLayout>

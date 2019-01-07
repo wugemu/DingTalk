@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/uidic_global_color_6_7" android:paddingLeft="14.0dip" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="@string/dt_ding_mail_event_attendee_list_title_organizer" android:includeFontPadding="false" />
+    <View android:background="@color/uidic_global_color_c11_9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="vertical" android:background="@color/pure_white" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:id="@id/tv_organizer_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="11.0dip" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:id="@id/tv_organizer_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="7.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+    <View android:background="@color/uidic_global_color_c11_9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/uidic_global_color_6_7" android:paddingLeft="14.0dip" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="@string/dt_ding_mail_event_attendee_list_title_receiver" android:includeFontPadding="false" />
+    <View android:background="@color/uidic_global_color_c11_9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

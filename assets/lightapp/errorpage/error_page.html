@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<script>var win = window; win.flex = function (d, e) { d = d || 100; e = e || 1; var c = win.document, a = navigator.userAgent, f = a.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i), b = a.match(/U3\/((\d+|\.){5,})/i), g = b && 80 <= parseInt(b[1].split(".").join(""), 10), h = navigator.appVersion.match(/(iphone|ipad|ipod)/gi), b = win.devicePixelRatio || 1; h || f && 534 < f[1] || g || (b = 1); a.indexOf("oppo R8107") > -1 && (b = 1); var u = 1 / b; a = c.querySelector('meta[name="viewport"]'); a || (a = c.createElement("meta"), a.setAttribute("name", "viewport"), c.head.appendChild(a)); a.setAttribute("content","viewport-fit=cover,width=device-width,user-scalable=no,initial-scale=" + u + ",maximum-scale=" + u + ",minimum-scale=" + u); c.documentElement.style.fontSize = d / 2 * b * e + "px" }; win.flex(100, 1);</script>
+    <title></title>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" id="favicon" href="//g.alicdn.com/dingding/web/0.2.6/img/oldIcon.ico" type="image/x-icon"/>
+    <meta name="author" content="www.dingtalk.com">
+    <meta name="data-spm" content="a3140.7832593">
+    <meta name="description"
+          content="钉钉是阿里集团专为中国企业打造的通讯、协同的移动办公平台，帮助企业内部沟通和商务沟通更加高效安全。特色支持：消息阅读状态一目了然，重要事DING电话使命必达，紧急事免费电话多方通话，企业通讯录随时随地找人，多端互动。">
+    <meta name="keywords" content="阿里钉钉，企业即时通讯软件，移动办公，免费电话多方通话，免费电话会议">
+    <meta http-equiv="content-script-type" content="text/javascript"/>
+    <meta http-equiv="content-style-type" content="text/css"/>
+    <meta http-equiv="cache-control" content="no-cache">
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+            border:0;
+        }
+        html,body{
+            background-color: #fff;
+            font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            height: 100%;
+        }
+        div{
+            box-sizing:border-box;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .content{
+            width: 100%;
+            text-align: center;
+        }
+        .img{
+            width: 3.82rem;
+            height: 1.75rem;
+        }
+        .errorcode{
+            color: #7F8284;
+            font-size: 0.3rem;
+            margin-bottom: 0.1rem;
+        }
+        .title{
+            color: rgba(25, 31, 37, 0.56);
+            margin-bottom: 0.08rem;
+            line-height: 0.44rem;
+            font-family: PingFangSC-Regular;
+            font-size: 0.34rem;
+            word-wrap: break-word;
+            padding:0 0.12rem;
+        }
+        .subtitle{
+            margin-bottom: 0.48rem;
+            font-family: PingFangSC-Regular;
+            color: rgba(25, 31, 37, 0.28);
+            line-height: 0.32rem;
+            font-size: 0.24rem;
+        }
+        .btns{
+            overflow: hidden;
+        }
+        .half{
+            width: 50%;
+        }
+        .half.left{
+            float: left;
+            padding-right: 0.16rem;
+        }
+        .half.right{
+            float: right;
+            padding-left: 0.16rem;
+        }
+        .btn{
+            height: 0.88rem;
+            width: 2.71rem;
+            display: inline-block;
+            padding: 0.2rem 0 0.24rem;
+            line-height: 0.44rem;
+            font-family: PingFangSC-Medium;
+            font-size: 0.34rem;
+            letter-spacing: -0.0082rem;
+            border-radius: 0.06rem;
+        }
+        #refresh{
+            border: 1px solid #191F25;
+            float: right;
+            color: #000;
+        }
+        #network{
+            border: 1px solid #3296FA;
+            float: left;
+            color: #fff;
+            background-color: #3296FA;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="content">
+        <img class="img" src="./noconnect.png" />
+        <div class="container">
+            <div class="errorcode" id="errorcode"></div>
+            <div class="title" id="title"></div>
+            <div class="subtitle" id="subtitle"></div>
+            <div class="btns">
+                <div class="half left">
+                    <div id="refresh" class="btn"></div>
+                </div>
+                <div class="half right">
+                    <div id="network" class="btn"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./basejs/dingtalki18n.min.js"></script>
+<script src="./basejs/dingtalk-promise-lwp.js"></script>
+
+<!-- <script src="//g.alicdn.com/dingding/libs/0.0.8??dingtalk-i18n/dingtalki18n.min.js"></script>
+<script src="//g.alicdn.com/dingding/union-jsapi/0.8.4/dingtalk.union.js" charset="utf-8"></script> -->
+<script>
+   var _ = function(id){
+        return document.getElementById(id);
+    }
+
+    var resource = {
+        en_US: {
+            pagetitle: 'Network error',
+            title: 'Network issue',
+            subtitle: 'Please try to refresh the page',
+            refresh: 'Refresh',
+            network: 'Network'
+        },
+        zh_CN: {
+            pagetitle: '网络错误',
+            title: '网络错误',
+            subtitle: '请刷新页面重试',
+            refresh: '刷新',
+            network: '检查网络'
+        },
+        zh_TW: {
+            pagetitle: '網絡錯誤',
+            title: '網絡錯誤',
+            subtitle: '請刷新頁面重試',
+            refresh: '重繪',
+            network: '檢查網絡'
+        },
+        zh_HK: {
+            pagetitle: '網絡錯誤',
+            title: '網絡錯誤',
+            subtitle: '請刷新頁面重試',
+            refresh: '刷新',
+            network: '檢查網絡'
+        },
+        vi_VN: {
+            pagetitle: 'Lỗi mạng',
+            title: 'Lỗi mạng',
+            subtitle: 'Vui lòng làm mới trang và thử lại sau',
+            refresh: 'Làm mới',
+            network: 'Kiểm tra đường truyền'
+        },
+        ja_JP: {
+            pagetitle: 'ネットワークエラー',
+            title: 'ネットワークエラー',
+            subtitle: 'リフレッシュして再試行',
+            refresh: 'リフレッシュ',
+            network: 'ネットワーク診断'
+        }
+    }
+
+    var dd_i18next = window.dd_i18next;
+
+    var setText = function(lang){
+        dd_i18next.initI18Next(lang, resource);
+        var i18next = dd_i18next.i18next;
+        _('title').innerText = i18next.t('title');
+        _('subtitle').innerText = i18next.t('subtitle');
+        _('network').innerText = i18next.t('network');
+        _('refresh').innerText = i18next.t('refresh');
+        document.title = i18next.t('pagetitle');
+        dd.biz.navigation.setTitle({"title": i18next.t('pagetitle')});
+    }
+
+    var getParam = function(name){
+        var value = '';
+        try{
+            var url = new URL(window.location.href);
+            value = url.searchParams.get(name);
+        }
+        catch(e){
+            var getUrlParams = function(){
+                var result = {};
+                var params = (window.location.search.split('?')[1] || '').split('&');
+                for(var param in params) {
+                    <!--param = param.toLowerCase();-->
+                    if (params.hasOwnProperty(param)) {
+                        paramParts = params[param].split('=');
+                        result[paramParts[0]] = decodeURIComponent(paramParts[1] || "");
+                    }
+                }
+                return result;
+            }
+            var params = getUrlParams();
+            value = params[name];
+        }
+        return value;
+    }
+
+    var getTargetUrl = function(){
+        var targetUrl = getParam('target');
+        if(targetUrl){
+            return decodeURIComponent(targetUrl);
+        }
+        else{
+            return '';
+        }
+    }
+
+    var errorCode = getParam('errorcode');
+    if(errorCode){
+        _('errorcode').innerText = 'errorCode: ' + errorCode;
+    }
+
+    if(dd.version){
+        var language = getParam('language');
+        console.log('language', language);
+        language = language ? language.slice(0, 7) : '';
+        var lang = dd_i18next.languageMap[language] || 'en_US';
+        setText(lang);
+    } else {
+        var lang = 'en_US';
+        setText(lang);
+    }
+
+    var description = getParam('description');
+    if(description){
+        _('title').innerText = description;
+    }
+
+    _('refresh').onclick = function(){
+        var targetUrl = getTargetUrl();
+        if(!targetUrl){
+            window.location.reload(true);
+        }
+        else{
+            window.location = targetUrl;
+        }
+    }
+
+    _('network').onclick = function(){
+        console.log('newwork onclick', "yyyy");
+        window.nuva.require('device.network').get({
+            onSuccess: function(res){
+                console.log('res', res)
+                if(res && res.online){
+                    window.location = 'https://h5.dingtalk.com/net-detector/netDetector.html';
+                }
+                else{
+                    window.nuva.require('internal.schema').openWifiSetting();
+                }
+            },
+            onFail: function(res){
+            console.log('newwork onclick error', res);
+                window.nuva.require('internal.schema').openWifiSetting();
+            }
+        })
+    }
+</script>
+</body>
+</html>

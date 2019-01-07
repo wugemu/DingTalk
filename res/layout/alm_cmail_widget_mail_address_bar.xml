@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/alm_widget_address_text_normal_selector" android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/text1" android:background="@drawable/alm_widget_address_bg_normal_selector" android:paddingLeft="8.0dip" android:paddingTop="2.0dip" android:paddingRight="8.0dip" android:paddingBottom="2.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_mail_default_signature" android:singleLine="true" />
+</merge>

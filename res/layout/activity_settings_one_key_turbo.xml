@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/uidic_global_color_6_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="132.0dip">
+            <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_1" android:id="@id/guide_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:lines="1" android:singleLine="true" />
+            <ProgressBar android:id="@id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" />
+            <TextView android:textSize="36.0dip" android:textColor="@color/uidic_global_color_c2" android:id="@id/space_size" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:lines="1" android:singleLine="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/clear_done" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s24" android:textColor="#ff5ed672" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.0dip" android:text="@string/icon_shield" />
+                <TextView android:textSize="@dimen/uidic_global_text_size_s24" android:textColor="@color/uidic_global_color_6_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_one_key_turbo_clear_done" android:lines="1" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_1" android:id="@id/free_size" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:lines="1" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/uidic_global_color_6_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="24.0dip" android:text="@string/dt_one_key_turbo_clear_tip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_5" android:gravity="center" android:id="@id/action_button" android:background="@drawable/blue_btn" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="16.0dip" android:lines="1" android:singleLine="true" />
+</LinearLayout>

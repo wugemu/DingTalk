@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_md_translate" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/v_md_translate_bottom_line" android:background="@color/border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="#ff38adff" android:id="@id/tv_md_translate_tips" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

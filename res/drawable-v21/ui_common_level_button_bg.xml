@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="#1f000000"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_enabled="false">
+                <shape android:shape="rectangle">
+                    <stroke android:width="@dimen/ui_common_button_border_width" android:color="@color/ui_common_level3_button_bg_color" />
+                    <solid android:color="@color/ui_common_level3_button_disabled_bg_color" />
+                    <corners android:topLeftRadius="@dimen/ui_common_button_radius" android:topRightRadius="@dimen/ui_common_button_radius" android:bottomLeftRadius="@dimen/ui_common_button_radius" android:bottomRightRadius="@dimen/ui_common_button_radius" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <stroke android:width="@dimen/ui_common_button_border_width" android:color="@color/ui_common_theme_text_color" />
+                    <solid android:color="@color/ui_common_level3_button_bg_color" />
+                    <corners android:topLeftRadius="@dimen/ui_common_button_radius" android:topRightRadius="@dimen/ui_common_button_radius" android:bottomLeftRadius="@dimen/ui_common_button_radius" android:bottomRightRadius="@dimen/ui_common_button_radius" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

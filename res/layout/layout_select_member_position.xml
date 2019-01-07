@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/C6_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:text="@string/dt_org_create_seleted_jobtitle_tip" />
+    <ListView android:id="@id/position_list_view" android:background="@color/uidic_global_color_6_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:headerDividersEnabled="false" />
+</LinearLayout>

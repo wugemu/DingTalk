@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ll_mine_connection" android:paddingTop="@dimen/dp10" android:paddingBottom="@dimen/dp10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp16" android:layout_marginRight="@dimen/dp16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_my_connection" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp20" android:textColor="@color/ui_common_level1_white_text_color" android:id="@id/iftv_my_connection" android:background="@drawable/icon_bg_corner_3_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" android:text="@string/icon_boss_fill" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dt_user_connection_my_connection" />
+    </LinearLayout>
+    <View android:layout_gravity="center" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="@dimen/dp1" android:layout_height="36.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_exchange_card" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp20" android:textColor="@color/ui_common_level1_white_text_color" android:id="@id/iftv_exchange_card" android:background="@drawable/icon_bg_corner_3_orange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" android:text="@string/icon_namecard_fill" android:layout_centerInParent="true" />
+            <com.alibaba.android.dingtalkbase.widgets.views.ads.AdsView android:id="@id/ads_exchange_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:layout_toRightOf="@id/iftv_exchange_card" />
+        </RelativeLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dt_connection_exchange_card" />
+    </LinearLayout>
+</LinearLayout>

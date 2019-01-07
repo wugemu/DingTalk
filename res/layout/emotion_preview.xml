@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/emotion_container" android:background="@color/chat_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_emotion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="68.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/container_emotion_package_intro" android:background="@drawable/list_item_common_white_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <ImageView android:id="@id/iv_emotion_thumbnail" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginLeft="12.0dip" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/rl_right_operation" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <ProgressBar android:id="@id/pb_download_progress" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="6.0dip" android:max="100" android:progressDrawable="@drawable/emotion_download_progressbar_bg" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+            <ImageView android:id="@id/iv_download_done" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/emotion_download_done_icon" android:layout_centerInParent="true" />
+            <TextView android:id="@id/tv_download_emotion" android:background="@drawable/emotion_download_icon_selector" android:visibility="gone" android:layout_width="52.0dip" android:layout_height="28.0dip" android:includeFontPadding="false" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/text_color_black" android:ellipsize="end" android:id="@id/tv_emotion_package_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="82.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="15.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toLeftOf="@id/rl_right_operation" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/text_color_gray" android:ellipsize="end" android:id="@id/tv_emotion_package_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="82.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toLeftOf="@id/rl_right_operation" android:layout_below="@id/tv_emotion_package_title" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/container_topic_emotion_intro" android:background="@drawable/list_item_common_white_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/pure_white" android:id="@id/tv_topic_add_emotion" android:background="@drawable/ui_common_level1_button_bg" android:paddingLeft="15.0dip" android:paddingTop="7.5dip" android:paddingRight="15.0dip" android:paddingBottom="7.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:text="@string/dt_im_emotion_favorite" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level1_text_color" android:id="@id/tv_topic_source" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="5.0dip" android:maxLines="3" android:layout_toLeftOf="@id/tv_topic_add_emotion" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/ui_common_content_bg_color" />
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/dingtalkcall_loading_icon" />
+    </item>
+</layer-list>

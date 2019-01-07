@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_remind" android:background="@android:color/white" android:padding="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/text_size_17" android:textColor="@color/ding_sub_task_title_color" android:id="@id/btn_next" android:background="@drawable/ding_btn_remind_again" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/and_ding_inform_confirm" />
+    </LinearLayout>
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/ll_remind" />
+    <com.alibaba.android.dingtalkbase.widgets.views.MotionTrackListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="1.0dip" android:layout_above="@id/ll_remind" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_progress" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@color/ui_common_level3_text_color" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/tv_empty" android:layout_centerInParent="true" style="?android:attr/progressBarStyleInverse" />
+    </RelativeLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.RimetListEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/list_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_remind" />
+</RelativeLayout>

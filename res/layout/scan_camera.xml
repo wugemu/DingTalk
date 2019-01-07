@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_gravity="center" android:id="@id/preview_view" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.taobao.ma.ui.ViewfinderHuoyanView android:id="@id/viewfinder_view" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <View android:id="@id/v_btm" android:background="#44000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/viewfinder_view" />
+    <View android:id="@id/v_above" android:background="#44000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/viewfinder_view" />
+    <View android:background="#44000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/viewfinder_view" android:layout_above="@id/v_btm" android:layout_below="@id/v_above" />
+    <View android:background="#44000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/viewfinder_view" android:layout_above="@id/v_btm" android:layout_below="@id/v_above" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/uidic_global_color_6_5" android:gravity="center_horizontal" android:id="@id/tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="30.0dip" android:text="@string/scan_tips" android:layout_below="@id/viewfinder_view" android:layout_centerInParent="true" />
+</RelativeLayout>

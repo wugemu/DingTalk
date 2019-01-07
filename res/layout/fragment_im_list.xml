@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkui.ptr.DtPullToRefreshLayout android:id="@id/swipe_list" android:background="@color/ui_common_content_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.android.dingtalkbase.widgets.views.MotionTrackListView android:id="@id/session_list" android:background="@color/ui_common_page_bg_color" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+    </com.alibaba.android.dingtalkui.ptr.DtPullToRefreshLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.RimetListEmptyView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:gravity="center" android:layout_gravity="center" android:id="@id/list_empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/loading_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

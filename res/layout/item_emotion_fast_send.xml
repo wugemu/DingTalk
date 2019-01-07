@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:paddingLeft="@dimen/chat_fast_send_emotion_first_padding" android:layout_width="wrap_content" android:layout_height="@dimen/chat_fast_send_emotion_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_emotion_thumbnail" android:layout_width="72.0dip" android:layout_height="72.0dip" android:scaleType="fitCenter" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_right_space" android:visibility="gone" android:layout_width="@dimen/chat_fast_send_emotion_first_padding" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/doc_lens_scan_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.alibaba.dingtalk.doclens.widget.QuadEdgeView android:id="@id/quad_edge_detect_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:layout_gravity="top" android:id="@id/rl_title_bar" android:background="@color/doc_lens_scan_bar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:id="@id/btn_to_see_space" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginRight="16.0dip" android:text="@string/dt_photo_to_see_doc" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/doclens_menu_text" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/rl_control_bar" android:background="@color/doc_lens_scan_bar_bg" android:layout_width="fill_parent" android:layout_height="80.0dip">
+        <TextView android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="16.0dip" android:text="@string/dt_photo_cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/doclens_menu_text" />
+        <ImageView android:id="@id/btn_shoot" android:background="@drawable/camera_takephoto_selector" android:padding="4.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@id/fl_image_container" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center" android:id="@id/image_selected" android:background="@color/camera_backgd_normal" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <TextView android:textSize="@dimen/dp13" android:textStyle="bold" android:textColor="@color/pure_white" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/tv_red_dot" android:background="@drawable/ui_common_red_dot_icon" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="18.0dip" android:minWidth="18.0dip" android:lines="1" android:singleLine="true" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

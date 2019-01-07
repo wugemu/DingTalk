@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:textSize="@dimen/text_size_16" android:id="@id/btnAddressbook" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="20.0dip" android:text="测试通讯录" />
+        <Button android:textSize="@dimen/text_size_16" android:id="@id/btnTelConference" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="测试电话会议接口" />
+        <Button android:textSize="@dimen/text_size_16" android:id="@id/btnDing" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="测试Ding" />
+        <TextView android:textSize="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="5.0dip" android:text="测试结果:" />
+        <TextView android:textSize="18.0dip" android:gravity="left" android:id="@id/txtResultConf" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="18.0dip" android:gravity="left" android:id="@id/txtResultContact" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="18.0dip" android:gravity="left" android:id="@id/txtResultDing" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</ScrollView>

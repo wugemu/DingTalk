@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/chatting_setting_item_spaceLeft" android:paddingTop="@dimen/chatting_setting_item_spaceTop" android:paddingRight="@dimen/chatting_setting_item_spaceLeft" android:paddingBottom="@dimen/chatting_setting_item_spaceTop" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/aiv_header" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginRight="@dimen/uidic_cell_margin_size" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/aiv_header" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_20" android:textColor="@color/text_color_dark" android:id="@id/tv_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_im_birth_blessing" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ding_detail_nick_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dt_im_birth_blessing_move_top_tips" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rl_sticky_container" android:background="@drawable/bg_setting_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_setting_marginTop">
+        <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+        <RelativeLayout android:paddingLeft="@dimen/chatting_setting_item_spaceLeft" android:paddingTop="@dimen/chatting_setting_item_spaceTop" android:paddingRight="@dimen/chatting_setting_item_spaceLeft" android:paddingBottom="@dimen/chatting_setting_item_spaceTop" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/conversation_sticky" android:layout_centerVertical="true" />
+            <ToggleButton android:id="@id/conversation_sticky_toggle" android:background="@drawable/btn_toggle_bg" android:layout_width="42.0dip" android:layout_height="28.0dip" android:layout_marginRight="@dimen/chatting_setting_item_spaceLeft" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/toggleButton" />
+        </RelativeLayout>
+        <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</LinearLayout>

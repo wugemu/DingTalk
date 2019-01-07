@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_common_oa_expand_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.views.CustomViewFlipper android:id="@id/expand_banner_flipper" android:paddingTop="20.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:flipInterval="3000" android:autoStart="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/expand_banner_dot_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/view_divider" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+</LinearLayout>

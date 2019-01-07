@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s18" android:textColor="@color/cmail_icon_color_selector" android:gravity="center_vertical" android:id="@id/cancel" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s17" android:textStyle="bold" android:textColor="@color/ui_common_content_fg_color" android:gravity="center_vertical" android:id="@id/title" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dd_cmail_select_tag" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s18" android:textColor="@color/cmail_icon_color_selector" android:gravity="center_vertical" android:id="@id/edit_tag" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dt_cmail_edit" android:layout_alignParentRight="true" />
+        <View android:id="@id/divider" android:background="@color/ui_common_button_border_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/list_view" android:background="@color/cmail_color_f6f6f6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@android:color/transparent" android:divider="@null" android:layout_weight="1.0" />
+            <LinearLayout android:id="@id/select_layout" android:background="@android:color/white" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cmail_dimen_50_dp">
+                <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/ui_common_theme_bg_color" android:layout_gravity="center_vertical" android:id="@id/select_des_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:enabled="false" android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/btn_ok" android:background="@drawable/ui_common_level1_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cmail_dimen_78_dp" android:minHeight="@dimen/cmail_dimen_32_dp" android:text="@string/sure" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s72" android:textColor="@color/cmail_color_dbdcdc" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_tag" />
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s17" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cmail_dimen_24_dp" android:text="@string/dt_cmail_no_tag" />
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s13" android:textColor="@color/ui_common_content_fg_color_alpha_28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cmail_dimen_4_dp" android:text="@string/dt_cmail_add_tag_descrpition" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

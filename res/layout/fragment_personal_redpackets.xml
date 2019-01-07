@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/redpackets_round_header" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center_horizontal" android:id="@id/sender_icon" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="20.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/text_color_black" android:layout_gravity="center_horizontal" android:id="@id/sender_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/text_color_gray" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/redpackets_desc" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" />
+    <TextView android:textSize="48.0dip" android:textStyle="bold" android:textColor="@color/redpackets_red_text" android:layout_gravity="center_horizontal" android:id="@id/redpackets_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/text_color_gray" android:layout_gravity="center_horizontal" android:id="@id/redpackets_sender_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_banlance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/text_color_gray" android:ellipsize="end" android:gravity="center" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_redenvelop_money_have_saved_to" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/redpackets_link_color" android:ellipsize="end" android:gravity="center" android:id="@id/redpackets_balance" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我的钱包" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

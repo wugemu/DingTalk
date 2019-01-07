@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.teleconf.widget.TeleConfCustomRelativeLayout android:id="@id/avatar_view" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="6.0dip">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_cell_image_size_l" android:textColor="@color/uidic_global_color_c11_1" android:id="@id/avatar_local_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_addressbook_head_fill" />
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/avatar" android:layout_width="50.0dip" android:layout_height="50.0dip" avatar:textSize="@dimen/text_size_14" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <ImageView android:id="@id/avatar_delete" android:background="@drawable/conf_delete_rightup_red_dot" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="fitCenter" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/active_state" android:background="@drawable/conf_state_notice_gray_bg" android:padding="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_conf_callselect_user_noactive_state" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </com.alibaba.android.teleconf.widget.TeleConfCustomRelativeLayout>
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:ellipsize="middle" android:gravity="center" android:id="@id/nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxEms="4" android:singleLine="true" />
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:ellipsize="end" android:gravity="center" android:id="@id/avatar_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxEms="4" android:singleLine="true" />
+</LinearLayout>

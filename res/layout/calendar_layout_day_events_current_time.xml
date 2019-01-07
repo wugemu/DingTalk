@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_current_time" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/calendar_day_events_view_time_text_size" android:textStyle="bold" android:textColor="@color/ui_common_alert_bg_color" android:gravity="center|left" android:id="@id/tv_current_time" android:paddingLeft="16.0dip" android:layout_width="@dimen/calendar_day_events_view_indicator_width" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <View android:id="@id/v_line" android:background="@color/ui_common_alert_bg_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/calendar_day_events_view_current_time_divider_margin_left_hour_12" android:layout_centerVertical="true" />
+    <View android:background="@drawable/calendar_dot_red_corner_3_stroke_1" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_alignLeft="@id/v_line" android:layout_centerVertical="true" />
+</RelativeLayout>

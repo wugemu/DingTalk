@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Hybrid调试设置" android:key="h5_bugme_hybrid_category">
+        <CheckBoxPreference android:title="启用Hybrid调试" android:key="h5_bug_me_debug_switch" android:summary="修改后立即生效" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="辅助功能">
+        <CheckBoxPreference android:title="启用Js Injector" android:key="h5_bug_me_js_injector" android:summary="修改后立即生效" />
+        <CheckBoxPreference android:title="启用vorlon的Dom调试" android:key="h5_bug_me_dom_debug" android:summary="依赖vorlon，可能影响页面性能" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="实验室功能" android:key="h5_bugme_advance_category">
+        <CheckBoxPreference android:title="Chrome不插线调试(默认端口:9983)" android:key="h5_enable_ri_wired_debug" android:summary="立刻生效" />
+        <CheckBoxPreference android:title="禁止UC托管网络" android:key="h5_disable_alipay_network" android:summary="立刻生效" />
+        <CheckBoxPreference android:title="禁止UC预创建webview" android:key="h5_disable_uc_precreate" android:summary="立刻生效" />
+        <CheckBoxPreference android:title="禁止预下载在线页面主文档" android:key="h5_disable_uc_predownload" android:summary="立刻生效" />
+        <CheckBoxPreference android:title="强制关闭Bugme Dump" android:key="h5_bug_me_force_no_dump" android:summary="修改后杀进程生效" />
+        <CheckBoxPreference android:title="Jet 系统专用" android:key="h5_bug_me_debug_switch_keep" android:summary="Jet 专用，后果自负" />
+        <CheckBoxPreference android:title="启用H5Trace" android:key="h5_trace_debug_switch" android:summary="修改后立即生效" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rl_luckytime" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_line" android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:id="@id/rl_luckytime_content" android:background="@color/pure_white" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_line">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_luckytime" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+            <TextView android:textSize="18.0dip" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_time" android:background="@drawable/redpackets_round_luckytime" android:layout_width="0.0dip" android:layout_height="39.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/tv_random" android:background="@drawable/luckytime_pick_time_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dt_luckytime_random" />
+        </LinearLayout>
+        <ImageView android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/redpackets_luckytime_left_tip" android:layout_alignParentBottom="true" />
+        <ImageView android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/redpackets_luckytime_right_tip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/uidic_global_color_c11_4" android:id="@id/tv_lucky_tip" android:paddingLeft="42.0dip" android:paddingTop="4.0dip" android:paddingRight="42.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/ll_luckytime" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/rl_luckytime_content" />
+</RelativeLayout>

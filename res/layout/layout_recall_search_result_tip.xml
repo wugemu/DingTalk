@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_divider" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/pure_white" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ui_common_footnote_text_size" android:textColor="@color/ui_common_level3_text_color" android:id="@id/tv_recall_tip_prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/and_search_recall_results_title_tip_prefix" android:singleLine="true" />
+        <TextView android:textSize="@dimen/ui_common_footnote_text_size" android:textStyle="bold" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="end" android:id="@id/tv_recall_tip_keyword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:singleLine="true" />
+        <TextView android:textSize="@dimen/ui_common_footnote_text_size" android:textColor="@color/ui_common_level3_text_color" android:id="@id/tv_recall_tip_suffix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/and_search_recall_results_title_tip_suffix" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/bottom_divider" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

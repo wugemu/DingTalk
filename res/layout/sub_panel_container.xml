@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.android.dingtalk.doc.toolbar.ui.SubPanelContainerLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/comment_split_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="@dimen/sub_panel_header_height">
+        <LinearLayout android:id="@id/sub_panel_back_layout" android:paddingLeft="@dimen/uidic_cell_horizontal_padding" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_16_in_sp" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/icon_wd_leftarrow" />
+            <TextView android:textSize="@dimen/text_size_16_in_sp" android:textColor="@color/doc_tool_item_icon_default_color" android:gravity="center_vertical" android:id="@id/back_button_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/comment_split_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ScrollView android:id="@id/content_pane" android:background="@color/doc_tool_panel_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</com.alibaba.android.dingtalk.doc.toolbar.ui.SubPanelContainerLayout>

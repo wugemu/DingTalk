@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/ui_common_level7_base_color" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <RelativeLayout android:id="@id/rl_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="48.0dip" android:textColor="@color/ui_common_green1_color" android:gravity="center" android:id="@id/if_icon_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:text="@string/icon_round_fill" android:layout_centerInParent="true" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_content_bg_color" android:gravity="center" android:id="@id/if_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:text="@string/icon_message" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="16.0dip" android:textColor="@color/ui_common_level4_base_color" android:gravity="center" android:id="@id/if_arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/icon_next_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/if_arrow" android:layout_toRightOf="@id/rl_icon_layout" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" android:layout_toStartOf="@id/if_arrow" android:layout_toEndOf="@id/rl_icon_layout">
+            <TextView android:textSize="@dimen/ui_common_body_text_size" android:textColor="@color/ui_common_level1_base_color" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_register_initiative_send_sms_verify" android:singleLine="true" />
+            <TextView android:textSize="@dimen/ui_common_caption_text_size" android:textColor="@color/ui_common_level2_base_color" android:ellipsize="end" android:id="@id/tv_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/dt_register_send_sms_fee_hint" android:singleLine="true" android:layout_below="@id/tv_title" />
+            <com.alibaba.android.dingtalkui.widget.tag.DtTagView android:id="@id/tag_recommend" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_conference_recommend" android:layout_toRightOf="@id/tv_title" android:layout_toEndOf="@id/tv_title" app:tagTheme="blue" app:tagSize="large" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

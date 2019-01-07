@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:auto="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/conf_dialog_radius_bg" android:layout_width="270.0dip" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.RoundedImageView android:layout_gravity="center" android:id="@id/img" android:visibility="visible" android:layout_width="270.0dip" android:layout_height="190.0dip" android:src="@drawable/teleconf_add_external_contact" android:scaleType="fitXY" auto:topLeft="10.0dip" auto:topRight="10.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/img" android:layout_alignLeft="@id/img" android:layout_alignRight="@id/img">
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_black" android:layout_gravity="center" android:id="@id/tv_tip_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/dt_conference_bizcall_add_extern_title" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/uidic_global_color_6_2" android:layout_gravity="left" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/dt_conference_bizcall_add_extern_content" android:lineSpacingExtra="8.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_start_chat" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_margin="16.0dip">
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_right_text" android:background="@drawable/conf_btn_bg_blue" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_conference_bizcall_add_extern_confirm" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/ll_cancel" android:padding="10.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_10_in_sp" android:textColor="@color/C6_2" android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

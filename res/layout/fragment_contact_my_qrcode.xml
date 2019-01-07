@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_org_qrcode_shotcut" android:background="@drawable/my_qrcode_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="40.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_header" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <ImageView android:id="@id/iv_org_qrcode_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/icon_card_logo" android:scaleType="fitXY" android:contentDescription="@null" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/text_personal_qrcord" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_org_qrcode_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/ll_header">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/iv_qrcode_avatar" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+            <TextView android:textSize="@dimen/text_size_24" android:textColor="#ff008cee" android:ellipsize="end" android:gravity="center" android:id="@id/tv_qrcode_user_name" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_size_14" android:id="@id/tv_qrcode_rigion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="#ff666666" android:id="@id/tv_org_qrcode_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/ding_my_qrcode_hint" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/iv_org_qrcode_qrcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:scaleType="fitCenter" android:layout_above="@id/tv_org_qrcode_bottom_text" android:layout_below="@id/ll_org_qrcode_name" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+        <ProgressBar android:id="@id/pb_org_qrcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

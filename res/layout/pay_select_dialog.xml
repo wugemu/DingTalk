@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_root_view" android:background="#7f000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.views.RoundClippingRelativeLayout android:background="@drawable/dlg_bg_shape" android:layout_width="271.0dip" android:layout_height="270.0dip" android:minWidth="200.0dip" android:layout_centerInParent="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:id="@id/dlg_pay_layout" android:background="@drawable/transprent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_6" android:gravity="center" android:id="@id/tv_redpackets_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="15.0dip" android:text="@string/dt_dingpay_choose_payment_title" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/dialog_close" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/cspace_left_arrow" />
+            </FrameLayout>
+            <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <RelativeLayout android:layout_gravity="center" android:id="@id/dlg_rl" android:background="@drawable/_uidic_forms_item_bg" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_pay_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/pay_money_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_6" android:gravity="center" android:id="@id/tv_pay_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/dt_dingpay_payment_title_balance" android:layout_toRightOf="@id/iv_pay_icon" android:layout_alignParentTop="true" />
+                <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/uidic_global_color_6_2" android:gravity="center" android:id="@id/tv_pay_quota_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/iv_pay_icon" android:layout_below="@id/tv_pay_text" />
+                <ImageView android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <RelativeLayout android:layout_gravity="center" android:id="@id/dlg_ali_pay_rl" android:background="@drawable/_uidic_forms_item_bg" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_ali_pay_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/ali_pay_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_6" android:gravity="center" android:id="@id/tv_ali_pay_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/dt_dingpay_payment_title_alipay" android:layout_toRightOf="@id/iv_ali_pay_icon" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/iv_ali_pay_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+    </com.alibaba.android.dingtalkbase.widgets.views.RoundClippingRelativeLayout>
+</RelativeLayout>

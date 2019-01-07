@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/device_shape_radius" android:layout_width="fill_parent" android:layout_height="120.0dip">
+        <FrameLayout android:id="@id/layout_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_centerVertical="true">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/uidic_global_color_6_5" android:gravity="center" android:id="@id/avatar" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s9" android:textColor="@color/title_tag_yellow" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tv_main_org" android:background="@drawable/device_shape_main_org_title_tag" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="14.0dip" android:text="@string/dt_my_main_org" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/org_info" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_toLeftOf="@id/icon_selected" android:layout_toRightOf="@id/layout_avatar">
+            <TextView android:textSize="@dimen/uidic_global_text_size_s18" android:textColor="@color/device_text_black" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_14_in_sp" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_C1_wifi" />
+                <TextView android:textSize="@dimen/text_size_14_in_sp" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:id="@id/tv_wifi_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/uidic_global_text_size_s12" android:textColor="@color/device_permission_tips" android:id="@id/tv_permission_tips" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dt_smartdevice_no_admin_right" />
+        </LinearLayout>
+        <ImageView android:id="@id/icon_selected" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

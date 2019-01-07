@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_bottom" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_forward" android:visibility="gone" android:layout_width="68.0dip" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/message_more_icon_forward" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="8.0dip" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/uidic_global_color_6_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/message_more_forward" android:includeFontPadding="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_to_task" android:visibility="gone" android:layout_width="68.0dip" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/message_more_icon_to_task" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="8.0dip" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/uidic_global_color_6_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/message_more_to_task" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_save_to_space" android:padding="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:textColor="@color/pure_white" android:id="@id/btn_save" android:background="@drawable/select_btn_style" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/space_save" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/rl_bottom">
+        <com.alibaba.android.dingtalkim.views.NestListView android:id="@id/listview" android:background="@color/uidic_global_background_color" android:focusable="false" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/im_emotion_weight_2_transparent" android:divider="@color/im_emotion_weight_2_transparent" android:dividerHeight="1.0dip" android:layout_above="@id/rl_bottom" />
+    </ScrollView>
+</RelativeLayout>

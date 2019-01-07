@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list_view" android:background="@color/district_bg_color" android:paddingBottom="5.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_progress" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_gray" android:layout_gravity="center_vertical" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:text="@string/loading" />
+    </LinearLayout>
+</RelativeLayout>

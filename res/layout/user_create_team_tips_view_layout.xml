@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/dt_base_sub_title_guide_arrow" android:layout_alignRight="@id/ll_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_content" android:background="@drawable/dt_base_sub_title_guide_container" android:paddingLeft="12.0dip" android:paddingTop="11.0dip" android:paddingRight="12.0dip" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/img_arrow">
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_level1_white_text_color" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_contact_create_team_guide_tips" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level1_white_text_color" android:gravity="center" android:id="@id/if_close" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="6.0dip" android:text="@string/icon_cancel" />
+    </LinearLayout>
+</RelativeLayout>

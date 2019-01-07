@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_header_search_title" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ui_common_footnote_text_size" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="middle" android:id="@id/tv_search_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:singleLine="true" />
+    <include android:id="@id/layout_fuzzy_search_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_recall_search_result_tip" />
+    <ImageView android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+</LinearLayout>

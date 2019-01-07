@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/call_alarm_record_layout" android:background="@color/ui_common_content_fg_color_alpha_40" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/call_alarm_title_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/call_alarm_record" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_alert_icon_bg_color" android:id="@id/call_alarm_record_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_callrecord" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_alert_text_color" android:id="@id/call_alarm_record_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/dt_conference_missed_call_title" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_alert_text_color" android:id="@id/call_alarm_record_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/call_alarm_record_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="12.0dip" android:layout_below="@id/call_alarm_record">
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_inverse_content_fg_color_alpha_72" android:id="@id/call_alarm_record_user" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_inverse_content_fg_color_alpha_72" android:id="@id/call_alarm_record_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_inverse_content_fg_color_alpha_72" android:id="@id/call_alarm_record_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/call_alarm_record_call_icon" android:background="@drawable/conf_status_bg_circle_40_blue_small_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_phone_fill" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

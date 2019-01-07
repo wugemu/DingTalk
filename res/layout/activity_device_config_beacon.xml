@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_layout" android:layout_width="@dimen/device_bluetooth_layout_height" android:layout_height="@dimen/device_bluetooth_layout_height" android:layout_marginTop="@dimen/device_bluetooth_layout_margin" android:layout_centerHorizontal="true">
+        <com.alibaba.android.dingtalk.guard.ui.widget.RippleLayout android:id="@id/ripple_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/device_bluetooth_bg_circle_size" android:textColor="@color/_uidic_forms_item_bg_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_round_fill" android:layout_centerInParent="true" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/device_bluetooth_circle_size" android:textColor="@color/device_blue" android:id="@id/bluetooth_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_bluetooth_succe" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-15.0dip" android:layout_below="@id/top_layout">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/search_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bluetooth_disable_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/text_size_16" android:textColor="#ff333333" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_device_bluetooth_no_open_tips" />
+                    <TextView android:textSize="@dimen/text_size_17" android:gravity="center" android:id="@id/enable_bluetooth_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_marginTop="12.0dip" android:minWidth="160.0dip" android:text="@string/dt_device_bluetooth_open" style="@style/ui_common_level1_button" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bluetooth_enable_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/device_bluetooth_title_size" android:textColor="#ff333333" android:gravity="center" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/device_config_text_second_color" android:gravity="center" android:id="@id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/connected_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/device_bluetooth_succ_icon_size" android:textColor="@color/device_blue" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_checkbox_select" />
+                </FrameLayout>
+                <TextView android:textSize="@dimen/device_bluetooth_succ_text_size" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/dt_door_guard_config_connecte_success" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/connected_fail_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_18" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_smartdevice_fail_message" />
+                <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/device_config_text_second_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/dt_smartdevice_fail_tips" />
+                <TextView android:textSize="@dimen/text_size_17" android:gravity="center" android:id="@id/reconnect_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_marginTop="20.0dip" android:minWidth="160.0dip" android:text="@string/dt_smartdevice_ble_reconnect" style="@style/ui_common_level1_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/device_not_support_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/device_not_support_version" />
+        <TextView android:textSize="@dimen/text_size_18" android:textColor="#ff919090" android:id="@id/error_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_device_ble_not_support" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="#ffd1d1d1" android:id="@id/error_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/dt_device_ble_support_tips" />
+    </LinearLayout>
+</RelativeLayout>

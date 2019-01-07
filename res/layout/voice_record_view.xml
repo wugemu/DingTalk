@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/voice_action_panel" android:background="@drawable/voice_recording_tip" android:clickable="false" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_marginTop="160.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/pure_white" android:layout_gravity="center_horizontal" android:id="@id/tv_voice_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+        <com.alibaba.android.dingtalkbase.widgets.views.waveform.WaveformView android:layout_gravity="right" android:id="@id/waveform_view" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="2.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/image_release" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="60.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/voice_record_cancel" />
+        <TextView android:textSize="48.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/tv_remain_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="3.0dip" />
+        <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/pure_white" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:text="@string/message_voice_slide_cancle" />
+    </LinearLayout>
+</RelativeLayout>

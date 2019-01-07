@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:background="@drawable/add_app_model_bg" android:layout_width="60.0dip" android:layout_height="60.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/chat_app_button_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/iv_red_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/ui_common_red_dot_icon" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/ui_common_level2_text_color" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/chat_app_button_title" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

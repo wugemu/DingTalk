@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/ui_common_tab_bar_inactive_fg_color" />
+    <item android:color="@color/ui_common_tab_bar_active_fg_color" />
+</selector>

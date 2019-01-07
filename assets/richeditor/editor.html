@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <style>
+        html {
+          height: 100%;
+        }
+
+        body {
+          overflow: scroll;
+          display: table;
+          table-layout: fixed;
+          width: 100%;
+          min-height:100%;
+        }
+
+        #editor {
+          display: table-cell;
+          outline: 0px solid transparent;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-color: #FFFFFF;
+          ::-webkit-input-placeholder { color: #aaaaaa; }
+          ::placeholder { color: #aaaaaa; }
+        }
+
+        #editor[placeholder]:empty:not(:focus):before {
+          content: attr(placeholder);
+          opacity: .5;
+        }}
+    </style>
+</head>
+<body>
+<div id="editor" contenteditable="true" contentEditable="true" autocorrect="false" spellcheck="false" autocomplete="false" autocapitalize="off"></div>
+<script type="text/javascript" src="rich_editor.js"></script>
+</body>
+</html>

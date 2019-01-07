@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="291.0dip" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_corner_5_white_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.RoundedImageView android:id="@id/praise_icon" android:layout_width="fill_parent" android:layout_height="164.0dip" android:scaleType="centerCrop" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/ui_common_content_fg_color" android:id="@id/praise_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff9b9b9b" android:id="@id/praise_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="24.0dip" />
+        <com.alibaba.android.dingtalkbase.widgets.SpaceRatingBar android:id="@id/rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="33.0dip" />
+        <Button android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/praise_btn" android:background="@drawable/blue_btn" android:visibility="gone" android:layout_width="243.0dip" android:layout_height="44.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/dt_ratings_window_rating_button_title" />
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="20.0dip" android:gravity="center" android:id="@id/praise_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:text="@string/icon_close" />
+</LinearLayout>

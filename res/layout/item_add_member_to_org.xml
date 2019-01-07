@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="bottom" android:id="@id/v_divider" android:background="@color/ui_common_content_fg_color_alpha_12" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="68.0dip" />
+    <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="40.0dip" android:gravity="center" android:id="@id/if_icon_bg" android:layout_width="40.0dip" android:layout_height="40.0dip" android:text="@string/icon_round_fill" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="20.0dip" android:textColor="@color/ui_common_content_bg_color" android:gravity="center" android:layout_gravity="center" android:id="@id/if_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:text="@string/icon_newfriend_fill" />
+    </FrameLayout>
+    <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="68.0dip" android:layout_marginRight="50.0dip" android:text="@string/dt_invite_title_share_dingtalk" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="#fff25643" android:gravity="center" android:layout_gravity="end|center" android:id="@id/if_red_packet" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="13.0dip" android:text="@string/icon_redpacket_fill" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/ui_common_level2_base_color" android:gravity="center" android:layout_gravity="end|center" android:id="@id/tv_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/app_name" />
+</FrameLayout>

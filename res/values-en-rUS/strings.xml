@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ar_cancel">CANCEL</string>
+    <string name="ar_go_on">OK</string>
+    <string name="ar_name">AndroidAR</string>
+    <string name="ar_no_result">nothing found</string>
+    <string name="ar_quit">QUIT</string>
+    <string name="ar_tips">pay attention to the distance</string>
+    <string name="ar_toast_no_flash">no flash available</string>
+    <string name="ar_toast_no_network">no network, try again later</string>
+    <string name="ar_toast_not_wifi_1">warning, consuming traffic data</string>
+    <string name="ar_toast_not_wifi_2">warning, no wifi available</string>
+    <string name="ar_try_again">try again</string>
+</resources>

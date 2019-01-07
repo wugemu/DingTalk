@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/cspace_list_item_selected" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/cspace_group_icon" android:layout_centerVertical="true" />
+    <TextView android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" android:layout_toRightOf="@id/img_icon" style="@style/cspace_item_weight_v1_16" />
+    <TextView android:ellipsize="end" android:id="@id/tv_capacity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:singleLine="true" android:layout_below="@id/tv_name" android:layout_alignParentRight="true" style="@style/cspace_item_light_12" />
+    <TextView android:ellipsize="end" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="8.0dip" android:singleLine="true" android:layout_toLeftOf="@id/tv_capacity" android:layout_toRightOf="@id/img_icon" android:layout_below="@id/tv_name" style="@style/cspace_item_light_12" />
+    <View android:background="@color/cspace_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="8.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

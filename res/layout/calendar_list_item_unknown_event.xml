@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_content_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/ui_common_level1_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="60.0dip" android:text="@string/dt_calendar_version_too_old" android:includeFontPadding="false" android:layout_centerInParent="true" />
+</RelativeLayout>

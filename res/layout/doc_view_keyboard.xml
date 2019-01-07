@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalk.doc.toolbar.ui.PanelContainerLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/popup_panel_container_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/toolbar_view_container_layout" android:background="@color/pure_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/toolbar_view_keyboard_layout" android:layout_width="@dimen/toolbar_view_item_width" android:layout_height="@dimen/toolbar_view_height">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s20" android:id="@id/floating_bar_item_keyboard_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_wd_packupkeyboa" android:layout_centerInParent="true" />
+            <View android:id="@id/floating_bar_item_keyboard_split" android:visibility="gone" android:layout_width="@dimen/toolbar_view_item_split_width" android:layout_height="2.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <View android:background="@color/ui_common_content_fg_color_alpha_12" android:layout_width="1.0px" android:layout_height="@dimen/uidic_cell_image_size_xxs" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.alibaba.android.dingtalk.doc.toolbar.ui.toolbarview.DTHorizontalToolBarScrollView android:id="@id/toolbar_view_layout" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_view_height" android:layout_toRightOf="@id/toolbar_view_keyboard_layout" />
+        <View android:id="@id/toolbar_view_content_split_line" android:background="@color/comment_split_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </RelativeLayout>
+    <View android:background="@color/comment_split_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.alibaba.android.dingtalk.doc.toolbar.ui.PanelContainerLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/main_panel_container_ll" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

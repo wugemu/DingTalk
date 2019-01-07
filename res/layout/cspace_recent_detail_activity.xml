@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/C5" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/image1" android:visibility="gone" android:layout_width="188.0dip" android:layout_height="90.0dip" android:layout_marginLeft="@dimen/cspace_recent_item_marginLeft" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/cspace_recent_item_marginLeft" android:contentDescription="@null" />
+        <com.alibaba.dingtalk.cspace.functions.recent.SpaceRecentImageGridView android:id="@id/image" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cspace_recent_item_marginLeft" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/cspace_recent_item_marginLeft" android:layout_marginBottom="10.0dip" android:listSelector="#00000000" android:fastScrollEnabled="false" android:contentDescription="@null" android:overScrollMode="never" />
+        <ListView android:id="@android:id/list" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@null" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+    </FrameLayout>
+</LinearLayout>

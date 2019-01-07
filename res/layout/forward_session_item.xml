@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/session_item" android:background="@drawable/list_item_common_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/checkbox" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/uidic_CheckBoxTheme" />
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/session_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/checkbox" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toRightOf="@id/session_icon" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/session_title" android:ellipsize="end" android:id="@id/session_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" android:lineSpacingExtra="2.0dip" />
+            <ImageView android:id="@id/enterprise_session_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="-1.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/text_color_gray" android:ellipsize="end" android:id="@id/group_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_10" android:textColor="@color/im_sticky_to_top_tag_bg_color" android:id="@id/session_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:text="@string/icon_sticky_to_top" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageView android:textSize="18.0dip" android:id="@id/session_right_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/session_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignLeft="@id/ll_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

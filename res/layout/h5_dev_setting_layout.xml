@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/h5_dev_info_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:textSize="20.0dip" android:id="@id/h5_rpc" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="一键更新" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="20.0dip" android:gravity="center" android:id="@id/h5_edit_appId" android:layout_width="200.0dip" android:layout_height="wrap_content" android:hint="输入appId" android:inputType="number" />
+        <Button android:textSize="20.0dip" android:id="@id/h5_do_app" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="查看离线包" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="20.0dip" android:id="@id/h5_get_config" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="查询jsapi开关" />
+        <Button android:textSize="20.0dip" android:id="@id/h5_app_config" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="数据库配置" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="20.0dip" android:id="@id/h5_perf_tool" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="开启H5性能工具" />
+        <Button android:textSize="20.0dip" android:id="@id/config_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="开关配置" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="20.0dip" android:id="@id/h5_offline" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="从应用中心下线" />
+        <Button android:textSize="20.0dip" android:id="@id/h5_copyDB" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="分享数据库" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="20.0dip" android:id="@id/h5_test_case" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="打开测试用例" />
+        <Button android:textSize="20.0dip" android:id="@id/h5_bugme_ext_uploadapplog_nebulaApp_debug" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="上传applog" />
+    </LinearLayout>
+</LinearLayout>

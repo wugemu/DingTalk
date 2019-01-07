@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/bg_page_gray" android:layout_width="fill_parent" android:layout_height="15.0dip" />
+</LinearLayout>

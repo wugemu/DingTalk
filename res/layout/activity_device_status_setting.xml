@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/device_status_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="52.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/device_status_pc_online" android:scaleType="centerInside" />
+    <TextView android:textSize="@dimen/ui_common_body_text_size" android:textColor="@color/ui_common_level1_text_color" android:id="@id/device_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_mobile_notice" android:layout_width="128.0dip" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/mobile_notice_btn" android:background="@drawable/device_login_btn_bg_normal" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+            <TextView android:textSize="@dimen/ui_common_caption1_text_size" android:textColor="@color/ui_common_level2_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dt_stop_mobile_notification" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="128.0dip" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/file_trans_btn" android:background="@drawable/device_login_btn_bg_normal" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+            <TextView android:textSize="@dimen/ui_common_caption1_text_size" android:textColor="@color/ui_common_level2_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dt_file_transfer" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:textSize="@dimen/ui_common_headline2_text_size" android:textStyle="bold" android:textColor="@color/ui_common_theme_text_color" android:id="@id/device_status_pc_logout" android:background="@drawable/ui_common_level2_button_bg" android:layout_width="192.0dip" android:layout_height="44.0dip" android:layout_marginBottom="88.0dip" android:layout_alignParentBottom="true" />
+</LinearLayout>

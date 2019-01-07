@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/small_window_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_content" android:background="@drawable/popup_window_daka_bg" android:layout_width="fill_parent" android:layout_height="120.0dip">
+        <ImageView android:gravity="center" android:id="@id/tv_icon" android:layout_width="70.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/tv_icon" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="#ff555555" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/uidic_global_color_6_2" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="160.0dip" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+                <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/text_color_blue" android:id="@id/tv_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/tv_content" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/iv_notify_cancel" android:paddingLeft="15.0dip" android:paddingTop="20.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ding_app_notify_cancel" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

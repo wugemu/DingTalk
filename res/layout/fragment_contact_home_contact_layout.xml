@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:id="@id/cell_layout" android:background="@drawable/ui_common_cell_bg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/cell_left_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_centerVertical="true" avatar:textSize="@dimen/uidic_global_text_size_s12" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+    <TableLayout android:id="@id/tl_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:shrinkColumns="0" android:layout_toRightOf="@id/cell_left_avatar" android:layout_alignTop="@id/cell_left_avatar" android:layout_centerVertical="true">
+        <TableRow>
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:gravity="center|left|top" android:id="@id/cell_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:drawablePadding="4.0dip" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_14" android:textColor="@color/contact_concern_icon_color" android:id="@id/if_concern_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/icon_star_fill" />
+        </TableRow>
+    </TableLayout>
+    <View android:id="@id/bottom_divider" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignLeft="@id/tl_name" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/divider_dark_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/layout_dept_control_bottom" />
+    <com.alibaba.android.dingtalkbase.widgets.views.MotionTrackListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="1.0dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+</RelativeLayout>

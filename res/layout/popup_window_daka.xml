@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/small_window_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_content" android:background="@drawable/popup_window_daka_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="10.0dip">
+            <ImageView android:gravity="center" android:id="@id/tv_icon" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip">
+                <TextView android:textSize="@dimen/ui_common_headline2_text_size" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+                <TextView android:textSize="@dimen/ui_common_headline4_text_size" android:textColor="@color/gray" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_action_region" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                <TextView android:textSize="@dimen/ui_common_medium_button_text_size" android:textColor="@color/ui_common_level1_button_bg_color" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/tv_action1" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                <View android:id="@id/action2_divide" android:background="@color/ui_common_level1_line_bg_color" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                <TextView android:textSize="@dimen/ui_common_medium_button_text_size" android:textColor="@color/ui_common_level1_button_bg_color" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/tv_action2" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/iv_notify_cancel" android:paddingLeft="15.0dip" android:paddingTop="20.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ding_app_notify_cancel" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

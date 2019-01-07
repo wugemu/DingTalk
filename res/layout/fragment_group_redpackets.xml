@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout android:id="@id/swipe_layout" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.android.dingtalkbase.widgets.views.MotionTrackListView android:id="@id/redpackets_list" android:background="@color/pure_white" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+    </com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout>
+</RelativeLayout>

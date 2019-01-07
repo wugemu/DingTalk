@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_logo" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/iv_logo" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.5dip" android:layout_marginBottom="15.5dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/dp17" android:textColor="@android:color/black" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/dp13" android:textColor="#ff7d8082" android:ellipsize="end" android:id="@id/tv_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/dp15" android:textColor="#ff7d8082" android:id="@id/tv_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+        <com.alibaba.android.dingtalkbase.widgets.views.ads.AdsView android:id="@id/adv_red_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp13" android:textColor="#ffe0e0e0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/icon_next_arrow" />
+    </LinearLayout>
+    <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_toRightOf="@id/iv_logo" android:layout_alignParentBottom="true" />
+</RelativeLayout>

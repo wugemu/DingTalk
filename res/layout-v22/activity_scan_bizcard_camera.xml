@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.ma.ui.recognition.CameraSurfaceView android:id="@id/camera_surfaceview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.taobao.ma.ui.recognition.CameraFrontView android:id="@id/camera_front" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/layout_action_area" android:background="@drawable/actbar_black" android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <ImageButton android:id="@id/btn_shutter" android:background="@drawable/camera_shutter_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:contentDescription="@string/dt_accessibility_take_photo" />
+    </LinearLayout>
+    <ImageView android:id="@id/viewfinder_rayq" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:forceHasOverlappingRendering="false" />
+</FrameLayout>

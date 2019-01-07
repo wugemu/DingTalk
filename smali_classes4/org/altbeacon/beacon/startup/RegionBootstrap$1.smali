@@ -1,0 +1,14 @@
+.class synthetic Lorg/altbeacon/beacon/startup/RegionBootstrap$1;
+.super Ljava/lang/Object;
+.source "RegionBootstrap.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/altbeacon/beacon/startup/RegionBootstrap;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

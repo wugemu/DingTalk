@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/red_dot" android:background="@android:color/white" android:paddingLeft="8.0dip" android:paddingTop="@dimen/external_company_normal_padding" android:paddingRight="8.0dip" android:paddingBottom="@dimen/external_company_normal_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/avatar" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+        <View android:id="@id/todo_red_dot" android:background="@drawable/connection_red_dot_3" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_toRightOf="@id/avatar" android:layout_alignTop="@id/avatar" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/uidic_global_text_size_s10" android:textStyle="bold" android:textColor="@color/ui_common_level1_white_text_color" android:gravity="center" android:id="@id/red_num" android:background="@drawable/home_scale_red_dot" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginLeft="@dimen/dp8" android:layout_marginRight="8.0dip" android:minWidth="18.0dip" android:lines="1" android:singleLine="true" />
+</RelativeLayout>

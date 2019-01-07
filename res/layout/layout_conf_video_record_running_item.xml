@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ll_video_record_content" android:background="@color/conf_video_bg_running_item" android:layout_width="fill_parent" android:layout_height="65.0dip" android:minHeight="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/item_content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_status_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/txt_color_blue_bg_selector" android:id="@id/tv_enter" android:background="@drawable/conf_btn_blue_stroke_bg" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conf_txt_conference_join" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/item_status_layout" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/C6_1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_caller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/bg_setting_itemTextColor" android:ellipsize="end" android:id="@id/tv_duration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" android:layout_below="@id/tv_caller" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginBottom="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/top_shadow_white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_close_button" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/unactive_member_close" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <Button android:textSize="14.0dip" android:textColor="@drawable/actbar_btn_text_color" android:id="@id/tv_subTitle" android:background="@drawable/blue_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:minWidth="40.0dip" android:layout_toLeftOf="@id/iv_close_button" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/uidic_global_color_6_1" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_toLeftOf="@id/tv_subTitle" android:layout_centerVertical="true" />
+</RelativeLayout>

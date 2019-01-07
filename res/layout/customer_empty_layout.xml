@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:src="@drawable/icon_empty_customer" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_2" android:id="@id/tv_empty_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/empty_no_customer" />
+    <Button android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_5" android:id="@id/btn_add_friends" android:background="@color/C2" android:layout_width="183.0dip" android:layout_height="wrap_content" android:layout_marginTop="58.0dip" android:text="从手机通讯录添加" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/uidic_global_color_6_2" android:gravity="center" android:id="@id/btn_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/add_bulk_in_pc" android:ems="15" android:singleLine="false" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/uidic_global_color_c2" android:id="@id/tv_how_to_use" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150.0dip" android:text="@string/empty_how_to_use" />
+</LinearLayout>

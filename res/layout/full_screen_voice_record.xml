@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dialog_background" android:background="#e640464d" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/uidic_global_text_size_s20" android:textColor="@color/uidic_global_color_7_5" android:id="@id/time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52.0dip" />
+        <com.alibaba.android.dingtalkbase.widgets.views.waveform.WaveformView android:layout_gravity="right" android:id="@id/waveform_view" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="4.0dip" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s24" android:textColor="@color/uidic_global_color_6_5" android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" />
+    </LinearLayout>
+    <View android:id="@id/cancel_tip_bg" android:background="@drawable/full_screen_voice_top_red" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+    <ImageView android:layout_gravity="center|top" android:id="@id/cancel_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="72.0dip" android:src="@drawable/voice_record_cancel" />
+    <FrameLayout android:id="@id/hand_point" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/hand_point_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chat_fullscreen_finger_norm" />
+        <ImageView android:id="@id/hand_point_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chat_fullscreen_finger_high" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/h5_nav_bar" android:layout_width="fill_parent" android:layout_height="@dimen/h5_title_height">
+        <TextView android:textSize="17.0dip" android:gravity="center" android:id="@id/h5_lv_nav_back_loading" android:background="@android:color/transparent" android:clickable="true" android:layout_width="44.0dip" android:layout_height="fill_parent" android:text="" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/h5_backward" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/h5_ll_lv_title_loading" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/h5_lv_nav_back_loading" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/h5_nav_title_text" android:textColor="@color/h5_white" android:id="@id/h5_ll_lv_nav_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ProgressBar android:id="@id/h5_nav_loading_loading" android:visibility="invisible" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:indeterminateDrawable="@drawable/h5_title_bar_progress" android:layout_toRightOf="@id/h5_ll_lv_nav_title" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@color/h5_nav_bar_bottomline" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

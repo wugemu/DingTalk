@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/loading_container" android:visibility="visible" android:layout="@layout/alm_loading_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ListView android:id="@id/list_view" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/list_item_common_selector" android:scrollingCache="false" android:cacheColorHint="@android:color/transparent" android:groupIndicator="@null" android:divider="@null" android:layout_above="@id/bottom_container" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+    <RelativeLayout android:id="@id/bottom_container" android:background="@drawable/cspace_edit_bg" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/space_share_member_delete_tip" android:layout_centerVertical="true" style="@style/cspace_item_light_14" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/tv_right_operate" android:background="@drawable/alm_cspace_delete_operate_selected" android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/cspace_operate_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_container">
+        <ImageView android:id="@id/img_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="130.0dip" android:src="@drawable/cspace_guide_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/alm_cmail_color_6_2" android:id="@id/tv_empty_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/and_empty_no_people" android:layout_below="@id/img_icon" android:layout_centerHorizontal="true" style="@style/cspace_item_weight_16" />
+    </RelativeLayout>
+</RelativeLayout>

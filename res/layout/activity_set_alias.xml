@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/text_color_dark_gray" android:gravity="bottom" android:background="#ffefeff4" android:paddingLeft="12.0dip" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/alias" android:singleLine="true" />
+    <RelativeLayout android:id="@id/rl_set_alias" android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="5.0dip">
+        <View android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <View android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+        <com.alibaba.android.dingtalkbase.widgets.views.ClearableEditText android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_black" android:textColorHint="@color/text_color_dark_gray" android:id="@id/et_alias" android:background="@null" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:hint="@string/input_alias" android:singleLine="true" android:maxLength="@integer/name_max_limit" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0dip" android:textColor="@color/text_color_dark_gray" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/tv_local_hint" android:background="@drawable/set_alias_local_bg" android:paddingLeft="10.0dip" android:paddingTop="14.0dip" android:paddingRight="10.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/set_alias_hint" android:maxLines="2" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/pic_btn_press" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/ic_cameraalbum_overlay" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_cameraalbum_overlay" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/album_item_media_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/camera_take" android:layout_below="@id/ic_cameraalbum_overlay" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

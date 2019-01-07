@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chat_float_dialog" android:background="@color/pure_white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/text_color_black" android:ellipsize="end" android:id="@id/chat_float_dialog_title" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/chat_float_dialog_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="8.0dip" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="#ff858e99" android:ellipsize="end" android:id="@id/chat_float_dialog_descrption" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+    <RelativeLayout android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="#ff38adff" android:gravity="center_vertical" android:id="@id/chat_float_dialog_send" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/chat_float_dialog_send_title" android:drawableLeft="@drawable/chat_float_dialog_send" android:drawablePadding="4.0dip" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/chat_float_dialog_close" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/chat_float_dialog_close" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

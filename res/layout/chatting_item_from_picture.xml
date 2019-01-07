@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.widgets.MakeupImageView android:gravity="center|left" android:id="@id/chatting_content_image" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxWidth="@dimen/chat_item_max_width" android:maxHeight="@dimen/chat_item_max_width" android:minWidth="75.0dip" android:minHeight="75.0dip" image:makeupHeight="@dimen/chatting_item_picture_makeup_height" image:makeupDirection="left" xmlns:image="http://schemas.android.com/apk/res-auto" />
+            <ImageView android:layout_gravity="right" android:id="@id/ic_gif" android:layout_width="28.0dip" android:layout_height="18.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/gif_icon" />
+        </FrameLayout>
+        <pl.droidsonroids.gif.GifImageView android:layout_gravity="center_vertical" android:id="@id/iv_remind" android:visibility="gone" android:layout_width="@dimen/gif_im_remind_width" android:layout_height="@dimen/gif_im_remind_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+        <ViewStub android:layout_gravity="bottom" android:id="@id/compete_icon_stub" android:layout="@layout/item_pic_compete_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+    </LinearLayout>
+    <ViewStub android:id="@id/img_emotion_guide_stub" android:visibility="gone" android:layout="@layout/item_pic_emotion_origin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</LinearLayout>

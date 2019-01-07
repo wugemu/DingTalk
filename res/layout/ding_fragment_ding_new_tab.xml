@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_notice_bg">
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_sub_filter_title_container" android:background="@color/ui_common_level1_white_text_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="40.0dip">
+                <TextView android:textSize="14.0dip" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/tv_sub_filter_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" />
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_level1_text_color" android:layout_gravity="center_vertical" android:id="@id/iv_sub_filter_arrow" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="6.0dip" />
+            </LinearLayout>
+            <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_ding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_title_container" />
+    <FrameLayout android:id="@id/fl_calendar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_title_container" />
+</RelativeLayout>

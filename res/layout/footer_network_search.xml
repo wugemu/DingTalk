@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_window_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:avatar="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_footer_network_search_divider" android:background="@color/ui_common_window_bg_color" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/tv_avatar" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/icon_search_server_msg" android:layout_centerVertical="true" avatar:textSize="@dimen/text_size_15" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/ui_common_body_text_size" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/ui_common_body_text_size" android:textColor="@color/ui_common_theme_text_color" android:ellipsize="end" android:id="@id/tv_keyword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxLines="1" />
+        </LinearLayout>
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s12" android:textColor="@color/uidic_global_color_c11_9" android:id="@id/tv_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/icon_right" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <com.alibaba.android.search.widget.SearchFeedbackView android:layout_gravity="center_horizontal" android:id="@id/feedback_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+</LinearLayout>

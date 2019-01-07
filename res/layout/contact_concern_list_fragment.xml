@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_dept_control_bottom" android:background="@color/user_bottom_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:id="@id/ll_add_employee" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/user_info_header" android:gravity="center" android:id="@id/tv_send_message" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_employee" />
+        </LinearLayout>
+        <View android:layout_gravity="center_vertical" android:id="@id/divider_calling" android:background="@color/user_bottom_divider" android:layout_width="0.5dip" android:layout_height="16.0dip" />
+        <LinearLayout android:gravity="center" android:id="@id/ll_add_dept" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/user_info_header" android:gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/add_child_dept" />
+        </LinearLayout>
+        <View android:layout_gravity="center_vertical" android:id="@id/divider_ding" android:background="@color/user_bottom_divider" android:layout_width="0.5dip" android:layout_height="16.0dip" />
+        <LinearLayout android:gravity="center" android:id="@id/ll_edit_dept" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/user_info_header" android:gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/edit_current_dept" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/divider_dark_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/layout_dept_control_bottom" />
+    <com.alibaba.android.dingtalkbase.widgets.views.MotionTrackListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="1.0dip" android:layout_above="@id/layout_dept_control_bottom" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_progress" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_gray" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/tv_empty" android:layout_centerInParent="true" style="?android:attr/progressBarStyleInverse" />
+    </RelativeLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.RimetListEmptyView android:gravity="center" android:layout_gravity="center" android:id="@id/list_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_dept_control_bottom" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/arrow_right_guide_no_concern" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="320.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/arrow_right_guide" />
+</RelativeLayout>

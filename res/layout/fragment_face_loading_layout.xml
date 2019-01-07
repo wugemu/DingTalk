@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_24" android:textColor="@color/_uidic_forms_item_text_color" android:layout_gravity="center_horizontal" android:id="@id/no_permission_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/dt_facebox_record_no_permission_tips" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/has_record_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="126.0dip" android:textColor="@color/C2" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="@string/icon_checkbox_fill" />
+        <TextView android:textSize="@dimen/text_size_24" android:textColor="#ff333333" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/dt_facebox_face_recorded_success" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/gray" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/dt_facebox_face_change_admin_tips" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+</FrameLayout>

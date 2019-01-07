@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_ding_plurals_hours">
+        <item quantity="other">%s小时</item>
+        <item quantity="one">1小时</item>
+    </plurals>
+    <plurals name="and_ding_plurals_minutes">
+        <item quantity="other">%s分钟</item>
+        <item quantity="one">1分钟</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%s分钟</item>
+        <item quantity="one">1分钟</item>
+    </plurals>
+</resources>

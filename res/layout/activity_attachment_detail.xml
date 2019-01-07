@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/compose_scrollview" android:background="@color/cspace_detail_bg" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <com.alibaba.alimei.cspace.widget.SpaceDetailPageView android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <com.alibaba.alimei.cspace.widget.SpaceMenuBottomView android:orientation="horizontal" android:id="@id/switch_to_menu" android:layout_width="fill_parent" android:layout_height="55.0dip" />
+</LinearLayout>

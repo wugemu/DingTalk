@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/job_item_container" android:background="@drawable/ui_common_cell_bg" android:padding="@dimen/dp14" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dp20" android:textStyle="bold" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:id="@id/job_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:singleLine="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+            <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_content_fg_color" android:id="@id/job_item_enterprisename" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp13" android:id="@id/job_item_icon_certification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/icon_certification_f" />
+                <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_level3_text_color" android:id="@id/job_item_org_auth_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/and_org_level_tips" />
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp13" android:id="@id/job_item_icon_right_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/icon_certification_f" />
+                <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_level3_text_color" android:id="@id/job_item_org_right_level" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip">
+            <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_warming_bg_color" android:id="@id/job_item_salary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_level3_text_color" android:id="@id/job_item_category_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/dp17" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:id="@id/job_item_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:includeFontPadding="true" android:lineSpacingExtra="6.0dip" />
+        <FrameLayout android:id="@id/fl_video" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="16.0dip">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/job_item_video_placeholder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.alibaba.dingtalk.recruitment.widget.RoundedImageView android:layout_gravity="center_vertical" android:id="@id/job_enterprise_logo" android:background="@color/ui_common_transparent_cell_bg_color" android:layout_width="28.0dip" android:layout_height="28.0dip" android:scaleType="fitXY" app:ri_left_top_corner_radius="5.0dip" app:ri_right_top_corner_radius="5.0dip" app:ri_left_bottom_corner_radius="5.0dip" app:ri_right_bottom_corner_radius="5.0dip" />
+                    <TextView android:textSize="@dimen/dp17" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/job_enterprise_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:maxLines="2" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="none" android:id="@id/job_enterprise_slogan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" />
+            </LinearLayout>
+            <android.support.v4.widget.ContentLoadingProgressBar android:layout_gravity="center" android:id="@id/pb_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDuration="100" android:indeterminateBehavior="repeat" style="@style/Widget.AppCompat.ProgressBar" />
+            <ImageView android:layout_gravity="center" android:id="@id/iv_start" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/recruitment_icon_play" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/job_item_image_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <ImageView android:id="@id/job_item_image1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_weight="1.0" />
+            <ImageView android:id="@id/job_item_image2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:scaleType="centerCrop" android:layout_weight="1.0" />
+            <ImageView android:id="@id/job_item_image3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:scaleType="centerCrop" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="4.0dip">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/job_item_publisher_avatar" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip">
+                <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:id="@id/job_item_publisher_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="@dimen/dp10" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="end" android:id="@id/job_item_publisher_rate_prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_recruitment_reply_rate" android:singleLine="true" android:layout_below="@id/job_item_publisher_desc" />
+                <TextView android:textSize="@dimen/dp10" android:textColor="@color/ui_common_theme_bg_color" android:ellipsize="end" android:id="@id/job_item_publisher_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="12.0dip" android:singleLine="true" android:layout_toRightOf="@id/job_item_publisher_rate_prefix" android:layout_below="@id/job_item_publisher_desc" />
+                <TextView android:textSize="@dimen/dp10" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="end" android:id="@id/job_item_publisher_active_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/job_item_publisher_rate" android:layout_below="@id/job_item_publisher_desc" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+</LinearLayout>

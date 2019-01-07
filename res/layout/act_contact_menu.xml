@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="10.0dip" />
+    <RelativeLayout android:id="@id/rl_create_conversation" android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:textSize="12.0dip" android:gravity="center" android:id="@id/icon_create_conversation" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/contact_create_conv" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/user_conversation_create_guide" android:layout_toRightOf="@id/icon_create_conversation" android:layout_centerVertical="true" />
+        <View android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/icon_create_conversation" android:layout_alignParentBottom="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_add_friend" android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:gravity="center" android:id="@id/icon_add_friend" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/contact_add_friend" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/home_menu_add_friend" android:layout_toRightOf="@id/icon_add_friend" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <View android:id="@id/divider_org_top" android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="10.0dip" />
+    <RelativeLayout android:id="@id/rl_operate_org" android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:textSize="12.0dip" android:gravity="center" android:id="@id/icon_operate_org" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/icon_dept" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_black" android:id="@id/tv_operate_org" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/act_create_org" android:layout_toRightOf="@id/icon_operate_org" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_10" android:textColor="@color/text_color_white" android:gravity="center" android:id="@id/tv_new" android:background="@drawable/new_bg" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="14.0dip" android:layout_marginLeft="8.0dip" android:text="@string/new_string" android:layout_toRightOf="@id/tv_operate_org" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/arrow_create_org" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/divider_org_bottom" android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/text_color_gray" android:id="@id/tv_org_entry_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="12.0dip" android:text="@string/create_org_entry" android:layout_centerVertical="true" />
+</LinearLayout>

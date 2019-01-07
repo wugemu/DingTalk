@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/cmail_dimen_10_dp" android:paddingRight="@dimen/cmail_dimen_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s24" android:textColor="@color/cmail_color_7d8082" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/icon" android:background="@drawable/cmail_cell_item_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cmail_dimen_58_dp" android:minHeight="@dimen/cmail_dimen_58_dp" />
+    <TextView android:textSize="@dimen/alm_cmail_font_size_s11" android:textColor="@color/cmail_color_7d8082" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/description" android:layout_width="@dimen/cmail_dimen_48_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cmail_dimen_8_dp" android:maxLines="2" />
+</LinearLayout>

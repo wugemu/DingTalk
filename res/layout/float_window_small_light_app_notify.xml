@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/small_window_layout" android:background="@drawable/light_app_notify_bg" android:layout_width="wrap_content" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/light_app_notify_cancel_iv" android:paddingLeft="28.0dip" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/light_app_notify_cancel" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:id="@id/small_window_layout_clickable_to_detail_ll" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/light_app_notify_cancel_iv" android:layout_alignParentLeft="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/light_app_notify_icon_iv" android:background="@drawable/light_app_notify_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/light_app_notify_text_ll_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.alibaba.android.dingtalkbase.widgets.views.AutoTranslateTextView android:textSize="15.0dip" android:textColor="@color/uidic_global_color_6_5" android:ellipsize="end" android:gravity="center|left" android:id="@id/light_app_notify_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="1.0dip" android:lines="1" android:maxEms="12" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/uidic_global_color_6_5" android:gravity="center" android:id="@id/light_app_notify_content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="2.0dip" android:maxEms="8" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

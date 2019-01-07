@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/h5_nav_menu_selector" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/h5_marginLeftView" android:background="@android:color/transparent" android:layout_width="14.0dip" android:layout_height="44.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/h5_iv_icon" android:visibility="invisible" android:layout_width="@dimen/h5_nav_menu_icon" android:layout_height="@dimen/h5_nav_menu_icon" android:layout_marginRight="8.0dip" android:scaleType="fitXY" android:layout_toRightOf="@id/h5_marginLeftView" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/h5_nav_menu_font" android:textColor="@android:color/black" android:gravity="center" android:id="@id/h5_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/h5_iv_icon" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/h5_popmenu_dot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/h5_tv_title" android:layout_centerVertical="true">
+        <ImageView android:id="@id/h5_popmenu_dot_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/h5_point_small" android:scaleType="centerInside" android:layout_centerVertical="true" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/h5_popmenu_dot_num" android:background="@drawable/h5_point_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:layout_gravity="center_vertical" android:id="@id/h5_marginRightView" android:background="@android:color/transparent" android:layout_width="14.0dip" android:layout_height="44.0dip" android:layout_toRightOf="@id/h5_popmenu_dot" />
+</RelativeLayout>

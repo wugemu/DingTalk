@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.security.biometrics.face.auth.view.LivenessDetectActionLayout android:orientation="vertical" android:id="@id/abface_facedetect_pattern" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.security.biometrics.face.auth.widget.CameraSurfaceView android:layout_gravity="center" android:id="@id/abface_camera_surfaceview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ViewStub android:id="@id/face_detect_upload" android:layout="@layout/face_upload" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/face_detect_action" layout="@layout/face_action" />
+    <include android:id="@id/face_detect_titlebar" layout="@layout/face_action_titlebar" />
+</com.alibaba.security.biometrics.face.auth.view.LivenessDetectActionLayout>

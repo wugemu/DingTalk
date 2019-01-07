@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.alimei.cmail.widget.EmailAttachmentView android:id="@id/mail_attachment_item" android:layout_width="126.0dip" android:layout_height="104.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.alimei.cmail.widget.AttachmentImageView android:id="@id/attachent_item_img" android:background="@drawable/alm_cmail_attachment_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <LinearLayout android:layout_gravity="bottom" android:id="@id/attachment_video_info_layout" android:background="@drawable/abs_attachment_video_bg" android:paddingLeft="@dimen/cmail_dimen_4_dp" android:paddingTop="@dimen/alm_cmail_8_dp" android:paddingRight="@dimen/cmail_dimen_4_dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.alimei.cmail.widget.MailListPerfTextView android:textSize="@dimen/alm_cmail_font_size_s12" android:textColor="@color/cmail_color_bfc0c1" android:layout_gravity="center_vertical" android:id="@id/video_size" android:visibility="visible" android:layout_width="363.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/ui_common_content_bg_color" android:gravity="bottom|center|right" android:layout_gravity="center_vertical" android:layout_width="@dimen/alm_cmail_font_size_s16" android:layout_height="@dimen/alm_cmail_font_size_s16" android:text="@string/icon_video_fill" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/attachment_file_layout" android:background="@drawable/alm_cmail_attachment_bg" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <com.alibaba.alimei.cmail.widget.EllipsizingTextView android:textSize="@dimen/text_size_14" android:textColor="@color/alm_cmail_color_191f25" android:ellipsize="middle" android:id="@id/tv_file_name" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" android:singleLine="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <ImageView android:id="@id/tv_file_icon" android:layout_width="@dimen/cmail_dimen_16_dp" android:layout_height="@dimen/cmail_dimen_16_dp" android:layout_marginRight="@dimen/cmail_dimen_8_dp" android:scaleType="fitCenter" android:layout_alignParentBottom="true" />
+            <com.alibaba.alimei.cmail.widget.MailListPerfTextView android:textSize="@dimen/text_size_12" android:textColor="@color/ui_common_content_fg_color_alpha_28" android:ellipsize="end" android:id="@id/tv_file_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/tv_file_icon" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/attachment_delete_icon" android:paddingLeft="4.0dip" android:paddingBottom="4.0dip" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/cmail_delete_icon" android:scaleType="centerCrop" />
+</com.alibaba.alimei.cmail.widget.EmailAttachmentView>

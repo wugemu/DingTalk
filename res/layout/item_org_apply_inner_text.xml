@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ui_common_tag_text_size" android:textColor="@color/ui_common_util_image_button_delete_color" android:gravity="center_vertical" android:id="@id/tv_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_group_apply_remark" />
+    <TextView android:textSize="@dimen/ui_common_caption_text_size" android:textColor="@color/ui_common_level1_base_color" android:gravity="center_vertical" android:id="@id/tv_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="18.0dip" android:text="@string/dt_group_apply_remark" />
+</LinearLayout>

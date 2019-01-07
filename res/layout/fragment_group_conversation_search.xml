@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list_view" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/list_item_common_selector" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="1.0dip" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+    <com.alibaba.android.search.widget.ExtendedListView android:id="@id/extend_list_view" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/list_item_common_selector" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="1.0dip" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+    <ImageView android:id="@id/divider_common_contact_container" android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_search_empty_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip">
+        <ImageView android:id="@id/search_empty_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@drawable/search_empty_tip" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/text_color_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/empty_search_content" android:layout_toRightOf="@id/search_empty_icon" />
+    </RelativeLayout>
+</LinearLayout>

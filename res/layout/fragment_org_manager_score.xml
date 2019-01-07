@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/fragment_circle" android:background="@drawable/shape_org_score" android:layout_width="fill_parent" android:layout_height="280.0dip" />
+            <LinearLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="280.0dip">
+                <com.alibaba.android.user.contact.view.LineChartView android:id="@id/line" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <View android:background="@color/uidic_global_color_6_2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <View android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="68.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textSize="@dimen/text_size_16" android:textColor="@color/white" android:id="@id/btn_add_score" android:background="@drawable/btn_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:minHeight="48.0dip" android:text="@string/add_team_score" android:layout_below="@id/et_pwd_login" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

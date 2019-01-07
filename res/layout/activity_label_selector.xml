@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_filter" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/filter_scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.uidic.cells.C1T1TextCell android:id="@id/tc_person_filter" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_weight="0.0" app:bottomDividerAlign="alignParent" app:bottomDividerVisibility="visible" app:rightImage="@drawable/right_arrow" app:title="@string/select_contact_title" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="80.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/C2" android:layout_gravity="center_horizontal" android:id="@id/tv_admin_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/dt_external_contact_label_add_guide" android:layout_weight="0.0" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <Button android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_c2" android:gravity="center" android:id="@id/btn_reset" android:background="@drawable/btn_bg_gray" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/crm_reset" android:layout_weight="1.0" android:layout_alignParentBottom="true" />
+        <Button android:textSize="@dimen/text_size_17" android:gravity="center" android:id="@id/btn_ok" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sure" android:layout_weight="1.0" android:layout_alignParentBottom="true" style="@style/ui_common_level1_button" />
+    </LinearLayout>
+</LinearLayout>

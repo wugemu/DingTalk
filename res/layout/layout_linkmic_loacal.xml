@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/link_mic_local" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_20" android:layout_gravity="right" android:id="@id/tv_close" android:padding="6.0dip" android:text="@string/icon_close" style="@style/LiveTextView" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rp_preview_layout" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_layout" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/reget_button" android:layout_width="0.0dip" android:layout_height="45.0dip" android:text="@string/dt_certify_take_photo_retak" android:layout_weight="1.0" />
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/next_button" android:layout_width="0.0dip" android:layout_height="45.0dip" android:text="@string/dt_certify_use_photo" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:id="@id/picture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" />
+</RelativeLayout>

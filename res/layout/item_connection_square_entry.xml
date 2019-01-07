@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_nearby_card" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="@dimen/mine_section_height">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_18" android:textColor="@color/ui_common_level1_white_text_color" android:id="@id/connection_circle_icon_iv" android:background="@drawable/icon_bg_corner_3_green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_section_margin_left" android:layout_marginRight="12.0dip" android:text="@string/icon_meeting_signin_" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/ui_common_level1_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_user_connection_square" android:layout_toRightOf="@id/connection_circle_icon_iv" android:layout_centerVertical="true" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_13" android:textColor="@color/contact_mime_icon_color" android:id="@id/iv_connection_circle_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/icon_next_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.alibaba.android.dingtalkbase.widgets.views.ads.AdsView android:id="@id/ads_nearby_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:maxWidth="240.0dip" android:layout_toLeftOf="@id/iv_connection_circle_arrow" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/view_line_nearby_card" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/mine_section_divider_margin_left" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/uidic_forms_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/_uidic_forms_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/uidic_forms_item_top_divider" android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:paddingLeft="@dimen/_uidic_forms_item_padding" android:paddingRight="@dimen/_uidic_forms_item_padding" android:layout_width="fill_parent" android:layout_height="@dimen/_uidic_forms_item_height">
+            <TextView android:textSize="@dimen/_uidic_forms_item_text_size" android:textColor="@color/_uidic_forms_item_text_color" android:ellipsize="end" android:id="@id/uidic_forms_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="@dimen/_uidic_forms_item_text_drawable_padding" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ToggleButton android:id="@id/uidic_forms_item_toggle" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/uidic_forms_toggle" />
+        </RelativeLayout>
+        <View android:id="@id/uidic_forms_item_inner_bottom_divider" android:background="@color/_uidic_forms_item_inner_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/_uidic_forms_item_padding" />
+        <View android:id="@id/uidic_forms_item_bottom_divider" android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/_uidic_forms_item_tip_text_color" android:id="@id/uidic_forms_item_tip_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_uidic_forms_item_padding" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/_uidic_forms_item_padding" />
+</LinearLayout>

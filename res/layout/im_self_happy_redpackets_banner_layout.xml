@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/lucky_time_banner_root" android:background="@drawable/bomb_red_packet_share_bg_cell" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/im_red_packet_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/im_red_packet_core_content_padding" android:layout_marginRight="@dimen/im_red_packet_core_content_padding" android:layout_marginBottom="35.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/avatar" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="7.5dip" avatar:textSize="6.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        <TextView android:textSize="9.0dip" android:textColor="@color/ui_common_level1_white_special_text_color" android:gravity="center_vertical" android:id="@id/tv_bomb_from_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_toRightOf="@id/avatar" android:layout_alignTop="@id/avatar" android:layout_alignBottom="@id/avatar" />
+        <RelativeLayout android:id="@id/rl_bomb_operation" android:background="@drawable/bomb_red_packet_duxiang" android:layout_width="fill_parent" android:layout_height="@dimen/im_red_packet_core_content_height" android:layout_marginTop="7.5dip" android:layout_below="@id/avatar">
+            <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/im_boom_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/tv_bomb_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="3.0dip" android:text="@string/dt_dingtalk_for_red_packet_bomb" android:maxLines="1" android:layout_centerHorizontal="true" />
+            <LinearLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_below="@id/tv_bomb_tips">
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/im_boom_text_color" android:id="@id/tv_money_prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_self_happy_sum" />
+                <TextView android:textSize="@dimen/text_size_28" android:textStyle="bold" android:textColor="@color/im_boom_text_color" android:id="@id/tv_money" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/im_boom_text_color" android:id="@id/tv_money_suffix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/im_redpackets_yuan" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

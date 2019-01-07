@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/redpackets_enterprise_guide" android:layout_width="250.0dip" android:layout_height="210.0dip" android:layout_marginTop="40.0dip" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/text_color_black" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/redpackets_enterprise_guide_title" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/text_color_gray" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/redpackets_enterprise_guide_tips0" />
+    </LinearLayout>
+</ScrollView>

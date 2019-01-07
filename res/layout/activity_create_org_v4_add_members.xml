@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/org_member_list" android:background="@color/white" android:focusable="false" android:scrollbars="vertical" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_above="@id/ll_next" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_next" android:background="@color/ui_common_content_bg_color" android:paddingLeft="@dimen/ui_common_page_padding_left" android:paddingRight="@dimen/ui_common_page_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/ui_common_level3_text_color" android:id="@id/tv_member_count_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/dt_contact_add_member_member_count_tip_at" />
+        <Button android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_white_text_color" android:id="@id/btn_next" android:background="@drawable/bg_round_btn_action_next" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/finish" android:onClick="onClick" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Has Face:" />
+        <TextView android:id="@id/face_circle_has_face" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Quality:" />
+        <TextView android:id="@id/face_circle_face_quality" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Process1:" />
+        <ProgressBar android:id="@id/face_circle_face_process" android:layout_width="fill_parent" android:layout_height="20.0dip" android:max="100" android:progress="50" style="?android:attr/progressBarStyleHorizontal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Process2:" />
+        <ProgressBar android:id="@id/face_circle_face_process2" android:layout_width="fill_parent" android:layout_height="20.0dip" android:max="100" android:progress="50" style="?android:attr/progressBarStyleHorizontal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Light:" />
+        <TextView android:id="@id/face_circle_face_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Size:" />
+        <TextView android:id="@id/face_circle_face_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[0,0]" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Location:" />
+        <TextView android:id="@id/face_circle_face_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[0,0]" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Pitch:" />
+        <TextView android:id="@id/face_circle_face_pitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Yaw:" />
+        <TextView android:id="@id/face_circle_face_yaw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Eye Det:" />
+        <TextView android:id="@id/face_circle_face_eye_det" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Gaussian:" />
+        <TextView android:id="@id/face_circle_face_gaussian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Motion:" />
+        <TextView android:id="@id/face_circle_face_motion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Mouth Occlusion:" />
+        <TextView android:id="@id/face_circle_mouth_occlusion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Eye Left Occlusion:" />
+        <TextView android:id="@id/face_circle_eye_left_occlusion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Face Eye right Occlusion:" />
+        <TextView android:id="@id/face_circle_eye_right_occlusion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Blink Count:" />
+        <TextView android:id="@id/face_circle_blink_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Mouth Count:" />
+        <TextView android:id="@id/face_circle_mouth_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Device light:" />
+        <TextView android:id="@id/face_circle_device_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Device angle:" />
+        <TextView android:id="@id/face_circle_device_angle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/face_circle_reset" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Reset" />
+    </LinearLayout>
+</LinearLayout>

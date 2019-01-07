@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/tab_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:lines="1" android:singleLine="true" />
+    <View android:layout_gravity="bottom" android:id="@id/tab_underline" android:background="@color/ui_common_theme_text_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</FrameLayout>

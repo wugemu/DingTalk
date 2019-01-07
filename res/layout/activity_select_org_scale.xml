@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_top_notification" android:background="@color/bg_blue" android:layout_width="fill_parent" android:layout_height="84.0dip">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="42.0dip" android:textColor="@color/pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_round_fill" android:layout_centerVertical="true" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_24" android:textColor="@color/ui_common_theme_icon_bg_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_meeting_fill" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="@color/pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_org_create_scale_note_text1" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_org_create_scale_note_text2" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@id/lv_org_scale" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:layout_below="@id/rl_top_notification" />
+</RelativeLayout>

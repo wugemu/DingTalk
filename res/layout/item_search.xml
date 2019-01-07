@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="74.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:avatar="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:id="@id/checkbox" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="16.0dip" android:button="@null" android:layout_centerVertical="true" style="@style/CheckBoxTheme" />
+    <FrameLayout android:id="@id/fl_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_toRightOf="@id/checkbox">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_avatar" android:layout_width="50.0dip" android:layout_height="50.0dip" avatar:textSize="@dimen/text_size_15" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="14.0dip" android:layout_toRightOf="@id/fl_avatar" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_text_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/ui_common_body_text_size" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:id="@id/tv_friend_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+                        <ImageView android:id="@id/iv_group_tag" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="14.0dip" android:layout_marginLeft="2.0dip" />
+                        <ImageView android:id="@id/user_person_status_icon" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="2.0dip" />
+                    </LinearLayout>
+                    <com.alibaba.android.dingtalkbase.widgets.PersonStatusView android:textSize="12.0dip" android:textColor="@color/uidic_global_color_6_2" android:ellipsize="end" android:id="@id/user_person_status" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/fl_user_tag_parent" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/text_size_10_in_sp" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/tv_user_tag" android:background="@drawable/bot_tag_bg" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/dt_search_robot_tag" android:singleLine="true" android:includeFontPadding="false" />
+                </FrameLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/ui_common_footnote_text_size" android:textColor="@color/ui_common_level2_text_color" android:ellipsize="end" android:id="@id/tv_friend_desc2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:includeFontPadding="false" />
+            <com.alibaba.android.dingtalkbase.widgets.ExpandableTextView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_friend_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" app:maxCollapsedLines="2" app:animDuration="200" app:expandableTextView="@id/tv_friend_desc" app:expandableTextViewClickable="false"
+              xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+                <TextView android:textSize="@dimen/ui_common_caption1_text_size" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_friend_desc" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" />
+            </com.alibaba.android.dingtalkbase.widgets.ExpandableTextView>
+            <TextView android:textSize="@dimen/ui_common_caption1_text_size" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_friend_explain" android:padding="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:includeFontPadding="false" />
+        </LinearLayout>
+        <RelativeLayout android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_operation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_18" android:textColor="@color/ui_common_green_icon_bg_color" android:gravity="center" android:id="@id/iv_call" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="10.0dip" android:text="@string/icon_phone_fill" />
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_18" android:textColor="@color/ui_common_theme_icon_bg_color" android:gravity="center" android:id="@id/iv_profile" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:text="@string/icon_people_fill" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/iv_expand" android:visibility="invisible" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginBottom="17.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="7.0dip" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:background="@drawable/feedback_view_bg_selector" android:paddingTop="4.0dip" android:layout_width="14.0dip" android:layout_height="14.0dip" android:text="@string/icon_down" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/divider_line" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/fl_avatar" android:layout_alignParentBottom="true" />
+</RelativeLayout>

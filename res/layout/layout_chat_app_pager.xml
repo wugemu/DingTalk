@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/chat_app_grid" android:paddingLeft="23.0dip" android:paddingRight="23.0dip" android:scrollbars="none" android:fadingEdge="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:verticalSpacing="@dimen/input_panel_app_vertical_spacing" android:stretchMode="spacingWidth" android:columnWidth="66.0dip" android:numColumns="4" android:overScrollMode="never" />
+</LinearLayout>

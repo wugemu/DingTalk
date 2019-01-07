@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/aliwx_photo_deal_confirm_fragment_bg" android:layout_width="280.0dip" android:layout_height="170.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="117.0dip" android:layout_alignParentTop="true">
+        <TextView android:textSize="16.0sp" android:textColor="#ff3d4145" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:text="@string/dt_photo_edit_giveup_confirm" android:singleLine="true" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+            <ImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/save_btn" android:background="@null" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/aliwx_common_checkbox_normal_20" android:scaleType="fitXY" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff3d4145" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_photo_edit_giveup_tip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/btn_layout" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/aliwx_deal_commit_dialog_text_unactive" android:id="@id/no_btn" android:background="@drawable/aliwx_photo_deal_confirm_fragment_left_btn_bg" android:layout_width="0.0dip" android:layout_height="52.0dip" android:text="@string/dt_photo_no" android:layout_weight="1.0" />
+        <Button android:textColor="@color/aliwx_white" android:id="@id/yes_btn" android:background="@drawable/aliwx_photo_deal_confirm_fragment_right_btn_bg" android:layout_width="0.0dip" android:layout_height="52.0dip" android:text="@string/dt_photo_yes" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:background="#ffc4c6cf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/btn_layout" />
+</RelativeLayout>

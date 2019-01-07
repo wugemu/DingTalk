@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_select_custom_time" android:background="@drawable/bg_corner_5_white_normal" android:layout_width="280.0dip" android:layout_height="170.0dip" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="5.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.views.wheelview.WheelView android:id="@id/wheel_view_hour" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5" />
+        <TextView android:textSize="30.0dip" android:textColor="@color/uidic_global_color_c2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:includeFontPadding="false" android:layout_centerInParent="true" />
+        <com.alibaba.android.dingtalkbase.widgets.views.wheelview.WheelView android:id="@id/wheel_view_minute" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5" android:layout_toRightOf="@id/wheel_view_hour" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/color_blue_selector" android:gravity="center" android:id="@id/tv_remove_selected_time" android:background="@color/uidic_global_color_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_ding_select_deadline_remove" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/color_blue_selector" android:gravity="center" android:id="@id/tv_select_time_confirm" android:background="@color/uidic_global_color_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_common_confirm" android:includeFontPadding="false" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/rl_dialog_content" android:background="@drawable/face_confirm_shape_corner" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/abface_dialog_msg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/face_detect_alert_dialog_msg_timeout" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff3e3e3e" android:id="@id/abface_dialog_msg_2" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/face_detect_alert_dialog_msg_timeout" />
+        <RelativeLayout android:id="@id/abface_dialog_msg_icons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="29.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip">
+                <ImageView android:background="@drawable/face_dialog_hint_enough_light" android:layout_width="27.0dip" android:layout_height="27.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/face_detect_alert_dialog_msg_light_enough" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <ImageView android:background="@drawable/face_dialog_hint_eye_look_right" android:layout_width="27.0dip" android:layout_height="27.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/face_detect_alert_dialog_msg_right_pose" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:layout_alignParentRight="true">
+                <ImageView android:background="@drawable/face_dialog_hint_action_too_fast" android:layout_width="27.0dip" android:layout_height="27.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/face_detect_alert_dialog_msg_not_too_fast" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="14.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/abface_dialog_button_container" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/abface_dialog_cancel" android:layout_width="160.0dip" android:layout_height="55.0dip" android:layout_marginLeft="5.0dip">
+                <TextView android:textSize="17.0sp" android:textColor="#ff666666" android:id="@id/abface_dialog_cancel_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/face_detect_alert_dialog_msg_cancle_text" />
+            </LinearLayout>
+            <View android:id="@id/abface_dialog_split" android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/abface_dialog_ok" android:layout_width="160.0dip" android:layout_height="55.0dip">
+                <TextView android:textSize="17.0sp" android:textColor="#ff37a2e6" android:id="@id/abface_dialog_ok_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/face_detect_alert_dialog_msg_ok_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

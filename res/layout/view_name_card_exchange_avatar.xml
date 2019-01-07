@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="64.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center_horizontal" android:id="@id/iv_avatar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="#70191f25" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/tv_name" android:paddingTop="5.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="48.0dip" android:layout_height="wrap_content" android:lines="1" />
+</LinearLayout>

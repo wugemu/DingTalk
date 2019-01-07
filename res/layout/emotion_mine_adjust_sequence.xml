@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_gray" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="13.0dip" android:text="@string/dt_im_emotion_mine_emotion_adjust_sequence" android:singleLine="true" android:includeFontPadding="false" />
+    <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.alibaba.android.dingtalkim.views.DragSortListView android:id="@id/list_emotion_drag_sort" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" app:drag_handle_id="@id/drag_handle"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

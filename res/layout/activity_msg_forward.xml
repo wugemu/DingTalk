@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_rootview" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/lv_recent_conversation" android:background="@color/pure_white" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="2.0" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_search_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+</LinearLayout>

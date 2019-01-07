@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tv_overlay_new_message_start" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="22.0dip">
+        <View android:background="@drawable/chatting_item_divider_bg" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/text_size_12_in_sp" android:textColor="@color/text_color_gray" android:id="@id/tv_msg_start_text" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_new_message_below" />
+        <View android:background="@drawable/chatting_item_divider_bg" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tv_overlay" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:textColor="@color/text_color_white" android:id="@id/chatting_time_tv" android:background="@drawable/im_chat_sys_bg" android:paddingLeft="8.0dip" android:paddingTop="3.0dip" android:paddingRight="8.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" style="@style/ChattingUITextBasic" />
+    </LinearLayout>
+</LinearLayout>

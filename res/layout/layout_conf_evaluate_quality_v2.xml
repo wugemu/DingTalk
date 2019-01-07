@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/conf_quality_bottom_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/text_size_18" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/conf_quality_confirm" android:background="@drawable/conf_btn_bg_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="44.0dip" android:text="@string/submit" />
+            <ProgressBar android:id="@id/conf_quality_confirm_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/conf_progress_white_draw" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Small.Inverse" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/C6_2" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/conf_score_tip_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/conf_quality_bottom_area">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/C6_1" android:gravity="center" android:id="@id/quality_problems_title" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_marginBottom="23.0dip" />
+        <ListView android:id="@id/quality_problems_list" android:background="@drawable/conf_bg_white_shape" android:padding="1.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:dividerHeight="0.0dip" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+    </LinearLayout>
+</RelativeLayout>

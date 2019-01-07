@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ui_common_action_icon_bg" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_theme_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_external_contact_list_stat" android:singleLine="true" />
+    <ImageView android:id="@id/view_red_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/red_dot_icon" android:scaleType="center" android:layout_toRightOf="@id/tv_title" />
+</RelativeLayout>

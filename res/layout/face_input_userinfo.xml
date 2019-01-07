@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroudColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alipay.mobile.verifyidentity.ui.APTitleBar android:id="@id/titleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:vi_titleText="@string/face_input_userinfo_title" app:vi_showGenericButton="false" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:text="@string/face_input_userinfo_tip" style="@style/text_light_gray_22" />
+            <com.alipay.mobile.verifyidentity.ui.APInputBox android:id="@id/userName" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="0.0dip" app:vi_inputName="@string/face_input_userinfo_name" app:vi_maxLength="128" app:vi_bgType="top" />
+            <com.alipay.mobile.verifyidentity.ui.APInputBox android:id="@id/userId" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" app:vi_inputName="@string/face_input_userinfo_id" app:vi_inputTextSize="17.0dip" app:vi_maxLength="18" app:vi_bgType="bottom" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:text="@string/face_input_userinfo_secret" style="@style/text_light_gray_20" />
+            <Button android:id="@id/confirmBtn" android:layout_width="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip" android:text="@string/face_input_userinfo_ok" style="@style/mainButtonStyle" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

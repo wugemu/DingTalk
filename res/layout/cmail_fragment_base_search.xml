@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list" android:background="@null" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+    <TextView android:textSize="@dimen/alm_cmail_font_size_s18" android:textColor="@color/cmail_color_7d8082" android:gravity="center_horizontal" android:id="@id/empty_des" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cmail_dimen_20_dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/progressContainer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cmail_dimen_20_dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ProgressBar android:id="@id/progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmallInverse" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s18" android:textColor="@color/cmail_color_7d8082" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cmail_dimen_4_dp" android:text="@string/dt_cmail_loading" android:layout_toRightOf="@id/progressbar" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

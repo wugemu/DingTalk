@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentLeft="true" avatar:textSize="@dimen/text_size_14" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/avatar" android:layout_centerVertical="true">
+        <TextView android:textSize="17.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_group_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxWidth="200.0dip" android:singleLine="true" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/iv_group_qrcode_enterprise_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/tv_group_title" android:layout_alignTop="@id/tv_group_title" android:layout_alignBottom="@id/tv_group_title" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/group_qrcode_text_gray" android:ellipsize="end" android:id="@id/tv_member_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:layout_below="@id/tv_group_title" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</RelativeLayout>

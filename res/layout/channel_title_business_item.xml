@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider_line" android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="16.0dip" />
+    <RelativeLayout android:background="@color/waveform_selected_right" android:paddingLeft="12.0dip" android:paddingTop="9.0dip" android:paddingRight="12.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:gravity="center|left" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="5" android:singleLine="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/text_color_blue" android:id="@id/act_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_content_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/view_item_1" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/text_text_arrow_item_layout" />
+    <View android:id="@id/view_item1_divider" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+    <include android:id="@id/view_item_2" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/text_text_arrow_item_layout" />
+    <View android:id="@id/view_item2_divider" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+    <include android:id="@id/view_item_3" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/text_text_arrow_item_layout" />
+    <View android:id="@id/view_item3_divider" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/calendar_widget_sure_bg_selector" android:layout_width="fill_parent" android:layout_height="@dimen/sw_calendar_day_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_6_1" android:gravity="center" android:id="@id/tv_day" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="6.0dip" android:includeFontPadding="false" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="9.0dip" android:textColor="@color/uidic_global_color_6_2" android:gravity="center" android:id="@id/tv_lunar_day" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginBottom="2.0dip" android:includeFontPadding="false" android:layout_alignBottom="@id/tv_day" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_dot_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_alignTop="@id/tv_day" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/iv_dot1" android:background="@drawable/dot_radius_3_5_system" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+        <ImageView android:id="@id/iv_dot2" android:background="@drawable/dot_radius_3_5_task" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginLeft="2.0dip" />
+        <ImageView android:id="@id/iv_dot3" android:background="@drawable/dot_radius_3_5_conference" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginLeft="2.0dip" />
+    </LinearLayout>
+</RelativeLayout>

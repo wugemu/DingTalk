@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape>
+            <padding android:left="10.0dip" android:top="6.0dip" android:right="10.0dip" android:bottom="6.0dip" />
+            <solid android:color="@color/ui_common_level1_button_bg_color" />
+        </shape>
+    </item>
+    <item>
+        <shape
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <padding android:left="10.0dip" android:top="6.0dip" android:right="10.0dip" android:bottom="6.0dip" />
+            <solid android:color="@color/ui_common_transparent_cell_bg_color" />
+        </shape>
+    </item>
+</selector>

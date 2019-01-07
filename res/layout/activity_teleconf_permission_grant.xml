@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+        <TextView android:textSize="@dimen/text_size_17_in_sp" android:textColor="@color/emotion_search_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_conference_grant_ask" />
+        <TextView android:textSize="@dimen/text_size_13_in_sp" android:textColor="@color/uidic_global_color_6_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dt_conference_grant_answer" />
+        <TextView android:textSize="@dimen/text_size_15_in_sp" android:textColor="@color/ui_common_theme_icon_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/dt_conference_grant_ask_1" />
+        <TextView android:textSize="@dimen/text_size_13_in_sp" android:textColor="@color/uidic_global_color_6_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dt_conference_grant_answer_1" />
+        <TextView android:textSize="@dimen/text_size_15_in_sp" android:textColor="@color/ui_common_theme_icon_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/dt_conference_grant_ask_2" />
+        <TextView android:textSize="@dimen/text_size_13_in_sp" android:textColor="@color/uidic_global_color_6_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dt_conference_grant_answer_2" />
+        <TextView android:textSize="@dimen/text_size_13_in_sp" android:textColor="@color/uidic_global_color_6_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/dt_conference_grant_extra_1" />
+        <TextView android:textSize="@dimen/text_size_13_in_sp" android:textColor="@color/uidic_global_color_6_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_conference_grant_extra_2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/agree_and_grant" android:background="@drawable/conf_btn_bg_blue" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/dt_conference_agree_and_grant" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/uidic_global_color_6_7" android:gravity="center" android:id="@id/cancel" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="10.0dip" android:text="@string/and_later_again" />
+    </LinearLayout>
+</RelativeLayout>

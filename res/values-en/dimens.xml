@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="friend_tips_text_size">12.0dip</dimen>
+    <dimen name="signup_divider_area_code_margin_left">25.0dip</dimen>
+    <dimen name="signup_password_margin_left">27.0dip</dimen>
+    <dimen name="signup_phone_number_margin_left">22.0dip</dimen>
+</resources>

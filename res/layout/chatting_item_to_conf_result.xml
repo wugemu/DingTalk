@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/chatto_bg" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level2_text_color" android:id="@id/chatting_content_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <com.alibaba.android.dingtalkbase.widgets.LaiwangSpanFixTextView android:id="@id/chatting_content_tv" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/chatting_content_icon" style="@style/ChattingViewText" />
+</RelativeLayout>

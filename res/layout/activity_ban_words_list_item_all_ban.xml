@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/bg_setting_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip">
+        <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginLeft="12.0dip" android:text="@string/dt_group_setting_all_silent" android:lines="1" android:singleLine="true" />
+        <ToggleButton android:layout_gravity="center|right" android:id="@id/toggle" android:background="@drawable/btn_toggle_bg" android:layout_width="42.0dip" android:layout_height="28.0dip" android:layout_marginRight="12.0dip" android:contentDescription="@string/dt_group_setting_all_silent" style="@style/toggleButton" />
+        <View android:layout_gravity="top" android:id="@id/top_line" android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <View android:layout_gravity="bottom" android:id="@id/bottom_line" android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </FrameLayout>
+</FrameLayout>

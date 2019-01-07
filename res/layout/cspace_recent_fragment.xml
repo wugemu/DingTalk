@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@android:id/progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" style="?android:attr/progressBarStyleInverse" />
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s16" android:textColor="@color/alm_cmail_color_6_7" android:gravity="center" android:layout_gravity="center" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="20.0dip" android:text="@string/loading_tip" />
+    </LinearLayout>
+    <ViewStub android:id="@id/view_stub_show_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout android:id="@id/swipe_layout_mail_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@android:id/list" android:scrollbars="none" android:fadingEdge="none" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@color/ui_common_level1_line_bg_color" android:dividerHeight="0.5dip" android:layout_centerInParent="true" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:overScrollMode="never" />
+    </com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout>
+</LinearLayout>

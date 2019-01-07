@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/usr_gray_circle_margin_left">
+        <View android:background="@drawable/connection_gray" android:layout_width="@dimen/usr_gray_circle_radius" android:layout_height="@dimen/usr_gray_circle_radius" android:layout_marginTop="@dimen/usr_gray_circle_margin_top" />
+        <View android:id="@id/item_circle_ver_line" android:background="@color/circle_gray_line_color" android:layout_width="@dimen/ver_line_width" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/usr_time_margin_top" android:layout_marginRight="@dimen/usr_time_margin_top">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/usr_time_margin_top" layout="@layout/item_connection_usr_time_layout" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/connection_gray_round_3_dp_corner" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="@dimen/dp12">
+            <TextView android:textSize="12.0dip" android:gravity="center_vertical" android:id="@id/misc_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_circle_unsupported_type" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

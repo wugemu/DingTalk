@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.uidic.cells.C3I1ImageCell android:id="@id/cell_sub_node" android:layout_width="fill_parent" android:layout_height="wrap_content" app:imageSize="size_m" app:leftImage="@drawable/icon_sub_node" app:topDividerAlign="alignContent" app:topDividerVisibility="visible" />
+</LinearLayout>

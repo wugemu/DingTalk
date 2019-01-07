@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff7f7f7" android:layout_width="fill_parent" android:layout_height="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:id="@id/tv_day" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/verify_item_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/module_menu_arrow" android:layout_width="7.6799927dip" android:layout_height="12.47998dip" android:layout_marginRight="16.0dip" android:src="@drawable/table_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:paddingTop="11.5dip" android:paddingBottom="11.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/module_menu_arrow" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textSize="16.319977dip" android:textColor="@color/colorBlack" android:id="@id/moduleMenuName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <View android:id="@id/menu_splitter" android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

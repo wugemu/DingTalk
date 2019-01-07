@@ -1,0 +1,253 @@
+.class public Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;
+.super Ljava/lang/Object;
+.source "LiveRecordDo.java"
+
+# interfaces
+.implements Landroid/os/Parcelable;
+.implements Ljava/io/Serializable;
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator",
+            "<",
+            "Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static final serialVersionUID:J = -0x65c6a530e1dcf967L
+
+
+# instance fields
+.field public anchorId:J
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "anchorId"
+    .end annotation
+.end field
+
+.field public cid:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "cid"
+    .end annotation
+.end field
+
+.field public coverUrl:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "coverUrl"
+    .end annotation
+.end field
+
+.field public duration:J
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "duration"
+    .end annotation
+.end field
+
+.field public key:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "key"
+    .end annotation
+.end field
+
+.field public playUrl:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "playUrl"
+    .end annotation
+.end field
+
+.field public timeStamp:J
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "timeStamp"
+    .end annotation
+.end field
+
+.field public title:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "title"
+    .end annotation
+.end field
+
+.field public uuid:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "uuid"
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .prologue
+    .line 79
+    new-instance v0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo$1;
+
+    invoke-direct {v0}, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo$1;-><init>()V
+
+    sput-object v0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 45
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 47
+    return-void
+.end method
+
+.method protected constructor <init>(Landroid/os/Parcel;)V
+    .locals 2
+    .param p1, "in"    # Landroid/os/Parcel;
+
+    .prologue
+    .line 49
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 50
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->title:Ljava/lang/String;
+
+    .line 51
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->coverUrl:Ljava/lang/String;
+
+    .line 52
+    invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->timeStamp:J
+
+    .line 53
+    invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->duration:J
+
+    .line 54
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->key:Ljava/lang/String;
+
+    .line 55
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->playUrl:Ljava/lang/String;
+
+    .line 56
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->uuid:Ljava/lang/String;
+
+    .line 57
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->cid:Ljava/lang/String;
+
+    .line 58
+    invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->anchorId:J
+
+    .line 59
+    return-void
+.end method
+
+
+# virtual methods
+.method public describeContents()I
+    .locals 1
+
+    .prologue
+    .line 76
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public writeToParcel(Landroid/os/Parcel;I)V
+    .locals 2
+    .param p1, "dest"    # Landroid/os/Parcel;
+    .param p2, "flags"    # I
+
+    invoke-static {}, Lcom/pnf/dex2jar8;->a()Z
+
+    move-result v1
+
+    invoke-static {v1}, Lcom/pnf/dex2jar8;->b(I)V
+
+    .prologue
+    .line 63
+    iget-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->title:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 64
+    iget-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->coverUrl:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 65
+    iget-wide v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->timeStamp:J
+
+    invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
+
+    .line 66
+    iget-wide v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->duration:J
+
+    invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
+
+    .line 67
+    iget-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->key:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 68
+    iget-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->playUrl:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 69
+    iget-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->uuid:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 70
+    iget-object v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->cid:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    .line 71
+    iget-wide v0, p0, Lcom/alibaba/android/dingtalkim/base/model/LiveRecordDo;->anchorId:J
+
+    invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
+
+    .line 72
+    return-void
+.end method

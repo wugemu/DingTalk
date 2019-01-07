@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/chattting_avatar" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" avatar:textSize="@dimen/text_size_12" style="@style/ChattingUIFromAvatar" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/uidic_global_color_6_2" android:ellipsize="end" android:id="@id/tv_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="64.0dip" android:maxLines="1" android:layout_toRightOf="@id/chattting_avatar" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/uidic_global_color_6_2" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" />
+    <ViewStub android:id="@id/view_stub_chat_detail" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_toRightOf="@id/chattting_avatar" android:layout_below="@id/tv_user_name" />
+    <View android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="64.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

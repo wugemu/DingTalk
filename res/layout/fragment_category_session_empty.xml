@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_root_view" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/uidic_global_color_9_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/dt_im_category_session_empty_desc" />
+        <Button android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_5" android:id="@id/btn_add_session" android:background="@drawable/actbar_btn_selector" android:paddingLeft="56.0dip" android:paddingRight="56.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/dt_im_category_add" />
+    </LinearLayout>
+</FrameLayout>

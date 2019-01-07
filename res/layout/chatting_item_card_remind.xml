@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_remind" android:paddingLeft="24.0dip" android:paddingTop="12.0dip" android:paddingRight="24.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/ui_common_white_icon_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/iv_user_header" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="30.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/iv_remind_background" android:layout_width="180.0dip" android:layout_height="120.0dip" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/chat_item_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/tv_remind_person" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/iv_remind_background" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/chat_item_gis_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/tv_remind_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/tv_remind_person" android:layout_centerHorizontal="true" />
+        <View android:id="@id/view_divider" android:background="@color/chat_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="12.0dip" android:layout_below="@id/tv_remind_tip" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_bottom" android:background="@color/ui_common_white_icon_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <com.alibaba.android.dingtalkim.views.ImgBtnContainerView android:id="@id/view_bless" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:layout_gravity="center_vertical" android:id="@id/line_view_left" android:background="@color/chat_item_divider_color" android:visibility="gone" android:layout_width="1.0px" android:layout_height="24.0dip" />
+        <com.alibaba.android.dingtalkim.views.ImgBtnContainerView android:id="@id/view_redpack" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:layout_gravity="center_vertical" android:id="@id/line_view_right" android:background="@color/chat_item_divider_color" android:visibility="gone" android:layout_width="1.0px" android:layout_height="24.0dip" />
+        <com.alibaba.android.dingtalkim.views.ImgBtnContainerView android:id="@id/view_starbucks" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

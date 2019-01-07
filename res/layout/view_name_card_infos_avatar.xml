@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/pure_white" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:textColor="@color/color_6_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_profile_avator" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/name_card_infos_iv_avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/name_card_infos_tv_go" android:layout_centerVertical="true" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="14.0dip" android:textColor="#ffe0e0e0" android:id="@id/name_card_infos_tv_go" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

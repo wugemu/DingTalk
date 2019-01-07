@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_setting_item" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/avatar" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="12.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s12" android:textColor="@color/uidic_global_color_6_2" android:ellipsize="end" android:id="@id/time_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/uidic_global_color_6_6" android:ellipsize="end" android:gravity="center" android:id="@id/remove" android:background="@drawable/base_white_btn_bg" android:layout_width="52.0dip" android:layout_height="28.0dip" android:layout_marginRight="12.0dip" android:text="@string/dt_group_setting_member_silent_release" android:lines="1" android:singleLine="true" />
+    </LinearLayout>
+    <View android:layout_gravity="top" android:id="@id/top_line" android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:layout_gravity="bottom" android:id="@id/bottom_line" android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</FrameLayout>

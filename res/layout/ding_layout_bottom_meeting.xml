@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_split" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/view_split">
+        <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_theme_text_fg" android:gravity="center" android:id="@id/tv_meeting_accept" android:background="@drawable/ui_common_cell_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_ding_meeting_accept" android:layout_weight="1.0" />
+        <View android:layout_gravity="center_vertical" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="0.5dip" android:layout_height="25.0dip" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_theme_text_fg" android:gravity="center" android:id="@id/tv_meeting_reject" android:background="@drawable/ui_common_cell_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_ding_refuse" android:layout_weight="1.0" />
+        <View android:layout_gravity="center_vertical" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="0.5dip" android:layout_height="25.0dip" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_theme_text_fg" android:gravity="center" android:id="@id/tv_bottom_reply" android:background="@drawable/ui_common_cell_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dt_dingconfig_cell_desc_comment" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

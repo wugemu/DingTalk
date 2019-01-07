@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/circle_timeline_content_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.alibaba.android.user.connection.ui.CircleScaleHeader android:id="@id/circle_header_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/circle_cover_bg_color" android:scaleType="matrix" />
+        <in.srain.cube.views.ptr.PtrFrameLayout android:id="@id/circle_timeline_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/circle_timeline_list" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="false" />
+        </in.srain.cube.views.ptr.PtrFrameLayout>
+        <com.alibaba.android.dingtalkui.actionbar.DtToolbar android:id="@id/circle_timeline_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+    </FrameLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.InputPanelView android:id="@id/circle_timeline_input_panel" android:background="@color/ui_common_cell_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="32.0dip" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/chat_btn_add_normal" />
+    <item android:top="3.5dip" android:right="3.5dip">
+        <bitmap android:gravity="center|right|top" android:src="@drawable/red_dot_icon" />
+    </item>
+</layer-list>

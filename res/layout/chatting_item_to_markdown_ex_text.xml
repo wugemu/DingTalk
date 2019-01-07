@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.android.dingtalkim.views.InterceptableLinearLayout android:orientation="vertical" android:background="@color/uidic_global_color_6_5" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkim.views.InterceptableLinearLayout android:orientation="vertical" android:id="@id/ll_markdown_parent" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/chatting_item_markdown_ex_btns" />
+</com.alibaba.android.dingtalkim.views.InterceptableLinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/ui_common_content_bg_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/title_ll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s24" android:textColor="@color/cmail_icon_color_selector" android:gravity="center" android:id="@id/menu_back" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_backarrow" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/mail_accounts" />
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s17" android:textStyle="bold" android:textColor="@color/menu_mail_filter_text_color_selector" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/editor_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/select_all" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cmail_dimen_24_dp">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s24" android:textColor="@color/cmail_color_e3e3e4" android:id="@id/select_all_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cmail_dimen_20_dp" android:text="@string/icon_checkbox" />
+                <TextView android:textSize="@dimen/alm_cmail_font_size_s17" android:textColor="@color/cmail_color_3296FA" android:id="@id/select_all_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_mail_select_all" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s12" android:textColor="@color/cmail_color_a3a4a6" android:id="@id/select_count_des" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cmail_dimen_8_dp" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s17" android:textColor="@color/cmail_icon_color_selector" android:id="@id/cancel" android:paddingRight="@dimen/cmail_dimen_16_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cmail_dimen_8_dp" android:text="@string/dt_mail_edit_cancel" />
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/ui_common_button_border_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

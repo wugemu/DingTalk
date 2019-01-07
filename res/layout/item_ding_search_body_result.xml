@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:textColor="@color/white" android:id="@id/tv_avatar" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_centerVertical="true" app:textSize="@dimen/text_size_15" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip" android:layout_toRightOf="@id/tv_avatar" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/tv_desc">
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="145.0dip" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider_line" android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/tv_avatar" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_title" android:background="@color/ui_common_transparent_cell_bg_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="24.0dip" android:textColor="@color/ui_common_white_icon_bg" android:gravity="center_vertical" android:id="@id/iv_back" android:background="@drawable/ui_common_action_icon_bg" android:paddingLeft="24.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="-12.0dip" android:text="@string/icon_backarrow" android:includeFontPadding="false" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_white_icon_bg" android:gravity="center_vertical" android:id="@id/tv_share" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dt_navigation_item_share" android:includeFontPadding="false" android:layout_alignParentRight="true" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="none" android:gravity="center" android:id="@id/tv_title" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_toLeftOf="@id/tv_share" android:layout_toRightOf="@id/iv_back" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

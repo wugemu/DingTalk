@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/chat_safe_model_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" />
+    <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/text_color_black" android:layout_gravity="center_horizontal" android:id="@id/tv_tip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/safe_chat_model" />
+    <TextView android:textSize="@dimen/text_size_11" android:textStyle="italic" android:textColor="@color/divider_light_gray" android:layout_gravity="center_horizontal" android:id="@id/tv_tip_title_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/enter_safe_chat_model_2" />
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/C6_2" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="25.0dip" android:text="@string/burn_chat_tip" android:lineSpacingExtra="8.0dip" />
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_start_chat" android:background="@drawable/blue_btn" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="36.0dip" android:layout_marginRight="10.0dip" android:text="@string/start_chat" />
+</LinearLayout>

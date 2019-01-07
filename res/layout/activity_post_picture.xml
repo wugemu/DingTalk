@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/view_pager_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textColor="#fffefefe" android:layout_gravity="bottom" android:id="@id/summary" android:background="#b7000000" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="8" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/bottom_layout" android:background="@color/ui_common_content_bg_color" android:layout_width="fill_parent" android:layout_height="42.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/like" android:background="@drawable/ui_common_action_icon_bg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="14.0dip" android:textColor="@color/ui_common_level1_text_color" android:id="@id/like_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/icon_c_like" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/ui_common_level1_text_color" android:id="@id/like_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_circle_action_like" />
+            </LinearLayout>
+            <View android:id="@id/item_circle_ver_bar" android:background="@color/ui_common_level1_text_color" android:layout_width="1.0px" android:layout_height="12.0dip" android:layout_toRightOf="@id/like" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cmt" android:background="@drawable/ui_common_action_icon_bg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/item_circle_ver_bar" android:layout_centerVertical="true">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="14.0dip" android:textColor="@color/ui_common_level1_text_color" android:id="@id/work_circle_icon_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/icon_c_comment" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/ui_common_level1_text_color" android:id="@id/item_circle_pic_and_txt_like" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_circle_action_comment" />
+            </LinearLayout>
+            <TextView android:textSize="12.0dip" android:textColor="@color/ui_common_level1_text_color" android:gravity="center_vertical" android:id="@id/check_detail" android:background="@drawable/ui_common_action_icon_bg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dt_circle_action_view_details" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

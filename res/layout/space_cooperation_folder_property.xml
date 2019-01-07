@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/view_toggle_link_share_open" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="16.0dip" android:contentDescription="@string/dt_space_link_share_file_out" app:text="@string/dt_space_link_share_file_out" app:include_layout="@layout/uidic_forms_toggle_item" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_link_share" android:background="@color/pure_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" />
+        <include android:id="@id/view_link_share_copy" android:layout_width="fill_parent" android:layout_height="44.0dip" layout="@layout/text_text_arrow_item_layout" />
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" />
+        <include android:id="@id/view_link_share_share" android:layout_width="fill_parent" android:layout_height="44.0dip" layout="@layout/text_text_arrow_item_layout" />
+    </LinearLayout>
+    <TextView android:gravity="center_vertical" android:id="@id/tv_link_share_des" android:visibility="gone" android:layout_marginLeft="20.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="20.0dip" android:text="@string/dt_cspace_fileshare_link_tips_footer" style="@style/uidic_forms_item_outer_text" />
+    <LinearLayout android:orientation="vertical" android:background="@color/cspace_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <include android:id="@id/view_folder_managers" android:layout_width="fill_parent" android:layout_height="44.0dip" layout="@layout/text_text_arrow_item_layout" />
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" />
+        <include android:id="@id/view_folder_uploaders" android:layout_width="fill_parent" android:layout_height="44.0dip" layout="@layout/text_text_arrow_item_layout" />
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" />
+        <include android:id="@id/view_folder_browsers" android:layout_width="fill_parent" android:layout_height="44.0dip" layout="@layout/text_text_arrow_item_layout" />
+    </LinearLayout>
+    <TextView android:textColor="@color/ui_common_link_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_right_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:text="@string/space_share_right_tip" />
+</LinearLayout>

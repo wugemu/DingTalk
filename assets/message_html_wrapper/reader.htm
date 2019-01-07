@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta id="-richtext-viewport" name="viewport" content="width=device-width,initial-scale=1, user-scalable=yes, maximum-scale=6.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link type="text/css" href="view.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="scale.js"></script>
+    <script>
+        $(function () {
+           scale();
+        });
+		var setBarFillDivHeight = function(fillDivHeight,toolBarHeight){
+    	    var fillDiv = document.getElementById('fillDiv');
+            fillDiv.style.height = fillDivHeight +'px';
+            //var toolBarFillDiv = document.getElementById('toolBarFillDiv');
+            //toolBarFillDiv.style.height = toolBarHeight +'px';
+            //webView.log('setBarFillDivHeight fillDivHeight='+fillDivHeight+'toolBarHeight='+toolBarHeight);
+        };
+        
+     
+        
+    </script>
+    
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        #btn_quote {
+            font-size: 16px;
+            text-align: center;
+            color: #747474;
+            background: #e4e4e4;
+            display: block;
+            height: 17px;
+            line-height: 5px;
+            width: 38px;
+            padding: 0px;
+            margin: 10px 0;
+            -webkit-border-radius: 3px;
+            border-style: solid;
+            border-color: #bbbbbb;
+            border-width: 1px;
+        }
+
+        body, a, span, p, div, li, h1, h2, h3, h4, h5, h6, h7, b, font {
+            font-family: FZLanTingHeiS-R-GB;
+            font-size: 16px;
+            word-wrap: break-word !important;
+        }
+
+        #messageContentView {
+            padding: 16px;
+            padding-top: 600px;
+            line-height: 25px;
+        }
+
+        input[type=button] {
+            -webkit-appearance: none;
+            outline: none
+        }
+
+        .display_image {
+            width: 100%;
+            min-width: 320px;
+            border-radius: 5px 0px 0px 5px;
+            background-color: #f4f4f4;
+            clear: both;
+            padding: 0px;
+            font-size: 14px;
+            vertical-align: middle;
+            height: 31px;
+        }
+
+        .display_image_img {
+            vertical-align: middle;
+            float: right;
+            margin-right: 18px;
+            margin-top: 4px;
+            margin-bottom: 5px;
+            color: #212121;
+        }
+
+        .display_image_text {
+            margin-left: 10px;
+            margin-top: 7px;
+            float: left;
+        }
+    </style>
+</head>
+<body style="margin:0; border:none; padding:0;">
+
+<div id="messageContentView" style="">
+    <div id="mailBody" style="">%@</div>
+</div>
+<div style='width:30px;" + "height:0px;color:#0ff;background:#FFFFFF;' id='fillDiv'></div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.MakeupImageView android:gravity="center|left" android:id="@id/chatting_content_image" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxWidth="@dimen/chat_item_max_width" android:maxHeight="@dimen/chat_item_max_width" android:minWidth="75.0dip" android:minHeight="75.0dip" image:makeupHeight="@dimen/chatting_item_picture_makeup_height" image:makeupDirection="left" xmlns:image="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/text_color_white" android:gravity="center" android:layout_gravity="center" android:id="@id/chatting_content_size" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="right" android:id="@id/ic_gif" android:layout_width="28.0dip" android:layout_height="18.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/gif_icon" />
+</FrameLayout>

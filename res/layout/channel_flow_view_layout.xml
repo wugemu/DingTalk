@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/enter_channel" android:background="@drawable/enter_channel_selector" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/divider_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/text_color_blue" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_work_message_go_service" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bottom_container" android:background="@drawable/cspace_edit_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/cspace_bottom_operate_selector" android:id="@id/right_operate" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cspace_send" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/cspace_white" android:gravity="center" android:id="@id/tv_send_count" android:background="@drawable/cspace_circle_bg" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_toLeftOf="@id/right_operate" android:layout_centerVertical="true" />
+</RelativeLayout>

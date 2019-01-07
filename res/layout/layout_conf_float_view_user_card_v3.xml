@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/conf_dialog_white_stroke_border_shape" android:padding="0.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_title" android:background="@drawable/conf_blue_bg_radius_top_leftright" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_avatar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/notification_icon_small" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/text_color_white" android:id="@id/tv_contact_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/iv_avatar" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/uidic_global_text_size_s24" android:textColor="@color/uidic_global_color_6_5" android:id="@id/img_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:text="@string/icon_calendar_close" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/conf_bg_white_down_corners_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_title">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/caller_avatar" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/user" avatar:textSize="@dimen/text_size_14" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/text_size_24" android:textStyle="bold" android:textColor="@color/color_6_1" android:id="@id/tv_caller_nick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="10" android:singleLine="true" />
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+                        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_6_7" android:id="@id/tv_caller_position" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        <com.alibaba.android.dingtalkbase.widgets.views.label.LabelLayout android:id="@id/tv_caller_labels" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="18.0dip" app:line_height="18.0dip" app:column_space="8.0dip" app:ellipsize_drawable="@drawable/label_ellipsize" xmlns:app="http://schemas.android.com/apk/res-auto" />
+                    </FrameLayout>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_6_7" android:id="@id/tv_caller_company" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/rl_work_number" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+            <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/uidic_global_color_6_2" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_conference_usercard_office_number_tip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

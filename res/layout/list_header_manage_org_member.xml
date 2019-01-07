@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/user_bottom_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/divider_dark_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/uidic_global_color_c4" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_org_set_manager_hint_title" android:singleLine="true" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_org_set_manager_hint_desc" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/right_arrow" android:layout_weight="0.0" />
+    </LinearLayout>
+    <View android:background="@color/divider_dark_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="12.0dip" />
+</LinearLayout>

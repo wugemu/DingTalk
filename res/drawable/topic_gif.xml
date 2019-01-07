@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100">
+        <bitmap android:src="@drawable/topic_gif_1" />
+    </item>
+    <item android:duration="100">
+        <bitmap android:src="@drawable/topic_gif_2" />
+    </item>
+    <item android:duration="100">
+        <bitmap android:src="@drawable/topic_gif_3" />
+    </item>
+    <item android:duration="100">
+        <bitmap android:src="@drawable/topic_gif_4" />
+    </item>
+    <item android:duration="100">
+        <bitmap android:src="@drawable/topic_gif_5" />
+    </item>
+    <item android:duration="100">
+        <bitmap android:src="@drawable/topic_gif_6" />
+    </item>
+    <item android:duration="100">
+        <bitmap android:src="@drawable/topic_gif_7" />
+    </item>
+</animation-list>

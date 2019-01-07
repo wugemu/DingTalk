@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_page_gray" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.user.namecard.widget.SmoothViewPager android:id="@id/card_viewpager" android:paddingLeft="24.0dip" android:paddingRight="@dimen/dp24" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="30.0dip" android:layout_weight="1.0" />
+    <com.alibaba.android.user.namecard.widget.CircleIndicator android:layout_gravity="center_horizontal" android:id="@id/card_page_indicator" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginBottom="32.0dip" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp24" android:layout_marginRight="@dimen/dp24" android:layout_marginBottom="30.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="#ff191f25" android:gravity="center" android:id="@id/card_share_tv_save" android:background="@drawable/bg_corner_grey_border" android:layout_width="0.0dip" android:layout_height="48.0dip" android:text="@string/save_to_phone" android:layout_weight="1.0" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/card_share_tv_share" android:background="@drawable/bg_corner_blue_btn" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginLeft="11.0dip" android:text="@string/share" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_guide_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    <TextView android:textSize="20.0dip" android:textColor="@color/guide_text" android:gravity="center" android:id="@id/tv_guide_text" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

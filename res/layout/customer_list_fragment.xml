@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.android.user.contact.view.CommonScrollListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:layout_below="@id/ll_choose_header" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    </LinearLayout>
+    <include android:id="@id/layout_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/customer_empty_layout" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_progress" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_gray" android:layout_gravity="center_vertical" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:text="@string/loading" />
+    </LinearLayout>
+</FrameLayout>

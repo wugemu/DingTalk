@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/ui_common_content_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="32.0dip">
+            <TextView android:textSize="25.0dip" android:textColor="@color/ui_common_level1_base_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/and_not_receive_verification_code" />
+            <TextView android:textSize="@dimen/ui_common_caption_text_size" android:textColor="@color/ui_common_level2_base_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/dt_register_not_receive_sms_verification_code_instruction" />
+            <ImageView android:id="@id/iv_hint_voice_call" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+            <TextView android:textSize="@dimen/ui_common_caption_text_size" android:textColor="@color/ui_common_level2_base_color" android:id="@id/tv_other_ways_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/dt_register_not_receive_sms_verification_code_hint" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="32.0dip">
+            <include android:id="@id/item_choice_send_sms" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_not_receive_sms_code_choice" />
+            <include android:id="@id/item_choice_sim_auth" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_not_receive_sms_code_choice" />
+            <include android:id="@id/item_choice_customer_service" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/item_not_receive_sms_code_choice" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

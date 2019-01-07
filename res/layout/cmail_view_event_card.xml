@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/cmail_event_card_bg" android:paddingLeft="@dimen/cmail_dimen_24_dp" android:paddingTop="@dimen/cmail_dimen_24_dp" android:paddingRight="@dimen/cmail_dimen_24_dp" android:paddingBottom="@dimen/cmail_dimen_20_dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cmail_dimen_16_dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/cmail_dimen_40_dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cmail_dimen_12_dp">
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s8" android:textColor="@android:color/white" android:gravity="center" android:id="@id/event_month_view" android:background="@drawable/cmail_bg_event_month" android:layout_width="fill_parent" android:layout_height="@dimen/cmail_dimen_16_dp" />
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s24" android:textColor="@android:color/white" android:gravity="center" android:id="@id/event_day_view" android:background="@drawable/cmail_bg_event_day" android:layout_width="fill_parent" android:layout_height="@dimen/cmail_dimen_36_dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/cmail_color_7d8082" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cmail_dimen_4_dp" android:text="@string/icon_clock" />
+                        <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/cmail_color_0D0013" android:id="@id/event_date" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textStyle="bold" android:textColor="@color/cmail_color_0D0013" android:id="@id/event_time" android:paddingLeft="@dimen/cmail_dimen_18_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:id="@id/event_cancel" android:background="@drawable/cmail_bg_event_cancel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cmail_dimen_8_dp" android:layout_marginRight="@dimen/cmail_dimen_8_dp" android:text="@string/dt_cmail_has_cancel" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/cmail_color_7d8082" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cmail_dimen_4_dp" android:text="@string/icon_location" />
+                <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/cmail_color_0D0013" android:id="@id/event_location" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/event_divider" android:background="#ffededee" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="@dimen/cmail_dimen_12_dp" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/event_action_layout" android:paddingLeft="@dimen/cmail_dimen_8_dp" android:paddingRight="@dimen/cmail_dimen_8_dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/cmail_dimen_16_dp" android:textStyle="bold" android:textColor="@color/cmail_event_text_selector" android:gravity="center" android:id="@id/event_accept" android:layout_width="@dimen/cmail_dimen_80_dp" android:layout_height="@dimen/cmail_dimen_32_dp" android:text="@string/dt_mail_event_accept" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/cmail_dimen_16_dp" android:textStyle="bold" android:textColor="@color/cmail_event_text_selector" android:gravity="center" android:id="@id/event_tentative" android:layout_width="@dimen/cmail_dimen_80_dp" android:layout_height="@dimen/cmail_dimen_32_dp" android:text="@string/dt_mail_event_tentative" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/cmail_dimen_16_dp" android:textStyle="bold" android:textColor="@color/cmail_event_text_selector" android:gravity="center" android:id="@id/event_decline" android:layout_width="@dimen/cmail_dimen_80_dp" android:layout_height="@dimen/cmail_dimen_32_dp" android:text="@string/dt_mail_event_refuse" />
+    </LinearLayout>
+</LinearLayout>

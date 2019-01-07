@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <stroke android:width="1.0dip" android:color="@color/act_bar_btn_bg_pressed" />
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="2.0dip" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_enabled="true">
+        <shape>
+            <stroke android:width="1.0dip" android:color="@color/act_bar_btn_bg_pressed" />
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="2.0dip" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <stroke android:width="1.0dip" android:color="@color/act_bar_btn_bg_disabled" />
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="2.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <stroke android:width="1.0dip" android:color="@color/act_bar_btn_bg_normal" />
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="2.0dip" />
+        </shape>
+    </item>
+</selector>

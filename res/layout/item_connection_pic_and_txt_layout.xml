@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_cell_bg_color" android:paddingBottom="@dimen/dp12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/avatar_and_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/avatar_margin_left" android:layout_marginTop="@dimen/avatar_margin_top" layout="@layout/item_connection_header_avatar_and_name" />
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/avatar_and_name">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/circle_content_margin_left" android:layout_marginRight="@dimen/circle_content_margin_top" layout="@layout/item_connection_header_summary" />
+        <android.support.v7.widget.RecyclerView android:id="@id/item_circle_grid_view" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/circle_content_margin_left" android:layout_marginTop="@dimen/dp12" android:layout_marginRight="@dimen/pic_margin_right" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/circle_content_margin_left" android:layout_marginTop="@dimen/comments_margin_top" layout="@layout/item_connection_bottom" />
+    </LinearLayout>
+</RelativeLayout>

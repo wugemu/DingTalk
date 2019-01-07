@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/small_text_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/white" android:id="@id/small_text_tip_textview" android:background="@drawable/small_text_tip_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/small_text_tip_arrow" android:background="@drawable/small_text_tip_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/small_text_tip_textview" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

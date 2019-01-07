@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/no_result_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/poi_no_result_image" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff858e99" android:gravity="center" android:id="@id/no_result_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/no_poi_result" android:layout_below="@id/no_result_image" android:layout_alignLeft="@id/no_result_image" android:layout_alignRight="@id/no_result_image" />
+</RelativeLayout>

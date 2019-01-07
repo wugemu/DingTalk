@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pure_white" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="15.0dip" android:textColor="@color/ui_common_level2_text_color" android:id="@id/btn_fullsync_rec" android:background="@drawable/feedback_view_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="全量更新推荐区数据" android:onClick="onClick" />
+    <TextView android:id="@id/tv_sync_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <Button android:textSize="15.0dip" android:textColor="@color/ui_common_level2_text_color" android:id="@id/btn_dump_rec_user" android:background="@drawable/feedback_view_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="联系人推荐区" android:onClick="onClick" />
+    <Button android:textSize="15.0dip" android:textColor="@color/ui_common_level2_text_color" android:id="@id/btn_dump_rec_group" android:background="@drawable/feedback_view_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="群组推荐区" android:onClick="onClick" />
+    <Button android:textSize="15.0dip" android:textColor="@color/ui_common_level2_text_color" android:id="@id/btn_msg_full_list" android:background="@drawable/feedback_view_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="拉取群组消息" android:onClick="onClick" />
+</LinearLayout>

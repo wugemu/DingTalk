@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:background="@drawable/ding_from_bg" android:paddingTop="12.0dip" android:layout_width="@dimen/chat_item_max_width" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_theme_text_color" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DING" android:includeFontPadding="false" />
+        <LinearLayout android:orientation="vertical" android:id="@id/voice_play_view_container" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.widgets.voice.VoicePlayerView android:gravity="center|left" android:id="@id/voice_play_view" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="40.0dip" android:maxWidth="@dimen/chat_item_ding_voice_max_width" />
+            <View android:id="@id/chatting_divide_line_v" android:background="@color/ui_common_level1_line_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <com.alibaba.android.dingtalkbase.widgets.LaiwangSpanFixTextView android:id="@id/chatting_content_translate_tv" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" style="@style/ChattingViewText" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.alibaba.android.dingtalkbase.widgets.views.comment.CommentView android:id="@id/comment_view" android:background="@color/uidic_global_color_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:directLeftRight="true" app:showSplit="true" app:showNumber="true" app:mode="mode_just_comment" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_confirm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:id="@id/viewIndicatorLine" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                    <TextView android:textColor="@color/text_color_blue" android:id="@id/tv_confirm" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:text="@string/ding_txt_confirm" style="@style/ChattingViewText" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/chatting_redpoint_icon" android:padding="0.0dip" android:layout_marginLeft="5.0dip" style="@style/ChattingUISendTime" />
+</RelativeLayout>

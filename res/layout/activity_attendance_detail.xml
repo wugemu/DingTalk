@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/attendance_detail_scroll_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="63.0dip" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/attendance_detail_header_layout" android:background="@color/uidic_global_color_7_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/attendance_detail_avatar_iv" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="13.0dip" avatar:textSize="15.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:id="@id/attendance_detail_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+                    <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/uidic_global_color_6_2" android:id="@id/attendance_detail_date_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/attendance_detail_content_layout" android:background="@color/uidic_global_color_6_5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/attendance_detail_bottom_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <Button android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_5" android:gravity="center" android:id="@id/attendance_detail_action_btn" android:background="@drawable/btn_selector" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/attendance_detail_empty_layout" android:background="@color/pure_white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/attendance_detail_empty_icon" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="@color/uidic_global_color_6_3" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:text="@string/attendance_detail_empty" android:maxLines="2" />
+    </LinearLayout>
+</RelativeLayout>

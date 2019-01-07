@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_content" android:background="@color/ui_common_content_fg_color_alpha_72" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="360.0dip" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="210.0dip" android:layout_marginTop="50.0dip" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/iv_line" android:layout_width="5.0dip" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_centerHorizontal="true" android:translationY="210.0dip" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_finger" android:paddingLeft="65.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="230.0dip" android:src="@drawable/recruitment_icon_resume_feed_finger" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/ui_common_level2_white_text_color" android:id="@id/tv_voice_on_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_recruitment_voice_on" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/dt_recruitment_pull_up_tip" android:includeFontPadding="false" android:layout_above="@id/tv_voice_on_tip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

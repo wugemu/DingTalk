@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_color_warn_black" android:id="@id/tv_contact_verify_hint" android:background="@color/uidic_global_color_8_5" android:padding="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_verify_contact_prompt" android:layout_centerHorizontal="true" />
+    <ListView android:id="@id/gv_contact_list" android:focusable="false" android:visibility="visible" android:scrollbars="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_below="@id/tv_contact_verify_hint" />
+    <RelativeLayout android:gravity="center" android:id="@id/rl_verify_contact_fail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tv_contact_verify_hint" android:onClick="onClick">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/gray" android:id="@id/tv_verify_fail_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_verify_contact_load_contact_fail" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_width="80.0dip" android:layout_height="65.0dip" android:layout_marginTop="42.0dip" android:src="@drawable/icon_verify_contact_retry" android:layout_below="@id/tv_verify_fail_hint" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

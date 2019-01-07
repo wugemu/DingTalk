@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/cspace_list_item_selected" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_16" android:textColor="@android:color/black" android:ellipsize="middle" android:id="@id/tv_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="32.0dip" android:text="email@yourcompany.com" android:singleLine="true" android:layout_centerVertical="true" />
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="32.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/line_circle_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="90.0dip">
+            <com.alibaba.android.teleconf.widget.ConfCallAnimView android:id="@id/line_circle_view" android:layout_width="fill_parent" android:layout_height="wrap_content" anim:callAnimCenterWidth="90.0dip" xmlns:anim="http://schemas.android.com/apk/res-auto" />
+            <ImageView android:id="@id/line_circle_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/conf_state_called_icon" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/line_circle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/conf_txt_calling_state_pushed_tip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/line_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="90.0dip">
+            <com.alibaba.android.teleconf.widget.ConfCallAnimView android:id="@id/line_view" android:layout_width="fill_parent" android:layout_height="wrap_content" anim:callAnimStrokeWidth="1.0dip" anim:callAnimCenterWidth="60.0dip" anim:callAnimRefreshInterval="40" xmlns:anim="http://schemas.android.com/apk/res-auto" />
+            <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/line_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/circle_line_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="90.0dip">
+            <com.alibaba.android.teleconf.widget.ConfCallAnimView android:id="@id/circle_line_view" android:layout_width="fill_parent" android:layout_height="wrap_content" anim:callAnimCenterWidth="90.0dip" xmlns:anim="http://schemas.android.com/apk/res-auto" />
+            <ImageView android:id="@id/circle_line_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/conf_state_calling_signal" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/circle_line_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/dt_conference_calling_state_calling_tip" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/user_water_list_item_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip">
+        <ImageView android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/uidic_global_color_6_2" android:ellipsize="end" android:id="@id/user_info_tip_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.alibaba.android.dingtalkbase.widgets.views.label.LabelLayout android:id="@id/label_list_layout" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="@dimen/uidic_cell_margin_size" android:layout_toLeftOf="@id/iv_arrow" android:layout_toRightOf="@id/user_info_tip_tv" android:layout_centerVertical="true" app:line_height="20.0dip" app:column_space="8.0dip" app:ellipsize_drawable="@drawable/label_ellipsize" />
+    </RelativeLayout>
+    <View android:id="@id/divider_line" android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

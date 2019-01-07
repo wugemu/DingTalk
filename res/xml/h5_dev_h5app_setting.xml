@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="包管理设置">
+        <CheckBoxPreference android:title="是否强制使用预制包信息" android:key="h5_use_preset_pkg_info" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="WebView设置">
+        <CheckBoxPreference android:title="是否读取webView设置" android:key="h5_read_use_webview_config" android:summary="不读取则使用线上配置" />
+        <CheckBoxPreference android:title="是否使用uc内核" android:key="h5_use_uc_webview" android:summary="不使用uc内核则使用系统原生webView" android:dependency="h5_read_use_webview_config" />
+        <CheckBoxPreference android:title="是否在埋点验证展示容器行为埋点" android:key="h5_show_log_upload" android:summary="把 seedId 伪装成 spm 类型以进通用埋点验证" />
+        <CheckBoxPreference android:title="jsapi不受域名控制，测试包生效" android:key="h5_jsapi_permission" android:summary="关掉jsapi权限校验" />
+        <CheckBoxPreference android:title="WebDriver调试功能打开，测试包生效" android:key="h5_dev_webDriver" android:summary="打开devtool调试工具" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="小程序设置">
+        <CheckBoxPreference android:key="h5_read_use_dev_app_config" android:summary="是否跳过调试白名单校验" />
+        <CheckBoxPreference android:key="h5_read_use_dev_db" android:summary="是否从调试数据库获取" />
+        <CheckBoxPreference android:key="h5_not_use_tiny_permission" android:summary="是否跳过小程序权限控制" />
+    </PreferenceCategory>
+</PreferenceScreen>

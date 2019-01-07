@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center_vertical" android:id="@id/iv_remind" android:visibility="gone" android:layout_width="@dimen/gif_im_remind_width" android:layout_height="@dimen/gif_im_remind_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.MakeupImageView android:gravity="center|left" android:id="@id/chatting_content_image" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxWidth="@dimen/chat_item_max_width" android:maxHeight="@dimen/chat_item_max_width" android:minWidth="75.0dip" android:minHeight="75.0dip" image:makeupHeight="@dimen/chatting_item_picture_makeup_height" image:makeupDirection="right" image:chatArrowRight="@drawable/im_chat_arrow_left" xmlns:image="http://schemas.android.com/apk/res-auto" />
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/cspace_watermark" android:paddingLeft="6.0dip" android:paddingTop="3.0dip" android:paddingRight="3.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="33.0dip" android:src="@drawable/cspace_watermark_en" />
+    </FrameLayout>
+</LinearLayout>

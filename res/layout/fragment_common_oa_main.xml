@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:id="@id/oa_fragment_gridview" android:background="@color/waveform_selected_right" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:horizontalSpacing="0.0dip" android:verticalSpacing="0.0dip" android:stretchMode="columnWidth" android:numColumns="4" android:overScrollMode="never" />
+    <com.alibaba.android.dingtalkbase.widgets.views.ads.AdsBlueGuideView android:id="@id/oa_fragment_app_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" android:translationX="-1000.0dip" android:translationY="-1000.0dip" app:buttonVisibility="gone" />
+</FrameLayout>

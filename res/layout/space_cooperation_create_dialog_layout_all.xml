@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_cooperation_create_dialog" android:background="@drawable/alert_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/view_create_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/space_cooperation_create_dialog_layout" />
+    <RelativeLayout android:id="@id/orgs_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/ll_back" android:background="@drawable/actbar_selector" android:layout_width="30.0dip" android:layout_height="56.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:src="@drawable/cspace_left_arrow" />
+        </LinearLayout>
+        <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_theme_text_color" android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="12.0dip" android:text="@string/dt_cspace_co_folder_org_picker_title" android:layout_toRightOf="@id/ll_back" />
+        <View android:id="@id/v_divider" android:background="@color/ui_common_theme_text_color" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/title" />
+        <com.alibaba.android.dingtalkbase.widgets.views.ListViewHasMaxHeight android:id="@id/list_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/cspace_white" android:dividerHeight="0.0dip" android:layout_below="@id/v_divider" android:overScrollMode="never" />
+    </RelativeLayout>
+</LinearLayout>

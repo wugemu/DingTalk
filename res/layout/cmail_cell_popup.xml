@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/click_to_dismiss" android:background="@color/cmail_color_translucent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/animate_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/alm_cmail_font_size_s17" android:textStyle="bold" android:textColor="@color/ui_common_content_fg_color_alpha_72" android:gravity="center" android:id="@id/cancel_view" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cmail_dimen_48_dp" android:text="@string/cancel" android:layout_alignParentBottom="true" />
+        <ListView android:id="@id/list_view" android:background="@color/cmail_color_f6f6f6" android:paddingTop="@dimen/cmail_dimen_30_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@null" android:layout_above="@id/cancel_view" />
+    </RelativeLayout>
+</RelativeLayout>

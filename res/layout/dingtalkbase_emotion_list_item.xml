@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:ellipsize="end" android:id="@id/tv_header_tips" android:paddingLeft="14.0dip" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dt_im_emotion_recent_use" android:singleLine="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/v_bottom_line" android:background="@color/ui_common_content_fg_color_alpha_12" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="14.0dip" />
+</LinearLayout>

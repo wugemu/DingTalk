@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@anim/live_anim_praise_cycle" android:duration="300" android:fillBefore="false" android:fillAfter="false" android:startOffset="300" android:repeatMode="reverse"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:fromYDelta="0.0" android:toYDelta="20.000004%" />
+</set>

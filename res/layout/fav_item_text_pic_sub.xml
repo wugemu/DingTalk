@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="@dimen/favorite_margin_split" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/fav_pic_text_bg" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/favorite_margin_split">
+        <ImageView android:id="@id/img_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="@dimen/favorite_margin_common" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/img_encrpt_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-22.0dip" android:layout_marginTop="-13.0dip" android:src="@drawable/avatar_safe_icon" android:layout_toRightOf="@id/img_icon" android:layout_below="@id/img_icon" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/img_icon" android:layout_centerVertical="true">
+            <TextView android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/favorite_margin_common" android:singleLine="true" style="@style/favorite_item_weight_16" />
+            <TextView android:ellipsize="end" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/favorite_margin_common" android:maxLines="2" android:layout_below="@id/tv_title" style="@style/favorite_item_light_12" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

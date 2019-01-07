@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/ui_common_action_icon_bg" android:layout_width="@dimen/toolbar_item_width" android:layout_height="@dimen/toolbar_item_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_theme_text_color" android:gravity="center" android:id="@id/tv_toolbar_item_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:maxEms="5" android:singleLine="true" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@id/fl_toolbar_item_icon" android:layout_width="@dimen/toolbar_item_width" android:layout_height="@dimen/toolbar_item_width">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_toolbar_item_icon" android:padding="@dimen/uidic_cell_desc_margin" android:visibility="visible" android:layout_width="@dimen/uidic_cell_image_size_m" android:layout_height="@dimen/uidic_cell_image_size_m" />
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center" android:id="@id/avaiv_right_person_icon" android:padding="@dimen/uidic_cell_desc_margin" android:visibility="gone" android:layout_width="@dimen/uidic_cell_image_size_m" android:layout_height="@dimen/uidic_cell_image_size_m" />
+    </FrameLayout>
+</RelativeLayout>

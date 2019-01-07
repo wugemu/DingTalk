@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/stub_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/loading" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" />
+    <include android:id="@id/layout_half" layout="@layout/layout_play_half" />
+    <include android:id="@id/layout_full" android:visibility="gone" layout="@layout/layout_play_full" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="48.0dip" android:id="@id/tv_play" android:layout_width="48.0dip" android:layout_height="48.0dip" android:text="@string/icon_play" android:layout_centerInParent="true" style="@style/LiveTextView" />
+    <TextView android:textSize="10.0dip" android:gravity="center" android:id="@id/tv_tips_traffic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/dt_lv_not_watch_tips" android:layout_below="@id/tv_play" style="@style/LiveTextView" />
+</RelativeLayout>

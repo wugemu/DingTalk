@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/list_selector_conf_record" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center_vertical" android:id="@id/search_user_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:scaleType="centerInside" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/C6_1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/search_user_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/C6_2" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/search_user_number" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/search_divider_line" android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="64.0dip" />
+</LinearLayout>

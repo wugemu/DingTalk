@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/active_iv_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/active_invite_banner" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/text_color_gray" android:id="@id/active_tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/active_invite_tips" android:layout_below="@id/active_iv_banner" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_btn_next" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@color/light_gray_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Button android:textSize="14.0dip" android:textColor="@drawable/actbar_btn_text_color" android:id="@id/btn_active_invite_now" android:background="@drawable/blue_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/active_invite_now" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_btn_next" android:layout_below="@id/active_tv_tips">
+        <com.alibaba.android.user.contact.view.CommonScrollListView android:id="@id/active_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse" />
+            <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_gray" android:layout_gravity="center_vertical" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:text="@string/loading" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

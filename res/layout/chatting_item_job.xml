@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ui_common_level3_button_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/chatting_job_info" android:paddingLeft="18.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/ui_common_headline2_text_size" android:textStyle="bold" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:id="@id/chatting_tv_job_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_orange_icon_bg_color" android:ellipsize="end" android:id="@id/chatting_tv_job_salary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:singleLine="true" />
+        <TextView android:textSize="@dimen/dp15" android:textColor="@color/ui_common_level1_special_text_color" android:ellipsize="end" android:id="@id/chatting_tv_job_enterprise_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/chatting_job_creator_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/chatting_job_creator_avatar" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="3.0dip" />
+                <ImageView android:id="@id/chatting_job_creator_certification_icon" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginRight="-3.0dip" android:src="@drawable/im_icon_certification" android:scaleType="fitXY" android:layout_alignRight="@id/chatting_job_creator_avatar" android:layout_alignBottom="@id/chatting_job_creator_avatar" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/dp15" android:textColor="@color/ui_common_level1_special_text_color" android:ellipsize="end" android:id="@id/chatting_tv_job_creator_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="40.0dip" android:layout_height="@dimen/ui_common_line_height" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.widgets.RoundedImageView android:id="@id/chatting_job_enterprise_logo" android:background="@color/ui_common_transparent_cell_bg_color" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/chat_job_org_default_logo" android:scaleType="fitXY" app:topLeft="5.0dip" app:topRight="5.0dip" app:bottomLeft="5.0dip" app:bottomRight="5.0dip" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/dp15" android:textColor="@color/ui_common_level1_special_text_color" android:ellipsize="end" android:id="@id/chatting_tv_job_enterprise_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/chatting_tv_job_enterprise_cert" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="1.0dip" android:layout_toRightOf="@id/chatting_tv_job_enterprise_name">
+                    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_warming_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="@string/icon_certification_f" />
+                    <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_warming_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_recruitment_auth_passed" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/dp13" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="end" android:id="@id/chatting_tv_job_enterprise_sub_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/chatting_tv_job_enterprise_name" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/ui_common_line_height" android:layout_marginLeft="18.0dip" android:layout_marginRight="16.0dip" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_job_action" android:paddingLeft="18.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dp15" android:textColor="@color/ui_common_theme_text_color" android:ellipsize="end" android:id="@id/tv_job_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_recruitment_view_job_detail" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

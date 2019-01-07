@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/item_view" android:background="@drawable/conf_record_rights_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:id="@id/item_content_layout" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_centerVertical="true">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/item_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/right_arrow" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/item_left_icon" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="12.0dip" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" avatar:textSize="@dimen/text_size_14" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/item_right_arrow" android:layout_toRightOf="@id/item_left_icon" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/C6_1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/C6_2" android:ellipsize="end" android:id="@id/tv_title" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

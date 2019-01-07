@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.alibaba.dingtalk.recruitment.widget.RoundedImageView android:layout_gravity="center_horizontal" android:id="@id/iv_logo_loading" android:background="@color/ui_common_transparent_cell_bg_color" android:layout_width="56.0dip" android:layout_height="56.0dip" android:scaleType="fitXY" app:ri_left_top_corner_radius="5.0dip" app:ri_right_top_corner_radius="5.0dip" app:ri_left_bottom_corner_radius="5.0dip" app:ri_right_bottom_corner_radius="5.0dip" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/pure_white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/dt_recruitment_video_loading" android:includeFontPadding="false" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_video" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/iv_poster" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <android.support.v4.widget.ContentLoadingProgressBar android:id="@id/pb_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDuration="100" android:indeterminateBehavior="repeat" android:layout_centerInParent="true" style="@style/Widget.AppCompat.ProgressBar" />
+    <ImageView android:id="@id/iv_start" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/recruitment_icon_play" android:layout_centerInParent="true" />
+</RelativeLayout>

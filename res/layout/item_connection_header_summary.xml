@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.android.dingtalkbase.widgets.ExpandableTextView android:orientation="vertical" android:id="@id/item_circle_summary" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:expandButton="@id/check_full_text" app:expandableTextView="@id/text"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/uidic_global_text_size_s16" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="end" android:id="@id/text" android:background="@drawable/connection_summary_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/circle_content_margin_top" android:maxLines="6" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s16" android:textColor="@color/check_detail_text_color" android:id="@id/check_full_text" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/circle_content_margin_top" android:text="@string/dt_circle_action_full_text" />
+</com.alibaba.android.dingtalkbase.widgets.ExpandableTextView>

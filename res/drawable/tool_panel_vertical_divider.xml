@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:width="1.0px" />
+    <solid android:color="@color/doc_tool_panel_bg" />
+</shape>

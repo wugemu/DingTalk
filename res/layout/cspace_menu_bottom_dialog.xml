@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_file_info" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="69.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="8.0dip">
+            <ImageView android:id="@id/img_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/view_video_flag" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/cspace_video_flag" android:layout_alignRight="@id/img_icon" android:layout_alignBottom="@id/img_icon" />
+            <ImageView android:id="@id/img_encrpt_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:layout_marginTop="-10.0dip" android:src="@drawable/avatar_safe_icon" android:layout_toRightOf="@id/img_icon" android:layout_below="@id/img_icon" />
+            <ImageView android:id="@id/view_link_flag" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" android:src="@drawable/icon_file_link" android:scaleType="fitCenter" android:layout_alignRight="@id/img_icon" android:layout_alignBottom="@id/img_icon" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color" android:ellipsize="middle" android:id="@id/file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:id="@id/file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+                <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:id="@id/file_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+                <TextView android:textSize="@dimen/text_size_11" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:id="@id/file_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/ui_common_content_fg_color_alpha_12" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.alibaba.dingtalk.cspace.widget.MaxHeightRecyclerView android:id="@id/menu_item_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:maxHeight="270.0dip" />
+    <View android:id="@id/v_blank" android:background="@color/cspace_dialog_bg" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/ui_common_content_fg_color" android:gravity="center" android:id="@id/btn_cancel" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/dt_common_cancel" />
+</LinearLayout>

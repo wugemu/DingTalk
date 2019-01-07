@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@color/ui_common_content_bg_color" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.5dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="18.0dip" android:textColor="@color/text_color_blue" android:layout_gravity="center_vertical" android:id="@id/task_iconfont" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/icon_explore" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/task_icon" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="17.0dip" android:layout_marginLeft="16.0dip" android:scaleType="centerInside" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_task_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/tv_task_title" android:layout_width="wrap_content" android:layout_height="18.0dip" android:maxLines="1" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/text_size_10" android:textColor="@color/text_color_white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_task_desc" android:background="@drawable/im_bg_guide_task_desc" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginLeft="2.0dip" android:maxLines="1" android:includeFontPadding="false" />
+        </LinearLayout>
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="18.0dip" android:textColor="@color/ui_common_level2_icon_bg_color" android:layout_gravity="center|right" android:id="@id/task_iconmore" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="16.0dip" android:text="@string/icon_more" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:orientation="horizontal" android:id="@id/top_task_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:minHeight="65.0dip" />
+    <View android:id="@id/top_task_divider" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="16.0dip" />
+</LinearLayout>

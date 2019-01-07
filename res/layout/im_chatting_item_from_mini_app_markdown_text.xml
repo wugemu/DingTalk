@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_container" android:background="@drawable/chatfrom_bg_normal" android:descendantFocusability="blocksDescendants" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.alibaba.android.dingtalkim.views.InterceptableLinearLayout android:orientation="vertical" android:id="@id/ll_markdown_parent" android:paddingBottom="2.5dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/im_layout_mini_app_tips" />
+    </LinearLayout>
+    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center_vertical" android:id="@id/iv_remind" android:visibility="gone" android:layout_width="@dimen/gif_im_remind_width" android:layout_height="@dimen/gif_im_remind_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+</LinearLayout>

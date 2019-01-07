@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLargeInverse" />
+    <com.alibaba.laiwang.photokit.graphics.imagezoom.ImageViewTouch android:id="@id/album_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:scaleType="center" android:cropToPadding="true" android:layout_centerInParent="true" android:contentDescription="@null" />
+    <ImageView android:id="@id/video_play_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pick_video_play_button" android:layout_centerInParent="true" android:contentDescription="@string/dt_accessibility_video_play" />
+</RelativeLayout>

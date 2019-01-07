@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/circle_timeline_content_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view" android:background="@color/bg_page_gray" android:layout_width="fill_parent" android:layout_height="17.0dip" />
+    <android.support.v7.widget.RecyclerView android:id="@id/circle_timeline_list" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/view" android:animateLayoutChanges="false" />
+</RelativeLayout>

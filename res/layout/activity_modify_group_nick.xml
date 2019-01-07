@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_modify_group_nick" android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="20.0dip">
+        <View android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <View android:background="@color/border" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+        <com.alibaba.android.dingtalkbase.widgets.views.ClearableEditText android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_black" android:textColorHint="@color/text_color_dark_gray" android:id="@id/et_modify_group_nick" android:background="@null" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:hint="@string/dt_im_group_nick_not_set" android:singleLine="true" android:maxLength="20" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0dip" android:textColor="@color/text_color_dark_gray" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_modify_group_nick_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="@string/dt_im_modify_group_nick_tip" android:maxLines="2" />
+</LinearLayout>

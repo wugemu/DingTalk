@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="43.0dip" android:textColor="@color/text_color_black" android:gravity="center" android:id="@id/tv_number" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLength="1" />
+    <View android:layout_gravity="center" android:id="@id/v_cursor" android:background="#ff2a93fd" android:visibility="gone" android:layout_width="1.5dip" android:layout_height="32.0dip" />
+    <View android:layout_gravity="bottom" android:background="@color/alpha12Black" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.dingtalk.cspace.functions.acl.SpaceAclDesView android:id="@id/view_acl" android:layout_width="fill_parent" android:layout_height="wrap_content" app:item_1_name="@string/dt_cspace_acl_member_admin" app:item_2_name="@string/dt_cspace_acl_member_uploader" app:item_3_name="@string/dt_cspace_acl_member_browser" app:item_1_sub_title="@string/dt_cspace_acl_member_admin_des" app:item_2_sub_title="@string/dt_cspace_acl_member_uploader_des" app:item_3_sub_title="@string/dt_cspace_acl_member_browser_des" app:item_1_clickable="false" app:item_2_clickable="false" app:item_3_clickable="false" />
+    <RelativeLayout android:id="@id/rl_safe_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <RelativeLayout android:id="@id/rl_safe_mode_operation" android:background="@color/ui_common_content_bg_color" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/dt_cspace_acl_safe_mode_tip" android:singleLine="true" android:layout_toLeftOf="@id/toggle_enable_org_member" />
+            <ToggleButton android:id="@id/toggle_acl_safe_mode" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/dt_cspace_acl_safe_mode_tip" style="@style/uidic_forms_toggle" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level3_text_color" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/dt_cspace_acl_safe_mode_des" android:layout_below="@id/rl_safe_mode_operation" />
+    </RelativeLayout>
+</LinearLayout>

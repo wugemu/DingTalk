@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cspace_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/text_color_hint" android:id="@id/tv_letter" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+    <RelativeLayout android:id="@id/click_view" android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:gravity="center" android:id="@id/tv_avatar" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_toRightOf="@id/checkbox" android:layout_centerVertical="true" avatar:textSize="@dimen/text_size_12" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_avatar" android:layout_centerVertical="true">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0dip" android:textColor="@color/text_color_black" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="2.0dip" />
+                </LinearLayout>
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_17" android:textColor="@color/ui_common_level3_text_color" android:layout_gravity="center_vertical" android:id="@id/if_role_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/icon_Y_eye_fill" />
+                <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_level3_text_color" android:layout_gravity="center_vertical" android:id="@id/tv_role_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/divider_line" android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_toRightOf="@id/tv_avatar" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

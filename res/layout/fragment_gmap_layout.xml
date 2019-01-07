@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.lightapp.runtime.location.GMapViewEx android:id="@id/gmap_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip">
+        <ImageView android:id="@id/gmap_center_poi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@null" />
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center|top" android:id="@id/gpop_name" android:background="@drawable/popview_bg" android:paddingLeft="12.0dip" android:paddingTop="5.0dip" android:paddingRight="12.0dip" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-25.0dip" android:singleLine="true" android:layout_above="@id/gmap_center_poi" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/gmap_location" android:background="@drawable/map_location_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_alignParentBottom="true" android:contentDescription="@null" />
+    </RelativeLayout>
+    <com.alibaba.lightapp.runtime.location.ProgressTextBar android:layout_gravity="center" android:id="@id/gloading" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <include android:visibility="gone" layout="@layout/common_cant_location" />
+</RelativeLayout>

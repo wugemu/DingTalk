@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_level8_base_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/ui_common_level1_base_color" android:gravity="center" android:id="@id/rl_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_im_chat_talk_with_custom" android:drawablePadding="@dimen/dp4" android:layout_centerInParent="true" />
+    <View android:background="@color/ui_common_level6_base_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

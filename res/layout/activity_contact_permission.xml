@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/ui_common_content_fg_color_alpha_56" android:layout_gravity="right" android:id="@id/tvJump" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jump" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/img_contact_permission" />
+    <TextView android:textSize="@dimen/text_size_16" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300.0dip" android:text="@string/dt_contact_access_desc_new" />
+    <Button android:textSize="@dimen/text_size_17" android:id="@id/btn_request_contact_permission" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:minHeight="44.0dip" android:text="@string/dt_common_set_now" android:onClick="onClick" style="@style/ui_common_level1_button" />
+    <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_contact_access_footer" />
+</LinearLayout>

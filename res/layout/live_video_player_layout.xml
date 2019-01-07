@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_layer" android:background="@drawable/live_layer_bg" android:layout_width="fill_parent" android:layout_height="88.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_back" android:layout_width="wrap_content" android:layout_height="?actionBarSize" android:contentDescription="@string/dt_common_back" style="@style/DtTheme.Widget.Toolbar.Nav" />
+        <TextView android:textSize="@dimen/text_size_20" android:textColor="@color/text_color_white" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="60.0dip" android:textColor="@color/text_color_white" android:layout_gravity="center" android:id="@id/tv_play" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_play" />
+</FrameLayout>

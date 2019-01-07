@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_btn_next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/light_gray_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <View android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+        </LinearLayout>
+        <Button android:textSize="@dimen/text_size_17" android:textColor="@color/white" android:id="@id/btn_next" android:background="@drawable/bg_round_btn_action_next" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/ui_common_page_padding_left" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/ui_common_page_padding_right" android:layout_marginBottom="10.0dip" android:text="@string/create_org_immide" android:onClick="onClick" />
+    </FrameLayout>
+    <ListView android:id="@id/org_member_list" android:background="@color/white" android:focusable="false" android:scrollbars="vertical" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_above="@id/fl_btn_next" android:layout_alignParentTop="true" />
+</RelativeLayout>

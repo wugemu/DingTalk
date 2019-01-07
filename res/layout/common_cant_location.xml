@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/nogps_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/locked" android:scaleType="fitXY" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/font_size_s5" android:textColor="#ff888888" android:id="@id/nogps_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.699982dip" android:text="@string/location_cant_use" android:layout_below="@id/nogps_lock" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/font_size_s5" android:textColor="#ff888888" android:gravity="center" android:id="@id/nogps_tip_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.899994dip" android:text="nogps_tip_detail" android:layout_below="@id/nogps_tip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

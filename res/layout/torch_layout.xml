@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/torch_image_view" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/torch_off" android:scaleType="centerInside" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/pure_white" android:ellipsize="end" android:id="@id/torch_tips_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/dt_qrscan_flashlight_click_to_on" android:maxLines="1" />
+</merge>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.android.teleconf.widget.TeleVideoAnimationFrameLayout android:id="@id/voip_parent_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@color/conf_call_and_video_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/voip_call_back" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_alignParentTop="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="22.0dip" android:textColor="@color/ui_common_white_icon_bg" android:id="@id/voip_call_back_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/icon_minimize" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/user_info_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/voip_call_back">
+            <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/conf_stroke_shape_big_gray_92" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/usr_avatar" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_centerInParent="true" avatar:textSize="@dimen/text_size_14" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip">
+                <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/ui_common_content_bg_color" android:id="@id/user_nick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="6" android:singleLine="true" />
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level2_white_text_color" android:id="@id/user_company_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" />
+                <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level2_white_text_color" android:id="@id/user_position_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <RelativeLayout android:id="@id/user_state_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="@dimen/uidic_global_text_size_s19" android:textColor="@color/ui_common_content_bg_color" android:ellipsize="end" android:gravity="center" android:id="@id/voip_call_state_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_centerInParent="true" />
+                <com.alibaba.android.teleconf.widget.DotsProgressBar android:id="@id/voip_call_state_dots" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/voip_call_state_txt" android:layout_centerVertical="true" app:dotRadius="2.0dip" app:dotColor="@color/ui_common_content_bg_color" app:dotMargin="4.0dip" app:dotBgColor="@color/conf_call_and_video_bg_color" xmlns:app="http://schemas.android.com/apk/res-auto" />
+                <TextView android:textSize="@dimen/uidic_global_text_size_s19" android:textColor="@color/ui_common_content_bg_color" android:ellipsize="end" android:gravity="center" android:id="@id/usr_call_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/ui_common_content_bg_color_dark_overlay_20" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/voip_second_state_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+        <com.alibaba.android.teleconf.widget.TeleConfCallControlLayout android:gravity="center" android:orientation="vertical" android:id="@id/voip_control_btns" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/voip_reject_with_message" android:background="@drawable/conf_bg_white_round_shape" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_above="@id/voip_control_btns" android:layout_centerHorizontal="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="18.0dip" android:textColor="@color/ui_common_white_icon_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_message_fill" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/ui_common_white_icon_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/dt_conf_quick_reply" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.alibaba.android.teleconf.widget.TeleVideoAnimationFrameLayout>

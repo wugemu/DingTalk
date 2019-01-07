@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.user.contact.view.CommonScrollListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:layout_centerInParent="true" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_2" android:gravity="center" android:id="@id/search_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150.0dip" android:text="@string/empty_search_content" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_gray" android:layout_gravity="center_vertical" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:text="@string/loading" />
+    </LinearLayout>
+</RelativeLayout>

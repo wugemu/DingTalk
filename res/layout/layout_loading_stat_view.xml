@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ll_loading_view" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <ProgressBar android:id="@id/loading_indicator" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:textSize="@dimen/ui_common_subhead_text_size" android:textColor="@color/ui_common_level2_text_color" android:id="@id/tv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/progress_loading" />
+            <TextView android:textSize="@dimen/ui_common_subhead_text_size" android:textColor="@color/ui_common_warming_text_color" android:layout_gravity="center_vertical" android:id="@id/btn_reload" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/dt_search_network_error_retry_text" />
+        </LinearLayout>
+        <com.alibaba.android.search.widget.NetworkErrorView android:id="@id/ll_network_stat_view" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/uidic_forms_item" android:background="@drawable/_uidic_forms_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/uidic_forms_item_top_divider" android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <EditText android:textSize="@dimen/_uidic_forms_item_text_size" android:textColor="@color/_uidic_forms_item_text_color" android:id="@id/et_wifi_name" android:background="@color/uidic_global_color_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/_uidic_forms_item_height" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:hint="@string/dt_alpha_setting_wifi_placehold" android:singleLine="true" android:drawablePadding="@dimen/_uidic_forms_item_text_drawable_padding" android:layout_centerVertical="true" />
+            <View android:id="@id/uidic_forms_item_inner_bottom_divider" android:background="@color/_uidic_forms_item_inner_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/_uidic_forms_item_padding" />
+            <View android:id="@id/uidic_forms_item_bottom_divider" android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/layout_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textColor="@color/uidic_global_color_6_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_warn_fill" />
+            <TextView android:textSize="@dimen/text_size_12_in_sp" android:textColor="@color/uidic_global_color_10_1" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/dt_alpha_ssid_conflict_tips" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_14_in_sp" android:textColor="@color/_uidic_forms_item_tip_text_color" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="30.0dip" android:text="@string/dt_alpha_setting_wifi_warn" />
+    </LinearLayout>
+</RelativeLayout>

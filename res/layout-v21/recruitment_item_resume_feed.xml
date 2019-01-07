@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:avatar="http://schemas.android.com/apk/res-atuo">
+    <FrameLayout android:id="@id/fl_video" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/iv_poster" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/iv_start" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/recruitment_icon_play" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/view_avatar_loading" android:layout_width="56.0dip" android:layout_height="56.0dip" avatar:textSize="@dimen/text_size_12" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/pure_white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/dt_recruitment_video_loading" android:includeFontPadding="false" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_mysterious" android:background="@color/ui_common_theme_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="100.0dip" android:textColor="@color/ui_common_level1_white_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_mask_fill" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/ui_common_level1_white_text_color" android:id="@id/tv_mysterious" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="112.0dip" android:text="@string/dt_recruitment_resume_mysterious" android:includeFontPadding="false" android:letterSpacing="1.0" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.alibaba.dingtalk.recruitment.widget.ResumeIntroView android:id="@id/v_resume_intro" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/video_controller_layout" android:background="@drawable/avsdk_video_play_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/video_controller_play_layout" android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/video_controller_play_btn" android:paddingLeft="5.0dip" android:paddingTop="8.0dip" android:paddingRight="10.0dip" android:paddingBottom="8.0dip" android:layout_width="31.0dip" android:layout_height="fill_parent" android:src="@drawable/avsdk_video_btn_start" android:scaleType="centerInside" />
+            <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center|left" android:id="@id/video_controller_current_time" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/avsdk_defaulttime" android:singleLine="true" />
+            <SeekBar android:layout_gravity="center" android:id="@id/video_controller_seekBar" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:indeterminate="false" android:progressDrawable="@drawable/avsdk_custom_seekbar" android:minHeight="2.0dip" android:thumb="@drawable/avsdk_video_progress_thumb" android:thumbOffset="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="end|center" android:id="@id/video_controller_total_time" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/avsdk_defaulttime" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="right" android:id="@id/video_controller_fullscreen" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/avsdk_video_fullscreen" android:scaleType="centerInside" />
+    </LinearLayout>
+</RelativeLayout>

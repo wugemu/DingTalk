@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/space_no_auth_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/C6_2" android:id="@id/space_preview_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="50.0dip" android:text="@string/space_no_auth" />
+    </LinearLayout>
+    <com.alibaba.dingtalk.cspace.widget.SpaceMenuBottomView android:orientation="horizontal" android:id="@id/switch_to_menu" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/space_pic_preview_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/switch_to_menu" android:layout_alignWithParentIfMissing="true">
+        <com.davemorrissey.labs.subscaleview.GestureImageView android:layout_gravity="center_horizontal" android:id="@id/space_pic_preview_iv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/alm_loading_container" />
+    <com.alibaba.android.dingtalkbase.widgets.views.ads.AdsBlueGuideView android:id="@id/first_guide_print_support" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="55.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:content="@string/dt_cspace_print_guide_tip" app:buttonVisibility="gone" app:arrowOrientation="down" app:arrowAlign="right" app:arrowMarginRight="10.0dip" />
+</RelativeLayout>

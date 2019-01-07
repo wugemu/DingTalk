@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="48.0dip" android:textColor="@android:color/white" android:id="@id/largelive_play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_play" android:shadowColor="#8f000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="4.0" />
+    <ProgressBar android:id="@id/largelive_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

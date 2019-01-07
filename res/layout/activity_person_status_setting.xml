@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/uidic_global_background_color" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_marginTop="20.0dip" android:layout_marginBottom="@dimen/uidic_forms_item_min_horizontal_space" android:text="@string/pc_status_setting_only_colleague" style="@style/uidic_forms_item_outer_text" />
+        <View android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:background="@drawable/_uidic_forms_item_bg" android:paddingLeft="14.0dip" android:layout_width="fill_parent" android:layout_height="54.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/edit_icon" android:background="@drawable/_uidic_forms_item_bg" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/emoji_select_empty" android:contentDescription="@string/dt_accessibility_emotion_add" />
+            <com.alibaba.android.dingtalkbase.widgets.views.emoji.EmojiconEditText android:textSize="@dimen/_uidic_forms_item_text_size" android:textColor="@color/_uidic_forms_item_text_color" android:textColorHint="@color/uidic_global_color_6_9" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/edit_text" android:background="@null" android:layout_width="0.0dip" android:layout_height="24.0dip" android:hint="@string/dt_ownness_current_state" android:singleLine="true" android:maxLength="40" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/edit_clear" android:padding="8.0dip" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/icon_department_close" android:scaleType="fitXY" android:contentDescription="@string/dt_accessibility_input_clear_tip" />
+        </LinearLayout>
+        <View android:background="@color/_uidic_forms_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:id="@id/default_items_des" android:visibility="gone" android:layout_marginTop="20.0dip" android:layout_marginBottom="@dimen/uidic_forms_item_min_horizontal_space" android:text="@string/pc_status_setting_quick_select" style="@style/uidic_forms_item_outer_text" />
+        <View android:id="@id/default_items_container_top" android:background="@color/_uidic_forms_item_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="vertical" android:id="@id/default_items_container" android:background="@drawable/_uidic_forms_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/default_items_container_bottom" android:background="@color/_uidic_forms_item_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:id="@id/sw_items_des" android:visibility="gone" android:clickable="true" android:layout_marginTop="20.0dip" android:layout_marginBottom="@dimen/uidic_forms_item_min_horizontal_space" android:text="@string/dt_ownness_desc" style="@style/uidic_forms_item_outer_text" />
+        <View android:id="@id/sw_items_container_top" android:background="@color/_uidic_forms_item_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="vertical" android:id="@id/sw_items_container" android:background="@drawable/_uidic_forms_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/sw_items_container_bottom" android:background="@color/_uidic_forms_item_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+</ScrollView>

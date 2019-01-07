@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <color android:color="@color/media_volumn_bg_color" />
+    </item>
+    <item android:id="@android:id/progress">
+        <clip android:gravity="bottom" android:clipOrientation="vertical">
+            <shape>
+                <gradient android:startColor="@color/pure_white" android:endColor="@color/pure_white" android:angle="90.0" android:centerColor="@color/pure_white" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

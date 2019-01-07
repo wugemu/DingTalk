@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/ui_common_level3_button_pressed_bg_color" />
+            <stroke android:width="0.5dip" android:color="@color/ui_common_button_border_color" />
+            <corners android:radius="2.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/ui_common_level3_button_bg_color" />
+            <stroke android:width="0.5dip" android:color="@color/ui_common_button_border_color" />
+            <corners android:radius="2.0dip" />
+        </shape>
+    </item>
+</selector>

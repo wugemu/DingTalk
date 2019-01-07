@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ll_search" android:background="@drawable/list_selector_radius_gray_bg" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+        <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/uidic_global_color_6_2" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="28.0dip" android:text="@string/search" android:drawableLeft="@drawable/customer_search_icon" android:drawablePadding="3.0dip" />
+    </FrameLayout>
+    <View android:background="@color/conf_transparent" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/ll_industry_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/lv_left_category" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="wrap_content" android:divider="@color/pure_white" android:dividerHeight="2.0dip" android:layout_weight="1.0" />
+            <com.alibaba.android.user.contact.view.PinnedHeaderListView android:id="@id/lv_right_detail" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="wrap_content" android:listSelector="@color/uidic_global_color_transparent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="2.0" />
+        </LinearLayout>
+        <ListView android:id="@id/list_view_search" android:background="@color/uidic_global_color_6_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:headerDividersEnabled="false" />
+    </FrameLayout>
+</LinearLayout>

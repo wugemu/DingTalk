@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/loading_decrypt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/alm_loading_container" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_encrypt_common" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/img_file_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/gray" android:layout_gravity="center_horizontal" android:id="@id/tv_encrypt_file_size" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/color_6_6" android:ellipsize="middle" android:layout_gravity="center_horizontal" android:id="@id/tv_encrypt_preview_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/gray" android:layout_gravity="center_horizontal" android:id="@id/tv_encrypt_preview_detail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:textSize="@dimen/text_size_17" android:textColor="@color/white" android:id="@id/btn_operation_content" android:background="@drawable/btn_bg_blue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="24.0dip" android:text="@string/dt_decrypt_click_retry" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_encrypt_audio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip">
+        <TextView android:textColor="@color/text_color_blue" android:id="@id/tv_audio_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ding_audio_record_pressed" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/img_audio_operate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:src="@drawable/ding_audio_icon_play" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.davemorrissey.labs.subscaleview.GestureImageView android:layout_gravity="center_horizontal" android:id="@id/img_img_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

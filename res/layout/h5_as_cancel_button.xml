@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:ellipsize="end" android:layout_marginLeft="13.329987dip" android:layout_marginTop="18.0dip" android:layout_marginRight="13.329987dip" android:layout_marginBottom="15.0dip" android:singleLine="true" style="@style/h5_dialogButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

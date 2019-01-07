@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.dingtalk.recruitment.widget.ScrollViewAndWebViewContainer android:id="@id/fl_root" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.dingtalk.recruitment.widget.TouchObservableScrollView android:id="@id/v_scroll" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/rl_scroll_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/v_intro_absorber" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <android.support.v7.widget.RecyclerView android:id="@id/list_video" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </com.alibaba.dingtalk.recruitment.widget.TouchObservableScrollView>
+    <RelativeLayout android:id="@id/rl_webview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/v_webview_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/recruitment_layout_webview_empty" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/v_empty" android:background="@color/pure_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/recruitment_empty_image" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/dp17" android:textColor="@color/ui_common_level3_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_recruitment_error_page_try_again" />
+    </LinearLayout>
+</com.alibaba.dingtalk.recruitment.widget.ScrollViewAndWebViewContainer>

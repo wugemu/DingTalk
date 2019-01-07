@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="5.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="50.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:gravity="right" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="appid" />
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:gravity="right" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="name" />
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:gravity="right" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="version" />
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:gravity="right" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="package_nick" />
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:gravity="right" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="webview" />
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:gravity="right" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="工具" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0">
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:id="@id/h5_bugme_info_appid" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:id="@id/h5_bugme_info_name" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:id="@id/h5_bugme_info_version" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:id="@id/h5_bugme_info_pkg_nick" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:id="@id/h5_bugme_info_webview" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/core_h5_nav_button_text" android:textColor="@color/h5_au_button_text_for_text" android:id="@id/h5_bugme_info_button_screenshot" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="上报页面截图" />
+        <TextView android:enabled="false" android:textSize="@dimen/core_h5_nav_button_text" android:textColor="@color/h5_au_button_text_for_text" android:id="@id/h5_bugme_info_button_dump" android:padding="@dimen/h5_bug_me_info_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="dump日志信息" />
+    </LinearLayout>
+</LinearLayout>

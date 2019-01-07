@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="and_ding_plurals_hours">
+        <item quantity="other">%s hours</item>
+        <item quantity="one">1 hour</item>
+    </plurals>
+    <plurals name="and_ding_plurals_minutes">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+</resources>

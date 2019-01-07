@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/divider_dark_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/text_color_dark_gray" android:layout_gravity="center_vertical" android:id="@id/item_user_profile_cell_header_title_tv" android:background="@color/bg_gray" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" />
+    <View android:id="@id/bottom_divider" android:background="@color/divider_dark_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

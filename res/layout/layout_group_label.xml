@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="17.0dip" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:id="@id/tv_manager_roles" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:singleLine="true" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="@color/uidic_global_color_6_7" android:id="@id/tv_scope_label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dt_contact_subManager_scope" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:id="@id/tv_scope_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="15.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="@color/uidic_global_color_6_7" android:id="@id/tv_auth_label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dt_contact_subManager_permission" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:id="@id/tv_grant_resource" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="right" android:layout_width="55.0dip" android:layout_height="fill_parent" android:src="@drawable/right_arrow" android:scaleType="center" />
+</merge>

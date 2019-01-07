@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item android:left="6.0dip" android:top="0.0px" android:right="6.0dip" android:bottom="0.0px">
+        <shape>
+            <solid android:color="@color/h5_nav_menu_divider" />
+        </shape>
+    </item>
+</layer-list>

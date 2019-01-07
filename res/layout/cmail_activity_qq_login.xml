@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@color/ui_common_level1_white_text_color" android:gravity="center" android:id="@id/send_sms_btn" android:background="@drawable/login_btn_selector" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_margin="16.0dip" android:text="@string/dt_permission_send_sms" />
+    </LinearLayout>
+</LinearLayout>

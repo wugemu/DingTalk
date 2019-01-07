@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_add_new" android:background="@color/ui_common_cell_bg_color" android:paddingLeft="30.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_20" android:textColor="@color/ui_common_level1_button_bg_color" android:gravity="center" android:id="@id/ll_add_new_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:text="@string/icon_add" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level1_button_bg_color" android:gravity="center_vertical" android:id="@id/tv_add_new_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/dt_im_coop_create_new_group" android:maxLines="2" android:layout_toRightOf="@id/ll_add_new_icon" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:gravity="center_vertical" android:id="@id/tv_similar_group_tips" android:paddingLeft="20.0dip" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:text="@string/dt_im_coop_use_exist_group_tips" android:layout_below="@id/ll_add_new" />
+    <FrameLayout android:id="@id/fl_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tv_similar_group_tips">
+        <ListView android:id="@id/lv_groups" android:background="@color/ui_common_cell_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>

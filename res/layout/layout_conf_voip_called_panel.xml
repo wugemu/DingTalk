@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/conf_caller_layout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="38.0dip" android:layout_centerHorizontal="true">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/conf_stroke_shape_big_gray_92" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/conf_caller_avatar" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_centerInParent="true" avatar:textSize="@dimen/text_size_14" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/ui_common_content_bg_color" android:ellipsize="middle" android:gravity="center" android:id="@id/conf_caller_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxEms="6" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level2_white_text_color" android:id="@id/conf_caller_company" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level2_white_text_color" android:id="@id/conf_caller_position" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/conf_callee_layout" android:paddingLeft="16.0dip" android:paddingTop="124.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/ui_common_content_bg_color" android:id="@id/conf_callee_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_conference_voip_conf_invite_incoming" />
+        <TextView android:textSize="@dimen/text_size_13" android:textColor="@color/ui_common_level2_white_text_color" android:id="@id/conf_accept_members" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <com.alibaba.android.teleconf.widget.TeleConfOneLineAvatarView android:id="@id/conf_callee_mems" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+</RelativeLayout>

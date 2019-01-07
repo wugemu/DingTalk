@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_2" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/cell_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uidic_cell_min_margin" android:maxEms="8" android:singleLine="true" android:drawablePadding="@dimen/uidic_cell_drawable_padding" />
+    <com.alibaba.android.dingtalkbase.widgets.views.ads.AdsView android:gravity="center" android:id="@id/cell_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uidic_cell_desc_margin" />
+    <ImageView android:id="@id/cell_right_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uidic_cell_desc_margin" android:scaleType="fitCenter" />
+</merge>

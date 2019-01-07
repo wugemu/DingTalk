@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/user_water_list_item_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableLayout android:id="@id/tr_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:shrinkColumns="0" android:layout_toLeftOf="@id/if_union_flag" android:layout_alignParentLeft="true">
+            <TableRow android:gravity="center_vertical">
+                <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_1" android:id="@id/tv_dept_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uidic_cell_margin_size" android:layout_marginTop="19.0dip" android:layout_marginBottom="19.0dip" android:singleLine="true" />
+                <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_2" android:id="@id/tv_dept_mem_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toLeftOf="@id/expand" />
+            </TableRow>
+        </TableLayout>
+        <ImageView android:id="@id/expand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/uidic_cell_margin_size" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:importantForAccessibility="no" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_20" android:textColor="@color/ui_common_theme_text_color" android:id="@id/if_union_flag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:text="@string/icon_connection" android:layout_toLeftOf="@id/expand" android:layout_centerVertical="true" />
+        <View android:id="@id/divider_line" android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="12.0dip" android:layout_below="@id/tr_info" />
+    </RelativeLayout>
+    <View android:id="@id/divider_dept_employee" android:background="@color/bg_gray" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_below="@id/rl_content" />
+</RelativeLayout>

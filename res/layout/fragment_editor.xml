@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_field_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.alibaba.android.dingtalkbase.widgets.views.NoteEditText android:textColorHint="@color/editor_label_text" android:gravity="center|left|top" android:id="@id/editor_content" android:background="@null" android:layout_marginLeft="@dimen/editor_left_padding" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/editor_right_padding" android:minHeight="90.0dip" android:hint="@string/editor_view_content_label" android:minLines="2" android:maxLength="2000" android:layout_below="@id/ll_field_list" style="@style/editor_new_compose" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

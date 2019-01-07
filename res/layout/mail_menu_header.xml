@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/alm_cmail_mailbox_menu_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/alm_cmail_font_size_s12" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cmail_dimen_6_dp" android:text="@string/dd_cmail_account" android:singleLine="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/accounts" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/cmail_base_divider" android:layout_width="wrap_content" android:layout_height="1.0px" />
+</LinearLayout>

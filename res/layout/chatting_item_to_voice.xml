@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center_vertical" android:id="@id/iv_remind" android:visibility="gone" android:layout_width="@dimen/gif_im_remind_width" android:layout_height="@dimen/gif_im_remind_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/voice_play_view_container" android:background="@drawable/im_chatto_bg_normal" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.voice.VoicePlayerView android:gravity="center|left" android:id="@id/voice_play_view" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:focusable="true" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="40.0dip" />
+        <View android:id="@id/chatting_divide_line_v" android:background="@color/ui_common_level1_line_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <com.alibaba.android.dingtalkbase.widgets.LaiwangSpanFixTextView android:id="@id/chatting_content_translate_tv" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" style="@style/ChattingViewText" />
+    </LinearLayout>
+</LinearLayout>

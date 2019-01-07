@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="60.0dip" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center" android:id="@id/avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <ImageView android:id="@id/img_praise_thumb" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="30.0dip" android:scaleType="centerCrop" />
+</FrameLayout>

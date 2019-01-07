@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/user_cam_state_bg" android:background="@drawable/conf_video_cam_muted_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="32.0dip" android:textColor="@color/ui_common_content_bg_color" android:id="@id/user_cam_state_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_ph_unvideo_fill" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/user_mic_state_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="3.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="16.0dip" android:textColor="@color/ui_common_content_bg_color" android:id="@id/user_mic_state_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_muteoff_fill" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

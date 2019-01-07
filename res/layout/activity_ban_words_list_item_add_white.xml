@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_setting_item" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uidic_global_text_size_s16" android:textColor="@color/uidic_global_color_c2" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginLeft="12.0dip" android:text="@string/dt_group_setting_silent_add_white_user" android:lines="1" android:singleLine="true" />
+    <View android:layout_gravity="top" android:id="@id/top_line" android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:layout_gravity="bottom" android:id="@id/bottom_line" android:background="#ffe4e4e4" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</FrameLayout>

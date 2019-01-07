@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="87.0dip" android:layout_height="174.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="87.0dip" android:layout_height="87.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center" android:id="@id/top_avatar" android:layout_width="75.0dip" android:layout_height="75.0dip" />
+        <ImageView android:id="@id/top_avatar_select" android:background="@drawable/default_avatar_select" android:layout_width="87.0dip" android:layout_height="87.0dip" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="87.0dip" android:layout_height="87.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center" android:id="@id/bottom_avatar" android:layout_width="75.0dip" android:layout_height="75.0dip" />
+        <ImageView android:id="@id/bottom_avatar_select" android:background="@drawable/default_avatar_select" android:layout_width="87.0dip" android:layout_height="87.0dip" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/h5_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/h5_sessiontab_stub" android:layout="@layout/h5_sessiontab_stub_layout" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/h5_fragment" android:background="@color/h5_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/h5_sessiontabcontainer" />
+</RelativeLayout>

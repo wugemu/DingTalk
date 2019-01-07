@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/uidic_global_color_6_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:text="@string/dt_im_join_group_apply_subtitle" />
+    <EditText android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_1" android:id="@id/apply_text_editor" android:background="#ffffffff" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="50" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/doc_lens_layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/doc_lens_bar_bg" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/dt_photo_cancel" android:layout_alignParentLeft="true" style="@style/doclens_menu_text" />
+        <TextView android:id="@id/btn_edit" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:text="@string/dt_photo_edit" android:layout_alignParentRight="true" style="@style/doclens_menu_text" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+        <com.alibaba.laiwang.photokit.picker.AlbumPhotoViewPager android:id="@id/view_pager_docs" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/img_delete" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/aliwx_photo_deal_sticker_delete" />
+    </FrameLayout>
+    <TextView android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/tv_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    <RelativeLayout android:background="@color/doc_lens_bar_bg" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:id="@id/btn_continue_scan" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/dt_photo_continue_scan" android:layout_alignParentLeft="true" style="@style/doclens_menu_text" />
+        <TextView android:id="@id/btn_save_space" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/dt_photo_save" android:layout_centerInParent="true" style="@style/doclens_menu_text" />
+        <TextView android:id="@id/btn_send" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:text="@string/dt_photo_send" android:layout_alignParentRight="true" style="@style/doclens_menu_text" />
+    </RelativeLayout>
+</LinearLayout>

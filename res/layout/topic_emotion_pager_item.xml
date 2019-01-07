@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:scrollbarStyle="outsideInset" android:id="@id/gv_content" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="8.0dip" android:numColumns="5" />
+    <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/ui_common_level3_text_color" android:gravity="center" android:id="@id/tv_gv_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/dt_topic_emotion_recent_empty_tips" />
+</RelativeLayout>

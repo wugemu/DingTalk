@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/dp12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dp17" android:textColor="@color/user_new_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_user_connection_empty_tips" />
+    <TextView android:textSize="@dimen/empty_tips_text_size" android:textColor="@color/pure_white" android:id="@id/tv_add_friends" android:background="@drawable/bg_corner_blue_btn" android:paddingLeft="@dimen/dp22" android:paddingTop="@dimen/dp8" android:paddingRight="@dimen/dp22" android:paddingBottom="@dimen/dp8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/home_menu_add_friend" />
+</LinearLayout>

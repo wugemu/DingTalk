@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.lightapp.runtime.view.RootCommonWebViewContainer android:id="@id/content" android:background="@color/lightapp_actionbar_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:comment="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/view_comment" android:layout_below="@id/toolbar">
+        <android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:background="@color/lightapp_actionbar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/activity_common_webview" />
+            </FrameLayout>
+            <ViewStub android:layout_gravity="start" android:id="@id/drawer_stub_layout" android:layout="@layout/drawer_layout" android:layout_width="250.0dip" android:layout_height="fill_parent" />
+        </android.support.v4.widget.DrawerLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/toolbar" android:background="@drawable/lightapp_bg_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true">
+        <include layout="@layout/toolbar_layout" />
+    </RelativeLayout>
+    <com.alibaba.android.dingtalkbase.widgets.views.comment.CommentView android:id="@id/view_comment" android:background="@color/pure_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:layout_alignParentBottom="true" comment:directLeftRight="false" comment:showSplit="false" comment:showNumber="true" />
+    <RelativeLayout android:id="@id/screen_shot_layout" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/screen_shot_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/overlay_guide_stub" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/rl_loading" android:background="@color/lightapp_actionbar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/miniapp_icon" android:visibility="invisible" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="168.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/ui_common_content_fg_color_alpha_40" android:gravity="center_horizontal" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="272.0dip" android:layout_marginRight="40.0dip" android:text="@string/and_miniapp_loading" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.alibaba.lightapp.runtime.view.RootCommonWebViewContainer>

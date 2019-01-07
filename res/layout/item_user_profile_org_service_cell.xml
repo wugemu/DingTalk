@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/list_item_common_white_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/user_info_divider" android:layout_width="fill_parent" android:layout_height="15.0dip" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/profile_rl_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/profile_iv_org_logo" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="17.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="17.0dip" android:layout_toRightOf="@id/profile_iv_org_logo" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size_17" android:textColor="#ff000000" android:id="@id/profile_tv_org_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+            <TextView android:textSize="@dimen/text_size_14" android:textColor="#8f191f25" android:ellipsize="end" android:id="@id/profile_tv_org_introduce" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:lines="2" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/dp15" />
+    <View android:id="@id/user_info_divider" android:background="@color/ui_common_content_fg_color_alpha_12" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginLeft="@dimen/dp17" />
+</LinearLayout>

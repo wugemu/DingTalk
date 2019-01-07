@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.android.dingtalk.doc.toolbar.ui.DTControlContainerLayout android:orientation="vertical" android:id="@id/ui_common_base_doc_activity_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ui_common_base_ui_activity_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/ui_common_base_ui_activity_status_bar_placeholder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/ui_common_base_ui_activity_toolbar_container" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+            <com.alibaba.android.dingtalkui.actionbar.DtToolbar android:id="@id/ui_common_base_ui_activity_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+            <View android:layout_gravity="bottom" android:id="@id/ui_common_base_ui_activity_toolbar_divide" android:background="?ui_common_base_ui_attr_toolbarDivideColor" android:layout_width="fill_parent" android:layout_height="@dimen/ui_common_line_height" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/ui_common_base_ui_activity_content" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.alibaba.android.dingtalk.doc.toolbar.ui.DTControlContainerLayout>

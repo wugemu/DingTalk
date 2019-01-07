@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/im_red_packet_bg_color" android:paddingLeft="@dimen/im_red_packet_core_content_padding" android:paddingRight="@dimen/im_red_packet_core_content_padding" android:layout_width="fill_parent" android:layout_height="@dimen/im_red_packet_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_sender" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="10.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/sender_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" avatar:textSize="6.0dip" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/text_color_white" android:ellipsize="end" android:id="@id/tv_sender_tips" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/im_redpackets_vip_banner_bg" android:layout_width="fill_parent" android:layout_height="@dimen/im_red_packet_core_content_height" android:layout_marginTop="10.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_reward_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <com.aliaba.android.dingtalk.redpackets.base.views.RewardAvatarView android:id="@id/reward_view" android:layout_width="wrap_content" android:layout_height="wrap_content" reward:imageViewWidth="24.0dip" reward:imageViewHeight="24.0dip" xmlns:reward="http://schemas.android.com/apk/res-auto" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s16" android:textColor="@color/uidic_global_color_6_7" android:ellipsize="end" android:id="@id/tv_receiver_detail" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/uidic_global_text_size_s15" android:textColor="#ffaf9a7c" android:ellipsize="end" android:gravity="center" android:id="@id/redpackets_desc" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="#ffaf9a7c" android:id="@id/redpackets_amount" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

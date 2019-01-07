@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/text_color_dark_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="3.0dip" android:text="@string/dt_org_dismiss_reason_tips" />
+        <View android:background="@color/setting_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_reason1" android:background="@drawable/setting_item_bg" android:paddingLeft="20.0dip" android:paddingRight="12.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:onClick="onClick">
+            <CheckBox android:id="@id/checkbox1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/CheckBoxTheme" />
+            <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/dt_org_dismissReason_howToUse" android:layout_toRightOf="@id/checkbox1" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/add_banner" android:background="@color/pure_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_reason2" android:background="@drawable/setting_item_bg" android:paddingLeft="20.0dip" android:paddingRight="12.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:onClick="onClick">
+            <CheckBox android:id="@id/checkbox2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/UserCheckBoxTheme" />
+            <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/dt_org_dismissReason_duplicate" android:layout_toRightOf="@id/checkbox2" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_reason3" android:background="@drawable/setting_item_bg" android:paddingLeft="20.0dip" android:paddingRight="12.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:onClick="onClick">
+            <CheckBox android:id="@id/checkbox3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/CheckBoxTheme" />
+            <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/dt_org_dismissReason_createError" android:layout_toRightOf="@id/checkbox3" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_reason4" android:background="@drawable/setting_item_bg" android:paddingLeft="20.0dip" android:paddingRight="12.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:onClick="onClick">
+            <CheckBox android:id="@id/checkbox4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/CheckBoxTheme" />
+            <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/dt_org_dismissReason_bizChange" android:layout_toRightOf="@id/checkbox4" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_reason5" android:background="@drawable/setting_item_bg" android:paddingLeft="20.0dip" android:paddingRight="12.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:onClick="onClick">
+            <CheckBox android:id="@id/checkbox5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/CheckBoxTheme" />
+            <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/dt_org_dismissReason_other_app" android:layout_toRightOf="@id/checkbox5" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_reason6" android:background="@drawable/setting_item_bg" android:paddingLeft="20.0dip" android:paddingRight="12.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:onClick="onClick">
+            <CheckBox android:id="@id/checkbox6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/CheckBoxTheme" />
+            <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/dt_org_dismissReason_adv_more" android:layout_toRightOf="@id/checkbox6" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_reason7" android:background="@drawable/setting_item_bg" android:paddingLeft="20.0dip" android:paddingRight="12.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:onClick="onClick">
+            <CheckBox android:id="@id/checkbox7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/CheckBoxTheme" />
+            <TextView android:textSize="@dimen/text_size_medium" android:textColor="@color/title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/dt_org_dismissReason_other" android:layout_toRightOf="@id/checkbox7" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/text_color_dark_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="3.0dip" android:text="@string/quit_org_add_hint" />
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:id="@id/rl_add" android:background="@color/pure_white" android:paddingLeft="20.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="150.0dip">
+            <EditText android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_black" android:textColorHint="@color/text_color_dark_gray" android:id="@id/et_add" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:hint="@string/dt_org_dismiss_comment" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+        <View android:background="@color/ui_common_level2_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+</ScrollView>

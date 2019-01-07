@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:background="@drawable/alm_cmail_mail_common_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alm_cmail_mail_folder_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="90.0dip" android:layout_centerHorizontal="true">
+        <com.alibaba.alimei.cmail.widget.mail.SignatureTitleBarWebView android:id="@id/mail_sign_template" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="90.0dip" />
+        <TextView android:gravity="center" android:id="@id/tv_mail_sign_template_overlay" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/mail_sign_template_selector" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="35.0dip" android:src="@drawable/alm_cmail_selected" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</FrameLayout>

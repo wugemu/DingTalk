@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/bg_blue" />
+            <corners android:radius="4.0dip" />
+            <padding android:left="15.0dip" android:top="6.0dip" android:right="15.0dip" android:bottom="6.0dip" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_enabled="true">
+        <shape>
+            <solid android:color="@color/bg_blue" />
+            <corners android:radius="4.0dip" />
+            <padding android:left="15.0dip" android:top="6.0dip" android:right="15.0dip" android:bottom="6.0dip" />
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:state_checked="true">
+        <shape>
+            <solid android:color="@color/bg_blue" />
+            <corners android:radius="4.0dip" />
+            <padding android:left="15.0dip" android:top="6.0dip" android:right="15.0dip" android:bottom="6.0dip" />
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:state_selected="true">
+        <shape>
+            <solid android:color="@color/bg_blue" />
+            <corners android:radius="4.0dip" />
+            <padding android:left="15.0dip" android:top="6.0dip" android:right="15.0dip" android:bottom="6.0dip" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/act_bar_btn_bg_disabled" />
+            <corners android:radius="4.0dip" />
+            <padding android:left="15.0dip" android:top="6.0dip" android:right="15.0dip" android:bottom="6.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/uidic_global_background_color" />
+            <corners android:radius="4.0dip" />
+            <padding android:left="15.0dip" android:top="6.0dip" android:right="15.0dip" android:bottom="6.0dip" />
+        </shape>
+    </item>
+</selector>

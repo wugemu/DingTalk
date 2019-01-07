@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/stub_session_remind" android:layout="@layout/im_layout_session_remind" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <com.alibaba.android.dingtalkim.views.DDTextView android:gravity="center" android:id="@id/session_unread" android:background="@drawable/session_scale_red_dot" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_session_unread_icon" android:minWidth="@dimen/dimen_session_unread_icon" android:singleLine="true" app:textSize="@dimen/dp10" app:textColor="@color/ui_common_level1_white_text_color" app:textStyle="bold" app:minWidth="@dimen/dimen_session_unread_icon" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp11" android:textColor="@color/ui_common_level2_icon_bg_color" android:id="@id/session_silence" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.5dip" android:layout_marginRight="2.0dip" android:text="@string/icon_mute" />
+    <ImageView android:id="@id/session_notice" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginTop="1.5dip" android:layout_marginRight="3.5dip" android:src="@drawable/session_red_dot" android:scaleType="centerInside" android:contentDescription="@null" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/uidic_global_color_8_5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/uidic_global_color_8_5" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <View android:background="@color/uidic_global_color_c5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

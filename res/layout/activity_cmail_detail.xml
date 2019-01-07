@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_content_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/icl_send_to_chat_tip" android:visibility="gone" layout="@layout/layout_mail_send_to_chat_tips" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/ui_common_button_border_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/cmail_round_btn_normal" android:paddingTop="@dimen/cmail_dimen_6_dp" android:paddingBottom="@dimen/cmail_dimen_6_dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cmail_dimen_10_dp" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_15_in_sp" android:textColor="@color/cmail_color_7d8082" android:id="@id/reply_icon" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_reply" android:layout_centerInParent="true" android:contentDescription="@string/space_menu_more" />
+                <TextView android:textSize="@dimen/text_size_15_in_sp" android:textColor="@color/cmail_color_7d8082" android:ellipsize="end" android:id="@id/quickReplyBtn" android:paddingLeft="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/reply_action" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/forward_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s24" android:textColor="@color/mail_menu_text_color_selector" android:id="@id/img_forward" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_arrowhead" android:layout_centerInParent="true" android:contentDescription="@string/dt_accessibility_mail_detail_forward_or_reply" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/ll_send_chat" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s24" android:textColor="@color/mail_menu_text_color_selector" android:id="@id/img_send_chat" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_message" android:layout_centerInParent="true" android:contentDescription="@string/space_menu_more" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/more_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/alm_cmail_font_size_s24" android:textColor="@color/mail_menu_text_color_selector" android:id="@id/img_more" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_more" android:layout_centerInParent="true" android:contentDescription="@string/space_menu_more" />
+                <ImageView android:id="@id/item_red_dot" android:background="@drawable/file_filter_red_dot" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="-16.0dip" android:layout_marginTop="10.0dip" android:layout_toRightOf="@id/img_more" android:layout_alignTop="@id/img_more" />
+            </RelativeLayout>
+            <View android:id="@id/spacer_layout" android:background="@color/pure_white" android:layout_width="12.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/ui_common_page_bg_color" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <RelativeLayout android:id="@id/ll_create_org" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_17" android:textStyle="bold" android:textColor="@color/ui_common_white_icon_bg_color" android:gravity="center" android:id="@id/tv_create" android:background="@drawable/bg_round_btn_action_next" android:layout_width="@dimen/create_team_btn_width" android:layout_height="@dimen/create_team_btn_height" android:layout_marginTop="50.0dip" android:text="@string/dt_contact_no_team_create_tip" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/iv_icon_hint" android:layout_width="300.0dip" android:layout_height="140.0dip" android:layout_marginTop="10.0dip" android:scaleType="fitXY" android:layout_below="@id/tv_create" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dp12" android:textColor="@color/annex_key" android:id="@id/annex_key" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/dp14" android:textColor="@color/annex_value" android:id="@id/annex_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

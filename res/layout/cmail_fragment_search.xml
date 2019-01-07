@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/search_layout" layout="@layout/cmail_fragment_base_search" />
+    <LinearLayout android:orientation="vertical" android:id="@id/search_history" android:background="@android:color/white" android:paddingLeft="@dimen/cmail_dimen_16_dp" android:paddingRight="@dimen/cmail_dimen_16_dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cmail_dimen_12_dp" android:layout_marginBottom="@dimen/cmail_dimen_12_dp">
+            <TextView android:textSize="@dimen/alm_cmail_font_size_s14" android:textColor="@color/cmail_color_7d8082" android:id="@id/history_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_cmail_recently" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/cmail_dimen_16_dp" android:textColor="@color/cmail_color_7d8082" android:id="@id/clear_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.alibaba.alimei.cmail.widget.mail.FlowLayout android:id="@id/history_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

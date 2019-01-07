@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/uidic_global_color_6_2" android:id="@id/tv_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+    <ImageView android:id="@id/iv_reddot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/message_remind" android:scaleType="center" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s10" android:textColor="@color/uidic_global_color_6_5" android:ellipsize="end" android:gravity="center" android:id="@id/tv_content_in_red" android:paddingLeft="4.0dip" android:paddingTop="1.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:singleLine="true" />
+    <RelativeLayout android:id="@id/rl_red_in_img" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/avatar" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_margin="4.0dip" android:layout_centerInParent="true" avatar:textSize="@dimen/text_size_10" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        <ImageView android:id="@id/iv_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:scaleType="centerInside" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/message_remind" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

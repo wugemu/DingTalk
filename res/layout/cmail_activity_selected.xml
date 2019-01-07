@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.alibaba.android.dingtalkbase.widgets.views.LetterListView android:id="@id/letter_list" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        <ListView android:id="@id/list_view" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:layout_toLeftOf="@id/letter_list" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+    </RelativeLayout>
+    <TextView android:textSize="65.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_overlay" android:background="@drawable/textview_letter_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:minWidth="100.0dip" />
+</FrameLayout>

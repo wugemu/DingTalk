@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ui_common_cell_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/oa_entry_header_inner_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/oa_entry_header_inner_image_layout" android:background="@drawable/corner_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/oa_header_banner_item_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="centerInside" android:layout_centerInParent="true" />
+            <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/header_banner_item_title" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxEms="3" android:singleLine="true" android:includeFontPadding="false" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/text_size_12" android:textColor="#ff1f1925" android:ellipsize="end" android:gravity="center" android:id="@id/header_banner_item_desc" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxEms="5" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/oa_entry_header_inner_image_layout" />
+    </RelativeLayout>
+</RelativeLayout>

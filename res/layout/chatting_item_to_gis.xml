@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gis_content" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/v_place_holder" android:background="@drawable/chat_item_gis_text_bg" android:layout_width="@dimen/chat_item_gis_width" android:layout_height="wrap_content" android:layout_alignTop="@id/chatting_content_location_text" android:layout_alignBottom="@id/chatting_content_location_sub_text" />
+    <TextView android:id="@id/chatting_content_location_text" style="@style/GisHeaderTitleStyle" />
+    <TextView android:id="@id/chatting_content_location_sub_text" android:layout_below="@id/chatting_content_location_text" style="@style/GisHeaderSubTitleStyle" />
+    <com.alibaba.android.dingtalkbase.widgets.MakeupImageView android:layout_gravity="center_horizontal" android:id="@id/chatting_content_image" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:longClickable="false" android:layout_width="@dimen/chat_item_gis_width" android:layout_height="78.0dip" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_below="@id/v_place_holder" image:makeupDirection="right" image:chatArrowRight="@drawable/chat_item_gis_image_bg" xmlns:image="http://schemas.android.com/apk/res-auto" />
+    <ImageView android:id="@id/iv_gis_cover" android:background="@drawable/chat_item_gis_bg" android:clickable="true" android:layout_width="@dimen/chat_item_gis_width" android:layout_height="wrap_content" android:layout_alignTop="@id/v_place_holder" android:layout_alignBottom="@id/chatting_content_image" />
+</RelativeLayout>

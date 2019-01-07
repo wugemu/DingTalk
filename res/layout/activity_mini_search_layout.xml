@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/listview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:horizontalSpacing="0.0dip" android:verticalSpacing="0.0dip" android:stretchMode="columnWidth" android:numColumns="1" android:overScrollMode="never" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_search_empty_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:src="@drawable/search_empty_icon" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/text_color_gray" android:layout_gravity="center_horizontal" android:id="@id/tv_empty_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/empty_search_content" />
+    </LinearLayout>
+    <com.alibaba.android.search.widget.LoadingStatView android:id="@id/ll_loading" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

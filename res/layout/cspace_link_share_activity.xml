@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/ui_common_content_bg_color" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_file_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="50.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/uidic_global_color_6_6" android:ellipsize="middle" android:id="@id/tv_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:singleLine="true" android:layout_below="@id/img_file_icon" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/tv_file_name">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_link_old_version" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/rl_link" android:background="@color/space_link_bg" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip">
+                    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="15.0dip" android:textColor="@color/mail_agent_color_tt" android:id="@id/ifont_link_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_copylink_samll" android:layout_centerVertical="true" />
+                    <TextView android:textColor="@color/uidic_global_color_6_7" android:ellipsize="middle" android:id="@id/tv_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true" android:layout_toRightOf="@id/ifont_link_icon" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/gray" android:id="@id/tv_link_share_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/dt_cspace_fileshare_link_share_description" android:layout_below="@id/rl_link" />
+            </LinearLayout>
+            <TableLayout android:id="@id/view_link_new_version" android:paddingLeft="59.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shrinkColumns="1">
+                <TableRow android:id="@id/tr_file_size">
+                    <TextView android:text="@string/dt_space_file_size" style="@style/cspace_share_item_lable" />
+                    <TextView android:id="@id/tv_file_size" style="@style/cspace_share_item_tips" />
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="@string/dt_space_link_share_author" style="@style/cspace_share_item_lable" />
+                    <TextView android:id="@id/tv_link_author_name" style="@style/cspace_share_item_tips" />
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="@string/dt_cspace_co_folder_create_org_placeholder" style="@style/cspace_share_item_lable" />
+                    <TextView android:id="@id/tv_org_name_belong" android:drawablePadding="2.0dip" style="@style/cspace_share_item_tips" />
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="@string/dt_space_link_share_expiry_date" style="@style/cspace_share_item_lable" />
+                    <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0">
+                        <Spinner android:id="@id/spinner_expired_time_picker" android:background="@drawable/cspace_gray_border" android:layout_width="90.0dip" android:layout_height="25.0dip" android:layout_marginLeft="8.0dip" android:dropDownVerticalOffset="25.0dip" android:spinnerMode="dropdown" />
+                        <TextView android:id="@id/tv_expired_time" style="@style/cspace_share_item_tips" />
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:paddingTop="3.0dip" android:paddingBottom="3.0dip">
+                    <TextView android:text="@string/search_type_link" style="@style/cspace_share_item_lable" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0">
+                        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/tv_link_gen" android:background="@drawable/actbar_btn_selector" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/dt_space_link_share_gen_text" />
+                        <TextView android:id="@id/tv_link_url" style="@style/cspace_share_item_tips" />
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:id="@id/view_link_pass">
+                    <TextView android:text="@string/dt_space_link_extraction_code" style="@style/cspace_share_item_lable" />
+                    <TextView android:id="@id/tv_link_pass" style="@style/cspace_share_item_tips" />
+                </TableRow>
+                <TableRow android:id="@id/ll_browser_count" android:visibility="gone">
+                    <TextView android:text="@string/dt_space_link_browser_count" style="@style/cspace_share_item_lable" />
+                    <TextView android:id="@id/tv_link_browser_count" style="@style/cspace_share_item_tips" />
+                </TableRow>
+                <TableRow android:id="@id/ll_download_count" android:visibility="gone">
+                    <TextView android:text="@string/dt_space_link_download_count" style="@style/cspace_share_item_lable" />
+                    <TextView android:id="@id/tv_link_download_count" style="@style/cspace_share_item_tips" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_below="@id/ll_info" android:layout_centerHorizontal="true">
+            <RelativeLayout android:id="@id/rl_copy_link" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="50.0dip" android:textColor="@color/uidic_global_color_c11_2" android:id="@id/ifont_copy_link_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_roundcopy_fill" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/uidic_global_color_6_7" android:gravity="center_horizontal" android:id="@id/tv_copy_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/dt_space_link_copy_link_extraction" android:layout_below="@id/ifont_copy_link_icon" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_share_link" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="45.0dip" android:layout_weight="1.0">
+                <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="50.0dip" android:textColor="@color/space_share_icon_color" android:id="@id/ifont_share_link_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/icon_roundshare_fill" android:layout_centerHorizontal="true" />
+                <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/dt_cspace_fileshare_link_share_psw" android:layout_below="@id/ifont_share_link_icon" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

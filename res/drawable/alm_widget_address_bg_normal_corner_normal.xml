@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#fff6f6f6" />
+    <corners android:topLeftRadius="@dimen/alm_widget_address_bg_corner_radius" android:topRightRadius="@dimen/alm_widget_address_bg_corner_radius" android:bottomLeftRadius="@dimen/alm_widget_address_bg_corner_radius" android:bottomRightRadius="@dimen/alm_widget_address_bg_corner_radius" />
+</shape>

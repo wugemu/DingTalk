@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/itv_iv_left_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="12.0dip" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/text_size_16" android:ellipsize="end" android:id="@id/itv_tv_left_text" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_toRightOf="@id/itv_iv_left_icon" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/itv_iv_right_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="8.0dip" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/_uidic_forms_item_tip_text_color" android:ellipsize="end" android:id="@id/itv_tv_right_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:maxEms="10" android:singleLine="true" android:layout_toLeftOf="@id/itv_iv_right_icon" android:layout_centerVertical="true" />
+    <View android:id="@id/itv_top_dividerLine" android:background="@color/light_gray_divider_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/itv_tv_left_text" />
+    <View android:id="@id/itv_bottom_dividerLine" android:background="@color/light_gray_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/itv_tv_left_text" android:layout_alignLeft="@id/itv_tv_left_text" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_unread_loading" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:layout_width="25.0dip" android:layout_height="25.0dip" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" />
+            </LinearLayout>
+            <TextView android:textColor="@color/text_color_black" android:id="@id/tv_unread_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+            <com.alibaba.android.rimet.biz.ding.confirm.widget.UnFoldGridView android:id="@id/grid_unconfirmed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="15.0dip" android:listSelector="@android:color/transparent" android:verticalSpacing="16.0dip" android:numColumns="5" />
+            <TextView android:textColor="@color/text_color_black" android:id="@id/tv_read_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+            <com.alibaba.android.rimet.biz.ding.confirm.widget.UnFoldGridView android:id="@id/grid_received" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="15.0dip" android:listSelector="@android:color/transparent" android:verticalSpacing="16.0dip" android:numColumns="5" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textColor="@color/text_color_gray" android:gravity="center" android:id="@id/tv_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/msg_all_unread" />
+</RelativeLayout>

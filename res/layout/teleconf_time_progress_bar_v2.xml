@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/conf_time_progress" android:layout_width="fill_parent" android:layout_height="74.0dip" android:progress="0" android:progressDrawable="@drawable/conf_progress_style_v2" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textSize="@dimen/text_size_10" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/conf_time" android:background="@drawable/teleconf_bar_mark_bg" android:layout_width="16.0dip" android:layout_height="74.0dip" android:layout_marginLeft="-16.0dip" />
+    <View android:id="@id/conf_progress_fg" android:background="@color/conf_progress_color_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="74.0dip" />
+</RelativeLayout>

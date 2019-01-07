@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_setting_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/chatting_setting_item_spaceLeft" android:paddingTop="@dimen/chatting_setting_item_spaceTop" android:paddingBottom="@dimen/chatting_setting_item_spaceTop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip">
+        <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/text_color_dark" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_extension_apps" />
+        <ImageView android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_red_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/red_dot_icon" android:layout_toLeftOf="@id/iv_arrow" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

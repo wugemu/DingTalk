@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/uidic_global_color_c11_9" />
+            <corners android:radius="4.0dip" />
+            <stroke android:width="0.5dip" android:color="@color/uidic_global_color_c5" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_enabled="true">
+        <shape>
+            <solid android:color="@color/uidic_global_color_c11_9" />
+            <corners android:radius="4.0dip" />
+            <stroke android:width="0.5dip" android:color="@color/uidic_global_color_c5" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/uidic_global_color_c11_9" />
+            <corners android:radius="4.0dip" />
+            <stroke android:width="0.5dip" android:color="@color/uidic_global_color_c5" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/uidic_global_color_8_5" />
+            <corners android:radius="4.0dip" />
+            <stroke android:width="0.5dip" android:color="@color/uidic_global_color_c5" />
+        </shape>
+    </item>
+</selector>

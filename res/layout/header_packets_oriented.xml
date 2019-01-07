@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/redpackets_actbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/redpackets_normal_yellow" android:id="@id/redpackets_myself" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip">
+        <TextView android:textSize="44.0dip" android:textColor="@color/text_color_white" android:id="@id/redpackets_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/text_color_white" android:id="@id/redpackets_money_yuan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/redpackets_yuan_per_one" android:includeFontPadding="false" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/uidic_global_text_size_s18" android:textColor="@color/text_color_white" android:ellipsize="end" android:gravity="center" android:id="@id/redpackets_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="#7fffffff" android:ellipsize="end" android:id="@id/receiver_list_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="right" android:id="@id/enterprise_sign" android:visibility="gone" android:layout_width="79.0dip" android:layout_height="79.0dip" android:src="@drawable/redpackets_enterprise_sign" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/text_color_white" android:layout_gravity="right" android:id="@id/sender_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_banlance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <View android:background="#fff6796b" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/text_color_white" android:ellipsize="end" android:gravity="top" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_redenvelop_money_have_saved_to" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/redpackets_normal_yellow" android:ellipsize="end" android:gravity="top" android:id="@id/redpackets_balance" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="50.0dip">
+        <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/uidic_global_color_6_2" android:id="@id/receiver_list" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/redpackets_receiver_list" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <View android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

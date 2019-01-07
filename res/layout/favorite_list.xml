@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/loading_container" android:layout="@layout/alm_loading_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout android:id="@id/swipe_layout_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListView android:id="@id/listview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/favorite_list_split_bg" android:dividerHeight="10.0dip" />
+    </com.alibaba.android.dingtalkbase.widgets.views.swiperefresh.SwipeRefreshLayout>
+    <RelativeLayout android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/favorite_empty_icon" android:layout_above="@id/first_tip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/ui_common_level3_text_color" android:gravity="center_horizontal" android:id="@id/first_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favorte_empty_first_tip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

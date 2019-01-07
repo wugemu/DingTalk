@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/live_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <include android:id="@id/layout_linkmic_call" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="64.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" layout="@layout/layout_linkmic_call" />
+    <ImageView android:id="@id/iv_back" android:layout_width="wrap_content" android:layout_height="?actionBarSize" android:contentDescription="@string/dt_common_back" style="@style/DtTheme.Widget.Toolbar.Nav" />
+    <TextView android:textSize="@dimen/ui_common_headline2_text_size" android:id="@id/tv_title" android:layout_height="?actionBarSize" android:layout_toRightOf="@id/iv_back" style="@style/LiveTextView" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_12" android:textColor="@color/text_color_red" android:id="@id/tv_stop" android:layout_marginRight="8.0dip" android:layout_marginBottom="0.0dip" android:text="@string/icon_btn" android:layout_alignParentRight="true" android:layout_alignParentBottom="false" style="@style/LivePushStreamButton" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_status" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginRight="12.0dip" android:layout_toRightOf="@id/iv_back" android:layout_below="@id/tv_title">
+        <TextView android:textSize="9.0dip" android:id="@id/tv_status" android:background="@color/taolive_live_over_color" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:text="@string/dt_lv_live_unstart" style="@style/LiveTextView" />
+        <View android:id="@id/view_status" android:background="@drawable/live_status_shape" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginLeft="4.0dip" />
+        <TextView android:textSize="12.0dip" android:id="@id/tv_duration" android:layout_marginLeft="4.0dip" android:text="00:00:00" style="@style/LiveTextView" />
+        <ImageView android:id="@id/net_state_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/network_excellent" style="@style/LiveTextView" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/network_excellent" android:ellipsize="end" android:id="@id/net_state_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/dt_lv_network_good" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/iv_back" android:layout_below="@id/layout_status">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_16" android:text="@string/icon_people_fill" style="@style/LiveTextView" />
+        <TextView android:textSize="@dimen/text_size_10" android:id="@id/tv_watch" android:layout_marginLeft="8.0dip" android:text="0" style="@style/LiveTextView" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/text_size_16" android:id="@id/tv_praise" android:layout_marginLeft="12.0dip" android:text="@string/icon_likegood_fill" style="@style/LiveTextView" />
+        <TextView android:textSize="@dimen/text_size_10" android:id="@id/tv_praise_count" android:paddingLeft="8.0dip" android:paddingRight="6.0dip" android:text="0" style="@style/LiveTextView" />
+        <TextView android:textSize="@dimen/text_size_10" android:textColor="@color/ui_common_level1_white_text_color" android:id="@id/tv_praise_count_anim" android:visibility="invisible" style="@style/LiveTextView" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/text_color_white" android:gravity="center" android:id="@id/tv_clarity" android:background="@drawable/live_clarity_background" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:id="@id/tv_comment" android:layout_marginLeft="12.0dip" android:text="@string/icon_barrage_on" style="@style/LivePushStreamButton" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:id="@id/tv_camera" android:layout_marginLeft="20.0dip" android:text="@string/icon_switchcamera" android:layout_toRightOf="@id/tv_comment" style="@style/LivePushStreamButton" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textColor="@color/selector_live_beauty" android:id="@id/tv_beauty" android:layout_marginLeft="20.0dip" android:text="@string/icon_beauty_line" android:layout_toRightOf="@id/tv_camera" style="@style/LivePushStreamButton" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:id="@id/tv_link" android:layout_marginLeft="20.0dip" android:text="@string/icon_group_live" android:layout_toRightOf="@id/tv_beauty" style="@style/LivePushStreamButton" />
+    <ViewStub android:id="@id/stub_chat" android:layout_width="250.0dip" android:layout_height="160.0dip" android:layout_marginLeft="12.0dip" android:layout_marginBottom="10.0dip" android:layout_above="@id/tv_comment" />
+    <TextView android:textSize="100.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_anim_start" android:background="@drawable/live_start_animation_tv_shape" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@id/layout_linkmic" android:background="@drawable/drawable_linkmic_call" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="107.0dip" android:layout_marginBottom="68.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/remote_live_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/dp15" android:textColor="@color/ui_common_level1_white_text_color" android:layout_gravity="center" android:id="@id/tv_linkmic_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp20" android:textColor="@color/ui_common_level1_white_text_color" android:layout_gravity="center|right|top" android:id="@id/tv_linkmic_close" android:padding="5.0dip" android:text="@string/icon_close" style="@style/LiveTextView" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.uidic.cells.C3I1ImageCell android:id="@id/cell_create_team" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bottomDividerAlign="alignParent" app:bottomDividerVisibility="visible" app:imageSize="size_m" app:leftImage="@drawable/icon_contact_add" app:title="@string/act_create_org" app:topDividerAlign="alignParent" app:topDividerVisibility="visible" />
+    <View android:id="@id/cell_gap" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_below="@id/ll_contact_empty" />
+</LinearLayout>

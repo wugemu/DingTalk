@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider_line" android:background="@color/uidic_global_color_c5" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="8.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="10.0dip">
+        <ImageView android:id="@id/iv_avatar" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="8.0dip" android:scaleType="fitCenter" android:layout_weight="0.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/ui_common_caption1_text_size" android:textColor="@color/ui_common_level3_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:drawablePadding="@dimen/uidic_cell_drawable_padding" />
+            <TextView android:textSize="@dimen/ui_common_subhead_text_size" android:textColor="@color/ui_common_level1_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:drawablePadding="@dimen/uidic_cell_drawable_padding" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/right_arrow" android:scaleType="fitCenter" android:layout_weight="0.0" />
+    </LinearLayout>
+</LinearLayout>

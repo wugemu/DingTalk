@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_timespan" android:background="@color/user_bottom_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/session_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/uidic_global_color_6_7" android:id="@id/tv_time_span" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/rl_hide_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/img_session_hide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/im_session_hide_icon" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/uidic_global_color_6_7" android:id="@id/btn_session_hide" android:background="@drawable/im_session_hide_bg" android:paddingLeft="10.0dip" android:paddingTop="4.0dip" android:paddingRight="10.0dip" android:paddingBottom="4.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

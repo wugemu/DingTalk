@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_bg" android:background="@drawable/festival_red_packet_tile_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_16" android:textColor="@color/white_webview_title_selector" android:gravity="center_vertical" android:id="@id/btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/dt_redenvelop_back" android:includeFontPadding="false" android:drawableLeft="@drawable/actbar_home_up_indicator_white" android:drawablePadding="3.0dip" android:layout_weight="0.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_main_bg" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/festival_redpacket_main_bg" android:scaleType="centerInside" android:layout_weight="35.0" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_value" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0dip" android:textColor="@color/text_color_white_alpha_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_redenvelop_festival_fill" android:includeFontPadding="false" />
+                <TextView android:textSize="40.0dip" android:textColor="@color/uidic_global_color_6_5" android:id="@id/tv_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:includeFontPadding="false" />
+                <TextView android:textSize="20.0dip" android:textColor="@color/text_color_white_alpha_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/redpackets_yuan" android:includeFontPadding="false" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_random_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="17.0dip" android:textColor="@color/text_color_white_alpha_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_festival_redpacket_random_count_prefix" android:includeFontPadding="false" />
+                <TextView android:textSize="17.0dip" android:textColor="@color/uidic_global_color_6_5" android:id="@id/tv_random_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+                <TextView android:textSize="17.0dip" android:textColor="@color/text_color_white_alpha_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_festival_redpacket_random_count_suffix" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" />
+        <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/uidic_global_color_6_5" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_bless_word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:includeFontPadding="false" android:layout_weight="0.0" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/change_amount_selector" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/tv_change_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_redenvelop_send_change_amount" android:includeFontPadding="false" android:drawableLeft="@drawable/festival_redpacket_refresh_amount_selector" android:drawablePadding="3.0dip" android:layout_weight="0.0" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="135.0dip" android:layout_weight="0.0">
+        <ImageView android:id="@id/iv_bottom_bg" android:layout_width="fill_parent" android:layout_height="90.0dip" android:src="@drawable/festival_redpacket_send_bottom_bg" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+        <com.alibaba.android.dingtalkbase.widgets.views.SelectorImageView android:id="@id/iv_send" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginBottom="45.0dip" android:src="@drawable/festival_redpacket_send_btn" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

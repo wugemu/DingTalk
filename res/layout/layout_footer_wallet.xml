@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_place_holder" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <TextView android:textSize="@dimen/dp12" android:textColor="@color/ui_common_theme_text_color" android:id="@id/tv_issues" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.5dip" android:layout_marginBottom="8.0dip" android:text="@string/dt_pay_common_issues" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip">
+        <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="@dimen/dp12" android:textColor="@color/ui_common_text_edit_fixed_hint_text_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="3.0dip" android:text="@string/icon_alipay" />
+        <TextView android:textSize="@dimen/dp12" android:textColor="@color/ui_common_text_edit_fixed_hint_text_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_pay_provder_by_alipay" />
+    </LinearLayout>
+</LinearLayout>

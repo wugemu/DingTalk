@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <layer-list>
+            <item android:drawable="@drawable/ib_face_disabled" />
+            <item android:top="3.0dip" android:right="3.0dip">
+                <bitmap android:gravity="center|right|top" android:src="@drawable/red_dot_icon" />
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:drawable="@drawable/ib_face_normal" />
+            <item android:top="3.0dip" android:right="3.0dip">
+                <bitmap android:gravity="center|right|top" android:src="@drawable/red_dot_icon" />
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.android.dingtalkbase.uidic.forms.Item android:id="@id/setting_boss" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:onClick="onClick" app:text="@string/calendar_attendance_set_boss" app:first="true" app:last="true" app:include_layout="@layout/uidic_forms_tip_link_item" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/uidic_global_color_6_3" android:id="@id/setting_boss_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="11.0dip" android:text="@string/calendar_attendance_set_boss_tip" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/btn_cal_push" android:background="@drawable/layout_border" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="35.0dip" android:minHeight="50.0dip">
+        <TextView android:textSize="@dimen/uidic_global_text_size_s17" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="80.0dip" android:text="@string/calendar_attendance_news_push" android:singleLine="true" android:layout_centerVertical="true" />
+        <ToggleButton android:id="@id/btn_toggle_cal_push" android:background="@drawable/btn_toggle_bg" android:layout_width="42.0dip" android:layout_height="28.0dip" android:layout_marginRight="21.0dip" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" style="@style/toggleButton" />
+    </RelativeLayout>
+</LinearLayout>

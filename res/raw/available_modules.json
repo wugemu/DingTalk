@@ -1,0 +1,39 @@
+{
+    "miniApp": ["setAppShareInfo","hideLauncherLoading"],
+    "network": ["request"],
+    "mtop": ["request"],
+    "storage": ["length", "setItem", "getItem", "removeItem"],
+    "memoryStorage": ["setItem", "getItem"],
+    "navigator": ["push", "pop", "openMessagePage", "reloadPage", "getBackStack", "popToHome"],
+    "user": ["login", "logout", "info"],
+    "modal": ["alert", "confirm", "toast"],
+    "navigatorBar": [
+      "show", "hide", "setTitle", "setRightItem", "setStyle", "setDrawer", "setActionSheet",
+      "hasIndexBadge", "scaleIndexBadge", "resetIndexBadge", "getHeight",
+      "openDrawer", "isDrawerOpened", "closeDrawer", "setLeftItem", "showMenu", "hideMenu", "getStatusBarHeight"
+    ],
+    "clipboard": ["writeText", "readText"],
+    "picker": ["pick", "pickDate", "pickTime", "chooseCity"],
+    "webSocket": ["webSocket", "send", "close", "onOpen", "onMessage", "onClose", "onError"],
+    "calendar": ["addEvent", "checkEvent", "removeEvent"],
+    "connection": ["getType", "getDownlinkMax", "onChange"],
+    "screen": ["setAlwaysOn", "setBrightness"],
+    "broadcast": ["createChannel", "postMessage", "onMessage", "close"],
+    "share": ["doShare"],
+    "cookie": ["read", "write", "getAllObjects"],
+    "audio": ["load", "play", "pause", "stop", "setVolume", "canPlayType"],
+  
+    "wopc": ["authLogin", "checkAuthSession", "doAuth", "getSessionKey", "setSessionKey"],
+    "WopcMtopPlugin": ["request"],
+  
+    "device": ["onShake", "vibrate"],
+    "keyboard": ["hideKeyboard"],
+    "contact": ["choosePhoneContact"],
+    "location": ["getLocation"],
+    "alipay": ["tradePay"],
+    "userTrack": [
+      "commit", "commitut", "commitEvent", "customAdvance", "pageAppear",
+      "pageDisappear", "skipPage", "updatePageUtparam", "updateNextPageUtparam"
+    ],
+    "nuvajs-exec": ["exec"]
+  }

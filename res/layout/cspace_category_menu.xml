@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cspace_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_13" android:textStyle="bold" android:textColor="@color/ui_common_content_fg_color_alpha_56" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/dt_space_list_operation_filter" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="12.0dip" android:overScrollMode="never" />
+    <TextView android:textSize="@dimen/text_size_18" android:textColor="@color/ui_common_content_fg_color" android:gravity="center" android:id="@id/tv_cancel" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="51.0dip" android:text="@string/dt_common_cancel" />
+</LinearLayout>

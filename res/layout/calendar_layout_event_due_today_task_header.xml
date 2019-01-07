@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/calendar_header_tip_bg" android:layout_width="fill_parent" android:layout_height="39.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/ui_common_level3_text_color" android:id="@id/tv_left" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <View android:background="@color/ui_common_level1_line_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

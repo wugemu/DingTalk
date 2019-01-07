@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/ui_common_level2_text_color" android:id="@id/tv_left_person" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="10.0dip" android:includeFontPadding="false" />
+    <com.alibaba.android.dingtalkbase.iconfont.IconFontTextView android:textSize="15.0dip" android:textColor="@color/ui_common_level2_icon_bg_color" android:id="@id/tv_title_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="15.0dip" android:text="@string/icon_forward_fill" android:includeFontPadding="false" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/ui_common_level2_text_color" android:id="@id/tv_right_person" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="10.0dip" android:includeFontPadding="false" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/user_avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" avatar:textSize="@dimen/text_size_32" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+    <View android:id="@id/user_avatar_cover" android:background="@color/ui_common_content_fg_color_alpha_40" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/text_size_12" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/user_state" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

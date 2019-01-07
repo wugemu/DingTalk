@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/uidic_global_color_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="?actionBarSize" layout="@layout/miniapp_toolbar_layout" />
+    <RelativeLayout android:id="@id/body_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_layout" />
+</RelativeLayout>

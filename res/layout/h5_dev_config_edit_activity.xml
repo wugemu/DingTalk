@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="12.0dip" android:id="@id/et1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="请输入要查询配置的key" android:ems="10" />
+    <Button android:id="@id/queryBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="查看本地开关配置" android:onClick="queryBtn" />
+    <EditText android:textSize="12.0dip" android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="可直接修改查询结果，点击下面按钮修改本地值" android:inputType="textMultiLine" />
+    <Button android:id="@id/saveBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="修改本地开关配置" android:onClick="saveBtn" />
+    <EditText android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/editText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="1、在上面输入要查看的开关配置的key值\n2、如果需要更改，在修改内容后点击修改按钮" android:ems="10" android:inputType="textMultiLine" />
+</LinearLayout>

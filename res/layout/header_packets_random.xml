@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/redpackets_round_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:layout_gravity="center_horizontal" android:id="@id/sender_icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="25.0dip" avatar:textSize="@dimen/text_size_16" xmlns:avatar="http://schemas.android.com/apk/res-auto" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/text_color_black" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/sender_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/text_color_gray" android:ellipsize="end" android:gravity="center" android:id="@id/redpackets_comment" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:singleLine="true" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/ll_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="52.0dip" android:textColor="@color/redpackets_red_text" android:id="@id/redpackets_money" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/redpackets_red_text" android:id="@id/tv_yuan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/redpackets_yuan" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_banlance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+            <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/text_color_gray" android:ellipsize="end" android:gravity="top" android:id="@id/tv_redpacket_balance_tips" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_redenvelop_money_have_saved_to" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/redpackets_link_color" android:ellipsize="end" android:gravity="top" android:id="@id/redpackets_balance" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/uidic_global_text_size_s13" android:textColor="@color/uidic_global_color_6_2" android:gravity="center|left" android:id="@id/redpackets_picked_detail" android:background="@color/pure_white" android:paddingLeft="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="40.0dip" />
+    <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.alimei.mail.widget.MailFoldersScrollView android:orientation="vertical" android:id="@id/view_folders" android:background="@color/ui_common_cell_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/view_extra" android:background="@color/ui_common_level1_text_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:alpha="0.5" />
+</LinearLayout>

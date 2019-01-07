@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/title_color" android:textColorLink="#ff3296fa" android:autoLink="phone|web" android:id="@id/chatting_content_tv" android:padding="10.0dip" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:lineSpacingExtra="7.0dip" />
+        <View android:id="@id/chatting_divide_line_v" android:background="@color/ding_conversation_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+        <TextView android:textSize="@dimen/text_size_17" android:textColor="@color/title_color" android:textColorLink="#ff3296fa" android:autoLink="phone|web" android:id="@id/chatting_content_translate_tv" android:padding="10.0dip" android:visibility="gone" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:lineSpacingExtra="7.0dip" />
+    </LinearLayout>
+</ScrollView>

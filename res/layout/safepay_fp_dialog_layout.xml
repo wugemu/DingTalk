@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/safepay_fp_dialog_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="300.0dip" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/safepay_fp_dialog_icon" android:background="@drawable/safepay_fp_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="30.0dip" android:contentDescription="@string/safepay_str_null" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/safepay_fp_dialog_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginBottom="25.0dip" />
+        <View android:id="@id/safepay_fp_dialog_spliter" android:background="#ff808080" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <Button android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/safepay_fp_dialog_cancel" android:background="@drawable/safepay_btn_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/safepay_fp_cancel" android:layout_weight="1.0" />
+            <View android:id="@id/safepay_fp_dialog_divider" android:background="#ff808080" android:layout_width="0.30000007dip" android:layout_height="fill_parent" />
+            <Button android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/safepay_fp_dialog_pwd" android:background="@drawable/safepay_btn_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/safepay_fp_to_pwd" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

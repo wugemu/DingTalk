@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/caleandar_widget_root_view" android:background="@color/uidic_global_color_8_5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.lightapp.runtime.adapter.SWJKViewPager android:id="@id/caleandar_widget_view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="49.0dip" />
+    <RelativeLayout android:id="@id/caleandar_widget_header" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <com.alibaba.android.dingtalkbase.widgets.indicator.SlidingTabStrip android:id="@id/caleandar_widget_indicator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" app:stsIndicatorColor="@color/uidic_global_color_6_7" app:stsIndicatorHeight="2.0dip" app:stsUnderlineColor="@color/uidic_global_color_8_5" app:stsTabTextColor="@color/calendar_sliding_tab_text_color" app:stsSingleTabTextColor="@color/uidic_global_color_6_7" app:stsTabTextSize="@dimen/uidic_global_text_size_s16" app:stsTabPaddingLeftRight="12.0dip" app:stsShouldExpand="false" />
+        <TextView android:textSize="@dimen/uidic_global_text_size_s16" android:textColor="@color/uidic_global_color_c2" android:id="@id/caleandar_widget_sure" android:background="@drawable/calendar_widget_sure_bg_selector" android:padding="12.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sure" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>>
+</FrameLayout>

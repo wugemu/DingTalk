@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/calendar_divider_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="44.0dip" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/uidic_global_color_6_1" android:ellipsize="end" android:id="@id/calendar_bold_text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="9.0dip" android:text="@string/app_name" android:singleLine="true" />
+    <TextView android:textSize="@dimen/uidic_global_text_size_s14" android:textColor="@color/calendar_content_color" android:ellipsize="end" android:id="@id/calendar_bold_text_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="9.0dip" android:text="@string/app_name" android:singleLine="true" />
+</LinearLayout>

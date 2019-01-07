@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fl_btn_parent" android:paddingLeft="@dimen/chat_item_md_text_padding" android:paddingTop="@dimen/chat_item_md_text_padding" android:paddingRight="@dimen/chat_item_md_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/btn_horizontal_headerline" style="@style/ChattingMarkdownHorizontalLine" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_btns_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tv_horizontal_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ChattingMarkdownBtn" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/v_horizontal_splitter" android:background="@color/uidic_global_color_c5" android:layout_width="2.0dip" android:layout_height="19.0dip" />
+        <TextView android:id="@id/tv_horizontal_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ChattingMarkdownBtn" />
+    </LinearLayout>
+</LinearLayout>

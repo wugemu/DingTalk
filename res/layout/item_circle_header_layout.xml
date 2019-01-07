@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/item_circle_header_layout" android:layout_width="fill_parent" android:layout_height="210.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alibaba.android.dingtalk.circle.ui.CircleLoadingView android:id="@id/item_circle_header_pull_loading" android:layout_width="@dimen/header_avatar_radius" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/header_loading_margin_left" android:layout_alignParentBottom="true" />
+    <com.alibaba.android.dingtalkbase.widgets.AvatarImageView android:id="@id/item_circle_header_avatar" android:layout_width="@dimen/header_avatar_width" android:layout_height="@dimen/header_avatar_height" android:layout_marginLeft="@dimen/header_avatar_margin_left" android:layout_marginBottom="@dimen/header_avatar_margin_bottom" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="@dimen/ui_common_headline2_text_size" android:textColor="@color/ui_common_level1_white_text_color" android:gravity="center_vertical" android:id="@id/item_circle_header_name" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/header_name_margin_avatar" android:singleLine="true" android:layout_toRightOf="@id/item_circle_header_avatar" android:layout_alignBottom="@id/item_circle_header_avatar" />
+</RelativeLayout>
